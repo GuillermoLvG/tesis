@@ -16,7 +16,7 @@ if not os.path.isdir(path_txt):
 
 class Entidad:
 	def __init__(self, entidad, alias):
-		self.entidad = listaNombres
+		self.entidad = entidad
 		self.alias = alias
 		
 def limpiarCadena(string):
@@ -71,7 +71,7 @@ def Siglas(candidato,parrafo):
 def buscarArticulo(articulo,candidato,parrafo):
 	'''
 	Recibimos artículo y la palabra siguiente (producto de checarArticulo), un candidato, y su contexto.
-	Buscamos artículo y la palabra siguiente en el párrafo para determinar la entidad nombrada.
+	Devolvemos artículo y la palabra siguiente en el párrafo para determinar la entidad nombrada.
 	'''
 	indice = 0
 	entidad = []
@@ -187,12 +187,14 @@ for fname in os.listdir(path_docx):
 		print ("Contexto: " + parrafo + "")
 		print ("Candidato: " + element.group() + "")
 		if entidad:
-			print ("Entidad: " + entidad[0] + "")
-			print ("Alias: " + entidad[1] + "\n")
+			entidad = Entidad(entidad[0],entidad[1])
+			print ("Entidad: " + entidad.entidad + "")
+			print ("Alias: " + entidad.alias + "\n")
 		else:
 			entidad = regla2(element.group(), parrafo)
 			if entidad:
-				print ("Entidad: " + entidad[0] + "")
-				print ("Alias: " + entidad[1] + "\n")
+				entidad = Entidad(entidad[0],entidad[1])
+				print ("Entidad: " + entidad.entidad + "")
+				print ("Alias: " + entidad.alias + "\n")
 			else:
 				print ("Entidad: Vacía \n")
