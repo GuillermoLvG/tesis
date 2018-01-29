@@ -35,17 +35,18 @@ def limpiarCadena(string):
 	string = string.replace("en lo sucesivo","")
 	return string
 
-def checarArticulo(candidato):
+def obtenerArticulo(candidato):
 	'''
 	Recibe una cadena, y revisa si contiene un artículo. Si sí,
-	devuelve el artículo y la palabra siguiente.
+	devuelve el artículo y la palabra siguiente, si empieza con mayúscula.
 	'''
 	listaCandidato = candidato.split()
 	for elem in listaCandidato:
 		if elem in ["la", "las", "lo", "los", "el"]:
-			articulo = elem + " " + listaCandidato[listaCandidato.index(elem)+1]
-			return articulo
-			break;
+			if listaCandidato[listaCandidato.index(elem)+1][0].isupper():
+				articulo = elem + " " + listaCandidato[listaCandidato.index(elem)+1]
+				return articulo
+				break;
 	return ""
 
 def Siglas(candidato,parrafo):
@@ -108,8 +109,8 @@ def regla1(candidato, parrafo):
 	Recibe un candidato a entidad nombrada, y su contexto (párrafo).
 	Devuelve la entidad nombrada
 	
-	Regla 1: Si dentro del paréntesis dice "en lo sucesivo" sin importar mayúsculas o minúsculas.
-	
+	Regla 1: Si dentro del paréntesis hay un artículo seguido de una palabra que empieza en mayúsculas.
+		
 	Limpiamos el contenido del paréntesis y determinamos si hay un artículo.
 	Si lo hay, buscamos en el contexto hacia atrás hasta que encontremos dicho artículo seguido de la
 	primera palabra del candidato, y eso es la entidad nombrada.
@@ -119,7 +120,7 @@ def regla1(candidato, parrafo):
 	'''
 	entidad = []
 	candidato = limpiarCadena(candidato)
-	articulo = checarArticulo(candidato)
+	articulo = obtenerArticulo(candidato)
 	entidad = buscarArticulo(articulo,candidato,parrafo)
 	if articulo == '' and len(candidato.split()) == 1 and candidato.split()[0].isupper(): #si no hubo artículo, la lista sólo mide 1, y son todas mayúsculas.
 		entidad = Siglas(candidato,parrafo)
