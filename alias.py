@@ -105,11 +105,13 @@ def buscarArticulo(articulo,candidato,parrafo):
 			return entidad
 
 def regla1(candidato, parrafo):
+	#TO-DO: revisar bien qué chingados hace esta regla y por qué funciona
 	'''
 	Recibe un candidato a entidad nombrada, y su contexto (párrafo).
 	Devuelve la entidad nombrada
 	
 	Regla 1: Si dentro del paréntesis hay un artículo seguido de una palabra que empieza en mayúsculas.
+	o no hay artículo, y son siglas.
 		
 	Limpiamos el contenido del paréntesis y determinamos si hay un artículo.
 	Si lo hay, buscamos en el contexto hacia atrás hasta que encontremos dicho artículo seguido de la
@@ -182,8 +184,10 @@ for fname in os.listdir(path_docx):
 	regexpParentesis = re.compile("\((.*?)\)")
 	regexpComillas = re.compile('\"(.*?)\"')
 	for element in regexpParentesis.finditer(textoPlano):
-		parrafo = Contexto(element.start(),textoPlano) #element.start() tiene el index del 1er elemento donde hubo match
-		entidad = regla1(element.group(), parrafo) #element.group() tiene el match en sí (el candidato)
+		indiceOcurrencia = element.start() #element.start() tiene el index del 1er elemento donde hubo match
+		candidato = element.group() #element.group() tiene el match en sí (el candidato)
+		parrafo = Contexto(indiceOcurrencia,textoPlano)
+		entidad = regla1(candidato, parrafo)
 		print ("Contexto: " + parrafo + "")
 		print ("Candidato: " + element.group() + "")
 		if entidad:
