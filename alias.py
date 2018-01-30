@@ -32,6 +32,7 @@ def limpiarCadena(string):
 	string = string.replace('"',"")
 	string = string.replace("'","")
 	string = string.replace("en lo sucesivo","")
+	#TO-DO: Quitar espacios al inicio y al final de los candidatos
 	string = string.strip()
 	return string
 
