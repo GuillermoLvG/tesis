@@ -117,7 +117,7 @@ def regla1(candidato, parrafo):
 	1.- Limpiamos el contenido del paréntesis y determinamos si hay un artículo.
 	2.- Buscamos en el contexto hacia atrás hasta que encontremos dicho artículo 
 		seguido de la primera palabra del candidato, y eso es la entidad nombrada.
-	3.- Si no hay artículo, y el candidato son siglas, entonces buscamos las cada
+	3.- Si no hay artículo, y el candidato son siglas, entonces buscamos cada
 		letra mayúscula de las siglas en el contexto, y una vez encontradas,
 		obtenemos la entidad.
 	'''
@@ -133,13 +133,17 @@ def regla1(candidato, parrafo):
 
 def regla2(candidato,parrafo):
 	'''
-	Recibe un candidato a entidad nombrada, y su contexto (párrafo).
-	Devuelve la entidad nombrada
+	Recibe un candidato a entidad nombrada (str), y su contexto (párrafo) (str).
+	Devuelve la entidad nombrada (lista de 2 elementos str, el 1ro es la entidad y el 2do el alias)
 	
-	Regla 2: Si dentro del paréntesis sólo hay una palabra. 
+	Regla 2: Si dentro del paréntesis sólo hay una palabra.
 	
-	Si son siglas, se buscan las letras mayúsculas en el contexto, y tomamos eso como la entidad.
-	Si es una palabra, se busca hacia atrás la palabra, y lo que resta se toma como la entidad nombrada
+	Procedimiento:
+	1.- Limpiamos el contenido del paréntesis.
+	2.- Si son siglas, entonces buscamos cada letra mayúscula de las siglas en 
+		el contexto, y una vez encontradas, obtenemos la entidad.
+	3.- Si es una palabra, se busca hacia atrás en el párrafo, y cuando se encuentra, se toma desde
+		esa posición, hasta el fin del párrafo como entidad nombrada.
 	'''
 	entidad = []
 	candidato = limpiarCadena(candidato)
