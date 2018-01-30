@@ -24,7 +24,6 @@ def limpiarCadena(string):
 	Recibe una cadena (generalmente un candidato), elimina comillas, comas y paréntesis.
 	Devuelve una cadena
 	'''
-	#Tomamos una cadena (generalmente un candidato), y le quitamos basura.
 	string = string.replace(u'“',"")
 	string = string.replace(u'”',"")		
 	string = string.replace(",","")
@@ -33,6 +32,8 @@ def limpiarCadena(string):
 	string = string.replace('"',"")
 	string = string.replace("'","")
 	string = string.replace("en lo sucesivo","")
+	string = string.strip()
+	
 	return string
 
 def obtenerArticulo(candidato):
@@ -124,19 +125,20 @@ def regla1(candidato, parrafo):
 	entidad = []
 	candidato = limpiarCadena(candidato)
 	articulo = obtenerArticulo(candidato)
-	entidad = buscarArticulo(sarticulo,candidato,parrafo)
+	entidad = buscarArticulo(articulo,candidato,parrafo)
 	if articulo == '' and len(candidato.split()) == 1 and candidato.split()[0].isupper(): #si no hubo artículo, la lista sólo mide 1, y son todas mayúsculas.
 		entidad = Siglas(candidato,parrafo)
+		print ("Entidad Regla 1")
 		return entidad
 	print ("Entidad Regla 1")
-	return entidad		
+	return entidad
 
 def regla2(candidato,parrafo):
 	'''
 	Recibe un candidato a entidad nombrada (str), y su contexto (párrafo) (str).
 	Devuelve la entidad nombrada (lista de 2 elementos str, el 1ro es la entidad y el 2do el alias)
 	
-	Regla 2: Si dentro del paréntesis sólo hay una palabra.
+	Regla 2: Si dentro del paréntesis sólo hay una palabra, o la primer palabra está en mayúscula.
 	
 	Procedimiento:
 	1.- Limpiamos el contenido del paréntesis.
@@ -144,17 +146,23 @@ def regla2(candidato,parrafo):
 		el contexto, y una vez encontradas, obtenemos la entidad.
 	3.- Si es una palabra, se busca hacia atrás en el párrafo, y cuando se encuentra, se toma desde
 		esa posición, hasta el fin del párrafo como entidad nombrada.
+	4.- Si son muchas palabras, y la primera está en mayúscula, se toma la primera palabra como si
+		fuese la única., y se repite el paso 3.
 	'''
 	entidad = []
 	candidato = limpiarCadena(candidato)
 	if candidato.isupper():
 		entidad = Siglas(candidato,parrafo)
+		print ("Entidad Regla 2")
 		return entidad
 	else:
+		palabra = candidato
+		if len(candidato.split()) != 1 and candidato.split()[0][0].isupper(): #si son varias palabras, y la primer palabra empieza en mayúsculas.
+			palabra = candidato.split()[0]
 		listaParrafo = parrafo.split()
 		indice = 0
 		for index, element in reversed(list(enumerate(listaParrafo))):
-			if limpiarCadena(element) == candidato:
+			if limpiarCadena(element) == palabra:
 				indice = index
 				break;
 		if indice != 0:
@@ -164,7 +172,7 @@ def regla2(candidato,parrafo):
 			return entidad
 		else:
 			print ("Entidad Regla 2")
-			return entidad
+			return entidad		
 
 def Contexto(indiceInicial, textoPlano):
 	'''
