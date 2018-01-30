@@ -105,25 +105,26 @@ def buscarArticulo(articulo,candidato,parrafo):
 			return entidad
 
 def regla1(candidato, parrafo):
-	#TO-DO: revisar bien qué chingados hace esta regla y por qué funciona
 	'''
-	Recibe un candidato a entidad nombrada, y su contexto (párrafo).
-	Devuelve la entidad nombrada
+	Recibe un candidato a entidad nombrada (str) , y su contexto (párrafo) (str).
+	Devuelve la entidad nombrada (lista de 2 elementos str, el 1ro es la entidad y el 2do el alias)
 	
-	Regla 1: Si dentro del paréntesis hay un artículo seguido de una palabra que empieza en mayúsculas.
-	o no hay artículo, y son siglas.
-		
-	Limpiamos el contenido del paréntesis y determinamos si hay un artículo.
-	Si lo hay, buscamos en el contexto hacia atrás hasta que encontremos dicho artículo seguido de la
-	primera palabra del candidato, y eso es la entidad nombrada.
+	Regla 1: Si dentro del paréntesis hay 
+	un artículo seguido de una palabra que 
+	empieza en mayúsculas, o seguido de siglas.
 	
-	Si no hay artículo, y el candidato son siglas, entonces buscamos las letras mayúsculas
-	en el contexto, y tomamos eso como la entidad.
+	Procedimiento:
+	1.- Limpiamos el contenido del paréntesis y determinamos si hay un artículo.
+	2.- Buscamos en el contexto hacia atrás hasta que encontremos dicho artículo 
+		seguido de la primera palabra del candidato, y eso es la entidad nombrada.
+	3.- Si no hay artículo, y el candidato son siglas, entonces buscamos las cada
+		letra mayúscula de las siglas en el contexto, y una vez encontradas,
+		obtenemos la entidad.
 	'''
 	entidad = []
 	candidato = limpiarCadena(candidato)
 	articulo = obtenerArticulo(candidato)
-	entidad = buscarArticulo(articulo,candidato,parrafo)
+	entidad = buscarArticulo(sarticulo,candidato,parrafo)
 	if articulo == '' and len(candidato.split()) == 1 and candidato.split()[0].isupper(): #si no hubo artículo, la lista sólo mide 1, y son todas mayúsculas.
 		entidad = Siglas(candidato,parrafo)
 		return entidad
