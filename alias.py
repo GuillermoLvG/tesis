@@ -33,7 +33,6 @@ def limpiarCadena(string):
 	string = string.replace("'","")
 	string = string.replace("en lo sucesivo","")
 	string = string.strip()
-	
 	return string
 
 def obtenerArticulo(candidato):
