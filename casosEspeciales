@@ -1,0 +1,87 @@
+Venezuela. La Ley para las Personas con Discapacidad considera el derecho de accesibilidad en los servicios de telecomunicaciones de forma muy general al disponer como un derecho que los equipos de telecomunicaciones cuenten con adaptaciones así como a facilitar la accesibilidad de forma arquitectónica y de procedimientos por los entes públicos y privados. En tanto en la Gaceta Oficial de la República Bolivariana de Venezuela se emiten una serie de resoluciones bajo la materia de las telecomunicaciones entre las cuales se establece que los portales de los entes públicos deberán contar con elementos de accesibilidad bajo W3C
+
+(Word Wide Web Consortium)	
+
+DOF_P_IFT_EXT_241116_36_Acc.docx
+
+NOTA:
+Aquí la entidad está entre paréntesis, y el alias está afuera del paréntesis. ¿Será válido detectarlo en esta instancia?
+-------------------------------------------------------------------------------------------------------------------------------
+Por otra parte a nivel internacional se cuenta con un estándar de accesibilidad web desarrollado por la World Wide Web Consortium	
+
+(W3C)
+
+DOF_P_IFT_EXT_241116_36_Acc.docx
+
+NOTA:
+A lo mejor, si la sigla contiene un número, multiplicar la letra anterior por el número, y tomar eso como las siglas.
+O si no, tomar la primera letra del número (o sea, si es 3, la T de Tres)
+-------------------------------------------------------------------------------------------------------------------------------
+ENADID	AL EN MÉXICO. En nuestro país cifras de el Instituto Nacional de Estadística y Geografía INEGI obtenidas de la Encuesta Nacional de la Dinámica Demográfica 2014		CUARTO. SITUACIÓN ACTUAL EN MÉXICO. En nuestro país cifras de el Instituto Nacional de Estadística y Geografía (INEGI) obtenidas de la Encuesta Nacional de la Dinámica Demográfica 2014
+
+(ENADID)
+
+DOF_P_IFT_EXT_241116_36_Acc.docx
+
+E de encuesta
+NA de Nacional
+DI de Dinamica
+D de Demográfica
+
+NOTA:
+Hacer exepciones para tomar una "NA" como "N" y una "DI" como "Dinamica" Si veo que se repiten mucho estos patrones.
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+"XX.	W3C"	
+
+(World Wide Web Consortium)
+
+DOF_P_IFT_EXT_241116_36_Acc.docx
+
+NOTA: A lo mejor se puede hacer una expresión regular de: "Numeración + palabra + ( + alias + )"
+donde la palabra es el Alias, y el paréntesis la entidad, o viceversa.
+habría que establecer un criterio para decidir.
+
+-------------------------------------------------------------------------------------------------------------------------------
+Artículo 25. En relación con la fracción I de el artículo anterior los Concesionarios y Autorizados deberán atender a las modificaciones y actualizaciones que se realicen en las Pautas de Accesibilidad de Contenido de Internet
+
+(WCAG)
+
+DOF_P_IFT_EXT_241116_36_Acc.docx
+
+NOTA:Aquí es posible encontrar la expresión regular de palabras que empiecen en mayúscula, que no estén a más de 
+tres palabras de distancia. Esto resuelve este caso, pero hay que ver si sí es cierto utilizando google translate.
+
+Con "Pautas de Accesibilidad de Contenido de Internet" que obtuvimos de la REGEX, lo traducimos con google
+translate, ponemos como sinónimo de "Internet" a "Web" y buscamos las siglas en esa traducción. Si sí la encontramos,
+entonces sí es la entidad.
+
+Todo esto podemos también filtrarlo si dentro del paréntesis dice "inglés" como parte de la oración "por sus siglas en inglés"
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+I.- Otorgamiento de la Concesión. El 29 de noviembre de 1994 de conformidad con los artículos 17 y 19 y demás relativos de la Ley Federal de Radio y Televisión 
+
+(en los sucesivo la “LFRTV”)
+
+L_P_IFT_231015_479_Acc.docx
+
+NOTA: Esto se resuelve tomando "TV" como T. Así como NA como "N". Hay que buscar más casos.
+-------------------------------------------------------------------------------------------------------------------------------
+
+(en lo sucesivo el “Concesionario”)	
+
+IV.- Segunda Cesión de Derechos. El 17 de enero de 2006 la SCT una vez satisfechos los requisitos de ley autorizó el cambio de titularidad de los derechos derivados de la Concesión de Melchor Sánchez Dovalina a favor de Telesistemas de Coahuila S.A. de C.V.
+
+L_P_IFT_231015_479_Acc.docx
+
+NOTA: Esto es un caso específico. Si la palabra termina en "ario" puedo decir que se trata de una persona.
+Entonces, puedo buscar el Stemming de la palabra, más un posesivo como "de", así encontraría a Melchor Sánchez Dovalina,
+pues el Stem de Consecionario es el mismo que el de Concesión.
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
