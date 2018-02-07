@@ -35,6 +35,8 @@ def limpiarCadena(string):
 	string = string.replace("'","")
 	string = string.replace("en lo sucesivo","")
 	string = string.replace("en la sucesivo","")
+	string = string.replace("en delante","")
+	string = string.replace("en adelante","")
 	string = string.strip()
 	return string
 
@@ -63,59 +65,92 @@ def buscarEnDiccionario(candidato):
 	
 	1.- Abre el diccionario, y lo convierte a un diccionario donde la llave son los alias.
 	2.- Se busca el alias (candidato) en el diccionario y se devuelve el value (entidad) como un string
-	
 	'''
+	entidad = []
+	with open('Diccionario.csv', mode='r') as infile:
+		reader = csv.reader(infile)
+		diccionario = {rows[0].lower():rows[1] for rows in reader}
+		diccionarioInverso = {v.lower(): k for k, v in diccionario.items()}
+	print ("Buscando '" + candidato.lower() + "' en el diccionario")
+	if candidato.lower() in diccionario:
+		print ("Se encontró en diccionario original")
+		entidad.append(diccionario[candidato.lower()])
+		entidad.append(candidato)
+	elif candidato.lower() in diccionarioInverso:
+		print ("Se encontró en diccionario invertido")
+		entidad.append(candidato)
+		entidad.append(diccionarioInverso[candidato.lower()])
+	return entidad
 
-
-def Siglas(candidato,parrafo):
+def inicioDePalabra(parrafo,indice):
+	'''
+	recibe un índice y un párrafo.
+	Devuelve True si el índice corresponde a una letra que es inicio de una palabra
+	y False si es no lo es.
+	'''
+	if indice != 0:
+		if parrafo[indice-1] == " ":
+			return True
+		else:
+			return False
+	else:
+		return True
+	
+def Siglas(candidato,parrafo,siglasOriginales):
 	'''
 	Recibe siglas (cadena), al que aquí se denomina "candidato" y un párrafo (cadena).
 	A priori se sabe que el candidato son SIGLAS.
+	Devuelve la entidad y el alias.
 	
-	Se realiza una búsqueda hacia atrás en el párrafo, buscando las letras mayúsculas de las siglas.
-	Una vez encontradas, se devuelve la entidad.
-	
-	Si no se encontraron, se busca hacia atrás en el párrafo, buscando las letras minúsculas con las
-	que empieza cada palabra. Una vez encontradas, se devuelve la entidad.
-	
-	Si no se encontró nada, se busca las siglas en mayúsculas pero sin importar el orden.
+	1.- Se busca hacia atrás en el párrafo, buscando las letras mayúsculas de las siglas en orden,
+		y se devuelve la entidad y el alias. Se verifica siempre que la letra mayúscula sea un inicio
+		de palabra (func. inicioDePalabra)
+	2.- Se busca hacia atrás en el párrafo, buscando las letras minúsculas de las siglas en orden,
+		y se devuelve la entidad y el alias. Se verifica que la minúscula sea inicio de palabra (func. inicioDePalabra)
+	3.- Se busca hacia atrás en el párrafo las letras mayúsculas de las siglas sin importar el orden.
+		Se devuelve la entidad y el alias. Se verifica siempre que la mayúscula sea inicio de
+		palabra (func. inicioDePalabra)
 	'''
 	entidad = []
 	#Buscar mayúsculas
 	siglas = candidato.split()[0]
 	indice = len(parrafo)-1 #última posición del párrafo
 	print("Siglas: " + siglas)
+	print("Buscando mayúsculas en orden")
 	for indice in range(indice,0,-1):
-		if parrafo[indice] == siglas[-1]:
+		if parrafo[indice] == siglas[-1] and inicioDePalabra(parrafo,indice):#Si la letra es la sigla, y es inicio de palabra
 			siglas = siglas[:-1]
+			print(siglas)
 		if not siglas: #cuando terminé de buscar las siglas, devuelvo la entidad.
 			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
-			entidad.append(candidato.split()[0])
-			print ("Busqué mayúsculas")
+			entidad.append(siglasOriginales)
+			print ("Encontré mayúsculas en orden")
 			return entidad
 	#Buscar minúsculas
 	siglas = candidato.split()[0].lower()
 	indice = len(parrafo)-1
+	print("Buscando minúsculas en orden")
 	for indice in range(indice,0,-1):
-		if parrafo[indice] == siglas[-1]:#Aquí verifico que la minuscula sea inicio de palabra
-			if parrafo[indice-1] == " ":
-				siglas = siglas[:-1]
-		if not siglas: 
+		if parrafo[indice] == siglas[-1] and inicioDePalabra(parrafo,indice): #Si la letra es la sigla, y es inicio de palabra
+			siglas = siglas[:-1]
+			print(siglas)
+		if not siglas:
 			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
-			entidad.append(candidato.split()[0])
-			print ("Busqué minúsculas")
+			entidad.append(siglasOriginales)
+			print ("Encontré minúsculas en orden")
 			return entidad
 	#Buscar mayúsculas sin importar orden
 	siglas = candidato.split()[0]
 	indice = len(parrafo)-1
+	print("Buscando mayúsculas sin importar el orden")
 	for indice in range(indice,0,-1):
-		if parrafo[indice].isupper() and parrafo[indice] in siglas: #Si la letra es mayúscula y está en "siglas"
-			siglas = siglas.replace(parrafo[indice],"")
+		if parrafo[indice].isupper() and inicioDePalabra(parrafo,indice) and parrafo[indice] in siglas: #Si la letra es mayúscula, es inicio de palabra y está en "siglas"
+			siglas = siglas.replace(parrafo[indice],"",1)
 			print (siglas)
 		if not siglas: 
 			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
-			entidad.append(candidato.split()[0])
-			print ("Busqué mayúsculas sin importar el orden")
+			entidad.append(siglasOriginales)
+			print ("Encontré mayúsculas sin importar el orden")
 			return entidad
 	#No encontró las siglas.
 	print ("No encontré las siglas.")
@@ -127,7 +162,8 @@ def checarSiglas(candidato):
 	Si son siglas, devuelve las siglas. Si no, devuelve vacío.
 
 	Las siglas que devuelve están limpias. Es decir, son 
-	sólo letras mayúsculas.
+	sólo letras mayúsculas, Y une ciertos patrones comunes en siglas
+	como "NA" por "N" (Nacional), "DI" por "D" (Dinámica).
 	'''
 	contMayus = 0
 	contMinus = 0
@@ -136,8 +172,12 @@ def checarSiglas(candidato):
 		if letra.isupper():
 			contMayus = contMayus + 1
 			siglasLimpias = "" + siglasLimpias + "" + letra
+		elif letra.isdigit():
+			siglasLimpias = "" + siglasLimpias + "" + letra
 		else:
 			contMinus = contMinus + 1
+	siglasLimpias = siglasLimpias.replace("NA","N")
+	siglasLimpias = siglasLimpias.replace("DI","D")
 	if contMayus >= contMinus:
 		return siglasLimpias;
 	else:
@@ -222,7 +262,7 @@ def buscarArticulo(articulo,candidato,parrafo):
 				entidad.append(limpiarCadena(" ".join(listaParrafo[indice+1:]))) #indice + 1 para quitar el artículo
 			else:
 				entidad.append(limpiarCadena(" ".join(listaParrafo[indice:]))) #Quitamos el + 1, para no quitar la palabra sola.
-			candidato = candidato.replace(listaArticulo[0],"") #candidato es el alias, sin el artículo.
+			candidato = candidato.replace(listaArticulo[0] + " ","") #candidato es el alias, sin el artículo.
 			entidad.append(candidato)
 			return entidad
 		#No encontramos nada
@@ -259,16 +299,17 @@ def regla1(candidato, parrafo):
 	if articulo:
 		print ("Tiene Artículo")
 		print ("Articulo + palabra: " + articulo)
-		if checarSiglas(articulo.split()[1]): #Checamos si son siglas. 
+		siglas = checarSiglas(articulo.split()[1]) #Checamos si son siglas y las obtenemos límpias.
+		if siglas:
 			print("Son Siglas")
-			print(articulo.split()[1])
-			entidad = Siglas(articulo.split()[1],parrafo)
+			entidad = Siglas(siglas,parrafo,articulo.split()[1])
 		else:
 			print("Busca Artículo")
 			entidad = buscarArticulo(articulo,candidato,parrafo)
 	return entidad
 
 def regla2(candidato,parrafo):
+	#TO-DO: REVISAR BIEN QUE'HACE LA REGLA 2
 	'''
 	Recibe un candidato a entidad nombrada (str), y su contexto (párrafo) (str).
 	Devuelve la entidad nombrada (lista de 2 elementos str, el 1ro es la entidad y el 2do el alias)
@@ -288,28 +329,33 @@ def regla2(candidato,parrafo):
 	'''
 	entidad = []
 	indice = 0
+	encontreAlgo = False
 	candidato = limpiarCadena(candidato)
-	if checarSiglas(candidato):
-		print("Son Siglas")
-		entidad = Siglas(candidato,parrafo)
+	siglas = checarSiglas(candidato)
+	if candidato.isdigit():
+		return entidad
+	if siglas:
+		entidad = Siglas(siglas,parrafo,candidato)
+		if entidad:
+			print ("Fueron Siglas")
+			return entidad
+	print ("Es una palabra")
+	palabra = candidato
+	if len(candidato.split()) != 1 and candidato.split()[0][0].isupper(): #si son varias palabras, y la primer palabra empieza en mayúsculas.
+		palabra = candidato.split()[0]
+	listaParrafo = parrafo.split()
+	print ("La palabra es: " + palabra)
+	for index, element in reversed(list(enumerate(listaParrafo))):
+		if limpiarCadena(element) == palabra:
+			indice = index
+			encontreAlgo = True
+			break;
+	if encontreAlgo:
+		entidad.append(limpiarCadena(" ".join(listaParrafo[indice:])))
+		entidad.append(candidato)
 		return entidad
 	else:
-		print ("Es una palabra")
-		palabra = candidato
-		if len(candidato.split()) != 1 and candidato.split()[0][0].isupper(): #si son varias palabras, y la primer palabra empieza en mayúsculas.
-			palabra = candidato.split()[0]
-		listaParrafo = parrafo.split()
-		print ("La palabra es: " + palabra)
-		for index, element in reversed(list(enumerate(listaParrafo))):
-			if limpiarCadena(element) == palabra:
-				indice = index
-				break;
-		if indice != 0:
-			entidad.append(limpiarCadena(" ".join(listaParrafo[indice:])))
-			entidad.append(candidato)
-			return entidad
-		else:
-			return entidad		
+		return entidad		
 
 def regla3(candidato, parrafo):
 	'''
@@ -331,11 +377,28 @@ def regla3(candidato, parrafo):
 		return entidad
 	listaPalabras = candidato.split()
 	for palabra in listaPalabras:
-		if checarSiglas(palabra):
-			entidad = Siglas(palabra,parrafo)
+		siglas = checarSiglas(palabra)
+		if siglas:
+			entidad = Siglas(siglas,parrafo,palabra)
 			return entidad
 	return entidad
 
+def regla4(candidato):
+	'''
+	Recibe un candidato a entidad nombrada (str).
+	Devuelve la entidad nombrada (lista de 2 elementos str, el 1ro es la entidad y el 2do el alias)
+	
+	Regla 4: Revisa si el candidato existe en una lista de entidades (diccionario).
+	
+	1.- Se limpia el candidato (func. limpiarCadena)
+	2.- Se busca en el diccionario (func. buscarEnDiccionario)
+	3.- Se devuelve la entidad y el alias.
+	'''
+	entidad = []
+	candidato = limpiarCadena(candidato)
+	entidad = buscarEnDiccionario(candidato)
+	return entidad
+	
 def Contexto(indiceInicial, textoPlano):
 	'''
 	Recibe un índice y un texto. 
@@ -352,7 +415,10 @@ def Contexto(indiceInicial, textoPlano):
 '''
 Flujo inicial del programa
 '''
-os.remove("tablas/resultado.csv")
+try:
+    os.remove("tablas/resultado.csv")
+except OSError:
+    pass
 for fname in os.listdir(path_docx):
 	fullpath = os.path.join(path_docx, fname)
 	print ("Archivo: " + fullpath + "\n")
@@ -393,6 +459,15 @@ for fname in os.listdir(path_docx):
 					with open('tablas/resultado.csv','a+') as salida:
 						salida.write(entidad.alias.strip() + "," + entidad.entidad.strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 3," + fname + "\n")
 				else:
-					with open('tablas/resultado.csv','a+') as salida:
-						salida.write("Vacía, Vacía ," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 3," + fname + "\n")
-					print ("Entidad: Vacía \n")
+					print ("Regla 4")
+					entidad = regla4(candidato)
+					if entidad:
+						entidad = Entidad(entidad[0],entidad[1])
+						print ("Entidad: " + entidad.entidad + "")
+						print ("Alias: " + entidad.alias + "\n")
+						with open('tablas/resultado.csv','a+') as salida:
+							salida.write(entidad.alias.strip() + "," + entidad.entidad.strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 4," + fname + "\n")
+					else:
+						with open('tablas/resultado.csv','a+') as salida:
+							salida.write("Vacía, Vacía ," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 4," + fname + "\n")
+						print ("Entidad: Vacía \n")

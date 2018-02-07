@@ -8,9 +8,8 @@ NOTA:
 Aquí la entidad está entre paréntesis, y el alias está afuera del paréntesis. ¿Será válido detectarlo en esta instancia?
 NO.
 
-RESUELTO
-RESUELTO
-RESUELTO
+RESUELTO: hay un typo en "Word". No es detectable :P pues cuando ocurre de forma correcta, se utiliza un diccionario que
+está bien escrito.
 
 -------------------------------------------------------------------------------------------------------------------------------
 Por otra parte a nivel internacional se cuenta con un estándar de accesibilidad web desarrollado por la World Wide Web Consortium	
@@ -22,6 +21,8 @@ DOF_P_IFT_EXT_241116_36_Acc.docx
 NOTA:
 A lo mejor, si la sigla contiene un número, multiplicar la letra anterior por el número, y tomar eso como las siglas.
 O si no, tomar la primera letra del número (o sea, si es 3, la T de Tres)
+
+RESUELTO: Diccionario
 -------------------------------------------------------------------------------------------------------------------------------
 
 En tanto la G3ict	
@@ -32,6 +33,8 @@ DOF_P_IFT_EXT_241116_36_Acc.docx
 
 NOTA:
 A lo mejor un diccionario de entidades... y agregar esta organización.
+
+RESUELTO: Diccionario
 
 -------------------------------------------------------------------------------------------------------------------------------
 
@@ -49,6 +52,8 @@ D de Demográfica
 NOTA:
 Hacer exepciones para tomar una "NA" como "N" y una "DI" como "Dinamica" Si veo que se repiten mucho estos patrones.
 
+
+
 -------------------------------------------------------------------------------------------------------------------------------
 "XX.	W3C"	
 
@@ -59,6 +64,8 @@ DOF_P_IFT_EXT_241116_36_Acc.docx
 NOTA: A lo mejor se puede hacer una expresión regular de: "Numeración + palabra + ( + alias + )"
 donde la palabra es el Alias, y el paréntesis la entidad, o viceversa.
 habría que establecer un criterio para decidir.
+
+RESUELTO: Diccionario inverso
 
 -------------------------------------------------------------------------------------------------------------------------------
 Artículo 25. En relación con la fracción I de el artículo anterior los Concesionarios y Autorizados deberán atender a las modificaciones y actualizaciones que se realicen en las Pautas de Accesibilidad de Contenido de Internet
@@ -257,10 +264,25 @@ le dice modelo a la metodología? ... -_- lo que se puede hacer es tomar la pala
 ------------------------------------------------------------------------------------------------------------------------------3
 
 
+TVI	Telecom S.A. de C.V. San Ángel los CC. RESERVADO POR LEY representantes legales de Televisión Internacional S.A. de C.V.Mediante escrito y anexos presentados el veintisiete de octubre de dos mil quince (Escrito de Notificación) en la oficialía de partes de el Instituto Federal de Telecomunicaciones (Instituto) los CC. RESERVADO POR LEY representantes legales de Corporativo Vasco de Quiroga S.A. de C.V. (CVQ) Cable TV Internacional S.A. de C.V. (Cable TV) y San Ángel Telecom S.A. de C.V. (San Ángel) los CC. RESERVADO POR LEY representantes legales de Televisión Internacional S.A. de C.V.	
+(TVI)
+P_IFT_170316_99_Acc_Confidencial.docx
+
+NOTA: cambiar TV por T para encontrar "Televisión"
+
+------------------------------------------------------------------------------------------------------------------------------3
+
+GTV	VADO POR LEY como representante legal de Grupo Televisa S.A.B.	(GTV)	Mediante escrito y anexos presentados el diez de febrero de dos mil dieciséis en la oficialía de partes de el Instituto entre otros actos compareció el C. RESERVADO POR LEY como representante legal de Grupo Televisa S.A.B.	Regla 2	P_IFT_170316_99_Acc_Confidencial.docx
+
+
+NOTA: igual, cambiar TV por T.
+
+------------------------------------------------------------------------------------------------------------------------------3
+ME QUEDÉ EN EL ROW 1054 del xlsx, de resultados.csv y resultadosAnotados.
 
 
 
-
+TENGO QUE HACER QUE EN SIGLAS SÓLO SE AGARREN LAS LIMPIAS (Con los replace) SÓLO SI NO ENCONTRÉ LAS OTRAS.
 
 
 
