@@ -6,6 +6,12 @@ DOF_P_IFT_EXT_241116_36_Acc.docx
 
 NOTA:
 Aquí la entidad está entre paréntesis, y el alias está afuera del paréntesis. ¿Será válido detectarlo en esta instancia?
+NO.
+
+RESUELTO
+RESUELTO
+RESUELTO
+
 -------------------------------------------------------------------------------------------------------------------------------
 Por otra parte a nivel internacional se cuenta con un estándar de accesibilidad web desarrollado por la World Wide Web Consortium	
 
@@ -17,6 +23,18 @@ NOTA:
 A lo mejor, si la sigla contiene un número, multiplicar la letra anterior por el número, y tomar eso como las siglas.
 O si no, tomar la primera letra del número (o sea, si es 3, la T de Tres)
 -------------------------------------------------------------------------------------------------------------------------------
+
+En tanto la G3ict	
+
+(Iniciativa Global para TIC incluyente)
+
+DOF_P_IFT_EXT_241116_36_Acc.docx
+
+NOTA:
+A lo mejor un diccionario de entidades... y agregar esta organización.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
 ENADID	AL EN MÉXICO. En nuestro país cifras de el Instituto Nacional de Estadística y Geografía INEGI obtenidas de la Encuesta Nacional de la Dinámica Demográfica 2014		CUARTO. SITUACIÓN ACTUAL EN MÉXICO. En nuestro país cifras de el Instituto Nacional de Estadística y Geografía (INEGI) obtenidas de la Encuesta Nacional de la Dinámica Demográfica 2014
 
 (ENADID)
@@ -30,7 +48,6 @@ D de Demográfica
 
 NOTA:
 Hacer exepciones para tomar una "NA" como "N" y una "DI" como "Dinamica" Si veo que se repiten mucho estos patrones.
-
 
 -------------------------------------------------------------------------------------------------------------------------------
 "XX.	W3C"	
@@ -70,9 +87,9 @@ L_P_IFT_231015_479_Acc.docx
 NOTA: Esto se resuelve tomando "TV" como T. Así como NA como "N". Hay que buscar más casos.
 -------------------------------------------------------------------------------------------------------------------------------
 
-(en lo sucesivo el “Concesionario”)	
-
 IV.- Segunda Cesión de Derechos. El 17 de enero de 2006 la SCT una vez satisfechos los requisitos de ley autorizó el cambio de titularidad de los derechos derivados de la Concesión de Melchor Sánchez Dovalina a favor de Telesistemas de Coahuila S.A. de C.V.
+
+(en lo sucesivo el “Concesionario”)	
 
 L_P_IFT_231015_479_Acc.docx
 
@@ -81,7 +98,171 @@ Entonces, puedo buscar el Stemming de la palabra, más un posesivo como "de", as
 pues el Stem de Consecionario es el mismo que el de Concesión.
 -------------------------------------------------------------------------------------------------------------------------------
 
+Al respecto el Pleno de el Instituto reunido en su VI Sesión Ordinaria de esta misma fecha de conformidad con lo establecido en los artículos 28 párrafos décimo sexto y vigésimo de la Constitución Política de los Estados Unidos Mexicanos; 83 fracción VI párrafo tercero de la Ley Federal de Competencia Económica	
+
+(LFCE 2014)
+
+P_IFT_290216_73_Acc.docx
+
+NOTA:
+
+Hay que limpiar números en limpiar cadena, para que estas siglas sean tomadas como tales por la Regla 2. (palabra solita en un
+paréntesis que son siglas)
+-------------------------------------------------------------------------------------------------------------------------------
+
+I.- Refrendo de la Concesión. El 13 de diciembre de 2006 de conformidad con los artículos 13 de la Ley Federal de Telecomunicaciones (en ade elante “LFT”) 16 y 21 de la Ley Federal de Radio y Televisión	Regla 3	
+
+(en los sucesivo la “LFRTV la Comisión Federal de Telecomunicaciones (en lo sucesivo la “COFETEL”)	
+
+P_IFT_111215_577_Acc.docx
+
+NOTA:
+Dentro de un paréntesis hay paréntesis!
+Hay que corregir la expresión regular para que tome los dos paréntesis.
+Este error es falso porque cambié el "de" por "de el", entonces parte "ade lante", pero hay que 
+agregar este caso en el limpiarCadena como
+sitring replace "en delante", ""
+-------------------------------------------------------------------------------------------------------------------------------
+
+Ampliación de cobertura de la Concesión. El 15 de noviembre de 2012 la Subsecretaría de Comunicaciones de la Secretaría autorizó la ampliación de el área de cobertura de la Concesión hacia las localidades de San Pedro Limón Municipio de Tlatlaya; Salitre Palmarillos Cerro de el Campo Cuadrilla de López y Amadores
+
+(Los Amador)
+
+P_IFT_170216_55_Acc.docx
+NOTA:
+Aquí hay que establecer si Los Amador es un Alias o no. y si sí, quizá se resuelve también con stemming. 
+
+-------------------------------------------------------------------------------------------------------------------------------
+Solicitud de Concesión. Con fecha 1° de septiembre de 2015 Altata Telecomunicaciones de México S.A.P.I. de C.V.
+(“ALTATA”) 
+P_IFT_170216_53_Acc.docx
+
+NOTA: Seguro se toma ALTALTA	 como siglas, pero debe de buscarse la palabra en sí, ALTATA.
+Esto no genera errores porque buscando hacia atrás, nunca encontraré las siglas, pues apenas se está designando
+al alias.
+-------------------------------------------------------------------------------------------------------------------------------
+
+Con fecha 18 de diciembre de 2015 el Pleno de el Instituto Federal de Telecomunicaciones (el “Instituto”) mediante Acuerdo P/IFT/EXT/181215/188 resolvió la procedencia de la solicitud de prórroga de vigencia de el título de concesión otorgado en favor de TELEVISIÓN TABASQUEÑA S.A. DE C.V.	
+(en lo sucesivo “TV Tabasqueña”)	
+P_IFT_290216_70_Acc.docx
+NOTA:
+Esto también se arregla cambiando TV por televisión. Igual que NA con nacional, etc. 	
+-------------------------------------------------------------------------------------------------------------------------------
+
+Con fecha 18 de diciembre de 2015 el Pleno de el Instituto Federal de Telecomunicaciones (el “Instituto”) mediante Acuerdo P/IFT/EXT/181215/188 resolvió la procedencia de la solicitud de prórroga de vigencia de el título de concesión otorgado en favor de TELEVISIÓN TABASQUEÑA S.A. DE C.V. (en lo sucesivo “TV Tabasqueña”) así como la transición de dicho instrumento al régimen de uso público respecto de los canales de televisión 5 (76-82 MHz) con distintivo de llamada XHVET-TV en La Venta; 10(+) (192-198 MHz) con distintivo de llamada XHMET-TV en Tenosique y 7(-)(174-180 MHz) con distintivo de llamada XHSTA-TV en Villahermosa todos ellos en el Estado de Tabasco	
+(la “Resolución”)	
+P_IFT_290216_70_Acc.docx
+NOTA:	
+La resolución es lo que se resolvió. D:! a lo mejor el stemming también ayuda. 
+
+-------------------------------------------------------------------------------------------------------------------------------	
+Otorgamiento de las Concesiones. El Gobierno Federal por conducto de la Secretaría de Comunicaciones y Transportes (la “Secretaría”) otorgó a favor de Tecnologías de Control de el Norte S.A. de C.V. los siguientes títulos de concesión	
+(las “Concesiones”)
+P_IFT_270116_15_Publica_Acc.docx
+
+NOTA:
+las concesiones a las que se refiere este alias están después. Es decir, a lo mejor hay que agregar una ventana DESPUÉS
+DEL PARÉNTESIS OMG. y sólo buscarla cuando en el contexto anterior hay indicadores de que la entidad se encuentra adelante.
+En este caso, el indicador es la palabra "los siguientes". Aunque hay que revisar si eso es argumento suficiente para
+determinar que la entidad se encuentra delante.
+------------------------------------------------------------------------------------------------------------------------------
+
+Adicionalmente no se identifica que Impacto Telecomunicaciones S.A. de C.V. y personas relacionadas pertenezcan a los grupos de interés económico a los que pertenecen los operadores satelitales que prestan el servicio de TV restringida bajo las mascas comerciales Sky y Dish o al operador vía cable T.V.I Nacional S.A. de C.V.	
+(Cablecom)
+P_IFT_170316_118_Acc.docx
+
+NOTA: Cablecom es T.V.I. NAcional S.A. de C.V. D:!
+Se puede determinar que si en las primeras 10 palabras antes del alias de una palabra existe una sociedad comercial, se detecte dicha entidad ocmo La entidad.
+
+Para ello se necesitaría una exprsión regular que devuelva todas las entidades nombradas que vengan con una sociedad comercial delante, y que tome en cuenta palabras que empiezan en mayúscula detrás de dicha entidad comercial.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Otorgamiento de las Concesiones de Bandas. El 20 de febrero de 1997 la Secretaría otorgó en favor de Video Grylm S.A. de C.V. i) un título de concesión para usar aprovechar y explotar bandas de frecuencias de uso determinado con cobertura en los estados de Zacatecas San Luis Potosí Aguascalientes Guanajuato y Querétaro para la prestación de el servicio de radiolocalización móvil de personas comprendido en el Anexo “A” de la Concesión de Red mediante el uso de la banda de frecuencias 931.2500-931.2750 MHz y ii) un título de concesión para usar aprovechar y explotar bandas de frecuencias de uso determinado con cobertura a nivel nacional para la prestación de el servicio de radiolocalización móvil de personas comprendido en el Anexo “A” de la Concesión de Red mediante el uso de la banda de frecuencias 929.4750-929.500 MHz ambos con vigencia de 20 (veinte) años contados a partir de su otorgamiento	
+(las “Concesiones de Bandas” y en su conjunto con la Concesión de Red las “Concesiones”)	
+P_IFT_111215_563_Acc.docx
+
+
+NOTA:
+Hay que ver qué pedo. Cual es el alias , si el primero o el segundo. Hay que leer bien el contexto para saber qué.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+	Concesiones de las empresas AT&T Central S. de R.L. de C.V. AT&T de el Golfo S. de R.L. de C.V. AT&T Comcentro S. de R.L. de C.V. AT&T de el Occidente S. de R.L. de C.V. AT&T Norte S. de R.L. de C.V. AT&T Desarrollo en Comunicaciones de México S. de R.L. de C.V. y AT&T Sureste S. de R.L. de C.V.	
+(en lo sucesivo “Grupo AT&T ”)	
+P_IFT_170216_36_Acc.docx
+
+NOTA: Es una sucesión de entidades con el mismo alias. Se puede determinar que es una sucesión de entidades porque el alias contiene la palabra "grupo", lo que indica que podríamos buscar dicha sucesión en el contexto.
+
+------------------------------------------------------------------------------------------------------------------------------
+Para sacar las entidades se puede usar la expresión regular para obtener las entidades utilizando los tipos de sociedades comerciales.
+
+IV.- Recurso de Revisión en el amparo 499/2011.- El 1º de julio de 2011 la extinta Comisión Federal de Telecomunicaciones
+(en lo sucesivo “COFETEL”)	
+P_IFT_200416_161_Acc.docx
+NOTA: CO, FE, TEL. Es lo mismo que NA con nacional. y así. Las siglas hay que comprimirlas, o utilizar un diccionario de entidades gubernamentales.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+	II.            Concesión de Teléfonos de México S.A.B. de C.V. El 10 de marzo de 1976 la Secretaría otorgó a Teléfonos de México S.A.B. de C.V.
+(en lo sucesivo "Telmex")
+P_IFT_140410_191.docx
+
+NOTA: Igual que cofetel y nacional. TELMEX es lo mismo que TM. o bien, puede incluirse un diccionario.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+III.            Concesión de Teléfonos de el Noroeste S.A. de C.V. El 26 de mayo de 1980 la Secretaría otorgó a Teléfonos de el Noroeste S.A de C.V.	
+
+(en lo sucesivo "Telnor")
+
+P_IFT_140410_191.docx
+
+NOTA: Lo mismo que telmex y así. todo.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+El 7 de enero de 2010 el representante legal de Telmex y Telnor presentó ante la Comisión los escritos Jrr.Cft.001/2010 y Jrr.Cft.O10/2010 por los que formuló en tiempo los correspondientes alegatos	
+(en lo sucesivo los "Alegatos de Telnor")
+P_IFT_140410_191.docx
+NOTA:
+Se buscan en el contexto siguiente dada la palabra clabe "correspondientes"
+
+------------------------------------------------------------------------------------------------------------------------------
+El 8 de enero de 2010 el representante legal de Axtel presentó ante la Comisión el escrito No. 003-2010 por el que formuló en tiempo los correspondientes alegatos	
+(en lo sucesivo los "Alegatos de Axtel")
+P_IFT_140410_191.docx
+
+NOTA:
+Se buscan en el contexto siguiente dada la palabra clabe "correspondientes"
+
+------------------------------------------------------------------------------------------------------------------------------
+
+	Adicionalmente en las páginas 28 y 29 de la Solicitud de Resolución Axtel propone que se le permita interconectar de forma remota el tráfico de larga distancia cuyo destino sea el de un ASL en cuya central no sea técnica o económicamente factible instalar puertos y/o enlaces de larga distancia	
+
+(interconexión virtual)
+
+P_IFT_140410_191.docx
+NOTA: Stemming a interconexión arrojaría desde "interconectar" lo cual sería correcto.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Por tanto para cuantificar los costos en que incurren los concesionarios por la interconexión de las redes públicas de telecomunicaciones la metodología adecuada es la utilización de un mode elo de costos
+(en lo sucesivo el "Modelo")	
+P_IFT_140410_191.docx
+
+NOTA:
+le dice modelo a la metodología? ... -_- lo que se puede hacer es tomar la palabra anterior, pero eso seguramnte traerá más errores.
+
+------------------------------------------------------------------------------------------------------------------------------3
 
 
 
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
 

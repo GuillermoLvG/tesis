@@ -34,11 +34,12 @@ def limpiarCadena(string):
 	string = string.replace('"',"")
 	string = string.replace("'","")
 	string = string.replace("en lo sucesivo","")
+	string = string.replace("en la sucesivo","")
 	string = string.strip()
 	return string
 
 def limpiarParrafo(string):
-	string = string.replace("del","de el")
+	string = string.replace(" del "," de el ")
 	return string
 	
 def obtenerArticulo(candidato):
@@ -54,6 +55,17 @@ def obtenerArticulo(candidato):
 				return articulo
 				break;
 	return ""
+
+def buscarEnDiccionario(candidato):
+	'''
+	Recibe un alias ya limpio y devuelve una entidad con base en un diccionario, y el alias
+	como una lista donde el primer elemento es la entidad y el segundo elemento el alias.
+	
+	1.- Abre el diccionario, y lo convierte a un diccionario donde la llave son los alias.
+	2.- Se busca el alias (candidato) en el diccionario y se devuelve el value (entidad) como un string
+	
+	'''
+
 
 def Siglas(candidato,parrafo):
 	'''
@@ -148,11 +160,13 @@ def buscarArticulo(articulo,candidato,parrafo):
 	'''
 	indice = 0
 	entidad = []
+	palabraSola = False
 	listaArticulo = articulo.split()
 	listaCandidato = candidato.split()
 	if articulo:
 		listaParrafo = parrafo.split()
 		indexMaximo = len(listaParrafo) - 1
+		encontreAlgo = False
 		#Buscamos articulo + Palabra (primera letra de palabra en mayúscula, tal como viene la variable articulo)
 		for index, element in reversed(list(enumerate(listaParrafo))):
 			if index != indexMaximo:
@@ -160,43 +174,60 @@ def buscarArticulo(articulo,candidato,parrafo):
 					if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1]:
 						indice = index
 						print("Encontré articulo + Palabra")
+						encontreAlgo = True
 						break;
 		#Buscamos articulo + PALABRA (la palabra en mayúscula)
-		if indice == 0:
+		if not encontreAlgo:
 			for index, element in reversed(list(enumerate(listaParrafo))):
 				if index != indexMaximo:
 					if limpiarCadena(element) == listaArticulo[0]:
 						if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1].upper():
 							indice = index
 							print("Encontré articulo + PALABRA")
+							encontreAlgo = True
 							break;
 		#Buscamos articulo + palabra (la palabra en minúscula)
-		if indice == 0:
+		if not encontreAlgo:
 			for index, element in reversed(list(enumerate(listaParrafo))):
 				if index != indexMaximo:
 					if limpiarCadena(element) == listaArticulo[0]:
 						if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1].lower():
 							indice = index
 							print("Encontré articulo + palabra")
+							encontreAlgo = True
 							break;
 		#Buscamos palabra (la palabra en minúscula)
-		if indice == 0:
+		if not encontreAlgo:
 			for index, element in reversed(list(enumerate(listaParrafo))):
 				if index != indexMaximo:
-					if limpiarCadena(element) == listaArticulo[1].lower:
+					if limpiarCadena(element) == listaArticulo[1]:
 						indice = index
-						print("Encontré palabra")						
+						print (indice)
+						palabraSola = True
+						print("Encontré palabra tal como viene escrita")						
+						encontreAlgo = True
+						break;		#Buscamos palabra (la palabra en minúscula)
+		if not encontreAlgo:
+			for index, element in reversed(list(enumerate(listaParrafo))):
+				if index != indexMaximo:
+					if limpiarCadena(element) == listaArticulo[1].lower():
+						indice = index
+						palabraSola = True
+						print("Encontré palabra en minúscula")						
+						encontreAlgo = True
 						break;
 		#Encontramos algo
-		if indice != 0:
-			print ("Encontré el artículo con la palabra")
-			entidad.append(limpiarCadena(" ".join(listaParrafo[indice+1:]))) #indice + 1 para quitar el artículo
+		if encontreAlgo:
+			if not palabraSola:
+				entidad.append(limpiarCadena(" ".join(listaParrafo[indice+1:]))) #indice + 1 para quitar el artículo
+			else:
+				entidad.append(limpiarCadena(" ".join(listaParrafo[indice:]))) #Quitamos el + 1, para no quitar la palabra sola.
 			candidato = candidato.replace(listaArticulo[0],"") #candidato es el alias, sin el artículo.
 			entidad.append(candidato)
 			return entidad
 		#No encontramos nada
 		else: 
-			print ("No encontré el artículo con la palabra, ni nada.")
+			print ("No encontré el artículo con la palabra, ni la palabra sola, ni nada.")
 			return entidad
 
 def regla1(candidato, parrafo):
@@ -217,9 +248,11 @@ def regla1(candidato, parrafo):
 		letra por letra, y cuando encuentra todas, regresa la entidad (func. Siglas)
 	6.- Si es una palabra, buscamos en el contexto hacia atrás hasta que encontremos dicho artículo 
 		seguido de la primera palabra del candidato, y eso es la entidad nombrada. (func.buscarArticulo)
+	7.- Si no se encontró la paĺabra con el artículo, se busca sólo la palabra, sin el artículo.
 	'''
 	entidad = []
 	candidato = limpiarCadena(candidato)
+	print(candidato)
 	if len(candidato.split()) > 10: #Checamos que sea menor de 10 palabras
 		return entidad
 	articulo = obtenerArticulo(candidato)
