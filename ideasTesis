@@ -1,0 +1,89 @@
+
+2.	Introducción
+- Qué es el reconocimiento de patrones, de forma general.
+- Para qué se usa el reconocimiento de patrones
+- También puede ser utilizado en el lenguaje
+- Por ejemplo, encontrar patrones en sistemas de pregunta
+respuesta como SIRI.
+- Abordar que en estos casos, hay "entidades nombradas" en el texto
+
+- Anunciar que hay muchos métodos con los cuales se ha realizado
+esta tarea.
+
+*********Estado del arte.***********
+
+a.	Selección de tópico y justificación.
+- ¿Por qué reconocimiento de patrones y no machine learning?
+- Ejemplos de dominios con falta de datos para entrenar machine learning.
+- Ejemplos de sistemas de reconocimiento de patrones vs machine learning.
+- El lenguaje legal y por qué es un buen acercamiento.
+Es un buen acercamiento porque no tenemos datos, y no hay
+nada desarrollado en español.
+
+- Decir que reconocer entidades nombradas en un texto legal es el antecedente para crear sistemas de reconocimiento de eventos 
+
+Y puede ahorrar mucho tiempo a los abogados en los litigios, a la hora de revisar documentación con texto que no en todos los casos sirve.
+
+Ejemplos de documentos con información escondida útil que podría extraerse utilizando reconocimiento de entidades nombradas.
+
+b.	Objetivo.
+Implementar un sistema de detección de entidades nombradas utilizando reconocimiento de patrones.
+
+3.	Antecedentes
+a. Corpus linguisticos
+- Qué es un corpus
+- Qué es un corpus balanceado
+
+- Por qué es imporntatnte en un sistema de reglas tener un corpus representativo?
+
+- Características de mi corpus: longitud, variabilidad, de qué instituto son, cuantos documentos son. etc.
+
+a.	Procesamiento de Lenguaje Natural.
+- ¿Qué es un lenguaje natural?
+- Lenguajes formales y autómatas. Particularmente, expresiones regulares, y como ellas pueden ayudarnos a encontrar patrones linguisticos.
+- Poner algunos ejemplos
+- Ver mi presentación de AUTÖMATAS de INFOTEC.
+- STEMMING DE PORTER.
+- Todo lo que se haya requerido saber a priori en mi programa es lo que va en este apartado.
+
+b.	Reconocimiento de patrones lingüísticos.
+VER EL PAPER DE EVENTOS.
+- Existen muchos patrones linguisticos que pueden ser detectados. Estos se encuentran en los varios niveles de la lengua
+- Explicar los niveles de la lengua y los patrones que se pueden encontrar en cada nivel.
+- Decir qué nivel de la lengua utilizaremos nosotros para encontrar las entidades y por qué hemos elegido esa.
+Obviamente vamos a descalificar fonología porque estamos trabajando con texto escrito.
+
+c.	Medidas de desempeño, Precisión, exhaustividad y Valor-F.
+- Qué es una medida de desempeño, qué es precisión, exhaustividad y valor F. Establecer quien va a ser mi gold-standard para evaluar este trabajo.
+
+4.	Metodología
+b.	Análisis para encontrar la clasificación de entidades.
+Buscar qué tipo de entidades aparecen para ver si se puede hacer
+una clasificación por entidad gubernamental, privado, organización, etc. así como definir qué cosa define a cada cosa.
+
+c.	Detección de patrones lingüísticos propios del dominio.
+- Empezar a ver los patrones particulares en mi corpus. Explicar cómo se podría detectar cada uno, quizá hasta establecer expresiones regulares que los detecten.
+- Explicar que el patrón más importante en este caso es la detecció nde los paréntesis para determinar alias. Pues siempre que hay alias, se está refiriendo a una entidad nombrada.
+
+d.	Implementación de los patrones lingüísticos en un sistema computacional de reglas.
+Explicar, a partir de análisis de los patrones linguisticos, cuales son las reglas que se obtuvieron. 
+
+Explicación del programa
+
+Por cada función explicar con un diagrama y texto el algoritmo.
+Y poner un ejemplo.
+
+elaborar un diagrama que explique todo el programa. Como se conectan las funciones
+
+
+
+
+5.	Resultados y evaluación
+a.	Resultados obtenidos.
+b.	Evaluación de los resultados usando medidas de desempeño.
+c.	Observaciones de la evaluación.
+6.	Conclusiones y trabajo a futuro.
+7.	Bibliografía.
+8.	Apéndices.
+
+

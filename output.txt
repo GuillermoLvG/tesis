@@ -239,13 +239,10 @@ w3
 Buscando mayúsculas sin importar el orden
 W3
 3
-No encontré las siglas.
-Es una palabra
-La palabra es: W3C
-Regla 3
-Regla 4
-Buscando 'w3c' en el diccionario
-Se encontró en diccionario original
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: World Wide Web Consortium
+Se determinó a World Wide Web Consortium como entidad
+Fueron Siglas
 Entidad: World Wide Web Consortium
 Alias: W3C
 
@@ -301,14 +298,11 @@ INEI
 INI
 II
 I
-No encontré las siglas.
-Es una palabra
-La palabra es: INEGI
-Regla 3
-Regla 4
-Buscando 'inegi' en el diccionario
-Se encontró en diccionario original
-Entidad: Instituto Nacional de Estadística, Geografía e Informática
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Instituto Nacional de Estadística y Geografía
+Se determinó a Instituto Nacional de Estadística y Geografía como entidad
+Fueron Siglas
+Entidad: Instituto Nacional de Estadística y Geografía
 Alias: INEGI
 
 Regla 1
@@ -393,13 +387,12 @@ Buscando minúsculas en orden
 Buscando mayúsculas sin importar el orden
 WAG
 WG
-No encontré las siglas.
-Es una palabra
-La palabra es: WCAG
-Regla 3
-Regla 4
-Buscando 'wcag' en el diccionario
-Entidad: Vacía 
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Pautas de Accesibilidad de Contenido de Internet
+Se determinó a Pautas de Accesibilidad de Contenido de Internet como entidad
+Fueron Siglas
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+Alias: WCAG
 
 Regla 1
 chats
@@ -451,13 +444,12 @@ Buscando mayúsculas sin importar el orden
 WAG
 WG
 G
-No encontré las siglas.
-Es una palabra
-La palabra es: WCAG
-Regla 3
-Regla 4
-Buscando 'wcag' en el diccionario
-Entidad: Vacía 
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Pautas de Accesibilidad de Contenido de Internet
+Se determinó a Pautas de Accesibilidad de Contenido de Internet como entidad
+Fueron Siglas
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+Alias: WCAG
 
 Regla 1
 WCAG
@@ -470,13 +462,12 @@ Buscando minúsculas en orden
 Buscando mayúsculas sin importar el orden
 WAG
 WG
-No encontré las siglas.
-Es una palabra
-La palabra es: WCAG
-Regla 3
-Regla 4
-Buscando 'wcag' en el diccionario
-Entidad: Vacía 
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Pautas de Accesibilidad de Contenido de Internet
+Se determinó a Pautas de Accesibilidad de Contenido de Internet como entidad
+Fueron Siglas
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+Alias: WCAG
 
 Regla 1
 tres
@@ -855,7 +846,7 @@ Archivo: DOCX/P_IFT_290216_73_Acc.docx
 
 Regla 1
 i
-Contexto: 
+Contexto: Ciudad de México, a veintinueve de febrero de dos mil dieciséis.- Vistos: 
 Candidato: (i)
 Regla 2
 Es una palabra
@@ -867,35 +858,33 @@ Entidad: Vacía
 
 Regla 1
 Instituto
-Contexto: 
+Contexto: Ciudad de México, a veintinueve de febrero de dos mil dieciséis.- Vistos: (i) el escrito presentado el quince de febrero de dos mil dieciséis, en la oficialía de partes de el Instituto Federal de Telecomunicaciones 
 Candidato: (Instituto)
 Regla 2
 Es una palabra
 La palabra es: Instituto
-Regla 3
-Regla 4
-Buscando 'instituto' en el diccionario
-Entidad: Vacía 
+Entidad: Instituto Federal de Telecomunicaciones
+Alias: Instituto
 
 Regla 1
-en conjunto los Denunciantes
+los Denunciantes
 Tiene Artículo
 Articulo + palabra: los Denunciantes
 Busca Artículo
 No encontré el artículo con la palabra, ni la palabra sola, ni nada.
-Contexto: 
+Contexto: Ciudad de México, a veintinueve de febrero de dos mil dieciséis.- Vistos: (i) el escrito presentado el quince de febrero de dos mil dieciséis, en la oficialía de partes de el Instituto Federal de Telecomunicaciones (Instituto), por Cablevisión, S.A. de C.V., Bestphone, S.A. de C.V., Televisión Internacional, S.A. de C.V., y Cablemás Telecomunicaciones, S.A. de C.V. 
 Candidato: (en conjunto los Denunciantes)
 Regla 2
 Es una palabra
-La palabra es: en conjunto los Denunciantes
+La palabra es: los Denunciantes
 Regla 3
 Regla 4
-Buscando 'en conjunto los denunciantes' en el diccionario
+Buscando 'los denunciantes' en el diccionario
 Entidad: Vacía 
 
 Regla 1
 Escrito
-Contexto: 
+Contexto: Ciudad de México, a veintinueve de febrero de dos mil dieciséis.- Vistos: (i) el escrito presentado el quince de febrero de dos mil dieciséis, en la oficialía de partes de el Instituto Federal de Telecomunicaciones (Instituto), por Cablevisión, S.A. de C.V., Bestphone, S.A. de C.V., Televisión Internacional, S.A. de C.V., y Cablemás Telecomunicaciones, S.A. de C.V. (en conjunto los Denunciantes), a través de Patricio Rivas San Román, en su carácter de autorizado en términos de el segundo párrafo de el artículo 8 de el Reglamento de la Ley Federal de Competencia Económica, mediante el cual solicitan la celebración de una audiencia oral en el expediente AI/DE-002-2015 
 Candidato: (Escrito)
 Regla 2
 Es una palabra
@@ -907,7 +896,7 @@ Entidad: Vacía
 
 Regla 1
 ii
-Contexto: 
+Contexto: Ciudad de México, a veintinueve de febrero de dos mil dieciséis.- Vistos: (i) el escrito presentado el quince de febrero de dos mil dieciséis, en la oficialía de partes de el Instituto Federal de Telecomunicaciones (Instituto), por Cablevisión, S.A. de C.V., Bestphone, S.A. de C.V., Televisión Internacional, S.A. de C.V., y Cablemás Telecomunicaciones, S.A. de C.V. (en conjunto los Denunciantes), a través de Patricio Rivas San Román, en su carácter de autorizado en términos de el segundo párrafo de el artículo 8 de el Reglamento de la Ley Federal de Competencia Económica, mediante el cual solicitan la celebración de una audiencia oral en el expediente AI/DE-002-2015 (Escrito); y 
 Candidato: (ii)
 Regla 2
 Es una palabra
@@ -930,13 +919,14 @@ LFC2014
 LF2014
 L2014
 2014
-No encontré las siglas.
-Es una palabra
-La palabra es: LFCE
-Regla 3
-Regla 4
-Buscando 'lfce 2014' en el diccionario
-Entidad: Vacía 
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Pleno de el Instituto
+Posible entidad: Constitución Política de los Estados Unidos Mexicanos
+Posible entidad: Ley Federal de Competencia Económica
+Se determinó a Ley Federal de Competencia Económica como entidad
+Fueron Siglas
+Entidad: Ley Federal de Competencia Económica
+Alias: LFCE 2014
 
 Archivo: DOCX/P_IFT_170216_49_Acc.docx
 
@@ -1089,16 +1079,14 @@ LFRV
 LFV
 LV
 V
-No encontré las siglas.
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Refrendo de la Concesión
+Posible entidad: Ley Federal de Radio y Televisión
+Se determinó a Ley Federal de Radio y Televisión como entidad
 Contexto: I.- Refrendo de la Concesión. El 26 de enero de el 2000, de conformidad con los artículos 1° y 16 y demás relativos a la Ley Federal de Radio y Televisión 
 Candidato: (en los sucesivo, la “LFRTV”)
-Regla 2
-Es una palabra
-La palabra es: en los sucesivo la LFRTV
-Regla 3
-Regla 4
-Buscando 'en los sucesivo la lfrtv' en el diccionario
-Entidad: Vacía 
+Entidad: Ley Federal de Radio y Televisión
+Alias: LFRTV
 
 Regla 1
 la SCT
@@ -2936,7 +2924,7 @@ Archivo: DOCX/DOF_P_IFT_250117_12_Acc.docx
 
 Regla 1
 Primera Sección
-Contexto: 
+Contexto: Lunes 20 de febrero de 2017	DIARIO OFICIAL	
 Candidato: (Primera Sección)
 Regla 2
 Es una palabra
@@ -4637,13 +4625,12 @@ Buscando minúsculas en orden
 Buscando mayúsculas sin importar el orden
 ALATA
 LATA
-No encontré las siglas.
-Es una palabra
-La palabra es: ALTATA
-Regla 3
-Regla 4
-Buscando 'altata' en el diccionario
-Entidad: Vacía 
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Altata Telecomunicaciones de México
+Se determinó a Altata Telecomunicaciones de México como entidad
+Fueron Siglas
+Entidad: Altata Telecomunicaciones de México
+Alias: ALTATA
 
 Regla 1
 la Solicitud de Concesión
@@ -7639,16 +7626,14 @@ LFRV
 LFV
 LV
 V
-No encontré las siglas.
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Otorgamiento de la Concesión
+Posible entidad: Ley Federal de Radio y Televisión
+Se determinó a Ley Federal de Radio y Televisión como entidad
 Contexto: I.- Otorgamiento de la Concesión. El 29 de noviembre de 1994, de conformidad con los artículos 17 y 19 y demás relativos de la Ley Federal de Radio y Televisión 
 Candidato: (en los sucesivo, la “LFRTV”)
-Regla 2
-Es una palabra
-La palabra es: en los sucesivo la LFRTV
-Regla 3
-Regla 4
-Buscando 'en los sucesivo la lfrtv' en el diccionario
-Entidad: Vacía 
+Entidad: Ley Federal de Radio y Televisión
+Alias: LFRTV
 
 Regla 1
 la SCT
@@ -9770,13 +9755,12 @@ COFEEL
 COEEL
 OEEL
 OEL
-No encontré las siglas.
-Es una palabra
-La palabra es: COFETEL
-Regla 3
-Regla 4
-Buscando 'cofetel' en el diccionario
-Entidad: Vacía 
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Comisión Federal de Telecomunicaciones
+Se determinó a Comisión Federal de Telecomunicaciones como entidad
+Fueron Siglas
+Entidad: Comisión Federal de Telecomunicaciones
+Alias: COFETEL
 
 Regla 1
 el Decreto de Reforma Constitucional
@@ -11143,6 +11127,7 @@ Buscando minúsculas en orden
 Buscando mayúsculas sin importar el orden
 AS
 A
+Buscando posibles entidades con Mayúsculas: 
 No encontré las siglas.
 Es una palabra
 La palabra es: ASL
@@ -12420,6 +12405,7 @@ Buscando mayúsculas en orden
 Buscando minúsculas en orden
 Buscando mayúsculas sin importar el orden
 GNHOLDNG
+Buscando posibles entidades con Mayúsculas: 
 No encontré las siglas.
 Es una palabra
 La palabra es: NGNHOLDING
@@ -12894,6 +12880,7 @@ Buscando minúsculas en orden
 Buscando mayúsculas sin importar el orden
 GV
 V
+Buscando posibles entidades con Mayúsculas: 
 No encontré las siglas.
 Es una palabra
 La palabra es: GTV

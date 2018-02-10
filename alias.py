@@ -37,6 +37,7 @@ def limpiarCadena(string):
 	string = string.replace("en la sucesivo","")
 	string = string.replace("en delante","")
 	string = string.replace("en adelante","")
+	string = string.replace("en conjunto","")
 	string = string.strip()
 	return string
 
@@ -152,6 +153,22 @@ def Siglas(candidato,parrafo,siglasOriginales):
 			entidad.append(siglasOriginales)
 			print ("Encontré mayúsculas sin importar el orden")
 			return entidad
+	#Obtener con una expresión regular las posibles entidads con mayúscula seguidas, separadas con artículos.
+	siglas = candidato.split()[0]
+	instancia = ""
+	print("Buscando posibles entidades con Mayúsculas: ")
+	expresion = r"\b([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del) )*([A-Z][a-záéíóú]+ ?)+)*\b"
+	regex = re.compile(expresion)
+	for match in regex.finditer(parrafo):
+		if len(match.group(0).split()) > 3:
+			print("Posible entidad: " + match.group(0))
+			instancia = match.group(0)
+	if instancia:			
+		print("Se determinó a " + instancia + " como entidad")
+		entidad.append(limpiarCadena(instancia))
+		entidad.append(siglasOriginales)
+		return entidad
+		
 	#No encontró las siglas.
 	print ("No encontré las siglas.")
 	return entidad
@@ -355,7 +372,7 @@ def regla2(candidato,parrafo):
 		entidad.append(candidato)
 		return entidad
 	else:
-		return entidad		
+		return entidad
 
 def regla3(candidato, parrafo):
 	'''
@@ -407,9 +424,12 @@ def Contexto(indiceInicial, textoPlano):
 	Devuelve la cadena detrás del índice hasta el primer salto de línea.
 	'''
 	indiceFinal = indiceInicial
-	while textoPlano[indiceFinal] != '\n':
+	while textoPlano[indiceFinal] != '\n' and indiceFinal != 0:
 		indiceFinal -= 1
-	contexto = textoPlano[indiceFinal+1:indiceInicial] #Se suma 1 a indicFinal para no tomar el \n
+	if indiceFinal == 0:
+		contexto = textoPlano[indiceFinal:indiceInicial]
+	else:
+		contexto = textoPlano[indiceFinal+1:indiceInicial] #Se suma 1 a indicFinal para no tomar el \n
 	return contexto
 
 '''
