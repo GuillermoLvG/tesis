@@ -10,7 +10,9 @@ import os
 import sys
 import re
 import csv
+from nltk.corpus import wordnet as wn
 #TO-DO: Usar la librería csv para escribir en el csv.
+
 path_docx = "DOCX"
 path_txt = path_docx.strip("/") + "_txt"
 if not os.path.isdir(path_txt):
@@ -208,85 +210,94 @@ def buscarArticulo(articulo,candidato,parrafo):
 	
 	1.- Partimos el articulo en sus 2 partes. Artículo y palabra.
 	2.- Partimos el candidato por espacios. El candidato es un candidato a Alias.
-	3.- Recorremos el párrafo hacia atrás, Buscando si se presenta artículo + palabra
-		y guardamos el índice de la ocurrencia.
-	4.- Si no se encuentra, intentamos buscando con palabra en mayúscula, y si no, en minúscula.
-	5.- Si no se encuentra tampoco, buscamos la pura palabra en minúscula.
-	6.- De lo qu hayamos encontrado, tomamos del índice en adelante como entidad nombrada, omitiendo el artículo.
-	7.- Tomamos el candidato como Alias, omitiendo el artículo.
+	3.- Vemos si el artículo es singular o plural. Si es singular entonces recorremos el párrafo 3
+		hacia atrás, Buscando si se presenta artículo + palabra y guardamos el índice de la ocurrencia.
+	5.- Si no se encuentra, intentamos buscando con palabra en mayúscula, y si no, en minúscula.
+	6.- Si no se encuentra tampoco, buscamos la pura palabra en minúscula.
+	7.- De lo que hayamos encontrado, tomamos del índice en adelante como entidad nombrada, omitiendo el artículo.
+	8.- Tomamos el candidato como Alias, omitiendo el artículo.
+	9.- Si el artículo fue plural, entonces con una expresión regular encontramos todos los matches de entidades en el contexto
+		las concatenamos y las metemos como string en "entidad".
 	'''
 	indice = 0
 	entidad = []
 	palabraSola = False
 	listaArticulo = articulo.split()
 	listaCandidato = candidato.split()
-	if articulo:
-		listaParrafo = parrafo.split()
-		indexMaximo = len(listaParrafo) - 1
-		encontreAlgo = False
-		#Buscamos articulo + Palabra (primera letra de palabra en mayúscula, tal como viene la variable articulo)
+	listaParrafo = parrafo.split()
+	indexMaximo = len(listaParrafo) - 1
+	encontreAlgo = False
+	#Buscamos articulo + Palabra (primera letra de palabra en mayúscula, tal como viene la variable articulo)
+	for index, element in reversed(list(enumerate(listaParrafo))):
+		if index != indexMaximo:
+			if limpiarCadena(element) == listaArticulo[0]:
+				#Buscamos articulo + Palabra (primera letra de palabra en mayúscula, tal como viene la variable articulo)
+				if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1]:
+					indice = index
+					print("Encontré articulo + Palabra")
+					encontreAlgo = True
+					break;
+				#Buscamos articulo + PALABRA (la palabra en mayúscula)
+				if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1].upper():
+					indice = index
+					print("Encontré articulo + PALABRA")
+					encontreAlgo = True
+					break;
+				#Buscamos articulo + palabra (la palabra en minúscula)
+				if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1].lower():
+					indice = index
+					print("Encontré articulo + palabra")
+					encontreAlgo = True
+					break;
+	#Buscamos palabra sola, sin artículo,
+	if not encontreAlgo:
 		for index, element in reversed(list(enumerate(listaParrafo))):
 			if index != indexMaximo:
-				if limpiarCadena(element) == listaArticulo[0]:
-					if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1]:
-						indice = index
-						print("Encontré articulo + Palabra")
-						encontreAlgo = True
-						break;
-		#Buscamos articulo + PALABRA (la palabra en mayúscula)
-		if not encontreAlgo:
-			for index, element in reversed(list(enumerate(listaParrafo))):
-				if index != indexMaximo:
-					if limpiarCadena(element) == listaArticulo[0]:
-						if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1].upper():
-							indice = index
-							print("Encontré articulo + PALABRA")
-							encontreAlgo = True
-							break;
-		#Buscamos articulo + palabra (la palabra en minúscula)
-		if not encontreAlgo:
-			for index, element in reversed(list(enumerate(listaParrafo))):
-				if index != indexMaximo:
-					if limpiarCadena(element) == listaArticulo[0]:
-						if limpiarCadena(listaParrafo[index+1]) == listaArticulo[1].lower():
-							indice = index
-							print("Encontré articulo + palabra")
-							encontreAlgo = True
-							break;
-		#Buscamos palabra (la palabra en minúscula)
-		if not encontreAlgo:
-			for index, element in reversed(list(enumerate(listaParrafo))):
-				if index != indexMaximo:
-					if limpiarCadena(element) == listaArticulo[1]:
-						indice = index
-						print (indice)
-						palabraSola = True
-						print("Encontré palabra tal como viene escrita")						
-						encontreAlgo = True
-						break;		#Buscamos palabra (la palabra en minúscula)
-		if not encontreAlgo:
-			for index, element in reversed(list(enumerate(listaParrafo))):
-				if index != indexMaximo:
-					if limpiarCadena(element) == listaArticulo[1].lower():
-						indice = index
-						palabraSola = True
-						print("Encontré palabra en minúscula")						
-						encontreAlgo = True
-						break;
-		#Encontramos algo
-		if encontreAlgo:
-			if not palabraSola:
-				entidad.append(limpiarCadena(" ".join(listaParrafo[indice+1:]))) #indice + 1 para quitar el artículo
-			else:
-				entidad.append(limpiarCadena(" ".join(listaParrafo[indice:]))) #Quitamos el + 1, para no quitar la palabra sola.
-			candidato = candidato.replace(listaArticulo[0] + " ","") #candidato es el alias, sin el artículo.
-			entidad.append(candidato)
-			return entidad
-		#No encontramos nada
-		else: 
-			print ("No encontré el artículo con la palabra, ni la palabra sola, ni nada.")
-			return entidad
-
+				#Busco la palabra en minúscula
+				if limpiarCadena(element) == listaArticulo[1].lower():
+					indice = index
+					palabraSola = True
+					print("Encontré palabra en minúscula")						
+					encontreAlgo = True
+					break;
+				#Buscamos palabra (la palabra tal como viene escrita)
+				if limpiarCadena(element) == listaArticulo[1]:
+					indice = index
+					palabraSola = True
+					print("Encontré palabra tal como viene escrita")						
+					encontreAlgo = True
+					break;	
+	#Buscamos, si el artículo es plural, una lista de entidades. más de dos.
+	if not encontreAlgo:
+		if listaArticulo[0] in ["los", "las"]:
+			print ("Artículo plural")
+			expresion = r"\b([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del) )*([A-Z][a-záéíóú]+ ?)+)*((, )?| )(S.A. de C.V.)"
+			regex = re.compile(expresion)
+			matches = regex.finditer(parrafo)
+			Entidades = ""
+			if len(list(matches)) >= 2:
+				print ("Hay más de dos entidades encontradas")
+				for match in regex.finditer(parrafo):
+					Entidades = Entidades + ", " + match.group(0)
+				Entidades = Entidades[2:] #Para quitar la coma del inicio de la enumeración.
+				entidad.append(Entidades)
+				candidato = candidato.replace(listaArticulo[0] + " ", "")
+				entidad.append(candidato)
+				return entidad
+	#Encontramos algo
+	if encontreAlgo:
+		if not palabraSola:
+			entidad.append(limpiarCadena(" ".join(listaParrafo[indice+1:]))) #indice + 1 para quitar el artículo
+		else:
+			entidad.append(limpiarCadena(" ".join(listaParrafo[indice:]))) #Quitamos el + 1, para no quitar la palabra sola.
+		candidato = candidato.replace(listaArticulo[0] + " ","") #candidato es el alias, sin el artículo.
+		entidad.append(candidato)
+		return entidad
+	#No encontramos nada
+	else: 
+		print ("No encontré el artículo con la palabra, ni la palabra sola, ni nada.")
+		return entidad
+		
 def regla1(candidato, parrafo):
 	'''
 	Recibe un candidato a entidad nombrada (str) , y su contexto (párrafo) (str).
@@ -326,23 +337,24 @@ def regla1(candidato, parrafo):
 	return entidad
 
 def regla2(candidato,parrafo):
-	#TO-DO: REVISAR BIEN QUE'HACE LA REGLA 2
 	'''
 	Recibe un candidato a entidad nombrada (str), y su contexto (párrafo) (str).
 	Devuelve la entidad nombrada (lista de 2 elementos str, el 1ro es la entidad y el 2do el alias)
 	
-	Regla 2: Si dentro del paréntesis sólo hay una palabra, 
+	Regla 2: Si dentro del paréntesis sólo hay una palabra,
 	o la primer palabra está en mayúscula.
 	
 	Procedimiento:
 	1.- Limpiamos el contenido del paréntesis. (func. limpiarCadena)
-	2.- Si son siglas, entonces buscamos cada letra mayúscula de las siglas en 
-		el contexto, y una vez encontradas, obtenemos la entidad. (func. Siglas)
-	3.- Si son varias palabras en el paréntesis, tomamos sólo la primera si empieza en mayúscula.
-	3.- Si es una palabra, se busca hacia atrás en el párrafo, y cuando se encuentra, se toma desde
+	2.- Checamos si la palabra son siglas.
+	3.- Si el candidato es un número, devolvemos entidad vacía.
+	4.- Si son siglas, Se tratan como tal (func. Siglas)
+	5.- Si son varias palabras en el paréntesis, tomamos sólo la primera si empieza en mayúscula.
+	6.- Se busca la palabra hacia atrás en el párrafo, y cuando se encuentra, se toma desde
 		esa posición, hasta el fin del párrafo como entidad nombrada.
-	4.- Si son muchas palabras, y la primera está en mayúscula, se toma la primera palabra como si
-		fuese la única., y se repite el paso 3.
+	7.- Si no se encuentra, se utiliza wordnet para encontrar un grado de similitud entre la palabra,
+		y las palabras anteriores. Se tiene un valor mínimo de similitud, y se toma como entidad desde
+		la palabra con mayor similitud.
 	'''
 	entidad = []
 	indice = 0
@@ -356,17 +368,35 @@ def regla2(candidato,parrafo):
 		if entidad:
 			print ("Fueron Siglas")
 			return entidad
-	print ("Es una palabra")
+	print ("El paréntesis contiene palabra(s)")
 	palabra = candidato
 	if len(candidato.split()) != 1 and candidato.split()[0][0].isupper(): #si son varias palabras, y la primer palabra empieza en mayúsculas.
+		print ("Son varias palabras, tomamos la primera por empezar en mayúscula")
 		palabra = candidato.split()[0]
 	listaParrafo = parrafo.split()
 	print ("La palabra es: " + palabra)
+	#Se busca la palabra tal cual hacia atrás en el documento.
 	for index, element in reversed(list(enumerate(listaParrafo))):
 		if limpiarCadena(element) == palabra:
 			indice = index
 			encontreAlgo = True
 			break;
+	#Se busca la similitud entre las palabras, y se toma de la más similar en adelante.
+	print ("Buscando similitud")
+	lemasPalabra = wn.lemmas(palabra,lang="spa")
+	print (lemasPalabra)
+	score = 0
+	for index, element in reversed(list(enumerate(listaParrafo))):
+		for palabraOriginal in lemasPalabra:
+			synsetPalabra = palabraOriginal.synset()
+			lemasElemento = wn.lemmas(element, lang="spa")
+			print (lemasElemento)
+			for lemaElemento in lemasElemento:
+				synsetElemento = lemaElemento.synset()
+				print("Synset Palabra: "+ str(synsetPalabra))
+				print("Synset Elemento: "+ str(synsetElemento))
+				print("Score: "+str(wn.wup_similarity(synsetPalabra, synsetElemento)))
+				
 	if encontreAlgo:
 		entidad.append(limpiarCadena(" ".join(listaParrafo[indice:])))
 		entidad.append(candidato)
