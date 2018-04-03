@@ -17,11 +17,6 @@ db = client.NERLegales
 collection = db.Entidades
 path_docx = "DOCX"
 
-class Entidad:
-	def __init__(self, entidad, alias):
-		self.entidad = entidad
-		self.alias = alias
-
 def limpiarCadena(string):
 	'''
 	Recibe una cadena (generalmente un candidato), elimina comillas, comas y paréntesis.
@@ -431,68 +426,84 @@ def Contexto(indiceInicial, textoPlano):
 		contexto = textoPlano[indiceFinal:indiceInicial]
 	else:
 		contexto = textoPlano[indiceFinal+1:indiceInicial] #Se suma 1 a indicFinal para no tomar el \n
-	return contexto
-'''
-Flujo inicial del programa
-'''
-try:
-    os.remove("tablas/resultado.csv")
-except OSError:
-    pass
-for fname in os.listdir(path_docx):
-	document = {} #document será el documento que insertemos en la BD, en la collection Entidades
-	fullpath = os.path.join(path_docx, fname)
-	print ("Archivo: " + fullpath + "\n")
-	textoPlano = docx2txt.process(fullpath)
+	return limpiarParrafo(contexto)
+def aplicarReglas(candidato,parrafo,fname,indiceOcurrencia):
+	'''
+	Aplica las reglas de forma secuencial.
+
+	Devuelve un diccionario con los datos para ingresar en la base de datos.
+
+	{
+	Nombre: texto,
+	Archivos: { Nombre del archivo: {indiceOcurrencia: numero, Alias: texto, Regla: texto } }
+	}
+	'''
+	try:
+	    os.remove("tablas/resultado.csv")
+	except OSError:
+	    pass
+	print ("Contexto: " + parrafo + "")
+	print ("Candidato: " + candidato + "")
+	Regla = ""
+	entidad = ""
+	resultadoEntidad = ""
+	resultado = dict()
+	entidad = regla1(candidato,parrafo)
+	if entidad and not Regla:
+		Regla = "Regla 1"
+		resultadoEntidad = entidad
+	entidad = regla2(candidato, parrafo)
+	if entidad and not Regla:
+		Regla = "Regla 2"
+		resultadoEntidad = entidad
+	entidad = regla3(candidato,parrafo)
+	if entidad and not Regla:
+		Regla = "Regla 3"
+		resultadoEntidad = entidad
+	entidad = regla4(candidato)
+	if entidad and not Regla:
+		Regla = "Regla 4"
+		resultadoEntidad = entidad
+	if resultadoEntidad:
+		print (Regla)
+		print ("Entidad: " + resultadoEntidad[0] + "")
+		print ("Alias: " + resultadoEntidad[1] + "\n")
+		with open('tablas/resultado.csv','a+') as salida:
+			salida.write(resultadoEntidad[1].strip() + "," + resultadoEntidad[0].strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + "," + Regla + "," + fname + "\n")
+		resultado = {"Nombre": resultadoEntidad[0], "Archivos": {fname.replace(".docx",""): {"indiceOcurrencia": indiceOcurrencia, "Alias": resultadoEntidad[1], "Regla": Regla } } }
+		return resultado
+	return resultado
+def insertarEnBD(resultado):
+	'''
+	Si ya existe la entidad en la base de datos, se actualiza con la nueva información
+
+	1.- Obtener el diccionario de "Archivos" que viene en el resultado
+	2.- Obtener el diccionario que ya está guardado en la base de datos (si existe)
+	3.- Si sí existe en la base datos, entonces junto los dos diccionarios y los guardo en archivos
+	4.- Hago update, o creo el documento, en la base de datos.
+	'''
+	archivoDB = dict()
+	archivo = resultado["Archivos"]
+	archivoBD = collection.find_one({"Nombre":resultado["Nombre"]},{"Archivos":1})
+	if archivoBD:
+		archivoBD = archivoBD["Archivos"]
+		archivo = {**archivo, **archivoBD}
+	entidad = collection.find_one_and_update({"Nombre": resultado["Nombre"]},{"$set": {"Archivos": archivo}},upsert=True)
+def Main():
+	'''
+	Flujo inicial del programa
+	'''
 	regexpParentesis = re.compile("\((.*?)\)")
-	for element in regexpParentesis.finditer(textoPlano):
-		indiceOcurrencia = element.start() #element.start() tiene el index del 1er elemento donde hubo match
-		candidato = element.group() #element.group() tiene el match en sí (el candidato)
-		parrafo = Contexto(indiceOcurrencia,textoPlano)
-		parrafo = limpiarParrafo(parrafo)
-		print ("Regla 1")
-		entidad = regla1(candidato, parrafo)
-		print ("Contexto: " + parrafo + "")
-		print ("Candidato: " + element.group() + "")
-		if entidad:
-			entidad = Entidad(entidad[0],entidad[1])
-			print ("Entidad: " + entidad.entidad + "")
-			print ("Alias: " + entidad.alias + "\n")
-			with open('tablas/resultado.csv','a+') as salida:
-				salida.write(entidad.alias.strip() + "," + entidad.entidad.strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 1," + fname + "\n")
-			document = {"Nombre": entidad.entidad, "Archivo": {"Nombre":fname,"indiceOcurrencia":indiceOcurrencia,"Alias":entidad.alias},"Regla":"Regla 1"}
-			collection.insert_one(document)
-		else:
-			print ("Regla 2")
-			entidad = regla2(candidato, parrafo)
-			if entidad:
-				entidad = Entidad(entidad[0],entidad[1])
-				print ("Entidad: " + entidad.entidad + "")
-				print ("Alias: " + entidad.alias + "\n")
-				with open('tablas/resultado.csv','a+') as salida:
-					salida.write(entidad.alias.strip() + "," + entidad.entidad.strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 2," + fname + "\n")
-				document = {"Nombre": entidad.entidad, "Archivo": {"Nombre":fname,"indiceOcurrencia":indiceOcurrencia,"Alias":entidad.alias},"Regla":"Regla 2"}
-			else:
-				print ("Regla 3")
-				entidad = regla3(candidato,parrafo)
-				if entidad:
-					entidad = Entidad(entidad[0],entidad[1])
-					print ("Entidad: " + entidad.entidad + "")
-					print ("Alias: " + entidad.alias + "\n")
-					with open('tablas/resultado.csv','a+') as salida:
-						salida.write(entidad.alias.strip() + "," + entidad.entidad.strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 3," + fname + "\n")
-					document = {"Nombre": entidad.entidad, "Archivo": {"Nombre":fname,"indiceOcurrencia":indiceOcurrencia,"Alias":entidad.alias},"Regla":"Regla 3"}
-				else:
-					print ("Regla 4")
-					entidad = regla4(candidato)
-					if entidad:
-						entidad = Entidad(entidad[0],entidad[1])
-						print ("Entidad: " + entidad.entidad + "")
-						print ("Alias: " + entidad.alias + "\n")
-						with open('tablas/resultado.csv','a+') as salida:
-							salida.write(entidad.alias.strip() + "," + entidad.entidad.strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 4," + fname + "\n")
-						document = {"Nombre": entidad.entidad, "Archivo": {"Nombre":fname,"indiceOcurrencia":indiceOcurrencia,"Alias":entidad.alias},"Regla":"Regla 4"}
-					else:
-						with open('tablas/resultado.csv','a+') as salida:
-							salida.write("Vacía, Vacía ," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + ",Regla 4," + fname + "\n")
-						print ("Entidad: Vacía \n")
+	for fname in os.listdir(path_docx):
+		document = {} #document será el documento que insertemos en la BD, en la collection Entidades
+		fullpath = os.path.join(path_docx, fname)
+		print ("Archivo: " + fullpath + "\n")
+		textoPlano = docx2txt.process(fullpath)
+		for element in regexpParentesis.finditer(textoPlano):
+			indiceOcurrencia = element.start() #element.start() tiene el index del 1er elemento donde hubo match
+			candidato = element.group() #element.group() tiene el match en sí (el candidato)
+			parrafo = Contexto(indiceOcurrencia,textoPlano)
+			resultado = aplicarReglas(candidato,parrafo,fname,indiceOcurrencia)
+			if resultado:
+				insertarEnBD(resultado)
+Main()
