@@ -10,6 +10,7 @@ import os
 import sys
 import re
 import csv
+from NERalias import insertarEnBD
 from pymongo import MongoClient
 
 client = MongoClient('localhost', 27017)
@@ -27,7 +28,7 @@ def limpiarCadena(string):
 	string = string.replace(",","")
 	return string
 def filtroCandidatos(candidato):
-	if len(candidato.split()) == 1:
+	if len(candidato.split()) != 1:
 		return candidato
 	return ""
 def buscarEntidades(texto,fname):
@@ -45,28 +46,10 @@ def buscarEntidades(texto,fname):
 		if candidato:
 			indiceOcurrencia = match.start()
 			Regla = "Expresión Regular"
-			resultado = {"Nombre": candidato, "Archivos": {fname.replace(".docx",""): {"indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } } }
+			resultado = {"Nombre": candidato, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 			resultados.append(resultado)
 	return resultados
-
-def insertarEnBD(resultado):
-	'''
-	Si ya existe la entidad en la base de datos, se actualiza con la nueva información
-
-	1.- Obtener el diccionario de "Archivos" que viene en el resultado
-	2.- Obtener el diccionario que ya está guardado en la base de datos (si existe)
-	3.- Si sí existe en la base datos, entonces junto los dos diccionarios y los guardo en archivos
-	4.- Hago update, o creo el documento, en la base de datos.
-	'''
-	archivoDB = dict()
-	archivo = resultado["Archivos"]
-	archivoBD = collection.find_one({"Nombre":resultado["Nombre"]},{"Archivos":1})
-	if archivoBD:
-		archivoBD = archivoBD["Archivos"]
-		archivo = {**archivo, **archivoBD}
-	entidad = collection.find_one_and_update({"Nombre": resultado["Nombre"]},{"$set": {"Archivos": archivo}},upsert=True)
-
-def Main():
+def MainNER():
 	'''
 	Flujo inicial del programa
 	'''
@@ -77,6 +60,5 @@ def Main():
 		resultados = buscarEntidades(textoPlano,fname)
 		if resultados:
 			for resultado in resultados:
+				print(resultado["Nombre"])
 				insertarEnBD(resultado)
-
-Main()
