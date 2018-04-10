@@ -13,8 +13,11 @@ import csv
 from pymongo import MongoClient
 
 client = MongoClient('localhost', 27017)
+client.drop_database('NERLegales')
 db = client.NERLegales
 collection = db.Entidades
+
+
 path_docx = "DOCX"
 
 def limpiarCadena(string):
@@ -470,27 +473,42 @@ def aplicarReglas(candidato,parrafo,fname,indiceOcurrencia):
 		print ("Alias: " + resultadoEntidad[1] + "\n")
 		with open('tablas/resultado.csv','a+') as salida:
 			salida.write(resultadoEntidad[1].strip() + "," + resultadoEntidad[0].strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + "," + Regla + "," + fname + "\n")
-		resultado = {"Nombre": resultadoEntidad[0], "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": {"indice": indiceOcurrencia}, "Alias": resultadoEntidad[1], "Regla": Regla } }
+		resultado = {"Nombre": resultadoEntidad[0], "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": resultadoEntidad[1], "Regla": Regla } }
 		return resultado
 	return resultado
 def insertarEnBD(resultado):
 	'''
-	Si ya existe la entidad en la base de datos, se actualiza con la nueva información. 
-	Si es el mismo archivo donde aparece la ocurrencia, se agrega a indiceOcurrencia.
-
-	1.- Obtener el diccionario de "Archivos" que viene en el resultado
-	2.- Obtener el diccionario que ya está guardado en la base de datos (si existe)
-	3.- Si sí existe en la base datos, entonces junto los dos diccionarios y los guardo en archivos
-	4.- Hago update, o creo el documento, en la base de datos.
 	'''
-	archivo = resultado["Archivos"]
-	print (archivo["Nombre"])
-	
-	insertarbd = collection.find_one_and_update({"Nombre": resultado["Nombre"],"Archivos.Nombre": { "$ne": archivo["Nombre"]}},{"$addToSet": {"Archivos": archivo}},upsert=True)
-	print(insertarbd)
-	insertarbd = collection.find_one_and_update({"Nombre": resultado["Nombre"],"Archivos.Nombre": archivo["Nombre"]},{"$addToSet": {"Archivos.indiceOcurrencia": archivo["indiceOcurrencia"]}},upsert=True)
-	print(insertarbd)
-
+	listaArchivos = []
+	archivosEnBD = []
+	indicesEnBD = []
+	indiceNuevo = False
+	entidadEnBD = collection.find_one({"Nombre": resultado["Nombre"]})
+	print("resultado: " + str(resultado))
+	print("entidadDB: " + str(entidadEnBD))
+	if entidadEnBD:
+		if type(entidadEnBD["Archivos"]) != list:
+			archivosEnBD = [entidadEnBD["Archivos"]]
+		else:
+			archivosEnBD = entidadEnBD["Archivos"]
+		for elemento in archivosEnBD:
+			agregarElemento = elemento
+			if agregarElemento["Nombre"] == resultado["Archivos"]["Nombre"]:
+				if type(agregarElemento["indiceOcurrencia"]) != list:
+					agregarElemento["indiceOcurrencia"] = [agregarElemento["indiceOcurrencia"]]
+				agregarElemento["indiceOcurrencia"].append(resultado["Archivos"]["indiceOcurrencia"])
+				print ("Archivo nuevo: " + str(agregarElemento))
+				indiceNuevo = True
+				listaArchivos.append(agregarElemento)
+			else:
+				listaArchivos.append(agregarElemento)
+		if not indiceNuevo:
+			listaArchivos.append(resultado["Archivos"])
+		print(listaArchivos)
+		collection.find_one_and_update({"Nombre": resultado["Nombre"]},{"$set": {"Archivos": listaArchivos}}, upsert=True)
+	else:
+		print(listaArchivos)
+		collection.insert(resultado)
 def MainNERalias():
 	'''
 	Flujo inicial del programa
