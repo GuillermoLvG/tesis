@@ -18,7 +18,7 @@ db = client.NERLegales
 collection = db.Entidades
 path_docx = "DOCX"
 
-def limpiarCadena(string):
+def limpiarCadenaNER(string):
 	'''
 	Recibe una cadena, devuelve una cadena
 
@@ -28,7 +28,10 @@ def limpiarCadena(string):
 	string = string.replace(",","")
 	return string
 def filtroCandidatos(candidato):
+	palabrasCandidato = candidato.split()
 	if len(candidato.split()) != 1:
+		return candidato
+	if palabrasCandidato[0].lower() not in ["la", "las", "lo", "los", "el", "del"]:
 		return candidato
 	return ""
 def buscarEntidades(texto,fname):
@@ -41,7 +44,7 @@ def buscarEntidades(texto,fname):
 	regex = re.compile(expresion)
 	matches = regex.finditer(texto)
 	for match in matches:
-		candidato = limpiarCadena(match.group())
+		candidato = limpiarCadenaNER(match.group())
 		candidato = filtroCandidatos(candidato)
 		if candidato:
 			indiceOcurrencia = match.start()
@@ -49,6 +52,7 @@ def buscarEntidades(texto,fname):
 			resultado = {"Nombre": candidato, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 			resultados.append(resultado)
 	return resultados
+	
 def MainNER():
 	'''
 	Flujo inicial del programa

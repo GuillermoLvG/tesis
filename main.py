@@ -6,7 +6,7 @@
 #------------------------------------------------------
 
 from NERalias import MainNERalias
-from NER import MainNER
+from NERalias import MainNER
 
 MainNERalias()
 MainNER()

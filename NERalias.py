@@ -16,8 +16,6 @@ client = MongoClient('localhost', 27017)
 client.drop_database('NERLegales')
 db = client.NERLegales
 collection = db.Entidades
-
-
 path_docx = "DOCX"
 
 def limpiarCadena(string):
@@ -42,6 +40,30 @@ def limpiarCadena(string):
 def limpiarParrafo(string):
 	string = string.replace(" del "," de el ")
 	return string
+def limpiarCadenaNER(string):
+	'''
+	Recibe una cadena, devuelve una cadena
+
+	Reemplaza lo que sea necesario en la cadena.
+	'''
+	string = string.strip()
+	string = string.replace(",","")
+	return string
+def obtenerContexto(indiceInicial, textoPlano):
+	'''
+	Recibe un índice y un texto.
+
+	El índice corresponde al índice donde se ha detectado un candidato.
+	Devuelve la cadena detrás del índice hasta el primer salto de línea.
+	'''
+	indiceFinal = indiceInicial
+	while textoPlano[indiceFinal] != '\n' and indiceFinal != 0:
+		indiceFinal -= 1
+	if indiceFinal == 0:
+		contexto = textoPlano[indiceFinal:indiceInicial]
+	else:
+		contexto = textoPlano[indiceFinal+1:indiceInicial] #Se suma 1 a indicFinal para no tomar el \n
+	return limpiarParrafo(contexto)
 def obtenerArticulo(candidato):
 	'''
 	Recibe una cadena, y revisa si contiene un artículo. Si sí,
@@ -91,7 +113,7 @@ def inicioDePalabra(parrafo,indice):
 			return False
 	else:
 		return True
-def Siglas(candidato,parrafo,siglasOriginales):
+def resolverSiglas(candidato,parrafo,siglasOriginales):
 	'''
 	Recibe siglas (cadena), al que aquí se denomina "candidato" y un párrafo (cadena).
 	A priori se sabe que el candidato son SIGLAS.
@@ -166,7 +188,7 @@ def Siglas(candidato,parrafo,siglasOriginales):
 	#No encontró las siglas.
 	print ("No encontré las siglas.")
 	return entidad
-def checarSiglas(candidato):
+def reglasSiglas(candidato):
 	'''
 	Recibe una palabra (string)
 	Si son siglas, devuelve las siglas. Si no, devuelve vacío.
@@ -287,6 +309,46 @@ def buscarArticulo(articulo,candidato,parrafo):
 	else:
 		print ("No encontré el artículo con la palabra, ni la palabra sola, ni nada.")
 		return entidad
+def buscarConjuncion(candidato):
+	'''
+	recibe un candidato, busca una conjunción, y devuelve lista de N candidatos.
+	'''
+	palabrasCandidato = candidato.split()
+	for palabra in palabrasCandidato:
+		if palabra in ["y"]:
+			candidatoConjuncion = candidato.split(" y ")
+			return candidatoConjuncion
+	return candidato
+def buscarEntidades(texto,fname):
+	'''
+	Recibe una cadena y busca en ella una expresión regular que devuelve candidatos a entidad nombrada.
+	Devuelve la lista de candidatos.
+	'''
+	resultados = []
+	expresion = r"\b(([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del) )*([A-Z][a-záéíóú]+ ?)+)*((, )?| )?(S.A. de C.V.|S. de R.L. de C.V.)?)"
+	regex = re.compile(expresion)
+	matches = regex.finditer(texto)
+	for match in matches:
+		candidatos = buscarConjuncion(limpiarCadenaNER(match.group()))
+		if type(candidatos) != list:
+			candidatos = [candidatos]
+		for candidato in candidatos:
+			print ("Candidato: " + candidato)
+			candidato = ReglasNER(candidato,fname)
+			if candidato:
+				indiceOcurrencia = match.start()
+				Regla = "Expresión Regular"
+				resultado = {"Nombre": candidato, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
+				resultados.append(resultado)
+	return resultados
+def buscarAliasEnBD(candidato,fname):
+	'''
+	Busca los alias en un archivo, y devuelve una lista con dichos alias.
+	'''
+	aliasCursor = collection.find({"Archivos.Nombre":fname.replace(".docx","")},{"Archivos":{"$elemMatch": {"Nombre":fname.replace(".docx","")}},"Archivos.Alias":1,"_id":0})
+	for element in aliasCursor:
+		print ("ALIAS CURSOR")
+		print (element)
 def regla1(candidato, parrafo):
 	'''
 	Recibe un candidato a entidad nombrada (str) , y su contexto (párrafo) (str).
@@ -300,7 +362,7 @@ def regla1(candidato, parrafo):
 	1.- Limpiamos el contenido del paréntesis  (func. limpiarCadena)
 	2.- Verificamos si el contenido del paréntesis tiene menos de 10 palabras.
 	3.- Determinamos si hay un artículo seguido de una palabra que empieza en mayúscula, o seguido de siglas (func. obtenerArticulo)
-	4.- Vemos si lo que le sigue al artículo es una palabra, o son siglas. (func. checarSiglas)
+	4.- Vemos si lo que le sigue al artículo es una palabra, o son siglas. (func. reglasSiglas)
 	5.- Si son siglas, buscamos hacia atrás las letras mayúsculas
 		letra por letra, y cuando encuentra todas, regresa la entidad (func. Siglas)
 	6.- Si es una palabra, buscamos en el contexto hacia atrás hasta que encontremos dicho artículo
@@ -316,10 +378,10 @@ def regla1(candidato, parrafo):
 	if articulo:
 		print ("Tiene Artículo")
 		print ("Articulo + palabra: " + articulo)
-		siglas = checarSiglas(articulo.split()[1]) #Checamos si son siglas y las obtenemos límpias.
+		siglas = reglasSiglas(articulo.split()[1]) #Checamos si son siglas y las obtenemos límpias.
 		if siglas:
 			print("Son Siglas")
-			entidad = Siglas(siglas,parrafo,articulo.split()[1])
+			entidad = resolverSiglas(siglas,parrafo,articulo.split()[1])
 		else:
 			print("Busca Artículo")
 			entidad = buscarArticulo(articulo,candidato,parrafo)
@@ -348,11 +410,11 @@ def regla2(candidato,parrafo):
 	indice = 0
 	encontreAlgo = False
 	candidato = limpiarCadena(candidato)
-	siglas = checarSiglas(candidato)
+	siglas = reglasSiglas(candidato)
 	if candidato.isdigit():
 		return entidad
 	if siglas:
-		entidad = Siglas(siglas,parrafo,candidato)
+		entidad = resolverSiglas(siglas,parrafo,candidato)
 		if entidad:
 			print ("Fueron Siglas")
 			return entidad
@@ -395,9 +457,9 @@ def regla3(candidato, parrafo):
 		return entidad
 	listaPalabras = candidato.split()
 	for palabra in listaPalabras:
-		siglas = checarSiglas(palabra)
+		siglas = reglasSiglas(palabra)
 		if siglas:
-			entidad = Siglas(siglas,parrafo,palabra)
+			entidad = resolverSiglas(siglas,parrafo,palabra)
 			return entidad
 	return entidad
 def regla4(candidato):
@@ -415,22 +477,22 @@ def regla4(candidato):
 	candidato = limpiarCadena(candidato)
 	entidad = buscarEnDiccionario(candidato)
 	return entidad
-def Contexto(indiceInicial, textoPlano):
-	'''
-	Recibe un índice y un texto.
-
-	El índice corresponde al índice donde se ha detectado un candidato.
-	Devuelve la cadena detrás del índice hasta el primer salto de línea.
-	'''
-	indiceFinal = indiceInicial
-	while textoPlano[indiceFinal] != '\n' and indiceFinal != 0:
-		indiceFinal -= 1
-	if indiceFinal == 0:
-		contexto = textoPlano[indiceFinal:indiceInicial]
-	else:
-		contexto = textoPlano[indiceFinal+1:indiceInicial] #Se suma 1 a indicFinal para no tomar el \n
-	return limpiarParrafo(contexto)
-def aplicarReglas(candidato,parrafo,fname,indiceOcurrencia):
+def ReglasNER(candidato,fname):
+	palabrasCandidato = candidato.split()
+	if len(palabrasCandidato) == 1:
+		print("Sólo tiene una palabra")
+		print("No es entidad \n")
+		return ""
+	if palabrasCandidato[0].lower() in ["la", "las", "lo", "los", "el", "del"]:
+		print("La primer palabra es un artículo")
+		print("No es entidad \n")
+		return ""
+	aliasCursor = collection.find({"Archivos.Nombre":fname.replace(".docx","")})
+	buscarAliasEnBD(candidato,fname)
+	print("Si es entidad")
+	print("Entidad: " + candidato + "\n") 
+	return candidato
+def aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia):
 	'''
 	Aplica las reglas de forma secuencial.
 
@@ -445,8 +507,8 @@ def aplicarReglas(candidato,parrafo,fname,indiceOcurrencia):
 	    os.remove("tablas/resultado.csv")
 	except OSError:
 	    pass
-	print ("Contexto: " + parrafo + "")
-	print ("Candidato: " + candidato + "")
+	print ("Contexto: " + parrafo)
+	print ("Candidato: " + candidato)
 	Regla = ""
 	entidad = ""
 	resultadoEntidad = ""
@@ -478,15 +540,20 @@ def aplicarReglas(candidato,parrafo,fname,indiceOcurrencia):
 	return resultado
 def insertarEnBD(resultado):
 	'''
+	Recibe un registro para insertar en la base de datos, y lo inserta.
+	
+	Si el registro es de una entidad que ya existe, se verifica el archivo donde ocurre, y si ya existe una ocurrencia
+	anterior en ese archivo, entonces se agrega el nuevo índice de ocurrencia.
+	Si la entidad ya existe, pero ocurre en un archivo nuevo, entonces se agrega el archivo nuevo donde ocurre.
+	Si la entidad no existe, se agrega el registro tal cual.
 	'''
 	listaArchivos = []
 	archivosEnBD = []
 	indicesEnBD = []
 	indiceNuevo = False
 	entidadEnBD = collection.find_one({"Nombre": resultado["Nombre"]})
-	print("resultado: " + str(resultado))
-	print("entidadDB: " + str(entidadEnBD))
 	if entidadEnBD:
+		#Se tiene que convertir en lista, pues cuando el registro entra por primera vez, no es una lista. Sucede en "Archivos" y en "indiceOcurrencia"
 		if type(entidadEnBD["Archivos"]) != list:
 			archivosEnBD = [entidadEnBD["Archivos"]]
 		else:
@@ -497,17 +564,14 @@ def insertarEnBD(resultado):
 				if type(agregarElemento["indiceOcurrencia"]) != list:
 					agregarElemento["indiceOcurrencia"] = [agregarElemento["indiceOcurrencia"]]
 				agregarElemento["indiceOcurrencia"].append(resultado["Archivos"]["indiceOcurrencia"])
-				print ("Archivo nuevo: " + str(agregarElemento))
 				indiceNuevo = True
 				listaArchivos.append(agregarElemento)
 			else:
 				listaArchivos.append(agregarElemento)
 		if not indiceNuevo:
 			listaArchivos.append(resultado["Archivos"])
-		print(listaArchivos)
 		collection.find_one_and_update({"Nombre": resultado["Nombre"]},{"$set": {"Archivos": listaArchivos}}, upsert=True)
 	else:
-		print(listaArchivos)
 		collection.insert(resultado)
 def MainNERalias():
 	'''
@@ -522,7 +586,22 @@ def MainNERalias():
 		for element in regexpParentesis.finditer(textoPlano):
 			indiceOcurrencia = element.start() #element.start() tiene el index del 1er elemento donde hubo match
 			candidato = element.group() #element.group() tiene el match en sí (el candidato)
-			parrafo = Contexto(indiceOcurrencia,textoPlano)
-			resultado = aplicarReglas(candidato,parrafo,fname,indiceOcurrencia)
+			parrafo = obtenerContexto(indiceOcurrencia,textoPlano)
+			resultado = aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia)
 			if resultado:
+				insertarEnBD(resultado)
+			else:
+				print("No hubo entidad \n")
+def MainNER():
+	'''
+	Flujo inicial del programa
+	'''
+	for fname in os.listdir(path_docx):
+		fullpath = os.path.join(path_docx, fname)
+		print ("Archivo: " + fullpath + "\n")
+		textoPlano = docx2txt.process(fullpath)
+		resultados = buscarEntidades(textoPlano,fname)
+		if resultados:
+			for resultado in resultados:
+				print(resultado["Nombre"])
 				insertarEnBD(resultado)
