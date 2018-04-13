@@ -4,6 +4,8 @@
 # No recibe argumentos.
 # Busca los archivos en DOCX_txt, y a cada uno le saca una lista de alias, los cuales
 # asocia a una entidad.
+# Obtiene también entidades sin alias.
+# Todo se guarda en una base de datos en MongoDB
 #------------------------------------------------------
 import docx2txt
 import os
@@ -16,7 +18,7 @@ client = MongoClient('localhost', 27017)
 client.drop_database('NERLegales')
 db = client.NERLegales
 collection = db.Entidades
-path_docx = "DOCX"
+path_docx = "PruebasArchivos"
 
 def limpiarCadena(string):
 	'''
@@ -100,121 +102,6 @@ def buscarEnDiccionario(candidato):
 		entidad.append(candidato)
 		entidad.append(diccionarioInverso[candidato.lower()])
 	return entidad
-def inicioDePalabra(parrafo,indice):
-	'''
-	recibe un índice y un párrafo.
-	Devuelve True si el índice corresponde a una letra que es inicio de una palabra
-	y False si es no lo es.
-	'''
-	if indice != 0:
-		if parrafo[indice-1] == " ":
-			return True
-		else:
-			return False
-	else:
-		return True
-def resolverSiglas(candidato,parrafo,siglasOriginales):
-	'''
-	Recibe siglas (cadena), al que aquí se denomina "candidato" y un párrafo (cadena).
-	A priori se sabe que el candidato son SIGLAS.
-	Devuelve la entidad y el alias.
-
-	1.- Se busca hacia atrás en el párrafo, buscando las letras mayúsculas de las siglas en orden,
-		y se devuelve la entidad y el alias. Se verifica siempre que la letra mayúscula sea un inicio
-		de palabra (func. inicioDePalabra)
-	2.- Se busca hacia atrás en el párrafo, buscando las letras minúsculas de las siglas en orden,
-		y se devuelve la entidad y el alias. Se verifica que la minúscula sea inicio de palabra (func. inicioDePalabra)
-	3.- Se busca hacia atrás en el párrafo las letras mayúsculas de las siglas sin importar el orden.
-		Se devuelve la entidad y el alias. Se verifica siempre que la mayúscula sea inicio de
-		palabra (func. inicioDePalabra)
-	'''
-	entidad = []
-	#Buscar mayúsculas
-	siglas = candidato.split()[0]
-	indice = len(parrafo)-1 #última posición del párrafo
-	print("Siglas: " + siglas)
-	print("Buscando mayúsculas en orden")
-	for indice in range(indice,0,-1):
-		if parrafo[indice] == siglas[-1] and inicioDePalabra(parrafo,indice):#Si la letra es la sigla, y es inicio de palabra
-			siglas = siglas[:-1]
-			print(siglas)
-		if not siglas: #cuando terminé de buscar las siglas, devuelvo la entidad.
-			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
-			entidad.append(siglasOriginales)
-			print ("Encontré mayúsculas en orden")
-			return entidad
-	#Buscar minúsculas
-	siglas = candidato.split()[0].lower()
-	indice = len(parrafo)-1
-	print("Buscando minúsculas en orden")
-	for indice in range(indice,0,-1):
-		if parrafo[indice] == siglas[-1] and inicioDePalabra(parrafo,indice): #Si la letra es la sigla, y es inicio de palabra
-			siglas = siglas[:-1]
-			print(siglas)
-		if not siglas:
-			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
-			entidad.append(siglasOriginales)
-			print ("Encontré minúsculas en orden")
-			return entidad
-	#Buscar mayúsculas sin importar orden
-	siglas = candidato.split()[0]
-	indice = len(parrafo)-1
-	print("Buscando mayúsculas sin importar el orden")
-	for indice in range(indice,0,-1):
-		if parrafo[indice].isupper() and inicioDePalabra(parrafo,indice) and parrafo[indice] in siglas: #Si la letra es mayúscula, es inicio de palabra y está en "siglas"
-			siglas = siglas.replace(parrafo[indice],"",1)
-			print (siglas)
-		if not siglas:
-			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
-			entidad.append(siglasOriginales)
-			print ("Encontré mayúsculas sin importar el orden")
-			return entidad
-	#Obtener con una expresión regular las posibles entidads con mayúscula seguidas, separadas con artículos.
-	siglas = candidato.split()[0]
-	instancia = ""
-	print("Buscando posibles entidades con Mayúsculas: ")
-	expresion = r"\b([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del) )*([A-Z][a-záéíóú]+ ?)+)*\b"
-	regex = re.compile(expresion)
-	for match in regex.finditer(parrafo):
-		if len(match.group(0).split()) > 3:
-			print("Posible entidad: " + match.group(0))
-			instancia = match.group(0)
-	if instancia:
-		print("Se determinó a " + instancia + " como entidad")
-		entidad.append(limpiarCadena(instancia))
-		entidad.append(siglasOriginales)
-		return entidad
-
-	#No encontró las siglas.
-	print ("No encontré las siglas.")
-	return entidad
-def reglasSiglas(candidato):
-	'''
-	Recibe una palabra (string)
-	Si son siglas, devuelve las siglas. Si no, devuelve vacío.
-
-	Las siglas que devuelve están limpias. Es decir, son
-	sólo letras mayúsculas, Y une ciertos patrones comunes en siglas
-	como "NA" por "N" (Nacional), "DI" por "D" (Dinámica).
-	'''
-	contMayus = 0
-	contMinus = 0
-	siglasLimpias = ""
-	for letra in candidato:
-		if letra.isupper():
-			contMayus = contMayus + 1
-			siglasLimpias = "" + siglasLimpias + "" + letra
-		elif letra.isdigit():
-			siglasLimpias = "" + siglasLimpias + "" + letra
-		else:
-			contMinus = contMinus + 1
-	siglasLimpias = siglasLimpias.replace("NA","N")
-	siglasLimpias = siglasLimpias.replace("DI","D")
-	if contMayus >= contMinus:
-		return siglasLimpias;
-	else:
-		siglasLimpias = ""
-		return siglasLimpias
 def buscarArticulo(articulo,candidato,parrafo):
 	'''
 	Recibimos artículo y la palabra siguiente (producto de checarArticulo), un candidato, y su contexto.
@@ -345,10 +232,127 @@ def buscarAliasEnBD(candidato,fname):
 	'''
 	Busca los alias en un archivo, y devuelve una lista con dichos alias.
 	'''
+	listaAlias = []
 	aliasCursor = collection.find({"Archivos.Nombre":fname.replace(".docx","")},{"Archivos":{"$elemMatch": {"Nombre":fname.replace(".docx","")}},"Archivos.Alias":1,"_id":0})
 	for element in aliasCursor:
-		print ("ALIAS CURSOR")
-		print (element)
+		for key, value in element.items():
+			listaAlias.append(value[0]["Alias"])
+	return listaAlias
+def inicioDePalabra(parrafo,indice):
+	'''
+	recibe un índice y un párrafo.
+	Devuelve True si el índice corresponde a una letra que es inicio de una palabra
+	y False si es no lo es.
+	'''
+	if indice != 0:
+		if parrafo[indice-1] == " ":
+			return True
+		else:
+			return False
+	else:
+		return True
+def resolverSiglas(candidato,parrafo,siglasOriginales):
+	'''
+	Recibe siglas (cadena), al que aquí se denomina "candidato" y un párrafo (cadena).
+	A priori se sabe que el candidato son SIGLAS.
+	Devuelve la entidad y el alias.
+
+	1.- Se busca hacia atrás en el párrafo, buscando las letras mayúsculas de las siglas en orden,
+		y se devuelve la entidad y el alias. Se verifica siempre que la letra mayúscula sea un inicio
+		de palabra (func. inicioDePalabra)
+	2.- Se busca hacia atrás en el párrafo, buscando las letras minúsculas de las siglas en orden,
+		y se devuelve la entidad y el alias. Se verifica que la minúscula sea inicio de palabra (func. inicioDePalabra)
+	3.- Se busca hacia atrás en el párrafo las letras mayúsculas de las siglas sin importar el orden.
+		Se devuelve la entidad y el alias. Se verifica siempre que la mayúscula sea inicio de
+		palabra (func. inicioDePalabra)
+	'''
+	entidad = []
+	#Buscar mayúsculas
+	siglas = candidato.split()[0]
+	indice = len(parrafo)-1 #última posición del párrafo
+	print("Siglas: " + siglas)
+	print("Buscando mayúsculas en orden")
+	for indice in range(indice,0,-1):
+		if parrafo[indice] == siglas[-1] and inicioDePalabra(parrafo,indice):#Si la letra es la sigla, y es inicio de palabra
+			siglas = siglas[:-1]
+			print(siglas)
+		if not siglas: #cuando terminé de buscar las siglas, devuelvo la entidad.
+			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
+			entidad.append(siglasOriginales)
+			print ("Encontré mayúsculas en orden")
+			return entidad
+	#Buscar minúsculas
+	siglas = candidato.split()[0].lower()
+	indice = len(parrafo)-1
+	print("Buscando minúsculas en orden")
+	for indice in range(indice,0,-1):
+		if parrafo[indice] == siglas[-1] and inicioDePalabra(parrafo,indice): #Si la letra es la sigla, y es inicio de palabra
+			siglas = siglas[:-1]
+			print(siglas)
+		if not siglas:
+			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
+			entidad.append(siglasOriginales)
+			print ("Encontré minúsculas en orden")
+			return entidad
+	#Buscar mayúsculas sin importar orden
+	siglas = candidato.split()[0]
+	indice = len(parrafo)-1
+	print("Buscando mayúsculas sin importar el orden")
+	for indice in range(indice,0,-1):
+		if parrafo[indice].isupper() and inicioDePalabra(parrafo,indice) and parrafo[indice] in siglas: #Si la letra es mayúscula, es inicio de palabra y está en "siglas"
+			siglas = siglas.replace(parrafo[indice],"",1)
+			print (siglas)
+		if not siglas:
+			entidad.append(limpiarCadena(parrafo[indice:len(parrafo)-1]))
+			entidad.append(siglasOriginales)
+			print ("Encontré mayúsculas sin importar el orden")
+			return entidad
+	#Obtener con una expresión regular las posibles entidads con mayúscula seguidas, separadas con artículos.
+	siglas = candidato.split()[0]
+	instancia = ""
+	print("Buscando posibles entidades con Mayúsculas: ")
+	expresion = r"\b([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del) )*([A-Z][a-záéíóú]+ ?)+)*\b"
+	regex = re.compile(expresion)
+	for match in regex.finditer(parrafo):
+		if len(match.group(0).split()) > 3:
+			print("Posible entidad: " + match.group(0))
+			instancia = match.group(0)
+	if instancia:
+		print("Se determinó a " + instancia + " como entidad")
+		entidad.append(limpiarCadena(instancia))
+		entidad.append(siglasOriginales)
+		return entidad
+
+	#No encontró las siglas.
+	print ("No encontré las siglas.")
+	return entidad
+def reglasSiglas(candidato):
+	'''
+	Recibe una palabra (string)
+	Si son siglas, devuelve las siglas. Si no, devuelve vacío.
+
+	Las siglas que devuelve están limpias. Es decir, son
+	sólo letras mayúsculas, Y une ciertos patrones comunes en siglas
+	como "NA" por "N" (Nacional), "DI" por "D" (Dinámica).
+	'''
+	contMayus = 0
+	contMinus = 0
+	siglasLimpias = ""
+	for letra in candidato:
+		if letra.isupper():
+			contMayus = contMayus + 1
+			siglasLimpias = "" + siglasLimpias + "" + letra
+		elif letra.isdigit():
+			siglasLimpias = "" + siglasLimpias + "" + letra
+		else:
+			contMinus = contMinus + 1
+	siglasLimpias = siglasLimpias.replace("NA","N")
+	siglasLimpias = siglasLimpias.replace("DI","D")
+	if contMayus >= contMinus:
+		return siglasLimpias;
+	else:
+		siglasLimpias = ""
+		return siglasLimpias
 def regla1(candidato, parrafo):
 	'''
 	Recibe un candidato a entidad nombrada (str) , y su contexto (párrafo) (str).
@@ -488,9 +492,14 @@ def ReglasNER(candidato,fname):
 		print("No es entidad \n")
 		return ""
 	aliasCursor = collection.find({"Archivos.Nombre":fname.replace(".docx","")})
-	buscarAliasEnBD(candidato,fname)
+	listaAlias = buscarAliasEnBD(candidato,fname)
+	for element in listaAlias:
+		if candidato.lower() == element.lower():
+			print("Es un alias dentro del archivo")
+			print("No es entidad \n")
+			return ""
 	print("Si es entidad")
-	print("Entidad: " + candidato + "\n") 
+	print("Entidad: " + candidato + "\n")
 	return candidato
 def aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia):
 	'''
@@ -541,7 +550,7 @@ def aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia):
 def insertarEnBD(resultado):
 	'''
 	Recibe un registro para insertar en la base de datos, y lo inserta.
-	
+
 	Si el registro es de una entidad que ya existe, se verifica el archivo donde ocurre, y si ya existe una ocurrencia
 	anterior en ese archivo, entonces se agrega el nuevo índice de ocurrencia.
 	Si la entidad ya existe, pero ocurre en un archivo nuevo, entonces se agrega el archivo nuevo donde ocurre.
@@ -603,5 +612,4 @@ def MainNER():
 		resultados = buscarEntidades(textoPlano,fname)
 		if resultados:
 			for resultado in resultados:
-				print(resultado["Nombre"])
 				insertarEnBD(resultado)
