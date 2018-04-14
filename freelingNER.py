@@ -14,8 +14,9 @@ client = MongoClient('localhost', 27017)
 client.drop_database('NERLegalesFL')
 db = client.NERLegalesFL
 collection = db.Entidades
+
 os.remove("salidaFreeling.txt")
-path_docx = "PruebasArchivos"
+path_docx = "DOCX"
 for fname in os.listdir(path_docx):
     fullpath = os.path.join(path_docx, fname)
     print ("Archivo: " + fullpath + "\n")

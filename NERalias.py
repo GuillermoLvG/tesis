@@ -18,7 +18,7 @@ client = MongoClient('localhost', 27017)
 client.drop_database('NERLegales')
 db = client.NERLegales
 collection = db.Entidades
-path_docx = "PruebasArchivos"
+path_docx = "DOCX"
 
 def limpiarCadena(string):
 	'''
