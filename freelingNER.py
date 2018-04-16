@@ -16,7 +16,7 @@ db = client.NERLegalesFL
 collection = db.Entidades
 
 os.remove("salidaFreeling.txt")
-path_docx = "DOCX"
+path_docx = "Evaluacion/CorpusEval/Archivo"
 for fname in os.listdir(path_docx):
     fullpath = os.path.join(path_docx, fname)
     print ("Archivo: " + fullpath + "\n")

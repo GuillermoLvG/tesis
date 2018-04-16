@@ -10,50 +10,18 @@ import openpyxl
 import xml.etree.ElementTree
 from pymongo import MongoClient
 
-#xlsx de Documentos
-doc = openpyxl.load_workbook('ResultadosEtiquetados/documents.csv.xlsx')
-sheet = doc['documents.csv']
-documentos = dict()
-for reng in range(2,71):
-	documentos[reng-1] = sheet.cell(row=reng,column=2).value.replace("../DOCX/","")
+#Gold Standard
+doc = openpyxl.load_workbook('entities_34.xlsx')
+sheet = doc['Sheet1']
+entidades = []
+for reng in range(1,77):
+	entidades.append(sheet.cell(row=reng,column=1).value)
 
-#xlsx de Ocurrencias
-doc = openpyxl.load_workbook('ResultadosEtiquetados/occurences.csv.xlsx')
-sheet = doc['occurences.csv']
-occurences = dict()
-for doc_id in range(1,70):
-	occurences[doc_id] = set()
-	for reng in range(2,11205):
-		document_id_xlsx = sheet.cell(row=reng,column=2).value
-		entity_type = sheet.cell(row=reng,column=4).value
-		entity_id = sheet.cell(row=reng,column=3).value
-		if doc_id == document_id_xlsx and entity_type == "entities":
-			occurences[doc_id].add(entity_id)
-
-#xlsx de Entidades
-doc = openpyxl.load_workbook('ResultadosEtiquetados/entities.csv.xlsx')
-sheet = doc['entities.csv']
-entities = dict()
-for reng in range(1,1551):
-	entidad_id = sheet.cell(row=reng,column=1).value
-	entities[entidad_id] = sheet.cell(row=reng,column=2).value
-
-#Fusión de Ocurrencias y Entidades
-occurencesEntities = dict()
-for key,value in occurences.items():
-	occurencesEntities[key] = []
-	listaEntidades = list(value)
-	for entidad_id in listaEntidades:
-		try:
-			occurencesEntities[key].append(entities[entidad_id])
-		except KeyError as e:
-			occurencesEntities[key].append(entidad_id)
-
-#Gold Standard			
+entidades = set(entidades)
+entidades = list(entidades)
 goldStandard = []
-for entidad in occurencesEntities[26]: #Cambiar el número para cambiar de archivo a evaluar
-	if type(entidad) == str:
-		goldStandard.append(entidad.lower())
+for entidad in entidades:
+	goldStandard.append(entidad.lower())
 
 #Resultado Freeling
 client = MongoClient('localhost', 27017)
@@ -82,6 +50,7 @@ recall = (TP/(TP+FN))*100
 print("Freeling")
 print("Precision: " + str(precision))
 print("Recall: " + str(recall))
+
 
 #Resultado Memo
 client = MongoClient('localhost', 27017)

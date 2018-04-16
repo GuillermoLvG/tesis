@@ -5,8 +5,8 @@
 # Archivo que manda a llamar la función que empieza el programa.
 #------------------------------------------------------
 
-from NERalias import MainNERalias
-from NERalias import MainNER
+from NER import MainNERalias
+from NER import MainNER
 
 MainNERalias()
 MainNER()
