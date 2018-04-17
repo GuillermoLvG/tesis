@@ -11,10 +11,10 @@ import xml.etree.ElementTree
 from pymongo import MongoClient
 
 #Gold Standard
-doc = openpyxl.load_workbook('entities_34.xlsx')
+doc = openpyxl.load_workbook('entities_55.xlsx')
 sheet = doc['Sheet1']
 entidades = []
-for reng in range(1,77):
+for reng in range(1,73):
 	entidades.append(sheet.cell(row=reng,column=1).value)
 
 entidades = set(entidades)

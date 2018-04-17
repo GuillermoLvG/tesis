@@ -199,20 +199,31 @@ def buscarArticulo(articulo,candidato,parrafo):
 def buscarConjuncion(candidato):
 	'''
 	recibe un candidato, busca una conjunción, y devuelve lista de N candidatos.
+	La lista son las entidades juntas, y separadas.
 	'''
 	palabrasCandidato = candidato.split()
 	for palabra in palabrasCandidato:
 		if palabra in ["y"]:
 			candidatoConjuncion = candidato.split(" y ")
+			candidatoConjuncion.append(candidato)
 			return candidatoConjuncion
 	return candidato
 def buscarEntidades(texto,fname):
 	'''
-	Recibe una cadena y busca en ella una expresión regular que devuelve candidatos a entidad nombrada.
-	Devuelve la lista de candidatos.
+	Recibe una cadena y el nombre del archivo.
+
+	1.- Se busca una expresión regular que devuelve palabras que empiezan en mayúscula, separadas por (la|el|los|las|un|una|uno|unas|unos|y|con|de|del|a), y seguidas
+		por más palabras en mayúscula, que pueden estar seguidas o no de (S.A. de C.V.|S. de R.L. de C.V.).
+	2.- De lo que devuelve la expresión regular, se buscan conjunciones para separar las entidades encontradas por el "y"
+	3.- Cada match de la expresión es un candidato, al cual aplicamos una serie de reglas en ReglasNER.
+	4.- Si se cumplen las reglas, se agrega el match como entidad.
+	4.- Se busca una expresión regular que devuelve la palabra que sige de Oficio, Expediente u Acuerdo, si contiene diagonales y guiones.
+	5.- Se agrega lo encontrado como entidad.
+	6.- Se busca el diccionario de municipios
 	'''
 	resultados = []
-	expresion = r"\b(([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del) )*([A-Z][a-záéíóú]+ ?)+)*((, )?| )?(S.A. de C.V.|S. de R.L. de C.V.)?)"
+	#Expresión 1
+	expresion = r"\b(((CC.|C.|Mtro.|Mtra.|Sra.|Sr.|Lic.|Dr.|Dra.|Pdte.) )?([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del|a) )*([A-Z][a-záéíóú]+ ?)+)*((, )?| )?(S.A. de C.V.|S. de R.L. de C.V.)?)"
 	regex = re.compile(expresion)
 	matches = regex.finditer(texto)
 	for match in matches:
@@ -227,6 +238,32 @@ def buscarEntidades(texto,fname):
 				Regla = "Expresión Regular"
 				resultado = {"Nombre": candidato, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 				resultados.append(resultado)
+	#Expresión 2
+	expresion = r"((o|O)ficio|(e|E)xpediente|(a|A)cuerdo) ([A-Z]|[0-9]|,|\.|;|:|\\)*(/|-)([A-Z]|[0-9]|;|:|\\|/|-)*"
+	regex = re.compile(expresion)
+	matches = regex.finditer(texto)
+	for match in matches:
+		entidad = match.group()
+		indiceOcurrencia = match.start()
+		Regla = "Expresión Regular Oficio"
+		print("Oficio, Expediente o Acuerdo: ")
+		print(entidad)
+		resultado = {"Nombre": entidad, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
+		resultados.append(resultado)
+	#Expresión 3
+	with open("Diccionarios/listaMunicipios.txt") as municipios:
+		listaMunicipios = municipios.readlines()
+	for municipio in listaMunicipios:
+		municipio = municipio.strip()
+		indiceOcurrencia = texto.find(municipio)
+		if indiceOcurrencia != -1:
+			entidad = municipio
+			indiceOcurrencia = match.start()
+			Regla = "Diccionario Municipios"
+			print("Municipio: ")
+			print(entidad)
+			resultado = {"Nombre": entidad, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
+			resultados.append(resultado)
 	return resultados
 def buscarAliasEnBD(candidato,fname):
 	'''
@@ -482,15 +519,28 @@ def regla4(candidato):
 	entidad = buscarEnDiccionario(candidato)
 	return entidad
 def ReglasNER(candidato,fname):
+	'''
+	Entra un candidato, aplica una serie de reglas, y decide si es una entidad o no. Si devuelve algo, entonces es entidad. Si devuelve vacío
+	entonces no es.
+
+	1.- Si el candidato está en la lista de municipios
+	1.- Si sólo tiene una palabra, no es entidad
+	2.- Si empieza con artículo, no es entidad
+	3.- Si la entidad es un alias que ya encontramos anteriormente, no es entidad
+	'''
+	# AGREGAR REGLA. DE MUNICIPIOS
+	#Regla 1
 	palabrasCandidato = candidato.split()
 	if len(palabrasCandidato) == 1:
 		print("Sólo tiene una palabra")
 		print("No es entidad \n")
 		return ""
+	#Regla 2
 	if palabrasCandidato[0].lower() in ["la", "las", "lo", "los", "el", "del"]:
 		print("La primer palabra es un artículo")
 		print("No es entidad \n")
 		return ""
+	#Regla 3
 	aliasCursor = collection.find({"Archivos.Nombre":fname.replace(".docx","")})
 	listaAlias = buscarAliasEnBD(candidato,fname)
 	for element in listaAlias:

@@ -14,8 +14,10 @@ client = MongoClient('localhost', 27017)
 client.drop_database('NERLegalesFL')
 db = client.NERLegalesFL
 collection = db.Entidades
-
-os.remove("salidaFreeling.txt")
+try:
+    os.remove("salidaFreeling.txt")
+except FileNotFoundError:
+    pass
 path_docx = "Evaluacion/CorpusEval/Archivo"
 for fname in os.listdir(path_docx):
     fullpath = os.path.join(path_docx, fname)
