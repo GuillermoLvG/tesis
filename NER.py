@@ -73,7 +73,7 @@ def obtenerArticulo(candidato):
 	'''
 	listaCandidato = candidato.split()
 	for elem in listaCandidato:
-		if elem in ["la", "las", "lo", "los", "el"]:
+		if elem in ["la", "las", "lo", "los", "el"] and len(listaCandidato) > 1:
 			if listaCandidato[listaCandidato.index(elem)+1][0].isupper():
 				articulo = elem + " " + listaCandidato[listaCandidato.index(elem)+1]
 				return articulo
@@ -385,6 +385,11 @@ def reglasSiglas(candidato):
 			contMinus = contMinus + 1
 	siglasLimpias = siglasLimpias.replace("NA","N")
 	siglasLimpias = siglasLimpias.replace("DI","D")
+	siglasLimpias = siglasLimpias.replace("TV","T")
+	siglasLimpias = siglasLimpias.replace("CO","C")
+	siglasLimpias = siglasLimpias.replace("FE","F")
+	siglasLimpias = siglasLimpias.replace("TEL","T")
+	siglasLimpias = siglasLimpias.replace("MEX","M")
 	if contMayus >= contMinus:
 		return siglasLimpias;
 	else:

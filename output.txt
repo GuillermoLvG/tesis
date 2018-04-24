@@ -1,56 +1,96 @@
-Archivo: Evaluacion/CorpusEval/Archivo/P_IFT_161215_600_Acc.docx
+Archivo: Evaluacion/CorpusEval/Archivo/DOF_P_IFT_EXT_241116_36_Acc.docx
 
-Contexto: Otorgamiento de la Concesión. El 13 de abril de 2007, la Secretaría de Comunicaciones y Transportes 
-Candidato: (la “Secretaría”)
-la Secretaría
-Tiene Artículo
-Articulo + palabra: la Secretaría
-Busca Artículo
-Encontré articulo + Palabra
+Contexto: 
+Candidato: (Octava Sección)
+Octava Sección
 El paréntesis contiene palabra(s)
-La palabra es: la Secretaría
-Buscando 'la secretaría' en el diccionario
-Regla 1
-Entidad: Secretaría de Comunicaciones y Transportes
-Alias: Secretaría
-
-Contexto: Otorgamiento de la Concesión. El 13 de abril de 2007, la Secretaría de Comunicaciones y Transportes (la “Secretaría”), otorgó en favor de el C. Jorge Adalberto Esperón Heredia, un título de concesión para instalar, operar y explotar una red pública de telecomunicaciones para prestar el servicio de televisión restringida en Cuichapa, Municipio de Moloacán, en el Estado de Veracruz, con una vigencia de 10 
-Candidato: (diez)
-diez
-El paréntesis contiene palabra(s)
-La palabra es: diez
-Buscando 'diez' en el diccionario
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: Octava
+Buscando 'octava sección' en el diccionario
 No hubo entidad 
 
-Contexto: Otorgamiento de la Concesión. El 13 de abril de 2007, la Secretaría de Comunicaciones y Transportes (la “Secretaría”), otorgó en favor de el C. Jorge Adalberto Esperón Heredia, un título de concesión para instalar, operar y explotar una red pública de telecomunicaciones para prestar el servicio de televisión restringida en Cuichapa, Municipio de Moloacán, en el Estado de Veracruz, con una vigencia de 10 (diez) años contados a partir de su otorgamiento 
-Candidato: (la “Concesión”)
-la Concesión
-Tiene Artículo
-Articulo + palabra: la Concesión
-Busca Artículo
-Encontré palabra en minúscula
+Contexto: Viernes 23 de diciembre de 2016	DIARIO OFICIAL	
+Candidato: (Octava Sección)
+Octava Sección
 El paréntesis contiene palabra(s)
-La palabra es: la Concesión
-Buscando 'la concesión' en el diccionario
-Regla 1
-Entidad: concesión para instalar operar y explotar una red pública de telecomunicaciones para prestar el servicio de televisión restringida en Cuichapa Municipio de Moloacán en el Estado de Veracruz con una vigencia de 10 diez años contados a partir de su otorgamiento
-Alias: Concesión
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: Octava
+Buscando 'octava sección' en el diccionario
+No hubo entidad 
 
-Contexto: Decreto de Reforma Constitucional. Con fecha 11 de junio de 2013, se publicó en el Diario Oficial de la Federación el “Decreto por el que se reforman y adicionan diversas disposiciones de los artículos 6o., 7o., 27, 28, 73, 78, 94 y 105 de la Constitución Política de los Estados Unidos Mexicanos, en materia de telecomunicaciones” 
-Candidato: (el “Decreto de Reforma Constitucional”)
-el Decreto de Reforma Constitucional
+Contexto: 1.- El 14 de julio de 2014, se publicó en el Diario Oficial de la Federación 
+Candidato: (el “DOF”)
+el DOF
 Tiene Artículo
-Articulo + palabra: el Decreto
+Articulo + palabra: el DOF
+Son Siglas
+Siglas: DOF
+Buscando mayúsculas en orden
+DO
+D
+
+Encontré mayúsculas en orden
+Siglas: DOF
+Buscando mayúsculas en orden
+DO
+D
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'el dof' en el diccionario
+Regla 1
+Entidad: Diario Oficial de la Federación
+Alias: DOF
+
+Contexto: 3.- En concordancia con lo dispuesto en el artículo 51, de la Ley Federal de Telecomunicaciones y Radiodifusión 
+Candidato: (la “LFTyR”)
+la LFTyR
+Tiene Artículo
+Articulo + palabra: la LFTyR
+Son Siglas
+Siglas: LFTR
+Buscando mayúsculas en orden
+LFT
+LF
+L
+
+Encontré mayúsculas en orden
+Siglas: LFTR
+Buscando mayúsculas en orden
+LFT
+LF
+L
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'la lftyr' en el diccionario
+Regla 1
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+Alias: LFTyR
+
+Contexto: 3.- En concordancia con lo dispuesto en el artículo 51, de la Ley Federal de Telecomunicaciones y Radiodifusión (la “LFTyR”), mediante el Acuerdo P/IFT/120815/306, aprobado en la XVI Sesión Ordinaria celebrada el 12 de agosto de 2015, el Pleno determinó someter a Consulta Pública, por un plazo de 30 
+Candidato: (treinta)
+treinta
+El paréntesis contiene palabra(s)
+La palabra es: treinta
+Buscando 'treinta' en el diccionario
+No hubo entidad 
+
+Contexto: 3.- En concordancia con lo dispuesto en el artículo 51, de la Ley Federal de Telecomunicaciones y Radiodifusión (la “LFTyR”), mediante el Acuerdo P/IFT/120815/306, aprobado en la XVI Sesión Ordinaria celebrada el 12 de agosto de 2015, el Pleno determinó someter a Consulta Pública, por un plazo de 30 (treinta) días hábiles contados a partir de el día hábil siguiente al de su publicación en el portal de Internet de el Instituto, el Anteproyecto de “LINEAMIENTOS GENERALES DE ACCESIBILIDAD A LOS SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD” 
+Candidato: (el “Anteproyecto de Lineamientos”)
+el Anteproyecto de Lineamientos
+Tiene Artículo
+Articulo + palabra: el Anteproyecto
 Busca Artículo
 Encontré articulo + Palabra
 El paréntesis contiene palabra(s)
-La palabra es: el Decreto de Reforma Constitucional
-Buscando 'el decreto de reforma constitucional' en el diccionario
+La palabra es: el Anteproyecto de Lineamientos
+Buscando 'el anteproyecto de lineamientos' en el diccionario
 Regla 1
-Entidad: Decreto por el que se reforman y adicionan diversas disposiciones de los artículos 6o. 7o. 27 28 73 78 94 y 105 de la Constitución Política de los Estados Unidos Mexicanos en materia de telecomunicaciones
-Alias: Decreto de Reforma Constitucional
+Entidad: Anteproyecto de LINEAMIENTOS GENERALES DE ACCESIBILIDAD A LOS SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD
+Alias: Anteproyecto de Lineamientos
 
-Contexto: Decreto de Reforma Constitucional. Con fecha 11 de junio de 2013, se publicó en el Diario Oficial de la Federación el “Decreto por el que se reforman y adicionan diversas disposiciones de los artículos 6o., 7o., 27, 28, 73, 78, 94 y 105 de la Constitución Política de los Estados Unidos Mexicanos, en materia de telecomunicaciones” (el “Decreto de Reforma Constitucional”), mediante el cual se creó el Instituto Federal de Telecomunicaciones 
+Contexto: 4.- La Consulta Pública se realizó de el día 14 de agosto al 25 de septiembre de el 2015, en el portal electrónico de el Instituto Federal de Telecomunicaciones 
 Candidato: (el “Instituto”)
 el Instituto
 Tiene Artículo
@@ -64,63 +104,7 @@ Regla 1
 Entidad: Instituto Federal de Telecomunicaciones
 Alias: Instituto
 
-Contexto: Decreto de Ley. El 14 de julio de 2014, se publicó en el Diario Oficial de la Federación el “Decreto por el que se expiden la Ley Federal de Telecomunicaciones y Radiodifusión, y la Ley de el Sistema Público de Radiodifusión de el Estado Mexicano; y se reforman, adicionan y derogan diversas disposiciones en materia de telecomunicaciones y radiodifusión” 
-Candidato: (el “Decreto de Ley”)
-el Decreto de Ley
-Tiene Artículo
-Articulo + palabra: el Decreto
-Busca Artículo
-Encontré articulo + Palabra
-El paréntesis contiene palabra(s)
-La palabra es: el Decreto de Ley
-Buscando 'el decreto de ley' en el diccionario
-Regla 1
-Entidad: Decreto por el que se expiden la Ley Federal de Telecomunicaciones y Radiodifusión y la Ley de el Sistema Público de Radiodifusión de el Estado Mexicano; y se reforman adicionan y derogan diversas disposiciones en materia de telecomunicaciones y radiodifusión
-Alias: Decreto de Ley
-
-Contexto: Estatuto Orgánico. El 4 de septiembre de 2014, se publicó en el Diario Oficial de la Federación el “Estatuto Orgánico de el Instituto Federal de Telecomunicaciones” 
-Candidato: (el “Estatuto Orgánico”)
-el Estatuto Orgánico
-Tiene Artículo
-Articulo + palabra: el Estatuto
-Busca Artículo
-Encontré articulo + Palabra
-El paréntesis contiene palabra(s)
-La palabra es: el Estatuto Orgánico
-Buscando 'el estatuto orgánico' en el diccionario
-Regla 1
-Entidad: Estatuto Orgánico de el Instituto Federal de Telecomunicaciones
-Alias: Estatuto Orgánico
-
-Contexto: Solicitud de Prórroga de Vigencia. El 9 de abril de 2015, el C. Jorge Adalberto Esperón Heredia a través de su representante legal, presentó ante el Instituto solicitud de prórroga de vigencia de la Concesión 
-Candidato: (la “Solicitud de Prórroga”)
-la Solicitud de Prórroga
-Tiene Artículo
-Articulo + palabra: la Solicitud
-Busca Artículo
-Encontré palabra en minúscula
-El paréntesis contiene palabra(s)
-La palabra es: la Solicitud de Prórroga
-Buscando 'la solicitud de prórroga' en el diccionario
-Regla 1
-Entidad: solicitud de prórroga de vigencia de la Concesión
-Alias: Solicitud de Prórroga
-
-Contexto: Solicitud de Opinión Técnica. De conformidad con lo dispuesto en el Decreto de Reforma Constitucional y la Ley Federal de Telecomunicaciones y Radiodifusión 
-Candidato: (la “Ley”)
-la Ley
-Tiene Artículo
-Articulo + palabra: la Ley
-Busca Artículo
-Encontré articulo + Palabra
-El paréntesis contiene palabra(s)
-La palabra es: la Ley
-Buscando 'la ley' en el diccionario
-Regla 1
-Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
-Alias: Ley
-
-Contexto: Solicitud de Opinión Técnica. De conformidad con lo dispuesto en el Decreto de Reforma Constitucional y la Ley Federal de Telecomunicaciones y Radiodifusión (la “Ley”), mediante oficio IFT/223/UCS/649/2015, notificado el 22 de abril de 2015, el Instituto a través de la Unidad de Concesiones y Servicios, solicitó a la Secretaría la opinión técnica correspondiente a la Solicitud de Prórroga, en términos de lo establecido por el artículo 28 párrafo décimo séptimo de la Constitución Política de los Estados Unidos Mexicanos 
+Contexto: PRIMERO.- COMPETENCIA DEL INSTITUTO. De conformidad con lo establecido por el párrafo décimo quinto de el artículo 28 de la Constitución Política de los Estados Unidos Mexicanos 
 Candidato: (la “Constitución”)
 la Constitución
 Tiene Artículo
@@ -134,47 +118,310 @@ Regla 1
 Entidad: Constitución Política de los Estados Unidos Mexicanos
 Alias: Constitución
 
-Contexto: En ese sentido resulta conveniente señalar que la Concesión establece en su condición 1.5, que su vigencia será de 10 
-Candidato: (diez)
-diez
+Contexto: En tanto, dicha Organización Mundial estima que el 15% de la población mundial vive con una discapacidad, lo que representa alrededor de mil millones de personas en todo el mundo, razón por la cual la Unión Internacional de Telecomunicaciones 
+Candidato: (“UIT”)
+UIT
+Siglas: UIT
+Buscando mayúsculas en orden
+UI
+U
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'uit' en el diccionario
+Regla 2
+Entidad: Unión Internacional de Telecomunicaciones
+Alias: UIT
+
+Contexto: En tanto, dicha Organización Mundial estima que el 15% de la población mundial vive con una discapacidad, lo que representa alrededor de mil millones de personas en todo el mundo, razón por la cual la Unión Internacional de Telecomunicaciones (“UIT”) considera que las tecnologías de información y comunicación 
+Candidato: (“TIC”)
+TIC
+Siglas: TIC
+Buscando mayúsculas en orden
+Buscando minúsculas en orden
+ti
+t
+
+Encontré minúsculas en orden
+Fueron Siglas
+Buscando 'tic' en el diccionario
+Regla 2
+Entidad: tecnologías de información y comunicación
+Alias: TIC
+
+Contexto: De igual forma, la Resolución 175 
+Candidato: (Rev. Busán, 2014)
+Rev. Busán 2014
 El paréntesis contiene palabra(s)
-La palabra es: diez
-Buscando 'diez' en el diccionario
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: Rev.
+Buscando 'rev. busán 2014' en el diccionario
 No hubo entidad 
 
-Contexto: En suma, el citado artículo 113 de la Ley prevé que para el otorgamiento de prórrogas de concesiones en materia de telecomunicaciones es necesario que el concesionario: 
-Candidato: (i)
-i
+Contexto: Australia. A través de la Telecommunications Act 1997, se establecen las características y los equipos que deben estar disponibles para ser usados con servicios de telefonía estándar, en tanto que la Telecommunication Disability Standard 
+Candidato: (Requirements for Customer Equipment for use with the Standard Telephone Service – Features for special needs of persons with disabilities – AS/ACIF S040)
+Requirements for Customer Equipment for use with the Standard Telephone Service – Features for special needs of persons with disabilities – AS/ACIF S040
 El paréntesis contiene palabra(s)
-La palabra es: i
-Buscando 'i' en el diccionario
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: Requirements
+Buscando 'requirements for customer equipment for use with the standard telephone service – features for special needs of persons with disabilities – as/acif s040' en el diccionario
 No hubo entidad 
 
-Contexto: En suma, el citado artículo 113 de la Ley prevé que para el otorgamiento de prórrogas de concesiones en materia de telecomunicaciones es necesario que el concesionario: (i) lo hubiere solicitado dentro de el año previo al inicio de la última quinta parte de el plazo de vigencia de la concesión; 
-Candidato: (ii)
-ii
+Contexto: Sudáfrica. En la Sección 2 
+Candidato: (h)
+h
 El paréntesis contiene palabra(s)
-La palabra es: ii
-Buscando 'ii' en el diccionario
+La palabra es: h
+Buscando 'h' en el diccionario
 No hubo entidad 
 
-Contexto: En suma, el citado artículo 113 de la Ley prevé que para el otorgamiento de prórrogas de concesiones en materia de telecomunicaciones es necesario que el concesionario: (i) lo hubiere solicitado dentro de el año previo al inicio de la última quinta parte de el plazo de vigencia de la concesión; (ii) se encuentre al corriente en el cumplimiento de las obligaciones establecidas en la Ley y demás disposiciones aplicables; así como en su título de concesión, y 
-Candidato: (iii)
-iii
+Contexto: Reino Unido. Las General Conditions of Entitlement, que derivan de la Telecommunications Regulation, exige a los proveedores de servicios de comunicación, el acceso a la retransmisión de texto y búsqueda en directorios, conexiones de avanzada para personas ciegas, reparación prioritaria de servicios a precios accesibles para personas con discapacidad, servicio seguro para evitar desconexiones, formatos alternativos de facturación, entre otros. Además la Disability Discrimination Act 
+Candidato: (DDA)
+DDA
+Siglas: DDA
+Buscando mayúsculas en orden
+DD
+D
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'dda' en el diccionario
+Regla 2
+Entidad: Disability Discrimination Act
+Alias: DDA
+
+Contexto: Estados Unidos de América. A través de las secciones 251 y 255 de la Communications Act, obliga a los fabricantes de equipos de telecomunicaciones en asegurarse que sus productos y servicios sean accesibles y útiles para las personas con discapacidad 
+Candidato: (vigente para teléfonos fijos, celulares, localizadores, servicios de llamada en espera y servicios de operadores)
+vigente para teléfonos fijos celulares localizadores servicios de llamada en espera y servicios de operadores
 El paréntesis contiene palabra(s)
-La palabra es: iii
-Buscando 'iii' en el diccionario
+La palabra es: vigente para teléfonos fijos celulares localizadores servicios de llamada en espera y servicios de operadores
+Buscando 'vigente para teléfonos fijos celulares localizadores servicios de llamada en espera y servicios de operadores' en el diccionario
 No hubo entidad 
 
-Contexto: Para tal efecto, el Instituto Federal de Telecomunicaciones otorgará un título de concesión única para uso comercial, en favor de el C. Jorge Adalberto Esperón Heredia, con una vigencia de 30 
-Candidato: (treinta)
-treinta
+Contexto: Estados Unidos de América. A través de las secciones 251 y 255 de la Communications Act, obliga a los fabricantes de equipos de telecomunicaciones en asegurarse que sus productos y servicios sean accesibles y útiles para las personas con discapacidad (vigente para teléfonos fijos, celulares, localizadores, servicios de llamada en espera y servicios de operadores). Cuando el servicio no está disponible "de primera mano", se exige entonces que los productos y servicios sean compatibles con equipos auxiliares. También en la Hearing Aid Compatibility Act, dispone que los fabricantes o importadores de teléfonos en el país tienen que considerar que los aparatos deben ser compatibles con auxiliares auditivos. Asimismo, en la Uniform Federal Accessibility Standards 
+Candidato: (UFAS, por sus siglas en inglés)
+UFAS por sus siglas en inglés
 El paréntesis contiene palabra(s)
-La palabra es: treinta
-Buscando 'treinta' en el diccionario
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: UFAS
+Siglas: UFAS
+Buscando mayúsculas en orden
+UFA
+UF
+U
+
+Encontré mayúsculas en orden
+Buscando 'ufas por sus siglas en inglés' en el diccionario
+Regla 3
+Entidad: Uniform Federal Accessibility Standards
+Alias: UFAS
+
+Contexto: Venezuela. La Ley para las Personas con Discapacidad, considera el derecho de accesibilidad en los servicios de telecomunicaciones de forma muy general, al disponer como un derecho que los equipos de telecomunicaciones cuenten con adaptaciones, así como a facilitar la accesibilidad de forma arquitectónica y de procedimientos por los entes públicos y privados. En tanto, en la Gaceta Oficial de la República Bolivariana de Venezuela, se emiten una serie de resoluciones bajo la materia de las telecomunicaciones, entre las cuales, se establece que los portales de los entes públicos, deberán contar con elementos de accesibilidad bajo, W3C 
+Candidato: (Word Wide Web Consortium)
+Word Wide Web Consortium
+El paréntesis contiene palabra(s)
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: Word
+Buscando 'word wide web consortium' en el diccionario
 No hubo entidad 
 
-Contexto: SEGUNDO.- Se instruye a la Unidad de Concesiones y Servicios a hacer de el conocimiento de el solicitante el contenido de la presente Resolución, así como las nuevas condiciones establecidas, mismas que se encuentran contenidas en el proyecto de título de concesión única señalado en el Resolutivo Primero y que forma parte integral de la presente Resolución, a efecto de recabar de éste, en un plazo no mayor a 15 
+Contexto: Por otra parte a nivel internacional, se cuenta con un estándar de accesibilidad web desarrollado por la World Wide Web Consortium 
+Candidato: (W3C)
+W3C
+Siglas: W3C
+Buscando mayúsculas en orden
+W3
+Buscando minúsculas en orden
+w3
+Buscando mayúsculas sin importar el orden
+W3
+3
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: World Wide Web Consortium
+Se determinó a World Wide Web Consortium como entidad
+Fueron Siglas
+Buscando 'w3c' en el diccionario
+Se encontró en diccionario original
+Regla 2
+Entidad: World Wide Web Consortium
+Alias: W3C
+
+Contexto: En tanto, la G3ict 
+Candidato: (Iniciativa Global para TIC incluyente)
+Iniciativa Global para TIC incluyente
+El paréntesis contiene palabra(s)
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: Iniciativa
+Buscando 'iniciativa global para tic incluyente' en el diccionario
+Se encontró en diccionario invertido
+Regla 4
+Entidad: Iniciativa Global para TIC incluyente
+Alias: g3ict
+
+Contexto: En tanto, la G3ict (Iniciativa Global para TIC incluyente) considera pertinente adoptar el nivel AA, ya que es un nivel intermedio y que no implica un gasto desproporcionado para su implementación y mantenimiento. Cabe mencionar que G3ict es un ente creado por la Alianza Global para el Desarrollo de las Tecnologías de la Información y Comunicación 
+Candidato: (GAID, por sus siglas en inglés)
+GAID por sus siglas en inglés
+El paréntesis contiene palabra(s)
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: GAID
+Siglas: GAID
+Buscando mayúsculas en orden
+GAI
+Buscando minúsculas en orden
+gai
+ga
+g
+Buscando mayúsculas sin importar el orden
+GAD
+GA
+A
+
+Encontré mayúsculas sin importar el orden
+Buscando 'gaid por sus siglas en inglés' en el diccionario
+Regla 3
+Entidad: Alianza Global para el Desarrollo de las Tecnologías de la Información y Comunicación
+Alias: GAID
+
+Contexto: CUARTO. SITUACIÓN ACTUAL EN MÉXICO. En nuestro país, cifras de el Instituto Nacional de Estadística y Geografía 
+Candidato: (INEGI)
+INEGI
+Siglas: INEGI
+Buscando mayúsculas en orden
+INEG
+Buscando minúsculas en orden
+Buscando mayúsculas sin importar el orden
+INEI
+INI
+II
+I
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Instituto Nacional de Estadística y Geografía
+Se determinó a Instituto Nacional de Estadística y Geografía como entidad
+Fueron Siglas
+Buscando 'inegi' en el diccionario
+Se encontró en diccionario original
+Regla 2
+Entidad: Instituto Nacional de Estadística y Geografía
+Alias: INEGI
+
+Contexto: CUARTO. SITUACIÓN ACTUAL EN MÉXICO. En nuestro país, cifras de el Instituto Nacional de Estadística y Geografía (INEGI), obtenidas de la Encuesta Nacional de la Dinámica Demográfica 2014 
+Candidato: (ENADID)
+ENADID
+Siglas: ENDD
+Buscando mayúsculas en orden
+END
+EN
+E
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'enadid' en el diccionario
+Regla 2
+Entidad: Encuesta Nacional de la Dinámica Demográfica 2014
+Alias: ENADID
+
+Contexto: Así las cosas, resulta conveniente señalar que el Instituto consideró aquellas sugerencias, recomendaciones o propuestas que se estimaron procedentes en el texto de los “LINEAMIENTOS GENERALES DE ACCESIBILIDAD A SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD” 
+Candidato: (los “Lineamientos de Accesibilidad”)
+los Lineamientos de Accesibilidad
+Tiene Artículo
+Articulo + palabra: los Lineamientos
+Busca Artículo
+Encontré articulo + PALABRA
+El paréntesis contiene palabra(s)
+La palabra es: los Lineamientos de Accesibilidad
+Buscando 'los lineamientos de accesibilidad' en el diccionario
+Regla 1
+Entidad: LINEAMIENTOS GENERALES DE ACCESIBILIDAD A SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD
+Alias: Lineamientos de Accesibilidad
+
+Contexto: Al respecto, la Coordinación General de Política de el Usuario de el Instituto realizó el Análisis de Impacto Regulatorio 
+Candidato: (“AIR”)
+AIR
+Siglas: AIR
+Buscando mayúsculas en orden
+AI
+A
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'air' en el diccionario
+Regla 2
+Entidad: Análisis de Impacto Regulatorio
+Alias: AIR
+
+Contexto: Al respecto, la Coordinación General de Política de el Usuario de el Instituto realizó el Análisis de Impacto Regulatorio (“AIR”) correspondiente, mismo que fue sometido formalmente a consideración de la Coordinación General de Mejora Regulatoria 
+Candidato: (la “CGMR”)
+la CGMR
+Tiene Artículo
+Articulo + palabra: la CGMR
+Son Siglas
+Siglas: CGMR
+Buscando mayúsculas en orden
+CGM
+CG
+C
+
+Encontré mayúsculas en orden
+Siglas: CGMR
+Buscando mayúsculas en orden
+CGM
+CG
+C
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'la cgmr' en el diccionario
+Regla 1
+Entidad: Coordinación General de Mejora Regulatoria
+Alias: CGMR
+
+Contexto: IV.	Centro
+Candidato: (s)
+s
+El paréntesis contiene palabra(s)
+La palabra es: s
+Buscando 's' en el diccionario
+No hubo entidad 
+
+Contexto: XII.	Pautas de Accesibilidad de Contenido de Internet 
+Candidato: (WCAG)
+WCAG
+Siglas: WCAG
+Buscando mayúsculas en orden
+Buscando minúsculas en orden
+Buscando mayúsculas sin importar el orden
+WAG
+WG
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Pautas de Accesibilidad de Contenido de Internet
+Se determinó a Pautas de Accesibilidad de Contenido de Internet como entidad
+Fueron Siglas
+Buscando 'wcag' en el diccionario
+Regla 2
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+Alias: WCAG
+
+Contexto: XVII.	Sistemas de Atención: Mecanismos de comunicación implementados por los concesionarios y autorizados que les permiten atender las solicitudes, quejas, reclamaciones, dudas, trámites, etc., de sus usuarios finales, pudiendo ser éstos, los Centros de Atención, los números de atención telefónica y las herramientas de comunicación a través de las páginas o portales de Internet 
+Candidato: (chats)
+chats
+El paréntesis contiene palabra(s)
+La palabra es: chats
+Buscando 'chats' en el diccionario
+No hubo entidad 
+
+Contexto: XX.	W3C 
+Candidato: (World Wide Web Consortium)
+World Wide Web Consortium
+El paréntesis contiene palabra(s)
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: World
+Buscando 'world wide web consortium' en el diccionario
+Se encontró en diccionario invertido
+Regla 4
+Entidad: World Wide Web Consortium
+Alias: w3c
+
+Contexto: Artículo 11. Los Concesionarios y Autorizados que presten el servicio de telefonía fija, deberán contar con un catálogo de equipos terminales que contengan funcionalidades de Accesibilidad para Personas  con Discapacidad motriz, visual y auditiva. Lo anterior, con la finalidad de que dichos equipos terminales sean proporcionados a los Usuarios con Discapacidad que los soliciten a través de los Sistemas de Atención al público que tengan habilitados, dentro de los 15 
 Candidato: (quince)
 quince
 El paréntesis contiene palabra(s)
@@ -182,49 +429,3665 @@ La palabra es: quince
 Buscando 'quince' en el diccionario
 No hubo entidad 
 
-Archivo: Evaluacion/CorpusEval/Archivo/P_IFT_161215_600_Acc.docx
+Contexto: I.	Contar con los elementos de Accesibilidad establecidos en los estándares internacionales más actualizados de la W3C, específicamente las Pautas de Accesibilidad de Contenido de Internet 
+Candidato: (WCAG)
+WCAG
+Siglas: WCAG
+Buscando mayúsculas en orden
+Buscando minúsculas en orden
+Buscando mayúsculas sin importar el orden
+WAG
+WG
+G
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Pautas de Accesibilidad de Contenido de Internet
+Se determinó a Pautas de Accesibilidad de Contenido de Internet como entidad
+Fueron Siglas
+Buscando 'wcag' en el diccionario
+Regla 2
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+Alias: WCAG
 
-Candidato: Otorgamiento de la Concesión
+Contexto: Artículo 25. En relación con la fracción I de el artículo anterior, los Concesionarios y Autorizados deberán atender a las modificaciones y actualizaciones que se realicen en las Pautas de Accesibilidad de Contenido de Internet 
+Candidato: (WCAG)
+WCAG
+Siglas: WCAG
+Buscando mayúsculas en orden
+Buscando minúsculas en orden
+Buscando mayúsculas sin importar el orden
+WAG
+WG
+Buscando posibles entidades con Mayúsculas: 
+Posible entidad: Pautas de Accesibilidad de Contenido de Internet
+Se determinó a Pautas de Accesibilidad de Contenido de Internet como entidad
+Fueron Siglas
+Buscando 'wcag' en el diccionario
+Regla 2
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+Alias: WCAG
+
+Contexto: En caso de que dichas Pautas presenten modificaciones y/o actualizaciones, los Concesionarios y Autorizados deberán implementarlas en un plazo no mayor a 3 
+Candidato: (tres)
+tres
+El paréntesis contiene palabra(s)
+La palabra es: tres
+Buscando 'tres' en el diccionario
+No hubo entidad 
+
+Archivo: Evaluacion/CorpusEval/Archivo/P_IFT_111215_577_Acc.docx
+
+Contexto: I.- Refrendo de la Concesión. El 13 de diciembre de 2006, de conformidad con los artículos 13 de la Ley Federal de Telecomunicaciones 
+Candidato: (en adelante “LFT”)
+LFT
+Siglas: LFT
+Buscando mayúsculas en orden
+LF
+L
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'lft' en el diccionario
+Regla 2
+Entidad: Ley Federal de Telecomunicaciones
+Alias: LFT
+
+Contexto: I.- Refrendo de la Concesión. El 13 de diciembre de 2006, de conformidad con los artículos 13 de la Ley Federal de Telecomunicaciones (en adelante “LFT”), 16 y 21 de la Ley Federal de Radio y Televisión 
+Candidato: (en los sucesivo, la “LFRTV)
+en los sucesivo la LFRTV
+Tiene Artículo
+Articulo + palabra: la LFRTV
+Son Siglas
+Siglas: LFRT
+Buscando mayúsculas en orden
+LFR
+LF
+L
+
+Encontré mayúsculas en orden
+El paréntesis contiene palabra(s)
+La palabra es: en los sucesivo la LFRTV
+Buscando 'en los sucesivo la lfrtv' en el diccionario
+Regla 1
+Entidad: Ley Federal de Radio y Televisión
+Alias: LFRTV
+
+Contexto: I.- Refrendo de la Concesión. El 13 de diciembre de 2006, de conformidad con los artículos 13 de la Ley Federal de Telecomunicaciones (en adelante “LFT”), 16 y 21 de la Ley Federal de Radio y Televisión (en los sucesivo, la “LFRTV), la Comisión Federal de Telecomunicaciones 
+Candidato: (en lo sucesivo, la “COFETEL”)
+la COFETEL
+Tiene Artículo
+Articulo + palabra: la COFETEL
+Son Siglas
+Siglas: CFT
+Buscando mayúsculas en orden
+CF
+C
+
+Encontré mayúsculas en orden
+Siglas: CFT
+Buscando mayúsculas en orden
+CF
+C
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'la cofetel' en el diccionario
+Regla 1
+Entidad: Comisión Federal de Telecomunicaciones
+Alias: COFETEL
+
+Contexto: I.- Refrendo de la Concesión. El 13 de diciembre de 2006, de conformidad con los artículos 13 de la Ley Federal de Telecomunicaciones (en adelante “LFT”), 16 y 21 de la Ley Federal de Radio y Televisión (en los sucesivo, la “LFRTV), la Comisión Federal de Telecomunicaciones (en lo sucesivo, la “COFETEL”), otorgó a favor de Roberto Casimiro González Treviño 
+Candidato: (en lo sucesivo el “Concesionario”)
+el Concesionario
+Tiene Artículo
+Articulo + palabra: el Concesionario
+Busca Artículo
+No encontré el artículo con la palabra, ni la palabra sola, ni nada.
+El paréntesis contiene palabra(s)
+La palabra es: el Concesionario
+Buscando 'el concesionario' en el diccionario
+No hubo entidad 
+
+Contexto: I.- Refrendo de la Concesión. El 13 de diciembre de 2006, de conformidad con los artículos 13 de la Ley Federal de Telecomunicaciones (en adelante “LFT”), 16 y 21 de la Ley Federal de Radio y Televisión (en los sucesivo, la “LFRTV), la Comisión Federal de Telecomunicaciones (en lo sucesivo, la “COFETEL”), otorgó a favor de Roberto Casimiro González Treviño (en lo sucesivo el “Concesionario”), el refrendo de la Concesión para operar y explotar el canal 7 
+Candidato: (174-180 MHz)
+174-180 MHz
+El paréntesis contiene palabra(s)
+La palabra es: 174-180 MHz
+Buscando '174-180 mhz' en el diccionario
+No hubo entidad 
+
+Contexto: I.- Refrendo de la Concesión. El 13 de diciembre de 2006, de conformidad con los artículos 13 de la Ley Federal de Telecomunicaciones (en adelante “LFT”), 16 y 21 de la Ley Federal de Radio y Televisión (en los sucesivo, la “LFRTV), la Comisión Federal de Telecomunicaciones (en lo sucesivo, la “COFETEL”), otorgó a favor de Roberto Casimiro González Treviño (en lo sucesivo el “Concesionario”), el refrendo de la Concesión para operar y explotar el canal 7 (174-180 MHz), a través de la estación de televisión con distintivo de llamada XHRCG-TV, en Saltillo, Coahuila, con vigencia de 20 
+Candidato: (veinte)
+veinte
+El paréntesis contiene palabra(s)
+La palabra es: veinte
+Buscando 'veinte' en el diccionario
+No hubo entidad 
+
+Contexto: I.- Refrendo de la Concesión. El 13 de diciembre de 2006, de conformidad con los artículos 13 de la Ley Federal de Telecomunicaciones (en adelante “LFT”), 16 y 21 de la Ley Federal de Radio y Televisión (en los sucesivo, la “LFRTV), la Comisión Federal de Telecomunicaciones (en lo sucesivo, la “COFETEL”), otorgó a favor de Roberto Casimiro González Treviño (en lo sucesivo el “Concesionario”), el refrendo de la Concesión para operar y explotar el canal 7 (174-180 MHz), a través de la estación de televisión con distintivo de llamada XHRCG-TV, en Saltillo, Coahuila, con vigencia de 20 (veinte) años, contados a partir de el día 3 de julio de 1989 y vencimiento el 2 de julio de 2009 
+Candidato: (en lo sucesivo, la “Concesión”)
+la Concesión
+Tiene Artículo
+Articulo + palabra: la Concesión
+Busca Artículo
+Encontré articulo + Palabra
+El paréntesis contiene palabra(s)
+La palabra es: la Concesión
+Buscando 'la concesión' en el diccionario
+Regla 1
+Entidad: Concesión para operar y explotar el canal 7 174-180 MHz a través de la estación de televisión con distintivo de llamada XHRCG-TV en Saltillo Coahuila con vigencia de 20 veinte años contados a partir de el día 3 de julio de 1989 y vencimiento el 2 de julio de 2009
+Alias: Concesión
+
+Contexto: II.- Solicitud de Refrendo. Mediante oficio presentado el 2 de abril de 2008 ante la entonces COFETEL, el Subdirector de Comunicaciones de el Centro SCT “Coahuila” remite el escrito de fecha 7 de marzo de 2008, mediante el cual el Concesionario solicitó el refrendo de la Concesión 
+Candidato: (en la sucesivo, la “Solicitud”)
+la Solicitud
+Tiene Artículo
+Articulo + palabra: la Solicitud
+Busca Artículo
+Encontré palabra tal como viene escrita
+El paréntesis contiene palabra(s)
+La palabra es: la Solicitud
+Buscando 'la solicitud' en el diccionario
+Regla 1
+Entidad: Solicitud de Refrendo. Mediante oficio presentado el 2 de abril de 2008 ante la entonces COFETEL el Subdirector de Comunicaciones de el Centro SCT Coahuila remite el escrito de fecha 7 de marzo de 2008 mediante el cual el Concesionario solicitó el refrendo de la Concesión
+Alias: Solicitud
+
+Contexto: III.- Decreto de Reforma Constitucional. Con fecha 11 de junio de 2013 se publicó en el Diario Oficial de la Federación 
+Candidato: (en lo sucesivo, el “DOF”)
+el DOF
+Tiene Artículo
+Articulo + palabra: el DOF
+Son Siglas
+Siglas: DOF
+Buscando mayúsculas en orden
+DO
+D
+
+Encontré mayúsculas en orden
+Siglas: DOF
+Buscando mayúsculas en orden
+DO
+D
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'el dof' en el diccionario
+Regla 1
+Entidad: Diario Oficial de la Federación
+Alias: DOF
+
+Contexto: III.- Decreto de Reforma Constitucional. Con fecha 11 de junio de 2013 se publicó en el Diario Oficial de la Federación (en lo sucesivo, el “DOF”) el “Decreto por el que se reforman y adicionan diversas disposiciones de los artículos 6o., 7o., 27, 28, 73, 78, 94 y 105 de la Constitución Política de los Estados Unidos Mexicanos, en materia de telecomunicaciones” 
+Candidato: (en lo sucesivo, el “Decreto de Reforma Constitucional”)
+el Decreto de Reforma Constitucional
+Tiene Artículo
+Articulo + palabra: el Decreto
+Busca Artículo
+Encontré articulo + Palabra
+El paréntesis contiene palabra(s)
+La palabra es: el Decreto de Reforma Constitucional
+Buscando 'el decreto de reforma constitucional' en el diccionario
+Regla 1
+Entidad: Decreto por el que se reforman y adicionan diversas disposiciones de los artículos 6o. 7o. 27 28 73 78 94 y 105 de la Constitución Política de los Estados Unidos Mexicanos en materia de telecomunicaciones
+Alias: Decreto de Reforma Constitucional
+
+Contexto: III.- Decreto de Reforma Constitucional. Con fecha 11 de junio de 2013 se publicó en el Diario Oficial de la Federación (en lo sucesivo, el “DOF”) el “Decreto por el que se reforman y adicionan diversas disposiciones de los artículos 6o., 7o., 27, 28, 73, 78, 94 y 105 de la Constitución Política de los Estados Unidos Mexicanos, en materia de telecomunicaciones” (en lo sucesivo, el “Decreto de Reforma Constitucional”), mediante el cual se creó el Instituto Federal de Telecomunicaciones 
+Candidato: (en lo sucesivo, el “Instituto”)
+el Instituto
+Tiene Artículo
+Articulo + palabra: el Instituto
+Busca Artículo
+Encontré articulo + Palabra
+El paréntesis contiene palabra(s)
+La palabra es: el Instituto
+Buscando 'el instituto' en el diccionario
+Regla 1
+Entidad: Instituto Federal de Telecomunicaciones
+Alias: Instituto
+
+Contexto: V.- Decreto de Ley. El 14 de julio de 2014 se publicó en el DOF el “Decreto por el que se expiden la Ley Federal de Telecomunicaciones y Radiodifusión, y la Ley de el Sistema Público de Radiodifusión de el Estado Mexicano; y se reforman, adicionan y derogan diversas disposiciones en materia de telecomunicaciones y radiodifusión” 
+Candidato: (en lo sucesivo, el “Decreto de Ley”)
+el Decreto de Ley
+Tiene Artículo
+Articulo + palabra: el Decreto
+Busca Artículo
+Encontré articulo + Palabra
+El paréntesis contiene palabra(s)
+La palabra es: el Decreto de Ley
+Buscando 'el decreto de ley' en el diccionario
+Regla 1
+Entidad: Decreto por el que se expiden la Ley Federal de Telecomunicaciones y Radiodifusión y la Ley de el Sistema Público de Radiodifusión de el Estado Mexicano; y se reforman adicionan y derogan diversas disposiciones en materia de telecomunicaciones y radiodifusión
+Alias: Decreto de Ley
+
+Contexto: VI.- Estatuto Orgánico. El 4 de septiembre de 2014 se publicó en el DOF el “Estatuto Orgánico de el Instituto Federal de Telecomunicaciones” 
+Candidato: (en lo sucesivo, el “Estatuto Orgánico”)
+el Estatuto Orgánico
+Tiene Artículo
+Articulo + palabra: el Estatuto
+Busca Artículo
+Encontré articulo + Palabra
+El paréntesis contiene palabra(s)
+La palabra es: el Estatuto Orgánico
+Buscando 'el estatuto orgánico' en el diccionario
+Regla 1
+Entidad: Estatuto Orgánico de el Instituto Federal de Telecomunicaciones
+Alias: Estatuto Orgánico
+
+Contexto: VII.- Solicitud de opinión a la Unidad de Cumplimiento. Con oficio IFT/223/UCS/269/2015 de el 25 de febrero de 2015, la Unidad de Concesiones y Servicios 
+Candidato: (en lo sucesivo, la “UCS”)
+la UCS
+Tiene Artículo
+Articulo + palabra: la UCS
+Son Siglas
+Siglas: UCS
+Buscando mayúsculas en orden
+UC
+U
+
+Encontré mayúsculas en orden
+Siglas: UCS
+Buscando mayúsculas en orden
+UC
+U
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'la ucs' en el diccionario
+Regla 1
+Entidad: Unidad de Concesiones y Servicios
+Alias: UCS
+
+Contexto: VII.- Solicitud de opinión a la Unidad de Cumplimiento. Con oficio IFT/223/UCS/269/2015 de el 25 de febrero de 2015, la Unidad de Concesiones y Servicios (en lo sucesivo, la “UCS”), de conformidad con lo establecido en los artículos 32 y 34 fracción II de el Estatuto Orgánico, solicitó a la Unidad de Cumplimiento 
+Candidato: (en lo sucesivo, la “UC”)
+la UC
+Tiene Artículo
+Articulo + palabra: la UC
+Son Siglas
+Siglas: UC
+Buscando mayúsculas en orden
+U
+
+Encontré mayúsculas en orden
+El paréntesis contiene palabra(s)
+La palabra es: la UC
+Buscando 'la uc' en el diccionario
+Regla 1
+Entidad: Unidad de Cumplimiento
+Alias: UC
+
+Contexto: VIII.- Solicitud de opinión a la Unidad de Competencia Económica. Con oficio IFT/223/UCS/DG-CRAD/598/2015 de el 25 de febrero de 2015 la Dirección General de Concesiones de Radiodifusión de la UCS, de conformidad con lo establecido en los artículos 32 y 34 fracción II de el Estatuto Orgánico, remitió la solicitud de refrendo de vigencia de la Concesión a la Dirección General de Concentraciones y Concesiones de la Unidad de Competencia Económica 
+Candidato: (en lo sucesivo, la “UCE”)
+la UCE
+Tiene Artículo
+Articulo + palabra: la UCE
+Son Siglas
+Siglas: UCE
+Buscando mayúsculas en orden
+UC
+U
+
+Encontré mayúsculas en orden
+Siglas: UCE
+Buscando mayúsculas en orden
+UC
+U
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'la uce' en el diccionario
+Regla 1
+Entidad: Unidad de Competencia Económica
+Alias: UCE
+
+Contexto: IX.- Solicitud de cálculo de monto de contraprestación a la Unidad de Espectro Radioeléctrico. Con oficio IFT/223/UCS/DG-CRAD/597/2015 de el 27 de febrero de 2015, la Dirección General de Concesiones de Radiodifusión de la UCS, solicitó a la Dirección General de el Economía de el Espectro y Recursos Orbitales de la Unidad de Espectro Radioeléctrico 
+Candidato: (en lo sucesivo, la “UER”)
+la UER
+Tiene Artículo
+Articulo + palabra: la UER
+Son Siglas
+Siglas: UER
+Buscando mayúsculas en orden
+UE
+U
+
+Encontré mayúsculas en orden
+Siglas: UER
+Buscando mayúsculas en orden
+UE
+U
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'la uer' en el diccionario
+Regla 1
+Entidad: Unidad de Espectro Radioeléctrico
+Alias: UER
+
+Contexto: X.- Contraprestación autorizada por la Secretaría de Hacienda y Crédito Público. Con oficio IFT/222/UER/146/2015 de el 08 de junio de 2015, la UER remitió a la UCS copia de el oficio No. 349-B-237 de el 05 de junio de 2015, emitido por la Unidad de Política de Ingresos No Tributarios de la Secretaría de Hacienda y Crédito Público 
+Candidato: (en lo sucesivo, la “SHCP”)
+la SHCP
+Tiene Artículo
+Articulo + palabra: la SHCP
+Son Siglas
+Siglas: SHCP
+Buscando mayúsculas en orden
+SHC
+SH
+S
+
+Encontré mayúsculas en orden
+Siglas: SHCP
+Buscando mayúsculas en orden
+SHC
+SH
+S
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'la shcp' en el diccionario
+Regla 1
+Entidad: Secretaría de Hacienda y Crédito Público
+Alias: SHCP
+
+Contexto: XI. Opinión en Materia de Competencia Económica. Con oficio IFT/226/UCE/DG-CCON/270/2015 de el 27 de octubre de 2015, la Dirección General de Concentraciones y Concesiones de la UCE emitió opinión en materia de competencia económica respecto a la solicitud de refrendo de la Concesión, estableciendo en la parte final de la opinión que: "…con la información disponible, en caso de que se otorgue autorización para que Canal RCG continúe proveyendo el servicio de TV Abierta Comercial, se advierte que existen medidas enfocadas a contrarrestar posibles efectos contrarios en el proceso de competencia y libre concurrencia en la provisión de servicios de TV Abierta Comercial en la localidad de Saltillo, Coahuila, cuyo impacto, en términos de competencia, será evaluado cada 2 
+Candidato: (dos)
+dos
+El paréntesis contiene palabra(s)
+La palabra es: dos
+Buscando 'dos' en el diccionario
+No hubo entidad 
+
+Contexto: Primero.- Competencia de el Instituto. De conformidad con el artículo 28 párrafo décimo quinto de la Constitución Política de los Estados Unidos Mexicanos 
+Candidato: (en lo sucesivo, la “Constitución”)
+la Constitución
+Tiene Artículo
+Articulo + palabra: la Constitución
+Busca Artículo
+Encontré articulo + Palabra
+El paréntesis contiene palabra(s)
+La palabra es: la Constitución
+Buscando 'la constitución' en el diccionario
+Regla 1
+Entidad: Constitución Política de los Estados Unidos Mexicanos
+Alias: Constitución
+
+Contexto: De igual forma, conforme a lo establecido en los artículos 15 fracción IV y 17 fracción I de la Ley Federal de Telecomunicaciones y Radiodifusión 
+Candidato: (en lo sucesivo, la “Ley”)
+la Ley
+Tiene Artículo
+Articulo + palabra: la Ley
+Busca Artículo
+Encontré articulo + Palabra
+El paréntesis contiene palabra(s)
+La palabra es: la Ley
+Buscando 'la ley' en el diccionario
+Regla 1
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+Alias: Ley
+
+Contexto: En ese orden de ideas, el 20 de agosto de 2007, fue publicada en el DOF la sentencia relativa a la Acción de Inconstitucionalidad 26/2006, por medio de la cual el Pleno de la Suprema Corte de Justicia de la Nación 
+Candidato: (en lo sucesivo SCJN)
+SCJN
+Siglas: SCJN
+Buscando mayúsculas en orden
+SCJ
+SC
+S
+
+Encontré mayúsculas en orden
+Fueron Siglas
+Buscando 'scjn' en el diccionario
+Regla 2
+Entidad: Suprema Corte de Justicia de la Nación
+Alias: SCJN
+
+Contexto: Como se señaló anteriormente, para el caso de solicitudes de prórroga de vigencia de concesiones que el Instituto resuelva favorablemente, la consecuencia sería el otorgamiento de una concesión única. No obstante lo anterior, para el caso en que el solicitante de la prórroga forme parte de el agente económico preponderante, deberá observarse lo señalado por el artículo Décimo Transitorio fracción II de el Decreto de Ley, mismo que establece que para los casos en que el agente económico preponderante opte por transitar a la concesión única, deberá estar en cumplimiento efectivo de las medidas expedidas por el Instituto, cuando menos durante 18 
+Candidato: (dieciocho)
+dieciocho
+El paréntesis contiene palabra(s)
+La palabra es: dieciocho
+Buscando 'dieciocho' en el diccionario
+No hubo entidad 
+
+Contexto: Cuarto.- Análisis de la solicitud de Refrendo. El Concesionario, mediante escrito presentado el  2 de abril de 2008, solicitó el otorgamiento de el refrendo de la Concesión para usar el canal 7 
+Candidato: (banda de frecuencia 174-180 MHz)
+banda de frecuencia 174-180 MHz
+El paréntesis contiene palabra(s)
+La palabra es: banda de frecuencia 174-180 MHz
+Buscando 'banda de frecuencia 174-180 mhz' en el diccionario
+No hubo entidad 
+
+Contexto: Temporalidad. Por lo que hace al requisito de procedencia establecido por el referido artículo 19 de la LFT, relativo a que el Concesionario presente la solicitud de prórroga antes de que inicie la última quinta parte de la vigencia de la Concesión, este Instituto considera que no resulta aplicable dicho supuesto, toda vez que de manera particular, es a través de la presente Resolución que se determina la aplicación supletoria de el referido precepto, y por tanto, no le es exigible al Concesionario, en razón de que el aludido plazo no era de su conocimiento para efectos de su observancia al momento de presentar la solicitud de refrendo correspondiente, en consecuencia ésta fue presentada en tiempo, ello en razón de que la Solicitud de Refrendo fue presentada el 2 de abril de 2008, considerando que la Concesión fue otorgada con vigencia de 20 
+Candidato: (veinte)
+veinte
+El paréntesis contiene palabra(s)
+La palabra es: veinte
+Buscando 'veinte' en el diccionario
+No hubo entidad 
+
+Contexto: Por otro lado, este Pleno estima que en atención a lo dispuesto en el numeral 6.2.2 de la “Disposición Técnica IFT-003-2014: Especificaciones y requerimientos mínimos para la instalación y operación de las estaciones de radiodifusión de televisión analógica 
+Candidato: (bandas VHF y UHF)
+bandas VHF y UHF
+El paréntesis contiene palabra(s)
+La palabra es: bandas VHF y UHF
+Buscando 'bandas vhf y uhf' en el diccionario
+No hubo entidad 
+
+Contexto: De los elementos antes presentados, se observa que el GIETV, de el cual forma parte el Solicitante, es concesionario, directa o indirectamente, de 4 
+Candidato: (cuatro)
+cuatro
+El paréntesis contiene palabra(s)
+La palabra es: cuatro
+Buscando 'cuatro' en el diccionario
+No hubo entidad 
+
+Contexto: Los concesionarios de las 4 
+Candidato: (cuatro)
+cuatro
+El paréntesis contiene palabra(s)
+La palabra es: cuatro
+Buscando 'cuatro' en el diccionario
+No hubo entidad 
+
+Contexto: Los concesionarios de las 4 (cuatro) estaciones de TV Abierta Comercial que prestan servicios en la misma localidad 
+Candidato: (i.e. es decir Canal RCG, Radiotelevisora de México Norte S.A. de C.V., T.V. de los Mochis, S.A. de C.V. y  Televimex, S.A. de C.V.)
+i.e. es decir Canal RCG Radiotelevisora de México Norte S.A. de C.V. T.V. de los Mochis S.A. de C.V. y  Televimex S.A. de C.V.
+El paréntesis contiene palabra(s)
+La palabra es: i.e. es decir Canal RCG Radiotelevisora de México Norte S.A. de C.V. T.V. de los Mochis S.A. de C.V. y  Televimex S.A. de C.V.
+Buscando 'i.e. es decir canal rcg radiotelevisora de méxico norte s.a. de c.v. t.v. de los mochis s.a. de c.v. y  televimex s.a. de c.v.' en el diccionario
+No hubo entidad 
+
+Contexto: Por lo anterior, con la información disponible, en caso de que se otorgue autorización para que Canal RCG continúe proveyendo el servicio de TV Abierta Comercial, se advierte que existen medidas enfocadas a contrarrestar posibles efectos contrarios en el proceso de competencia y libre concurrencia en la provisión de servicios de TV Abierta Comercial en la localidad de Saltillo, Coahuila, cuyo impacto en términos de competencia será evaluado cada 2 
+Candidato: (dos)
+dos
+El paréntesis contiene palabra(s)
+La palabra es: dos
+Buscando 'dos' en el diccionario
+No hubo entidad 
+
+Contexto: Séptimo.- Vigencia de la concesión para uso comercial. En términos de lo dispuesto por el artículo 75 de la Ley, la vigencia de las concesiones sobre el espectro radioeléctrico para uso comercial, serán hasta por 20 
+Candidato: (veinte)
+veinte
+El paréntesis contiene palabra(s)
+La palabra es: veinte
+Buscando 'veinte' en el diccionario
+No hubo entidad 
+
+Contexto: Séptimo.- Vigencia de la concesión para uso comercial. En términos de lo dispuesto por el artículo 75 de la Ley, la vigencia de las concesiones sobre el espectro radioeléctrico para uso comercial, serán hasta por 20 (veinte) años, por lo que se considera que la concesión para usar, aprovechar y explotar bandas de frecuencia de el espectro radioeléctrico para uso comercial se otorgue con una vigencia de 20 
+Candidato: (veinte)
+veinte
+El paréntesis contiene palabra(s)
+La palabra es: veinte
+Buscando 'veinte' en el diccionario
+Regla 2
+Entidad: veinte años por lo que se considera que la concesión para usar aprovechar y explotar bandas de frecuencia de el espectro radioeléctrico para uso comercial se otorgue con una vigencia de 20
+Alias: veinte
+
+Contexto: En tanto que el título de concesión que le permita a Roberto Casimiro González Treviño, la prestación de el servicio público de televisión radiodifundida tendrá una vigencia de 20 
+Candidato: (veinte)
+veinte
+El paréntesis contiene palabra(s)
+La palabra es: veinte
+Buscando 'veinte' en el diccionario
+No hubo entidad 
+
+Contexto: Conforme a ello, la acepción “otorgar”, no es limitante a la entrega de nuevas concesiones, sino que se refiere a todo aquel acto mediante el cual el Estado cede el derecho de uso, aprovechamiento y explotación de bienes dominio de la Nación, sea por primera ocasión, como en el caso de el otorgamiento de frecuencias de radiodifusión a razón y con motivo de un procedimiento licitatorio, o bien, como es el caso que nos ocupa, a razón de un acto mediante el cual se reitera beneficio de el otorgamiento de la misma concesión, es decir, prorroga la autorización para seguir usando, aprovechando y explotando el bien previamente concesionado, 
+Candidato: (frecuencia atribuida para la prestación del servicio de radiodifusión)
+frecuencia atribuida para la prestación del servicio de radiodifusión
+El paréntesis contiene palabra(s)
+La palabra es: frecuencia atribuida para la prestación del servicio de radiodifusión
+Buscando 'frecuencia atribuida para la prestación del servicio de radiodifusión' en el diccionario
+No hubo entidad 
+
+Contexto: En consecuencia, en ejercicio de las atribuciones establecidas el artículo 29 fracción VII de el Estatuto Orgánico, la UER solicitó a la SHCP la autorización de los aprovechamientos correspondientes a la prórroga de la concesión que nos ocupa por veinte años; en respuesta, mediante oficio No. 349-B-237 de el 05 de junio de 2015, emitido por la Unidad de Política de Ingresos No Tributarios de la SHCP, se autorizó el monto propuesto por concepto de contraprestación que le corresponde cubrir al Concesionario por el otorgamiento de la prórroga solicitada respecto de el uso, aprovechamiento y explotación de el canal 7 
+Candidato: (banda de frecuencias 174-180 MHz)
+banda de frecuencias 174-180 MHz
+El paréntesis contiene palabra(s)
+La palabra es: banda de frecuencias 174-180 MHz
+Buscando 'banda de frecuencias 174-180 mhz' en el diccionario
+No hubo entidad 
+
+Contexto: Que los montos de los aprovechamientos propuestos por el IFT fueron calculados tomando como referencia los resultados de la más reciente licitación pública que concluyó en 2015 de canales de transmisión para la prestación de el servicio público de televisión radiodifundida digital 
+Candidato: (Licitación No. IFT-1)
+Licitación No. IFT-1
+El paréntesis contiene palabra(s)
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: Licitación
+Buscando 'licitación no. ift-1' en el diccionario
+No hubo entidad 
+
+Contexto: 
+Candidato: (pesos)
+pesos
+El paréntesis contiene palabra(s)
+La palabra es: pesos
+Buscando 'pesos' en el diccionario
+No hubo entidad 
+
+Contexto: Derivado de lo transcrito, conforme a lo autorizado por la SHCP y considerando que conforme al resultado de la licitación pública que concluyó en 2015 de canales de transmisión para la prestación de el servicio público de televisión radiodifundida digital 
+Candidato: (Licitación No. IFT-1)
+Licitación No. IFT-1
+El paréntesis contiene palabra(s)
+Son varias palabras, tomamos la primera por empezar en mayúscula
+La palabra es: Licitación
+Buscando 'licitación no. ift-1' en el diccionario
+No hubo entidad 
+
+Contexto: Derivado de lo transcrito, conforme a lo autorizado por la SHCP y considerando que conforme al resultado de la licitación pública que concluyó en 2015 de canales de transmisión para la prestación de el servicio público de televisión radiodifundida digital (Licitación No. IFT-1) en la que resultó ganadora la empresa Cadena Tres, S.A. de C.V. , el pago por MHz por habitante corresponde a la cantidad de $2.835 pesos y teniendo en cuenta que dentro de el área de cobertura de la estación objeto de la presente resolución se encuentra contenido un total de 793,149 habitantes y el ancho de banda de un canal de televisión es de 6 MHz, por tanto, el monto de la contraprestación que le corresponde cubrir al Concesionario por la banda de frecuencias 174-180 MHz 
+Candidato: (canal 7)
+canal 7
+El paréntesis contiene palabra(s)
+La palabra es: canal 7
+Buscando 'canal 7' en el diccionario
+No hubo entidad 
+
+Contexto: Derivado de lo transcrito, conforme a lo autorizado por la SHCP y considerando que conforme al resultado de la licitación pública que concluyó en 2015 de canales de transmisión para la prestación de el servicio público de televisión radiodifundida digital (Licitación No. IFT-1) en la que resultó ganadora la empresa Cadena Tres, S.A. de C.V. , el pago por MHz por habitante corresponde a la cantidad de $2.835 pesos y teniendo en cuenta que dentro de el área de cobertura de la estación objeto de la presente resolución se encuentra contenido un total de 793,149 habitantes y el ancho de banda de un canal de televisión es de 6 MHz, por tanto, el monto de la contraprestación que le corresponde cubrir al Concesionario por la banda de frecuencias 174-180 MHz (canal 7) en Saltillo, Coahuila, distintivo de llamada XHRCG-TV, asciende a la cantidad de $13’489,971.00 
+Candidato: (trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 M.N.)
+trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 M.N.
+El paréntesis contiene palabra(s)
+La palabra es: trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 M.N.
+Buscando 'trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 m.n.' en el diccionario
+No hubo entidad 
+
+Contexto: Para dichos efectos, el Concesionario deberá exhibir ante este Instituto el comprobante con el que se acredite haber realizado el pago de la contraprestación en cuestión, dentro de un plazo de 30 
+Candidato: (treinta)
+treinta
+El paréntesis contiene palabra(s)
+La palabra es: treinta
+Buscando 'treinta' en el diccionario
+No hubo entidad 
+
+Contexto: Para dichos efectos, el Concesionario deberá exhibir ante este Instituto el comprobante con el que se acredite haber realizado el pago de la contraprestación en cuestión, dentro de un plazo de 30 (treinta) días hábiles, siguientes a la fecha en la cual hayan aceptado en un término de 30 
+Candidato: (treinta)
+treinta
+El paréntesis contiene palabra(s)
+La palabra es: treinta
+Buscando 'treinta' en el diccionario
+Regla 2
+Entidad: treinta días hábiles siguientes a la fecha en la cual hayan aceptado en un término de 30
+Alias: treinta
+
+Contexto: PRIMERO.- Se resuelve favorablemente la solicitud de prórroga de la Concesión para continuar usando con fines comerciales el canal 7 
+Candidato: (banda de frecuencias 174-180 MHz)
+banda de frecuencias 174-180 MHz
+El paréntesis contiene palabra(s)
+La palabra es: banda de frecuencias 174-180 MHz
+Buscando 'banda de frecuencias 174-180 mhz' en el diccionario
+No hubo entidad 
+
+Contexto: SEGUNDO.- Se otorga a favor de Roberto Casimiro González Treviño, una Concesión para usar, aprovechar y explotar bandas de frecuencia de el espectro radioeléctrico para la prestación de el servicio público de televisión a través de el canal 7 
+Candidato: (banda de frecuencias 174-180 MHz)
+banda de frecuencias 174-180 MHz
+El paréntesis contiene palabra(s)
+La palabra es: banda de frecuencias 174-180 MHz
+Buscando 'banda de frecuencias 174-180 mhz' en el diccionario
+No hubo entidad 
+
+Contexto: SEGUNDO.- Se otorga a favor de Roberto Casimiro González Treviño, una Concesión para usar, aprovechar y explotar bandas de frecuencia de el espectro radioeléctrico para la prestación de el servicio público de televisión a través de el canal 7 (banda de frecuencias 174-180 MHz), con distintivo de llamada XHRCG-TV, en Saltillo, Coahuila, así como una Concesión que autoriza la prestación de el servicio público de televisión radiodifundida para uso comercial, ambas con una vigencia de 20 
+Candidato: (veinte)
+veinte
+El paréntesis contiene palabra(s)
+La palabra es: veinte
+Buscando 'veinte' en el diccionario
+No hubo entidad 
+
+Contexto: TERCERO.- Se instruye a la Unidad de Concesiones y Servicios a notificar personalmente a Roberto Casimiro González Treviño, la presente Resolución, así como las nuevas  condiciones establecidas en los modelos de títulos de Concesión señalados en el Resolutivo Segundo contenidas en los Anexos 1 y 2 de la misma, a efecto de recabar de dicha concesionaria, en un plazo no mayor a 30 
+Candidato: (treinta)
+treinta
+El paréntesis contiene palabra(s)
+La palabra es: treinta
+Buscando 'treinta' en el diccionario
+No hubo entidad 
+
+Contexto: CUARTO.- Una vez aceptadas las condiciones y términos de los títulos de concesión en los términos de el Resolutivo Tercero, , Roberto Casimiro González Treviño, deberá exhibir el comprobante de pago de el aprovechamiento autorizado por la Secretaría de Hacienda y Crédito Público, por un monto de $13’489,971.00 
+Candidato: (trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 M.N.)
+trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 M.N.
+El paréntesis contiene palabra(s)
+La palabra es: trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 M.N.
+Buscando 'trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 m.n.' en el diccionario
+No hubo entidad 
+
+Contexto: CUARTO.- Una vez aceptadas las condiciones y términos de los títulos de concesión en los términos de el Resolutivo Tercero, , Roberto Casimiro González Treviño, deberá exhibir el comprobante de pago de el aprovechamiento autorizado por la Secretaría de Hacienda y Crédito Público, por un monto de $13’489,971.00 (trece millones cuatrocientos ochenta y nueve mil novecientos setenta y un pesos 00/100 M.N.), por concepto de contraprestación, situación que deberá realizar en un término de 30 
+Candidato: (treinta)
+treinta
+El paréntesis contiene palabra(s)
+La palabra es: treinta
+Buscando 'treinta' en el diccionario
+No hubo entidad 
+
+Contexto: QUINTO.- En caso de que Roberto Casimiro González Treviño, no dé cumplimiento a lo señalado en los Resolutivos Tercero y Cuarto, la presente Resolución quedará sin efectos y el canal 
+Candidato: (banda de frecuencias)
+banda de frecuencias
+El paréntesis contiene palabra(s)
+La palabra es: banda de frecuencias
+Buscando 'banda de frecuencias' en el diccionario
+No hubo entidad 
+
+Archivo: Evaluacion/CorpusEval/Archivo/DOF_P_IFT_EXT_241116_36_Acc.docx
+
+Candidato: Octava Sección
 Si es entidad
-Entidad: Otorgamiento de la Concesión
+Entidad: Octava Sección
+
+Candidato: Viernes
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Viernes
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Octava Sección
+Si es entidad
+Entidad: Octava Sección
+
+Candidato: Pleno del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Pleno del Instituto Federal de Telecomunicaciones
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Al
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Instituto Federal de Telecomunicaciones
 
 Candidato: El
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Secretaría de Comunicaciones
+Candidato: Diario Oficial de la Federación
 Si es entidad
-Entidad: Secretaría de Comunicaciones
+Entidad: Diario Oficial de la Federación
 
-Candidato: Transportes
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Secretaría de Comunicaciones y Transportes
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
 Si es entidad
-Entidad: Secretaría de Comunicaciones y Transportes
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
 
-Candidato: Secretaría
+Candidato: Ley del Sistema Público de Radiodifusión del Estado Mexicano
+Si es entidad
+Entidad: Ley del Sistema Público de Radiodifusión del Estado Mexicano
+
+Candidato: El
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: C. Jorge Adalberto Esperón Heredia
+Candidato: Orgánico del Instituto Federal de Telecomunicaciones
 Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
+Entidad: Orgánico del Instituto Federal de Telecomunicaciones
 
-Candidato: Cuichapa
+Candidato: En
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Municipio de Moloacán
+Candidato: Ley Federal de Telecomunicaciones
 Si es entidad
-Entidad: Municipio de Moloacán
+Entidad: Ley Federal de Telecomunicaciones
 
-Candidato: Estado de Veracruz
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
 Si es entidad
-Entidad: Estado de Veracruz
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Acuerdo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sesión Ordinaria
+Si es entidad
+Entidad: Sesión Ordinaria
+
+Candidato: Pleno
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Consulta Pública
+Si es entidad
+Entidad: Consulta Pública
+
+Candidato: Internet del Instituto
+Si es entidad
+Entidad: Internet del Instituto
+
+Candidato: Anteproyecto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Anteproyecto de Lineamientos
+Si es entidad
+Entidad: Anteproyecto de Lineamientos
+
+Candidato: La Consulta Pública
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Instituto Federal de Telecomunicaciones
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Anteproyecto de Lineamientos
+Si es entidad
+Entidad: Anteproyecto de Lineamientos
+
+Candidato: Oficialía de Partes Común
+Si es entidad
+Entidad: Oficialía de Partes Común
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución Política de los Estados Unidos Mexicanos
+Si es entidad
+Entidad: Constitución Política de los Estados Unidos Mexicanos
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resulta
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ejecutivo Federal
+Si es entidad
+Entidad: Ejecutivo Federal
+
+Candidato: el Instituto
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Ejecutivo Federal y el Instituto
+Si es entidad
+Entidad: Ejecutivo Federal y el Instituto
+
+Candidato: Para
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ejecutivo Federal
+Si es entidad
+Entidad: Ejecutivo Federal
+
+Candidato: Estrategia Digital Nacional
+Si es entidad
+Entidad: Estrategia Digital Nacional
+
+Candidato: el Instituto
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Estrategia Digital Nacional y el Instituto
+Si es entidad
+Entidad: Estrategia Digital Nacional y el Instituto
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Clasificación Internacional del Funcionamiento de la Discapacidad
+Si es entidad
+Entidad: Clasificación Internacional del Funcionamiento de la Discapacidad
+
+Candidato: de la Salud
+Si es entidad
+Entidad: de la Salud
+
+Candidato: Clasificación Internacional del Funcionamiento de la Discapacidad y de la Salud
+Si es entidad
+Entidad: Clasificación Internacional del Funcionamiento de la Discapacidad y de la Salud
+
+Candidato: Organización Mundial de la Salud
+Si es entidad
+Entidad: Organización Mundial de la Salud
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Organización Mundial
+Si es entidad
+Entidad: Organización Mundial
+
+Candidato: Unión Internacional de Telecomunicaciones
+Si es entidad
+Entidad: Unión Internacional de Telecomunicaciones
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ahora
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Convención de las Naciones Unidas
+Si es entidad
+Entidad: Convención de las Naciones Unidas
+
+Candidato: Derechos de las Personas con Discapacidad
+Si es entidad
+Entidad: Derechos de las Personas con Discapacidad
+
+Candidato: Estados Miembro
+Si es entidad
+Entidad: Estados Miembro
+
+Candidato: México
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estados Partes
+Si es entidad
+Entidad: Estados Partes
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estados Partes
+Si es entidad
+Entidad: Estados Partes
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estados Partes
+Si es entidad
+Entidad: Estados Partes
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Rev
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Busán
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Conferencia de Plenipotenciarios
+Si es entidad
+Entidad: Conferencia de Plenipotenciarios
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Conferencia de Plenipotenciarios
+Si es entidad
+Entidad: Conferencia de Plenipotenciarios
+
+Candidato: Agenda Conectar
+Si es entidad
+Entidad: Agenda Conectar
+
+Candidato: Estados Miembros
+Si es entidad
+Entidad: Estados Miembros
+
+Candidato: México
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: México
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado Miembro de la Organización de las Naciones Unidas
+Si es entidad
+Entidad: Estado Miembro de la Organización de las Naciones Unidas
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Australia
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Telecommunications Act
+Si es entidad
+Entidad: Telecommunications Act
+
+Candidato: Telecommunication Disability Standard
+Si es entidad
+Entidad: Telecommunication Disability Standard
+
+Candidato: Requirements
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Customer Equipment
+Si es entidad
+Entidad: Customer Equipment
+
+Candidato: Standard Telephone Service
+Si es entidad
+Entidad: Standard Telephone Service
+
+Candidato: Features
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sudáfrica
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En la Sección
+Si es entidad
+Entidad: En la Sección
+
+Candidato: Telecommunications Act
+Si es entidad
+Entidad: Telecommunications Act
+
+Candidato: Sección
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Electronic Communications Act
+Si es entidad
+Entidad: Electronic Communications Act
+
+Candidato: Código
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Reino Unido
+Si es entidad
+Entidad: Reino Unido
+
+Candidato: Las General Conditions
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Entitlement
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Telecommunications Regulation
+Si es entidad
+Entidad: Telecommunications Regulation
+
+Candidato: Además la Disability Discrimination Act
+Si es entidad
+Entidad: Además la Disability Discrimination Act
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Mobile Industry Good Practice Guide
+Si es entidad
+Entidad: Mobile Industry Good Practice Guide
+
+Candidato: Service Delivery
+Si es entidad
+Entidad: Service Delivery
+
+Candidato: Disabled
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Elderly Customer
+Si es entidad
+Entidad: Elderly Customer
+
+Candidato: Estados Unidos de América
+Si es entidad
+Entidad: Estados Unidos de América
+
+Candidato: Communications Act
+Si es entidad
+Entidad: Communications Act
+
+Candidato: Cuando
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: También
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Hearing Aid Compatibility Act
+Si es entidad
+Entidad: Hearing Aid Compatibility Act
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Uniform Federal Accessibility Standards
+Si es entidad
+Entidad: Uniform Federal Accessibility Standards
+
+Candidato: En América Latina
+Si es entidad
+Entidad: En América Latina
+
+Candidato: Colombia
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: La Ley
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Ministerio de Tecnologías de la Información
+Si es entidad
+Entidad: Ministerio de Tecnologías de la Información
+
+Candidato: las Comunicaciones
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Ministerio de Tecnologías de la Información y las Comunicaciones
+Si es entidad
+Entidad: Ministerio de Tecnologías de la Información y las Comunicaciones
+
+Candidato: Administración Pública
+Si es entidad
+Entidad: Administración Pública
+
+Candidato: Decreto Reglamentario
+Si es entidad
+Entidad: Decreto Reglamentario
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Norma Técnica
+Si es entidad
+Entidad: Norma Técnica
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Plan Vive Digital
+Si es entidad
+Entidad: Plan Vive Digital
+
+Candidato: Uruguay
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Además
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Protección Integral de Personas con Discapacidad
+Si es entidad
+Entidad: Protección Integral de Personas con Discapacidad
+
+Candidato: Agencia
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Desarrollo del Gobierno de Gestión Electrónica
+Si es entidad
+Entidad: Desarrollo del Gobierno de Gestión Electrónica
+
+Candidato: la Sociedad de la Información
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: del Conocimiento
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Desarrollo del Gobierno de Gestión Electrónica y la Sociedad de la Información y del Conocimiento
+Si es entidad
+Entidad: Desarrollo del Gobierno de Gestión Electrónica y la Sociedad de la Información y del Conocimiento
+
+Candidato: Venezuela
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: La Ley
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Gaceta Oficial de la República Bolivariana de Venezuela
+Si es entidad
+Entidad: Gaceta Oficial de la República Bolivariana de Venezuela
+
+Candidato: Word Wide Web Consortium
+Si es entidad
+Entidad: Word Wide Web Consortium
+
+Candidato: Bajo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley de Infogobierno
+Si es entidad
+Entidad: Ley de Infogobierno
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estados Unidos de América
+Si es entidad
+Entidad: Estados Unidos de América
+
+Candidato: Venezuela
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Colombia
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Venezuela y Colombia
+Si es entidad
+Entidad: Venezuela y Colombia
+
+Candidato: Uruguay
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: World Wide Web Consortium
+Si es entidad
+Entidad: World Wide Web Consortium
+
+Candidato: Dinamarca
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Espa
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Grecia
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Iniciativa Global
+Si es entidad
+Entidad: Iniciativa Global
+
+Candidato: Cabe
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Alianza Global
+Si es entidad
+Entidad: Alianza Global
+
+Candidato: Desarrollo de las Tecnologías de la Información
+Si es entidad
+Entidad: Desarrollo de las Tecnologías de la Información
+
+Candidato: Comunicación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Desarrollo de las Tecnologías de la Información y Comunicación
+Si es entidad
+Entidad: Desarrollo de las Tecnologías de la Información y Comunicación
+
+Candidato: Convención
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Derechos de las Personas con Discapacidad
+Si es entidad
+Entidad: Derechos de las Personas con Discapacidad
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto Nacional de Estadística
+Si es entidad
+Entidad: Instituto Nacional de Estadística
+
+Candidato: Geografía
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto Nacional de Estadística y Geografía
+Si es entidad
+Entidad: Instituto Nacional de Estadística y Geografía
+
+Candidato: Encuesta Nacional de la Dinámica Demográfica
+Si es entidad
+Entidad: Encuesta Nacional de la Dinámica Demográfica
+
+Candidato: México
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Actualmente
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: México
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley General
+Si es entidad
+Entidad: Ley General
+
+Candidato: Inclusión de las Personas con Discapacidad
+Si es entidad
+Entidad: Inclusión de las Personas con Discapacidad
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Para
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lengua de Se
+Si es entidad
+Entidad: Lengua de Se
+
+Candidato: Mexicana
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sistema Braille
+Si es entidad
+Entidad: Sistema Braille
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Administración Pública Federal
+Si es entidad
+Entidad: Administración Pública Federal
+
+Candidato: Estatal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Municipal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estatal y Municipal
+Si es entidad
+Entidad: Estatal y Municipal
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Bis de la Ley Federal
+Si es entidad
+Entidad: Bis de la Ley Federal
+
+Candidato: Prevenir
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Eliminar la Discriminación
+Si es entidad
+Entidad: Eliminar la Discriminación
+
+Candidato: Prevenir y Eliminar la Discriminación
+Si es entidad
+Entidad: Prevenir y Eliminar la Discriminación
+
+Candidato: Ahora
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Título Noveno
+Si es entidad
+Entidad: Título Noveno
+
+Candidato: Considerando
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Una
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Para
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ahora
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pleno
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Antecedente
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Acuerdo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Anteproyecto de Lineamientos
+Si es entidad
+Entidad: Anteproyecto de Lineamientos
+
+Candidato: Así
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos de Accesibilidad
+Si es entidad
+Entidad: Lineamientos de Accesibilidad
+
+Candidato: Acuerdo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Comisión Federal de Mejora Regulatoria
+Si es entidad
+Entidad: Comisión Federal de Mejora Regulatoria
+
+Candidato: Al
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coordinación General de Política del Usuario del Instituto
+Si es entidad
+Entidad: Coordinación General de Política del Usuario del Instituto
+
+Candidato: Análisis de Impacto Regulatorio
+Si es entidad
+Entidad: Análisis de Impacto Regulatorio
+
+Candidato: Coordinación General de Mejora Regulatoria
+Si es entidad
+Entidad: Coordinación General de Mejora Regulatoria
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Como
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: No
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coordinación General de Política del Usuario
+Si es entidad
+Entidad: Coordinación General de Política del Usuario
+
+Candidato: Anteproyecto de Lineamientos
+Si es entidad
+Entidad: Anteproyecto de Lineamientos
+
+Candidato: Dicha
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Anteproyecto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Internet del Instituto
+Si es entidad
+Entidad: Internet del Instituto
+
+Candidato: Dicho Análisis de Impacto Regulatorio
+Si es entidad
+Entidad: Dicho Análisis de Impacto Regulatorio
+
+Candidato: Lineamientos de Accesibilidad
+Si es entidad
+Entidad: Lineamientos de Accesibilidad
+
+Candidato: Establecer
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Establecer
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución Política de los Estados Unidos Mexicanos
+Si es entidad
+Entidad: Constitución Política de los Estados Unidos Mexicanos
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
+
+Candidato: Pleno del Instituto
+Si es entidad
+Entidad: Pleno del Instituto
+
+Candidato: Se
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Comisionado Presidente
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Gabriel Oswaldo Contreras Saldívar
+Si es entidad
+Entidad: Gabriel Oswaldo Contreras Saldívar
+
+Candidato: Rúbrica
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Comisionados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Ernesto Estrada González
+Si es entidad
+Entidad: Ernesto Estrada González
+
+Candidato: María Elena Estavillo Flores
+Si es entidad
+Entidad: María Elena Estavillo Flores
+
+Candidato: Adolfo Cuevas Teja
+Si es entidad
+Entidad: Adolfo Cuevas Teja
+
+Candidato: Adriana Sofía Labardini Inzunza
+Si es entidad
+Entidad: Adriana Sofía Labardini Inzunza
+
+Candidato: Mario Germán Fromow Rangel
+Si es entidad
+Entidad: Mario Germán Fromow Rangel
+
+Candidato: Javier Juárez Mojica
+Si es entidad
+Entidad: Javier Juárez Mojica
+
+Candidato: Rúbricas
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Acuerdo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pleno del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Pleno del Instituto Federal de Telecomunicaciones
+
+Candidato: Sesión Extraordinaria
+Si es entidad
+Entidad: Sesión Extraordinaria
+
+Candidato: Comisionados Gabriel Oswaldo Contreras Saldívar
+Si es entidad
+Entidad: Comisionados Gabriel Oswaldo Contreras Saldívar
+
+Candidato: Ernesto Estrada González
+Si es entidad
+Entidad: Ernesto Estrada González
+
+Candidato: Adriana Sofía Labardini Inzunza
+Si es entidad
+Entidad: Adriana Sofía Labardini Inzunza
+
+Candidato: María Elena Estavillo Flores
+Si es entidad
+Entidad: María Elena Estavillo Flores
+
+Candidato: Mario Germán Fromow Rangel
+Si es entidad
+Entidad: Mario Germán Fromow Rangel
+
+Candidato: Adolfo Cuevas Teja
+Si es entidad
+Entidad: Adolfo Cuevas Teja
+
+Candidato: Javier Juárez Mojica
+Si es entidad
+Entidad: Javier Juárez Mojica
+
+Candidato: Adolfo Cuevas Teja y Javier Juárez Mojica
+Si es entidad
+Entidad: Adolfo Cuevas Teja y Javier Juárez Mojica
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Comisionada Adriana Sofía Labardini Inzunza
+Si es entidad
+Entidad: Comisionada Adriana Sofía Labardini Inzunza
+
+Candidato: Transitorio Tercero de los Lineamientos
+Si es entidad
+Entidad: Transitorio Tercero de los Lineamientos
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Comisionado Mario Germán Fromow Rangel
+Si es entidad
+Entidad: Comisionado Mario Germán Fromow Rangel
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución Política de los Estados Unidos Mexicanos
+Si es entidad
+Entidad: Constitución Política de los Estados Unidos Mexicanos
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
+
+Candidato: Acuerdo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Instituto Federal de Telecomunicaciones
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Los Lineamientos
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados de Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Autorizados de Servicios Públicos de Telecomunicaciones
+
+Candidato: Concesionarios y Autorizados de Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Concesionarios y Autorizados de Servicios Públicos de Telecomunicaciones
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sin
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Medidas
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Persona
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Caseta Pública
+Si es entidad
+Entidad: Caseta Pública
+
+Candidato: Equipo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centro
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Atención
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Inmueble
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Discriminación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Cualquier
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Dise
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Universal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Dise
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Universal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Instituto Federal de Telecomunicaciones
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos Generales de Accesibilidad a los Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Lineamientos Generales de Accesibilidad a los Servicios Públicos de Telecomunicaciones
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Mobile Manufacturers Forum
+Si es entidad
+Entidad: Mobile Manufacturers Forum
+
+Candidato: Asociación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Nivel de Conformidad
+Si es entidad
+Entidad: Nivel de Conformidad
+
+Candidato: Uno
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pautas de Accesibilidad de Contenido de Internet
+Si es entidad
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+
+Candidato: Estándar
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Toda
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Procuraduría Federal del Consumidor
+Si es entidad
+Entidad: Procuraduría Federal del Consumidor
+
+Candidato: Ruta Accesible
+Si es entidad
+Entidad: Ruta Accesible
+
+Candidato: La
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centro de Atención
+Si es entidad
+Entidad: Centro de Atención
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sistemas de Atención
+Si es entidad
+Entidad: Sistemas de Atención
+
+Candidato: Mecanismos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención
+Si es entidad
+Entidad: Centros de Atención
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Tecnologías de Asistencia
+Si es entidad
+Entidad: Tecnologías de Asistencia
+
+Candidato: Cualquier
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: World Wide Web Consortium
+Si es entidad
+Entidad: World Wide Web Consortium
+
+Candidato: Comunidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Discriminación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Instituto
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Discriminación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Modelos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Tarifas
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Además
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Dichos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Las
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Caracteres
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Texto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Orden
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Campos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ayudas
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Especificación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Elementos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Funcionalidades
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Contraste
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Posibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Aunado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención
+Si es entidad
+Entidad: Centros de Atención
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Además
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención
+Si es entidad
+Entidad: Centros de Atención
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Tecnologías de Asistencia
+Si es entidad
+Entidad: Tecnologías de Asistencia
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Instituto
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Coordinación General de Política del Usuario
+Si es entidad
+Entidad: Coordinación General de Política del Usuario
+
+Candidato: Dicha
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Discapacidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Sistemas de Atención
+Si es entidad
+Entidad: Sistemas de Atención
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sistemas de Atención
+Si es entidad
+Entidad: Sistemas de Atención
+
+Candidato: Dichos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sin
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario y Autorizado
+Si es entidad
+Entidad: Concesionario y Autorizado
+
+Candidato: Caseta Pública
+Si es entidad
+Entidad: Caseta Pública
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Cuando
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Teclado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Centros de Atención
+Si es entidad
+Entidad: Centros de Atención
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sin
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención de los Concesionarios
+Si es entidad
+Entidad: Centros de Atención de los Concesionarios
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención de los Concesionarios y Autorizados
+Si es entidad
+Entidad: Centros de Atención de los Concesionarios y Autorizados
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Una Ruta Accesible
+Si es entidad
+Entidad: Una Ruta Accesible
+
+Candidato: Un
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Se
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Permitir
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención
+Si es entidad
+Entidad: Centros de Atención
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Respecto de los Centros de Atención
+Si es entidad
+Entidad: Respecto de los Centros de Atención
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Discapacidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención
+Si es entidad
+Entidad: Centros de Atención
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: La
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados a los Usuarios con Discapacidad
+Si es entidad
+Entidad: Autorizados a los Usuarios con Discapacidad
+
+Candidato: Concesionarios y Autorizados a los Usuarios con Discapacidad
+Si es entidad
+Entidad: Concesionarios y Autorizados a los Usuarios con Discapacidad
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Para
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Derechos de los Usuarios con Discapacidad
+Si es entidad
+Entidad: Derechos de los Usuarios con Discapacidad
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Conceptos de Discapacidad
+Si es entidad
+Entidad: Conceptos de Discapacidad
+
+Candidato: Discriminación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Dise
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Accesibilidad y Dise
+Si es entidad
+Entidad: Accesibilidad y Dise
+
+Candidato: Universal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Recomendaciones
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Discapacidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Información
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Las
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Internet de los Concesionarios
+Si es entidad
+Entidad: Internet de los Concesionarios
+
+Candidato: Autorizados de Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Autorizados de Servicios Públicos de Telecomunicaciones
+
+Candidato: Internet de los Concesionarios y Autorizados de Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Internet de los Concesionarios y Autorizados de Servicios Públicos de Telecomunicaciones
+
+Candidato: Contar
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pautas de Accesibilidad de Contenido de Internet
+Si es entidad
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+
+Candidato: Nivel de Conformidad
+Si es entidad
+Entidad: Nivel de Conformidad
+
+Candidato: Contener
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Contener
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Pautas de Accesibilidad de Contenido de Internet
+Si es entidad
+Entidad: Pautas de Accesibilidad de Contenido de Internet
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pautas
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: El Instituto
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Internet de los Concesionarios
+Si es entidad
+Entidad: Internet de los Concesionarios
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Internet de los Concesionarios y Autorizados
+Si es entidad
+Entidad: Internet de los Concesionarios y Autorizados
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Discapacidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención
+Si es entidad
+Entidad: Centros de Atención
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Usuarios con Discapacidad
+Si es entidad
+Entidad: Usuarios con Discapacidad
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Instituto
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Servicios Públicos de Telecomunicaciones
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Para
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Realizará
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Colaborará
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Administración Pública Federal
+Si es entidad
+Entidad: Administración Pública Federal
+
+Candidato: Gobiernos Estatales
+Si es entidad
+Entidad: Gobiernos Estatales
+
+Candidato: Municipales
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Gobiernos Estatales y Municipales
+Si es entidad
+Entidad: Gobiernos Estatales y Municipales
+
+Candidato: Asociaciones Civiles
+Si es entidad
+Entidad: Asociaciones Civiles
+
+Candidato: Personas con Discapacidad a los Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Personas con Discapacidad a los Servicios Públicos de Telecomunicaciones
+
+Candidato: Elaborará
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Organizará
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Personas con Discapacidad
+Si es entidad
+Entidad: Personas con Discapacidad
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Personas con Discapacidad a los Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Personas con Discapacidad a los Servicios Públicos de Telecomunicaciones
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Instituto
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Procedimiento Administrativo
+Si es entidad
+Entidad: Ley Federal de Procedimiento Administrativo
+
+Candidato: Internet
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención de los Concesionarios
+Si es entidad
+Entidad: Centros de Atención de los Concesionarios
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención de los Concesionarios y Autorizados
+Si es entidad
+Entidad: Centros de Atención de los Concesionarios y Autorizados
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Instituto
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Portal del Instituto
+Si es entidad
+Entidad: Portal del Instituto
+
+Candidato: Coordinación General de Política del Usuario
+Si es entidad
+Entidad: Coordinación General de Política del Usuario
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Accesibilidad a los Servicios Públicos de Telecomunicaciones
+Si es entidad
+Entidad: Accesibilidad a los Servicios Públicos de Telecomunicaciones
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Diario Oficial de la Federación
+Si es entidad
+Entidad: Diario Oficial de la Federación
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: La
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionarios y Autorizados
+Si es entidad
+Entidad: Concesionarios y Autorizados
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Casetas Públicas
+Si es entidad
+Entidad: Casetas Públicas
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Autorizados
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los Concesionarios y Autorizados
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Centros de Atención
+Si es entidad
+Entidad: Centros de Atención
+
+Candidato: Accesibilidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Oficio, Expediente o Acuerdo: 
+Acuerdo P/IFT/120815/306
+Oficio, Expediente o Acuerdo: 
+Acuerdo P/IFT/EXT/241116/36
+Municipio: 
+Centro
+Municipio: 
+González
+Municipio: 
+Juárez
+Municipio: 
+Juárez
+Municipio: 
+Juárez
+Municipio: 
+Juárez
+Municipio: 
+Juárez
+Archivo: Evaluacion/CorpusEval/Archivo/P_IFT_111215_577_Acc.docx
+
+Candidato: Refrendo de la Concesión
+Si es entidad
+Entidad: Refrendo de la Concesión
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Ley Federal de Radio
+Si es entidad
+Entidad: Ley Federal de Radio
+
+Candidato: Televisión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Radio y Televisión
+Si es entidad
+Entidad: Ley Federal de Radio y Televisión
+
+Candidato: Comisión Federal de Telecomunicaciones
+Si es entidad
+Entidad: Comisión Federal de Telecomunicaciones
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
 
 Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitud de Refrendo
+Si es entidad
+Entidad: Solicitud de Refrendo
+
+Candidato: Mediante
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Subdirector de Comunicaciones del Centro
+Si es entidad
+Entidad: Subdirector de Comunicaciones del Centro
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitud
 Sólo tiene una palabra
 No es entidad 
 
@@ -260,6 +4123,190 @@ Candidato: Instituto
 Sólo tiene una palabra
 No es entidad 
 
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Mediante Acuerdo
+Si es entidad
+Entidad: Mediante Acuerdo
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pleno del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Pleno del Instituto Federal de Telecomunicaciones
+
+Candidato: Grupo Televisa
+Si es entidad
+Entidad: Grupo Televisa
+
+Candidato: Canales de Televisión Populares S.A. de C.V.
+Si es entidad
+Entidad: Canales de Televisión Populares S.A. de C.V.
+
+Candidato: Radio Televisión S.A. de C.V.
+Si es entidad
+Entidad: Radio Televisión S.A. de C.V.
+
+Candidato: Radiotelevisora de México Norte S.A. de C.V.
+Si es entidad
+Entidad: Radiotelevisora de México Norte S.A. de C.V.
+
+Candidato: Mochis S.A. de C.V.
+Si es entidad
+Entidad: Mochis S.A. de C.V.
+
+Candidato: Teleimagen del Noroeste S.A. de C.V.
+Si es entidad
+Entidad: Teleimagen del Noroeste S.A. de C.V.
+
+Candidato: Televimex S.A. de C.V.
+Si es entidad
+Entidad: Televimex S.A. de C.V.
+
+Candidato: Televisión de Puebla S.A. de C.V.
+Si es entidad
+Entidad: Televisión de Puebla S.A. de C.V.
+
+Candidato: Televisora de Mexicali S.A. de C.V.
+Si es entidad
+Entidad: Televisora de Mexicali S.A. de C.V.
+
+Candidato: Televisora de Navojoa
+Si es entidad
+Entidad: Televisora de Navojoa
+
+Candidato: Televisora de Occidente S.A. de C.V.
+Si es entidad
+Entidad: Televisora de Occidente S.A. de C.V.
+
+Candidato: Televisora Peninsular S.A. de C.V.
+Si es entidad
+Entidad: Televisora Peninsular S.A. de C.V.
+
+Candidato: Mario Enrique Mayans Concha
+Si es entidad
+Entidad: Mario Enrique Mayans Concha
+
+Candidato: Televisión La Paz
+Si es entidad
+Entidad: Televisión La Paz
+
+Candidato: Televisión de la Frontera
+Si es entidad
+Entidad: Televisión de la Frontera
+
+Candidato: Pedro Luis Fitzmaurice Meneses
+Si es entidad
+Entidad: Pedro Luis Fitzmaurice Meneses
+
+Candidato: Telemisión S.A. de C.V.
+Si es entidad
+Entidad: Telemisión S.A. de C.V.
+
+Candidato: Comunicación del Sureste S.A. de C.V.
+Si es entidad
+Entidad: Comunicación del Sureste S.A. de C.V.
+
+Candidato: José de Jesús Partida Villanueva
+Si es entidad
+Entidad: José de Jesús Partida Villanueva
+
+Candidato: Hilda Graciela Rivera Flores
+Si es entidad
+Entidad: Hilda Graciela Rivera Flores
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Tv Diez Durango S.A. de C.V.
+Si es entidad
+Entidad: Tv Diez Durango S.A. de C.V.
+
+Candidato: Televisora de Durango S.A. de C.V.
+Si es entidad
+Entidad: Televisora de Durango S.A. de C.V.
+
+Candidato: Corporación Tapatía de Televisión S.A. de C.V.
+Si es entidad
+Entidad: Corporación Tapatía de Televisión S.A. de C.V.
+
+Candidato: Televisión de Michoacán S.A. de C.V.
+Si es entidad
+Entidad: Televisión de Michoacán S.A. de C.V.
+
+Candidato: José Humberto
+Si es entidad
+Entidad: José Humberto
+
+Candidato: Loucille
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: José Humberto y Loucille
+Si es entidad
+Entidad: José Humberto y Loucille
+
+Candidato: Martínez Morales
+Si es entidad
+Entidad: Martínez Morales
+
+Candidato: Canal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Michoacán S.A. de C.V.
+Si es entidad
+Entidad: Michoacán S.A. de C.V.
+
+Candidato: Televisora
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Tv Ocho S.A. de C.V.
+Si es entidad
+Entidad: Tv Ocho S.A. de C.V.
+
+Candidato: Televisora Potosina S.A. de C.V.
+Si es entidad
+Entidad: Televisora Potosina S.A. de C.V.
+
+Candidato: Culiacán S.A. de C.V.
+Si es entidad
+Entidad: Culiacán S.A. de C.V.
+
+Candidato: Televisión del Pacífico S.A. de C.V.
+Si es entidad
+Entidad: Televisión del Pacífico S.A. de C.V.
+
+Candidato: Tele
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sureste S.A. de C.V.
+Si es entidad
+Entidad: Sureste S.A. de C.V.
+
+Candidato: Televisión de Tabasco
+Si es entidad
+Entidad: Televisión de Tabasco
+
+Candidato: Ramona Esparza González
+Si es entidad
+Entidad: Ramona Esparza González
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
 Candidato: Decreto de Ley
 Si es entidad
 Entidad: Decreto de Ley
@@ -267,10 +4314,6 @@ Entidad: Decreto de Ley
 Candidato: El
 Sólo tiene una palabra
 No es entidad 
-
-Candidato: Diario Oficial de la Federación
-Si es entidad
-Entidad: Diario Oficial de la Federación
 
 Candidato: Decreto
 Sólo tiene una palabra
@@ -304,10 +4347,6 @@ Candidato: El
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Diario Oficial de la Federación
-Si es entidad
-Entidad: Diario Oficial de la Federación
-
 Candidato: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
 Si es entidad
 Entidad: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
@@ -316,59 +4355,23 @@ Candidato: Estatuto Orgánico
 Si es entidad
 Entidad: Estatuto Orgánico
 
-Candidato: Solicitud de Prórroga de Vigencia
-Si es entidad
-Entidad: Solicitud de Prórroga de Vigencia
-
-Candidato: El
+Candidato: Acuerdo
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: C. Jorge Adalberto Esperón Heredia
+Candidato: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
 Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
+Entidad: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
 
-Candidato: Instituto
+Candidato: Solicitud
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Concesión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitud de Prórroga
+Candidato: Unidad de Cumplimiento
 Si es entidad
-Entidad: Solicitud de Prórroga
+Entidad: Unidad de Cumplimiento
 
-Candidato: Solicitud de Opinión Técnica
-Si es entidad
-Entidad: Solicitud de Opinión Técnica
-
-Candidato: De
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Decreto de Reforma Constitucional
-Si es entidad
-Entidad: Decreto de Reforma Constitucional
-
-Candidato: la Ley Federal de Telecomunicaciones
-La primer palabra es un artículo
-No es entidad 
-
-Candidato: Radiodifusión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Decreto de Reforma Constitucional y la Ley Federal de Telecomunicaciones y Radiodifusión
-Si es entidad
-Entidad: Decreto de Reforma Constitucional y la Ley Federal de Telecomunicaciones y Radiodifusión
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
+Candidato: Con
 Sólo tiene una palabra
 No es entidad 
 
@@ -384,85 +4387,137 @@ Candidato: Unidad de Concesiones y Servicios
 Si es entidad
 Entidad: Unidad de Concesiones y Servicios
 
-Candidato: Secretaría
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitud de Prórroga
+Candidato: Estatuto Orgánico
 Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: Constitución Política de los Estados Unidos Mexicanos
-Si es entidad
-Entidad: Constitución Política de los Estados Unidos Mexicanos
-
-Candidato: Constitución
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Opinión Técnica de la Secretaría
-Si es entidad
-Entidad: Opinión Técnica de la Secretaría
-
-Candidato: Mediante
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Dirección General de Política de Telecomunicaciones
-Si es entidad
-Entidad: Dirección General de Política de Telecomunicaciones
-
-Candidato: de Radiodifusión de la Secretaría
-Si es entidad
-Entidad: de Radiodifusión de la Secretaría
-
-Candidato: Dirección General de Política de Telecomunicaciones y de Radiodifusión de la Secretaría
-Si es entidad
-Entidad: Dirección General de Política de Telecomunicaciones y de Radiodifusión de la Secretaría
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: Opinión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Cumplimiento de Obligaciones
-Si es entidad
-Entidad: Cumplimiento de Obligaciones
-
-Candidato: El
-Sólo tiene una palabra
-No es entidad 
+Entidad: Estatuto Orgánico
 
 Candidato: Unidad de Cumplimiento
 Si es entidad
 Entidad: Unidad de Cumplimiento
 
-Candidato: Dirección General de Supervisión
-Si es entidad
-Entidad: Dirección General de Supervisión
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: Opinión
+Candidato: Concesión
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Competencia Económica
-Si es entidad
-Entidad: Competencia Económica
-
-Candidato: Con
+Candidato: Solicitud
 Sólo tiene una palabra
 No es entidad 
 
 Candidato: Unidad de Competencia Económica
 Si es entidad
 Entidad: Unidad de Competencia Económica
+
+Candidato: Con
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Dirección General de Concesiones de Radiodifusión
+Si es entidad
+Entidad: Dirección General de Concesiones de Radiodifusión
+
+Candidato: Estatuto Orgánico
+Si es entidad
+Entidad: Estatuto Orgánico
+
+Candidato: Concesión a la Dirección General de Concentraciones
+Si es entidad
+Entidad: Concesión a la Dirección General de Concentraciones
+
+Candidato: Concesiones de la Unidad de Competencia Económica
+Si es entidad
+Entidad: Concesiones de la Unidad de Competencia Económica
+
+Candidato: Concesión a la Dirección General de Concentraciones y Concesiones de la Unidad de Competencia Económica
+Si es entidad
+Entidad: Concesión a la Dirección General de Concentraciones y Concesiones de la Unidad de Competencia Económica
+
+Candidato: Solicitud
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Unidad de Espectro Radioeléctrico
+Si es entidad
+Entidad: Unidad de Espectro Radioeléctrico
+
+Candidato: Con
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Dirección General de Concesiones de Radiodifusión
+Si es entidad
+Entidad: Dirección General de Concesiones de Radiodifusión
+
+Candidato: Dirección General del Economía del Espectro
+Si es entidad
+Entidad: Dirección General del Economía del Espectro
+
+Candidato: Recursos Orbitales de la Unidad de Espectro Radioeléctrico
+Si es entidad
+Entidad: Recursos Orbitales de la Unidad de Espectro Radioeléctrico
+
+Candidato: Dirección General del Economía del Espectro y Recursos Orbitales de la Unidad de Espectro Radioeléctrico
+Si es entidad
+Entidad: Dirección General del Economía del Espectro y Recursos Orbitales de la Unidad de Espectro Radioeléctrico
+
+Candidato: Estatuto Orgánico
+Si es entidad
+Entidad: Estatuto Orgánico
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Contraprestación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Secretaría de Hacienda
+Si es entidad
+Entidad: Secretaría de Hacienda
+
+Candidato: Crédito Público
+Si es entidad
+Entidad: Crédito Público
+
+Candidato: Secretaría de Hacienda y Crédito Público
+Si es entidad
+Entidad: Secretaría de Hacienda y Crédito Público
+
+Candidato: Con
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: No
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Unidad de Política de Ingresos No Tributarios de la Secretaría de Hacienda
+Si es entidad
+Entidad: Unidad de Política de Ingresos No Tributarios de la Secretaría de Hacienda
+
+Candidato: Crédito Público
+Si es entidad
+Entidad: Crédito Público
+
+Candidato: Unidad de Política de Ingresos No Tributarios de la Secretaría de Hacienda y Crédito Público
+Si es entidad
+Entidad: Unidad de Política de Ingresos No Tributarios de la Secretaría de Hacienda y Crédito Público
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Opinión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Materia de Competencia Económica
+Si es entidad
+Entidad: Materia de Competencia Económica
+
+Candidato: Con
+Sólo tiene una palabra
+No es entidad 
 
 Candidato: Dirección General de Concentraciones
 Si es entidad
@@ -476,9 +4531,53 @@ Candidato: Dirección General de Concentraciones y Concesiones
 Si es entidad
 Entidad: Dirección General de Concentraciones y Concesiones
 
-Candidato: Solicitud de Prórroga
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Canal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Abierta Comercial
 Si es entidad
-Entidad: Solicitud de Prórroga
+Entidad: Abierta Comercial
+
+Candidato: Abierta Comercial
+Si es entidad
+Entidad: Abierta Comercial
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Opinión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Materia de Cumplimiento de Obligaciones
+Si es entidad
+Entidad: Materia de Cumplimiento de Obligaciones
+
+Candidato: Con
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Dirección General de Supervisión
+Si es entidad
+Entidad: Dirección General de Supervisión
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
 
 Candidato: En
 Sólo tiene una palabra
@@ -492,13 +4591,17 @@ Candidato: Primero
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Competencia
+Candidato: Competencia del Instituto
+Si es entidad
+Entidad: Competencia del Instituto
+
+Candidato: De
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Conforme
-Sólo tiene una palabra
-No es entidad 
+Candidato: Constitución Política de los Estados Unidos Mexicanos
+Si es entidad
+Entidad: Constitución Política de los Estados Unidos Mexicanos
 
 Candidato: Constitución
 Sólo tiene una palabra
@@ -520,11 +4623,7 @@ Candidato: Constitución
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Asimismo
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
+Candidato: Por
 Sólo tiene una palabra
 No es entidad 
 
@@ -532,94 +4631,6 @@ Candidato: Constitución
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: De
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Pleno del Instituto
-Si es entidad
-Entidad: Pleno del Instituto
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Estatuto Orgánico
-Si es entidad
-Entidad: Estatuto Orgánico
-
-Candidato: Pleno
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: la Ley Federal de Competencia Económica
-La primer palabra es un artículo
-No es entidad 
-
-Candidato: Ley y la Ley Federal de Competencia Económica
-Si es entidad
-Entidad: Ley y la Ley Federal de Competencia Económica
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Asimismo
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Estatuto Orgánico
-Si es entidad
-Entidad: Estatuto Orgánico
-
-Candidato: Unidad de Concesiones
-Si es entidad
-Entidad: Unidad de Concesiones
-
-Candidato: Servicios
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones y Servicios
-Si es entidad
-Entidad: Unidad de Concesiones y Servicios
-
-Candidato: Dirección General de Concesiones de Telecomunicaciones
-Si es entidad
-Entidad: Dirección General de Concesiones de Telecomunicaciones
-
-Candidato: Pleno
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Competencia Económica
-Si es entidad
-Entidad: Unidad de Competencia Económica
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
 Candidato: Instituto
 Sólo tiene una palabra
 No es entidad 
@@ -628,27 +4639,11 @@ Candidato: Asimismo
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Pleno
+Candidato: Constitución
 Sólo tiene una palabra
 No es entidad 
 
 Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: Segundo
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Marco
 Sólo tiene una palabra
 No es entidad 
 
@@ -656,613 +4651,29 @@ Candidato: El
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Séptimo Transitorio del Decreto de Ley
+Candidato: Sexto Transitorio del Decreto de Ley
 Si es entidad
-Entidad: Séptimo Transitorio del Decreto de Ley
+Entidad: Sexto Transitorio del Decreto de Ley
 
-Candidato: Ley
+Candidato: Séptimo Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Séptimo Transitorio del Decreto de Reforma Constitucional
+
+Candidato: También
 Sólo tiene una palabra
 No es entidad 
+
+Candidato: Séptimo Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Séptimo Transitorio del Decreto de Reforma Constitucional
 
 Candidato: Instituto
 Sólo tiene una palabra
 No es entidad 
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Concesión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley Federal de Telecomunicaciones
-Si es entidad
-Entidad: Ley Federal de Telecomunicaciones
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Considerando
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley Federal de Telecomunicaciones
-Si es entidad
-Entidad: Ley Federal de Telecomunicaciones
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Artículo
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: La
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: El Instituto
-La primer palabra es un artículo
-No es entidad 
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Si
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Considerar
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley Federal de Telecomunicaciones
-Si es entidad
-Entidad: Ley Federal de Telecomunicaciones
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley Federal de Telecomunicaciones
-Si es entidad
-Entidad: Ley Federal de Telecomunicaciones
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Concesión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Apartado
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Constitución
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Estado
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Derivado
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Pleno
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Es
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Asimismo
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Derivado
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Finalmente
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley Federal de Derechos
-Si es entidad
-Entidad: Ley Federal de Derechos
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Derivado
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Acuerdo de Pleno
-Si es entidad
-Entidad: Acuerdo de Pleno
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley Federal de Derechos
-Si es entidad
-Entidad: Ley Federal de Derechos
-
-Candidato: Tercero
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Análisis de las Solicitudes de Prórroga
-Si es entidad
-Entidad: Análisis de las Solicitudes de Prórroga
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
-
-Candidato: Concesión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Concesión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: Concesión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones
-Si es entidad
-Entidad: Unidad de Concesiones
-
-Candidato: Servicios
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones y Servicios
-Si es entidad
-Entidad: Unidad de Concesiones y Servicios
-
-Candidato: Dirección General de Concesiones de Telecomunicaciones
-Si es entidad
-Entidad: Dirección General de Concesiones de Telecomunicaciones
-
-Candidato: Dirección General de Supervisión
-Si es entidad
-Entidad: Dirección General de Supervisión
-
-Candidato: Unidad Cumplimiento
-Si es entidad
-Entidad: Unidad Cumplimiento
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Dirección General de Supervisión
-Si es entidad
-Entidad: Dirección General de Supervisión
-
-Candidato: Dirección General de Adquisiciones
-Si es entidad
-Entidad: Dirección General de Adquisiciones
-
-Candidato: Recursos Materiales
-Si es entidad
-Entidad: Recursos Materiales
-
-Candidato: Servicios Generales
-Si es entidad
-Entidad: Servicios Generales
-
-Candidato: Recursos Materiales y Servicios Generales
-Si es entidad
-Entidad: Recursos Materiales y Servicios Generales
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Asimismo
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Dirección General de Verificación
-Si es entidad
-Entidad: Dirección General de Verificación
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Resolución
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Concesión
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
-
-Candidato: Para
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones
-Si es entidad
-Entidad: Unidad de Concesiones
-
-Candidato: Servicios
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones y Servicios
-Si es entidad
-Entidad: Unidad de Concesiones y Servicios
-
-Candidato: Lo
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
-
-Candidato: Resolución
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones
-Si es entidad
-Entidad: Unidad de Concesiones
-
-Candidato: Servicios
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones y Servicios
-Si es entidad
-Entidad: Unidad de Concesiones y Servicios
-
-Candidato: Dirección General de Concesiones de Telecomunicaciones
-Si es entidad
-Entidad: Dirección General de Concesiones de Telecomunicaciones
-
-Candidato: Dirección General de Concentraciones
-Si es entidad
-Entidad: Dirección General de Concentraciones
-
-Candidato: Concesiones de la Unidad de Competencia Económica
-Si es entidad
-Entidad: Concesiones de la Unidad de Competencia Económica
-
-Candidato: Dirección General de Concentraciones y Concesiones de la Unidad de Competencia Económica
-Si es entidad
-Entidad: Dirección General de Concentraciones y Concesiones de la Unidad de Competencia Económica
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Dirección General de Concentraciones
-Si es entidad
-Entidad: Dirección General de Concentraciones
-
-Candidato: Concesiones
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Dirección General de Concentraciones y Concesiones
-Si es entidad
-Entidad: Dirección General de Concentraciones y Concesiones
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: El Solicitante
-La primer palabra es un artículo
-No es entidad 
-
-Candidato: Cuichapa
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Municipio de Moloacán
-Si es entidad
-Entidad: Municipio de Moloacán
-
-Candidato: Veracruz
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Se
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Sky
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Dish
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Sky y Dish
-Si es entidad
-Entidad: Sky y Dish
-
-Candidato: Solicitante
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitante
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Se
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
 
 Candidato: De
 Sólo tiene una palabra
 No es entidad 
-
-Candidato: Cuichapa
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Municipio de Moloacán
-Si es entidad
-Entidad: Municipio de Moloacán
-
-Candidato: Estado de Veracruz
-Si es entidad
-Entidad: Estado de Veracruz
-
-Candidato: En
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Tampoco
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitante
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Ley
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones
-Si es entidad
-Entidad: Unidad de Concesiones
-
-Candidato: Servicios
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Unidad de Concesiones y Servicios
-Si es entidad
-Entidad: Unidad de Concesiones y Servicios
-
-Candidato: Secretaría
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Solicitud de Prórroga
-Si es entidad
-Entidad: Solicitud de Prórroga
-
-Candidato: Al
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Dirección General de Política de Telecomunicaciones
-Si es entidad
-Entidad: Dirección General de Política de Telecomunicaciones
-
-Candidato: de Radiodifusión
-Si es entidad
-Entidad: de Radiodifusión
-
-Candidato: Dirección General de Política de Telecomunicaciones y de Radiodifusión
-Si es entidad
-Entidad: Dirección General de Política de Telecomunicaciones y de Radiodifusión
-
-Candidato: Secretaría
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Secretaría
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Finalmente
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
-
-Candidato: Ley Federal de Derechos
-Si es entidad
-Entidad: Ley Federal de Derechos
-
-Candidato: Por
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Constitución Política de los Estados Unidos Mexicanos
-Si es entidad
-Entidad: Constitución Política de los Estados Unidos Mexicanos
 
 Candidato: Ley Federal de Telecomunicaciones
 Si es entidad
@@ -1276,9 +4687,1545 @@ Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
 Si es entidad
 Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
 
-Candidato: Séptimo Transitorio
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estatuto Orgánico
 Si es entidad
-Entidad: Séptimo Transitorio
+Entidad: Estatuto Orgánico
+
+Candidato: Pleno del Instituto
+Si es entidad
+Entidad: Pleno del Instituto
+
+Candidato: Para
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pleno
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estatuto Orgánico
+Si es entidad
+Entidad: Estatuto Orgánico
+
+Candidato: Unidad de Concesiones
+Si es entidad
+Entidad: Unidad de Concesiones
+
+Candidato: Servicios
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Unidad de Concesiones y Servicios
+Si es entidad
+Entidad: Unidad de Concesiones y Servicios
+
+Candidato: Dirección General de Concesiones de Radiodifusión
+Si es entidad
+Entidad: Dirección General de Concesiones de Radiodifusión
+
+Candidato: Dirección General
+Si es entidad
+Entidad: Dirección General
+
+Candidato: Pleno
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pleno
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Segundo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Marco Legal
+Si es entidad
+Entidad: Marco Legal
+
+Candidato: Refrendo de la Concesión
+Si es entidad
+Entidad: Refrendo de la Concesión
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Decreto de Ley
+Si es entidad
+Entidad: Decreto de Ley
+
+Candidato: La
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Decreto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Séptimo Transitorio del Decreto
+Si es entidad
+Entidad: Séptimo Transitorio del Decreto
+
+Candidato: Constitución Política de los Estados Unidos Mexicanos
+Si es entidad
+Entidad: Constitución Política de los Estados Unidos Mexicanos
+
+Candidato: Diario Oficial de la Federación
+Si es entidad
+Entidad: Diario Oficial de la Federación
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Vigésimo Transitorio
+Si es entidad
+Entidad: Vigésimo Transitorio
+
+Candidato: Decreto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Séptimo Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Séptimo Transitorio del Decreto de Reforma Constitucional
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Comisión Federal de Competencia Económica
+Si es entidad
+Entidad: Comisión Federal de Competencia Económica
+
+Candidato: del Instituto Federal de Telecomunicaciones
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Comisión Federal de Competencia Económica y del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Comisión Federal de Competencia Económica y del Instituto Federal de Telecomunicaciones
+
+Candidato: Las
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Decreto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Decreto de Ley
+Si es entidad
+Entidad: Decreto de Ley
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitud
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Al
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Decreto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Reforma
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Adiciona
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Deroga
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Adiciona y Deroga
+Si es entidad
+Entidad: Adiciona y Deroga
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: de la Ley Federal de Radio
+Si es entidad
+Entidad: de la Ley Federal de Radio
+
+Candidato: Televisión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y de la Ley Federal de Radio y Televisión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y de la Ley Federal de Radio y Televisión
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Acción de Inconstitucionalidad
+Si es entidad
+Entidad: Acción de Inconstitucionalidad
+
+Candidato: Pleno de la Suprema Corte de Justicia de la Nación
+Si es entidad
+Entidad: Pleno de la Suprema Corte de Justicia de la Nación
+
+Candidato: Entre
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Una
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Acción de Inconstitucionalidad
+Si es entidad
+Entidad: Acción de Inconstitucionalidad
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Séptimo Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Séptimo Transitorio del Decreto de Reforma Constitucional
+
+Candidato: Aunado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Nación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estatuto Orgánico
+Si es entidad
+Entidad: Estatuto Orgánico
+
+Candidato: Unidades de Espectro Radioeléctrico
+Si es entidad
+Entidad: Unidades de Espectro Radioeléctrico
+
+Candidato: de Competencia Económica
+Si es entidad
+Entidad: de Competencia Económica
+
+Candidato: Unidades de Espectro Radioeléctrico y de Competencia Económica
+Si es entidad
+Entidad: Unidades de Espectro Radioeléctrico y de Competencia Económica
+
+Candidato: Cabe
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Derechos
+Si es entidad
+Entidad: Ley Federal de Derechos
+
+Candidato: Tercero
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Calidad de Agente Económico Preponderante del Concesionario
+Si es entidad
+Entidad: Calidad de Agente Económico Preponderante del Concesionario
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Cuarto Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Cuarto Transitorio del Decreto de Reforma Constitucional
+
+Candidato: Para
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Octavo Transitorio
+Si es entidad
+Entidad: Octavo Transitorio
+
+Candidato: Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Decreto de Reforma Constitucional
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Como
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: No
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Décimo Transitorio
+Si es entidad
+Entidad: Décimo Transitorio
+
+Candidato: Decreto de Ley
+Si es entidad
+Entidad: Decreto de Ley
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Atendiendo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Octavo Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Octavo Transitorio del Decreto de Reforma Constitucional
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sin
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Interés
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Impuestas
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Cuarto Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Cuarto Transitorio del Decreto de Reforma Constitucional
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Diario Oficial de la Federación
+Si es entidad
+Entidad: Diario Oficial de la Federación
+
+Candidato: Cuarto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Análisis
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Refrendo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Concesionario
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Cumplimiento
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Mediante
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Con
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Temporalidad
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitud de Refrendo
+Si es entidad
+Entidad: Solicitud de Refrendo
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Aceptación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Título de Concesión
+Si es entidad
+Entidad: Título de Concesión
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Ley Federal de Derechos
+Si es entidad
+Entidad: Ley Federal de Derechos
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pleno
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Disposición Técnica
+Si es entidad
+Entidad: Disposición Técnica
+
+Candidato: Especificaciones
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Acuerdo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Acuerdo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Comunicaciones
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Transportes
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: de Gobernación
+Si es entidad
+Entidad: de Gobernación
+
+Candidato: Comunicaciones y Transportes y de Gobernación
+Si es entidad
+Entidad: Comunicaciones y Transportes y de Gobernación
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Adicionalmente
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Esto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Nación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Considerando Séptimo
+Si es entidad
+Entidad: Considerando Séptimo
+
+Candidato: Quinto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Opinión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estatuto Orgánico
+Si es entidad
+Entidad: Estatuto Orgánico
+
+Candidato: Dirección General de Concentraciones
+Si es entidad
+Entidad: Dirección General de Concentraciones
+
+Candidato: Concesiones
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Dirección General de Concentraciones y Concesiones
+Si es entidad
+Entidad: Dirección General de Concentraciones y Concesiones
+
+Candidato: Opinión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitud
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: De
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitante
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Abierta Comercial
+Si es entidad
+Entidad: Abierta Comercial
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Abierta Comercial
+Si es entidad
+Entidad: Abierta Comercial
+
+Candidato: Canal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Radiotelevisora de México Norte S.A. de C.V.
+Si es entidad
+Entidad: Radiotelevisora de México Norte S.A. de C.V.
+
+Candidato: Mochis S.A. de C.V.
+Si es entidad
+Entidad: Mochis S.A. de C.V.
+
+Candidato: Televimex S.A. de C.V.
+Si es entidad
+Entidad: Televimex S.A. de C.V.
+
+Candidato: Las
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Octavo Transitorio de Decreto de Reforma de Telecomunicaciones
+Si es entidad
+Entidad: Octavo Transitorio de Decreto de Reforma de Telecomunicaciones
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Trigésima
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Canal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Abierta Comercial
+Si es entidad
+Entidad: Abierta Comercial
+
+Candidato: Abierta Comercial
+Si es entidad
+Entidad: Abierta Comercial
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Canal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitud
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitud
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Canal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Tampoco
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Competencia Económica
+Si es entidad
+Entidad: Ley Federal de Competencia Económica
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Canal
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Con
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sexto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesiones
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Como
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Decreto de Reforma Constitucional
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Considerando Tercero
+Si es entidad
+Entidad: Considerando Tercero
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ahora
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Televisión Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Televisión Roberto Casimiro González Trevi
+
+Candidato: Acuerdo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Pleno del Instituto
+Si es entidad
+Entidad: Pleno del Instituto
+
+Candidato: Cuarto Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Cuarto Transitorio del Decreto de Reforma Constitucional
+
+Candidato: Octavo Transitorio
+Si es entidad
+Entidad: Octavo Transitorio
+
+Candidato: Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Decreto de Reforma Constitucional
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sin
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Décimo Transitorio
+Si es entidad
+Entidad: Décimo Transitorio
+
+Candidato: Decreto de Ley
+Si es entidad
+Entidad: Decreto de Ley
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: No
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Como
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Considerando
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Impuestas
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Cuarto Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Cuarto Transitorio del Decreto de Reforma Constitucional
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Lineamientos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Radiodifusión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
+
+Candidato: Diario Oficial de la Federación
+Si es entidad
+Entidad: Diario Oficial de la Federación
+
+Candidato: Séptimo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Vigencia
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Al
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Octavo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Contraprestación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: La
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Nación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Federación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Distrito Federal
+Si es entidad
+Entidad: Distrito Federal
+
+Candidato: Las
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Cuando
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitucional
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Específicamente
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Artículo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Las
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: El Gobierno Federal
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Derivado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Al
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Diccionario de la Real Academia Espa
+Si es entidad
+Entidad: Diccionario de la Real Academia Espa
+
+Candidato: Conforme
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Nación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Nación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley General de Bienes Nacionales
+Si es entidad
+Entidad: Ley General de Bienes Nacionales
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Sexto Transitorio del Decreto de Ley
+Si es entidad
+Entidad: Sexto Transitorio del Decreto de Ley
+
+Candidato: Séptimo Transitorio del Decreto de Reforma Constitucional
+Si es entidad
+Entidad: Séptimo Transitorio del Decreto de Reforma Constitucional
+
+Candidato: Considerando Segundo
+Si es entidad
+Entidad: Considerando Segundo
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Solicitud
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Estatuto Orgánico
+Si es entidad
+Entidad: Estatuto Orgánico
+
+Candidato: No
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Unidad de Política de Ingresos No Tributarios
+Si es entidad
+Entidad: Unidad de Política de Ingresos No Tributarios
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: En
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Que
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Decreto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución Política de los Estados Unidos Mexicanos
+Si es entidad
+Entidad: Constitución Política de los Estados Unidos Mexicanos
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Comisión Federal de Competencia Económica
+Si es entidad
+Entidad: Comisión Federal de Competencia Económica
+
+Candidato: del Instituto Federal de Telecomunicaciones
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Comisión Federal de Competencia Económica y del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Comisión Federal de Competencia Económica y del Instituto Federal de Telecomunicaciones
+
+Candidato: Que
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Licitación No
+Si es entidad
+Entidad: Licitación No
+
+Candidato: Cadena Tres S.A. de C.V.
+Si es entidad
+Entidad: Cadena Tres S.A. de C.V.
+
+Candidato: Que
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Que
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Gobierno Federal
+Si es entidad
+Entidad: Gobierno Federal
+
+Candidato: Con
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Secretaría
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley Orgánica de la Administración Pública Federal
+Si es entidad
+Entidad: Ley Orgánica de la Administración Pública Federal
+
+Candidato: Reglamento Interior de la Secretaría de Hacienda
+Si es entidad
+Entidad: Reglamento Interior de la Secretaría de Hacienda
+
+Candidato: Crédito Público
+Si es entidad
+Entidad: Crédito Público
+
+Candidato: Reglamento Interior de la Secretaría de Hacienda y Crédito Público
+Si es entidad
+Entidad: Reglamento Interior de la Secretaría de Hacienda y Crédito Público
+
+Candidato: Ley de Ingresos de la Federación
+Si es entidad
+Entidad: Ley de Ingresos de la Federación
+
+Candidato: Ejercicio Fiscal
+Si es entidad
+Entidad: Ejercicio Fiscal
+
+Candidato: Código Fiscal de la Federación
+Si es entidad
+Entidad: Código Fiscal de la Federación
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Distintivo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Frecuencia
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Monto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: El
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Secretaría
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Los
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Gobierno Federal
+Si es entidad
+Entidad: Gobierno Federal
+
+Candidato: Derivado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Licitación No
+Si es entidad
+Entidad: Licitación No
+
+Candidato: Cadena Tres S.A. de C.V.
+Si es entidad
+Entidad: Cadena Tres S.A. de C.V.
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Para
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesionario
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Una
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Anexos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Cabe
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Ley
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Por
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Apartado
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución Política de los Estados Unidos Mexicanos
+Si es entidad
+Entidad: Constitución Política de los Estados Unidos Mexicanos
+
+Candidato: Séptimo Transitorios
+Si es entidad
+Entidad: Séptimo Transitorios
+
+Candidato: Decreto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Constitución Política de los Estados Unidos Mexicanos
+Si es entidad
+Entidad: Constitución Política de los Estados Unidos Mexicanos
+
+Candidato: Diario Oficial de la Federación
+Si es entidad
+Entidad: Diario Oficial de la Federación
+
+Candidato: Sexto Transitorio
+Si es entidad
+Entidad: Sexto Transitorio
 
 Candidato: Decreto
 Sólo tiene una palabra
@@ -1304,50 +6251,6 @@ Candidato: Diario Oficial de la Federación
 Si es entidad
 Entidad: Diario Oficial de la Federación
 
-Candidato: Ley Federal de Procedimiento Administrativo
-Si es entidad
-Entidad: Ley Federal de Procedimiento Administrativo
-
-Candidato: Ley Federal de Derechos
-Si es entidad
-Entidad: Ley Federal de Derechos
-
-Candidato: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
-Si es entidad
-Entidad: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
-
-Candidato: Acuerdo del Pleno del Instituto Federal de Telecomunicaciones
-Si es entidad
-Entidad: Acuerdo del Pleno del Instituto Federal de Telecomunicaciones
-
-Candidato: Se
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
-
-Candidato: Para
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Instituto Federal de Telecomunicaciones
-Si es entidad
-Entidad: Instituto Federal de Telecomunicaciones
-
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
-
-Candidato: Lo
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
-
 Candidato: Ley Federal de Telecomunicaciones
 Si es entidad
 Entidad: Ley Federal de Telecomunicaciones
@@ -1360,23 +6263,71 @@ Candidato: Ley Federal de Telecomunicaciones y Radiodifusión
 Si es entidad
 Entidad: Ley Federal de Telecomunicaciones y Radiodifusión
 
-Candidato: Instituto Federal de Telecomunicaciones
+Candidato: Ley Federal de Radio
 Si es entidad
-Entidad: Instituto Federal de Telecomunicaciones
+Entidad: Ley Federal de Radio
 
-Candidato: Resolutivo
+Candidato: Televisión
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: C. Jorge Adalberto Esperón Heredia
+Candidato: Ley Federal de Radio y Televisión
 Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
+Entidad: Ley Federal de Radio y Televisión
 
-Candidato: Resolutivo Segundo
+Candidato: Ley Federal de Telecomunicaciones
 Si es entidad
-Entidad: Resolutivo Segundo
+Entidad: Ley Federal de Telecomunicaciones
 
-Candidato: Resolución
+Candidato: Ley Federal de Procedimiento Administrativo
+Si es entidad
+Entidad: Ley Federal de Procedimiento Administrativo
+
+Candidato: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
+
+Candidato: Se
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Se
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Saltillo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Coahuila
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolutivos
 Sólo tiene una palabra
 No es entidad 
 
@@ -1396,13 +6347,41 @@ Candidato: Unidad de Concesiones y Servicios
 Si es entidad
 Entidad: Unidad de Concesiones y Servicios
 
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
 Candidato: Resolución
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Resolutivo Primero
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolutivo Segundo
 Si es entidad
-Entidad: Resolutivo Primero
+Entidad: Resolutivo Segundo
+
+Candidato: Anexos
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Asimismo
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Secretaría de Hacienda
+Si es entidad
+Entidad: Secretaría de Hacienda
+
+Candidato: Crédito Público
+Si es entidad
+Entidad: Crédito Público
+
+Candidato: Secretaría de Hacienda y Crédito Público
+Si es entidad
+Entidad: Secretaría de Hacienda y Crédito Público
 
 Candidato: Resolución
 Sólo tiene una palabra
@@ -1412,9 +6391,9 @@ Candidato: En
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: C. Jorge Adalberto Esperón Heredia
+Candidato: Roberto Casimiro González Trevi
 Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
+Entidad: Roberto Casimiro González Trevi
 
 Candidato: Resolución
 Sólo tiene una palabra
@@ -1424,21 +6403,93 @@ Candidato: Una
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Resolutivos Primero
+Candidato: Resolutivo Tercero
 Si es entidad
-Entidad: Resolutivos Primero
+Entidad: Resolutivo Tercero
 
-Candidato: Segundo
+Candidato: Roberto Casimiro González Trevi
+Si es entidad
+Entidad: Roberto Casimiro González Trevi
+
+Candidato: Secretaría de Hacienda
+Si es entidad
+Entidad: Secretaría de Hacienda
+
+Candidato: Crédito Público
+Si es entidad
+Entidad: Crédito Público
+
+Candidato: Secretaría de Hacienda y Crédito Público
+Si es entidad
+Entidad: Secretaría de Hacienda y Crédito Público
+
+Candidato: Considerando Octavo
+Si es entidad
+Entidad: Considerando Octavo
+
+Candidato: En
 Sólo tiene una palabra
 No es entidad 
 
-Candidato: Comisionado Presidente del Instituto Federal de Telecomunicaciones
+Candidato: Roberto Casimiro González Trevi
 Si es entidad
-Entidad: Comisionado Presidente del Instituto Federal de Telecomunicaciones
+Entidad: Roberto Casimiro González Trevi
 
-Candidato: Estatuto Orgánico
+Candidato: Resolutivos Tercero
 Si es entidad
-Entidad: Estatuto Orgánico
+Entidad: Resolutivos Tercero
+
+Candidato: Cuarto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolutivos Tercero y Cuarto
+Si es entidad
+Entidad: Resolutivos Tercero y Cuarto
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Nación
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Instituto Federal de Telecomunicaciones
+
+Candidato: Una
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolutivos Tercero
+Si es entidad
+Entidad: Resolutivos Tercero
+
+Candidato: Cuarto
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolutivos Tercero y Cuarto
+Si es entidad
+Entidad: Resolutivos Tercero y Cuarto
+
+Candidato: Comisionado Presidente del Instituto
+Si es entidad
+Entidad: Comisionado Presidente del Instituto
+
+Candidato: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
+Si es entidad
+Entidad: Estatuto Orgánico del Instituto Federal de Telecomunicaciones
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
 
 Candidato: Resolución
 Sólo tiene una palabra
@@ -1460,25 +6511,33 @@ Candidato: Unidad de Concesiones y Servicios
 Si es entidad
 Entidad: Unidad de Concesiones y Servicios
 
-Candidato: C. Jorge Adalberto Esperón Heredia
-Si es entidad
-Entidad: C. Jorge Adalberto Esperón Heredia
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
 
 Candidato: Ley Federal de Derechos
 Si es entidad
 Entidad: Ley Federal de Derechos
 
-Candidato: Resolución
-Sólo tiene una palabra
-No es entidad 
-
-Candidato: Inscríbase
+Candidato: Inscríbanse
 Sólo tiene una palabra
 No es entidad 
 
 Candidato: Registro Público de Concesiones
 Si es entidad
 Entidad: Registro Público de Concesiones
+
+Candidato: Concesión
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolución
+Sólo tiene una palabra
+No es entidad 
 
 Candidato: La
 Sólo tiene una palabra
@@ -1504,10 +6563,6 @@ Candidato: Gabriel Oswaldo Contreras Saldívar
 Si es entidad
 Entidad: Gabriel Oswaldo Contreras Saldívar
 
-Candidato: Luis Fernando Borjón Figueroa
-Si es entidad
-Entidad: Luis Fernando Borjón Figueroa
-
 Candidato: Ernesto Estrada González
 Si es entidad
 Entidad: Ernesto Estrada González
@@ -1531,6 +6586,30 @@ Entidad: Adolfo Cuevas Teja
 Candidato: Mario Germán Fromow Rangel y Adolfo Cuevas Teja
 Si es entidad
 Entidad: Mario Germán Fromow Rangel y Adolfo Cuevas Teja
+
+Candidato: Comisionado Luis Fernando Borjón Figueroa
+Si es entidad
+Entidad: Comisionado Luis Fernando Borjón Figueroa
+
+Candidato: El Comisionado Adolfo Cuevas Teja
+La primer palabra es un artículo
+No es entidad 
+
+Candidato: Ley Federal de Telecomunicaciones
+Si es entidad
+Entidad: Ley Federal de Telecomunicaciones
+
+Candidato: Corte
+Sólo tiene una palabra
+No es entidad 
+
+Candidato: Resolutivo Segundo
+Si es entidad
+Entidad: Resolutivo Segundo
+
+Candidato: Lo
+Sólo tiene una palabra
+No es entidad 
 
 Candidato: Constitución Política de los Estados Unidos Mexicanos
 Si es entidad
@@ -1557,42 +6636,50 @@ Sólo tiene una palabra
 No es entidad 
 
 Oficio, Expediente o Acuerdo: 
-oficio IFT/223/UCS/649/2015
+Acuerdo P/IFT/EXT/060314/77
 Oficio, Expediente o Acuerdo: 
-oficio 2.1.-0823
+oficio IFT/223/UCS/269/2015
 Oficio, Expediente o Acuerdo: 
-oficio 1.-132
+oficio IFT/223/UCS/DG-CRAD/598/2015
 Oficio, Expediente o Acuerdo: 
-oficio IFT/225/UC/DG-SUV/2634/2015
+oficio IFT/223/UCS/DG-CRAD/597/2015
 Oficio, Expediente o Acuerdo: 
-oficio IFT/226/UCE/DG-CCON/124/2015
+oficio IFT/222/UER/146/2015
 Oficio, Expediente o Acuerdo: 
-oficio IFT/223/UCS/DG-CTEL/1242/2015
+oficio IFT/226/UCE/DG-CCON/270/2015
 Oficio, Expediente o Acuerdo: 
-oficio IFT/225/UC/DG-SUV/2634/2015
+oficio IFT/225/UC/DG-SUV/5669/2015
 Oficio, Expediente o Acuerdo: 
-expediente 02/1223
+Acuerdo P/IFT/EXT/060314/77
 Oficio, Expediente o Acuerdo: 
-oficio IFT/225/UC/DG-VER/1934/2015
+oficio 349-B-237
 Oficio, Expediente o Acuerdo: 
-oficio IFT/223/UCS/DG-CTEL/1243/2015
-Oficio, Expediente o Acuerdo: 
-oficio IFT/226/UCE/DG-CCON/124/2015
-Oficio, Expediente o Acuerdo: 
-oficio IFT/223/UCS/649/2015
-Oficio, Expediente o Acuerdo: 
-oficio 2.1.-0823
-Oficio, Expediente o Acuerdo: 
-oficio 1.-132
-Oficio, Expediente o Acuerdo: 
-Acuerdo P/IFT/161215/600
+Acuerdo P/IFT/111215/577
 Municipio: 
-Cuichapa
+Centro
+Municipio: 
+Culiacán
+Municipio: 
+Durango
+Municipio: 
+Frontera
 Municipio: 
 González
 Municipio: 
-Moloacán
+La Paz
+Municipio: 
+La Paz
+Municipio: 
+Mexicali
+Municipio: 
+Navojoa
+Municipio: 
+Puebla
 Municipio: 
 Reforma
 Municipio: 
-Veracruz
+Saltillo
+Municipio: 
+Tabasco
+Municipio: 
+Villanueva
