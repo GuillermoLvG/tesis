@@ -18,7 +18,7 @@ client = MongoClient('localhost', 27017)
 client.drop_database('NERLegales')
 db = client.NERLegales
 collection = db.Entidades
-path_docx = "Evaluacion/CorpusEval/Archivo"
+path_docx = "DOCX"
 
 def limpiarCadena(string):
 	'''
@@ -236,7 +236,8 @@ def buscarEntidades(texto,fname):
 			if candidato:
 				indiceOcurrencia = match.start()
 				Regla = "Expresión Regular"
-				resultado = {"Nombre": candidato, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
+				categoria = clasificador(candidato)
+				resultado = {"Nombre": candidato, "Clase": categoria, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 				resultados.append(resultado)
 	#Expresión 2
 	expresion = r"((o|O)ficio|(e|E)xpediente|(a|A)cuerdo) ([A-Z]|[0-9]|,|\.|;|:|\\)*(/|-)([A-Z]|[0-9]|;|:|\\|/|-)*"
@@ -248,7 +249,7 @@ def buscarEntidades(texto,fname):
 		Regla = "Expresión Regular Oficio"
 		print("Oficio, Expediente o Acuerdo: ")
 		print(entidad)
-		resultado = {"Nombre": entidad, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
+		resultado = {"Nombre": entidad,  "Clase": "Documento", "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 		resultados.append(resultado)
 	#Expresión 3
 	with open("Diccionarios/listaMunicipios.txt") as municipios:
@@ -262,7 +263,7 @@ def buscarEntidades(texto,fname):
 			Regla = "Diccionario Municipios"
 			print("Municipio: ")
 			print(entidad)
-			resultado = {"Nombre": entidad, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
+			resultado = {"Nombre": entidad, "Clase": "Lugar", "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 			resultados.append(resultado)
 	return resultados
 def buscarAliasEnBD(candidato,fname):
@@ -556,6 +557,24 @@ def ReglasNER(candidato,fname):
 	print("Si es entidad")
 	print("Entidad: " + candidato + "\n")
 	return candidato
+def clasificador(entidad):
+	'''
+	Recibe una entidad (cadena) y arroja el tipo de entidad que es (cadena), utilizando ciertas reglas
+	para cada clase: Persona, Organización, Título, Documentos, Leyes, Lugares
+	'''
+	palabrasEntidad = entidad.split()
+	for palabra in palabrasEntidad:
+		if palabra.lower() in ["dr.","mtro.","mtra.","lic.","presidente","c.","cc.","","comisionado","comisionada","coordinador","coordinadora","defensor","defensora","delegado","delegada","director","directora","responsable","secretario","secretaria","subsecretaria","subsecretario","titular"]:
+			return "Persona"
+		if palabra.lower() in ["ley","artículo","párrafo","sección"]:
+			return "Ley"
+		if palabra.lower() in ["banco","instituto","organización","s.a.","c.v.","dirección","administración","administradora","censo","comisión","competencia","consejo","consorcio","coordinación","departamento","disposicion","ejecutivo","ejecutoria","gobierno","grupo","junta","juzgado","oficialía","organismo","pleno","sala","secretaría","sistema","subsecretaría","tribunal","tribunales","unidad","unidades","universidad",]:
+			return "Organización"
+		if palabra.lower() in ["acuerdo","expediente","constitución","acta","resolución","oficio","anexo","documento","concesión","constancia","contrato","código","decreto","derechos","diario","escrito","escritura","estatuto","formato","lineamiento","lineamientos","lista","manual","otorgamiento","presupuesto","prórroga","publicación","registro","reglamento","reglas","requerimiento","resolutivo","solicitud","solicitudes"]:
+			return "Documento"
+		if palabra.lower() in ["municio","estado","colonia","calle","delegación","oficina"]:
+			return "Lugar"
+	return "Otro"
 def aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia):
 	'''
 	Aplica las reglas de forma secuencial.
@@ -565,7 +584,9 @@ def aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia):
 	{
 	Nombre: texto,
 	Archivos: { Nombre del archivo: {indiceOcurrencia: numero, Alias: texto, Regla: texto } }
+	Clase: texto
 	}
+	Las clases pueden ser Persona, Organización, Documentos, Leyes, Lugares, Otro
 	'''
 	try:
 	    os.remove("tablas/resultado.csv")
@@ -581,25 +602,29 @@ def aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia):
 	if entidad and not Regla:
 		Regla = "Regla 1"
 		resultadoEntidad = entidad
+		categoria = clasificador(resultadoEntidad[0])
 	entidad = regla2(candidato, parrafo)
 	if entidad and not Regla:
 		Regla = "Regla 2"
 		resultadoEntidad = entidad
+		categoria = clasificador(resultadoEntidad[0])
 	entidad = regla3(candidato,parrafo)
 	if entidad and not Regla:
 		Regla = "Regla 3"
 		resultadoEntidad = entidad
+		categoria = clasificador(resultadoEntidad[0])
 	entidad = regla4(candidato)
 	if entidad and not Regla:
 		Regla = "Regla 4"
 		resultadoEntidad = entidad
+		categoria = clasificador(resultadoEntidad[0])
 	if resultadoEntidad:
 		print (Regla)
 		print ("Entidad: " + resultadoEntidad[0] + "")
 		print ("Alias: " + resultadoEntidad[1] + "\n")
 		with open('tablas/resultado.csv','a+') as salida:
 			salida.write(resultadoEntidad[1].strip() + "," + resultadoEntidad[0].strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + "," + Regla + "," + fname + "\n")
-		resultado = {"Nombre": resultadoEntidad[0], "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": resultadoEntidad[1], "Regla": Regla } }
+		resultado = {"Nombre": resultadoEntidad[0], "Clase": categoria, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": resultadoEntidad[1], "Regla": Regla} }
 		return resultado
 	return resultado
 def insertarEnBD(resultado):
@@ -667,4 +692,5 @@ def MainNER():
 		resultados = buscarEntidades(textoPlano,fname)
 		if resultados:
 			for resultado in resultados:
+
 				insertarEnBD(resultado)
