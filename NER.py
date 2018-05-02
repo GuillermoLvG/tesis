@@ -354,7 +354,7 @@ def resolverSiglas(candidato,parrafo,siglasOriginales):
 	for match in regex.finditer(parrafo):
 		if len(match.group(0).split()) > 3:
 			print("Posible entidad: " + match.group(0))
-			instancia = match.group(0)
+			instancia = ReglasNER(match.group(0))
 	if instancia:
 		print("Se determinó a " + instancia + " como entidad")
 		entidad.append(limpiarCadena(instancia))
