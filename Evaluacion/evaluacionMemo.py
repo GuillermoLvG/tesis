@@ -9,19 +9,22 @@ import re
 import openpyxl
 import xml.etree.ElementTree
 from pymongo import MongoClient
+import csv
 
 #Gold Standard
-doc = openpyxl.load_workbook('entities_55.xlsx')
+doc = openpyxl.load_workbook('entities_2018.xlsx')
 sheet = doc['Sheet1']
 entidades = []
-for reng in range(1,73):
-	entidades.append(sheet.cell(row=reng,column=1).value)
+for reng in range(1,60):
+	entidades.append([sheet.cell(row=reng,column=1).value,sheet.cell(row=reng,column=2).value])
+entidades = [list(item) for item in set(tuple(row) for row in entidades)]
+for entidad in entidades:
+	escribir = csv.writer(open('tabla.csv', 'a+'))
+	escribir.writerow([entidad[0],entidad[1]])
 
-entidades = set(entidades)
-entidades = list(entidades)
 goldStandard = []
 for entidad in entidades:
-	goldStandard.append(entidad.lower())
+	goldStandard.append(entidad[0].lower())
 
 #Resultado Freeling
 client = MongoClient('localhost', 27017)
@@ -30,8 +33,9 @@ collection = db.collection
 result = collection.find({})
 freelingResults = []
 for element in result:
-	freelingResults.append(element["Nombre"].replace("_"," ").lower())
-
+	freelingResults.append(element["Nombre"].lower())
+	escribir = csv.writer(open('tablaFL.csv', 'a+'))
+	escribir.writerow([element["Nombre"],element["Clase"]])
 #Calculo de precisión y exhaustividad
 TP = 0
 FP = 0
@@ -60,6 +64,8 @@ result = collection.find({})
 memoResults = []
 for element in result:
 	memoResults.append(element["Nombre"].lower())
+	escribir = csv.writer(open('tablaMemo.csv', 'a+'))
+	escribir.writerow([element["Nombre"],element["Clase"]])
 
 #Calculo de precisión y exhaustividad
 TP = 0
