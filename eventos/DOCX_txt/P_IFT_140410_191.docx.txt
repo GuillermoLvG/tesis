@@ -1,0 +1,1695 @@
+RESOLUCIÓN POR LA QUE EL PLENO DE LA COMISIÓN FEDERAL DE TELECOMUNICACIONES DETERMINA LAS CONDICIONES DE INTERCONEXIÓN NO CONVENIDAS ENTRE AXTEL,  SABDECV, TELÉFONOS DE MÉXICO,  SABDECV Y TELÉFONOS DEL NOROESTE,  SADECV
+
+ 
+
+ANTECEDENTES
+
+ 
+
+    I.      Concesiones de Axtel Sabdecv El 7 de junio de 1996, la Secretaría de Comunicaciones Y_Transportes (en lo sucesivo, la "Secretaría"), otorgó a Telefonía Inalámbrica del Norte, S.A de C.V., actualmente Axtel Sabdecv (en lo sucesivo, "Axtel"), un título de concesión para instalar, operar y explotar una red pública de telecomunicaciones para prestar entre otros, el servicio público de telefonía básica de larga distancia nacional e internacional. Asimismo el 7 de octubre de 1998, la Secretaría otorgó a Axtel un título de concesión para instalar, operar y explotar una red pública de telecomunicaciones para prestar servicios de acceso inalámbrico fijo o móvil en las (9) nueve regiones en que se dividió el territorio nacional (en lo sucesivo, la "Concesión de Axtel") y nueve (9) títulos de concesión para usar, aprovechar y explotar bandas de frecuencias del espectro radioeléctrico para prestar servicios de acceso inalámbrico fijo o móvil, para cada una de las nueve (9) regiones en que se dividió el territorio nacional.
+
+
+
+   II.      Concesión de Teléfonos de México Sabdecv El 10 de marzo de 1976, la Secretaría otorgó a Teléfonos de México Sabdecv (en lo sucesivo, "Telmex"), un título de concesión para construir, operar y explotar una red de servicio telefónico público. El 10 de diciembre de 1990, se publicó en el Diario Oficial de la Federación la "Modificación al Título de Concesión de Teléfonos de México, S.A. de C. V.", para construir, instalar, mantener, operar y explotar una red pública telefónica por un periodo de cincuenta (50) años contados a partir del 10 de marzo de 1976, con cobertura en todo el territorio nacional, con excepción del área concesionada a Teléfonos del Noroeste, S.A de C.V. (en lo sucesivo, la "Concesión de Telmex").
+
+
+
+  III.      Concesión de Teléfonos del Noroeste Sadecv El 26 de mayo de 1980, la Secretaría otorgó a Teléfonos del Noroeste, S.A de C.V. (en lo sucesivo, "Telnor") un título de concesión para construir, operar y explotar una red pública de servicio telefónico público. El 7 de diciembre de 1990, la Secretaría emitió la modificación a la concesión de Telnor, para construir, instalar, mantener, operar y explotar una red pública telefónica con cobertura en todo el estado de Baja California, del Municipio de San Luis Rio Colorado, así como la ciudad de Sonoita y sus áreas aledañas, en el estado de Sonora (en lo sucesivo, la "Concesión de Telnor").
+
+
+
+  IV.      Solicitud de Resolución de condiciones de interconexión no convenidas. El 16 de octubre de 2009, el representante legal de Axtel presentó ante la Comisión Federal de Telecomunicaciones (en lo sucesivo, la "Comisión"), el escrito No. 321-2009 mediante el cual solicita la intervención de este órgano a efecto de que resuelva los términos, condiciones y tarifas aplicables a partir del 10 de enero de 2010, que no ha podido convenir con Telmex y Telnor para la interconexión de sus respectivas redes públicas de telecomunicaciones (en lo sucesivo, la "Solicitud de Resolución").
+
+
+
+Para efectos de lo anterior, Axtel manifiesta que solicitó a Telmex y Telnor el inicio de negociaciones a fin de convenir los términos, condiciones y tarifas de interconexión aplicables a partir del 1° de enero de 2010. Para acreditar lo anterior, el representante legal de Axtel, ofreció las siguientes pruebas documentales:
+
+
+
+1.    Copia certificada del convenio marco de prestación de servicios de interconexión suscrito entre Axtel y Telmex el 4 de junio de 2003 y de sus anexos A, B, C y 18.7 (en lo sucesivo, el "Convenio Axtel-Telmex")
+
+
+
+2.    Copia certificada del convenio marco de prestación de servicios de interconexión suscrito entre Axtel y Telnor el 4 de junio de 2003 y de sus anexos A, B, C y 18.7 (en lo sucesivo, el "Convenio Axtel-Telnor").
+
+
+
+3.    Copia certificada de la escritura pública 6,080 de fecha 8 de mayo de 2009, otorgada ante la fe del Notario Público 120 de Monterey Nuevo León, mediante la cual se acredita la personalidad del representante legal de Axtel.
+
+
+
+4.    Copia certificada del escrito presentado ante la Comisión el 7 de agosto de 2009, mediante el cual Axtel dio aviso de las negociaciones tendientes a convenir los términos y condiciones de un convenio de interconexión entre la red de larga distancia de Axtel con la red local de Telmex y Telnor cuya vigencia iniciaría desde el 1° de enero de 2010. Asimismo adjuntó copia certificada del acta 11,017 mediante la cual el Corredor Público 31 del Distrito Federal notificó a Telmex y Telnor el 31 de julio de 2009 la solicitud de inicio de negociaciones.
+
+
+
+5.    Copia simple de la carta de fecha 4 de septiembre de 2009, mediante la cual el representante legal de Telmex y Telnor informa a Axtel que sus peticiones notificadas el 31 de julio de 2009 son improcedentes.
+
+
+
+6.    Original del acta 12,250 mediante la cual el Corredor Público 31 del Distrito Federal notificó a Telmex y Telnor el 17 de septiembre de 2009 el escrito a través del cual Axtel invitó a Telmex y Telnor para sostener una reunión en sus oficinas el día 22 de septiembre de 2009, a fin de continuar con las negociaciones tendientes a la firma del convenio de interconexión.
+
+
+
+7.    Original del acta 12,319 mediante la cual el Corredor Público 31 del Distrito Federal notificó a Telmex y Telnor el 29 de septiembre de 2009, el escrito mediante el cual Axtel ratificó su postura respecto a la solicitud para suscribir un convenio de interconexión entre la red de larga distancia de Axtel con la red local de Telmex y Telnor cuya vigencia iniciaría desde el 1° de enero de 2010.
+
+
+
+8.    Original del acta 12,333, de 1° de octubre de 2009, mediante la cual el Corredor Público 31 del Distrito Federal hace constar la ratificación del personal de Axtel en el sentido de que ningún representante de Telmex y Telnor asistió a la reunión que se celebraría el 22 de septiembre de 2009.
+
+
+
+9.    Copia certificada del convenio marco de prestación de servicios de interconexión suscrito por Telmex y Avantel Srldecv el 3 de octubre de 1996.
+
+
+
+10.  El Modelo de Costos elaborado por la Comisión para resolver las condiciones que en materia de interconexión no hayan podido convenirse entre los concesionarios de redes públicas de telecomunicaciones, utilizado en el procedimiento administrativo que concluyó en la resolución P/EXT/310806/62.
+
+
+
+Como consecuencia de lo anterior, Axtel manifiesta que Telmex y Telnor no han tenido la intención de pactar las condiciones de interconexión que les fueron propuestas, por lo que habiendo transcurrido en exceso los 60 (sesenta) días establecidos por el artículo 42 de la Ley Federal de Telecomunicaciones (en lo sucesivo, la "LFT”), sin que las partes hayan podido convenir los términos planteados, y más aún, Telmex y Telnor han señalado expresamente que los términos y condiciones solicitados por Axtel son improcedentes, es que existe un desacuerdo entre las partes.
+
+
+
+   V.      Oficio de Vista. EI 2 de noviembre de 2009, se notificó por instructivo a Telmex y Telnor el oficio CFT/D05/UPR/1578/09 de 23 de octubre de 2009, por el que se le dio vista a dichos concesionarios de la Solicitud de Resolución, para que en un plazo no mayor a 10 (diez) días hábiles contados a partir del día siguiente a que surtiera efectos legales su notificación, manifestaran lo que a su derecho conviniera e informaran si existían condiciones que no hubieran podido convenir con Axtel y de ser el caso, señalaran expresamente en qué consistían los desacuerdos, fijaran su postura al respecto y ofrecieran los elementos de prueba que estimaran pertinentes (en lo sucesivo, el "Oficio de Vista").
+
+
+
+  VI.      Respuestas de Telmex y Telnor. EI 17 de noviembre de 2009, el representante legal de Telmex y Telnor presentó ante la Comisión los escritos Jrr.Cft.264/2009 y Jrr.Cft.265/2009, mediante los cuales dio respuesta en tiempo al Oficio de Vista, manifestó su postura, formuló argumentos y ofreció pruebas respecto al desacuerdo de interconexión iniciado por Axtel (en lo sucesivo, las "Respuestas de Telmex y Telnor").
+
+
+
+ VII.      Alegatos. El 7 Y 8 de diciembre de 2009, se notificó a Telmex, Telnor y Axte,. respectivamente, el oficio CFT/D05/UPR/1627/09 de 1° de diciembre de 2009, mediante el cual se acordó, entre otros, que el procedimiento administrativo en que se actúa guardaba estado para que las partes formularan alegatos, para lo cual se les concedió un plazo no mayor de 10 (diez) días hábiles contados a partir del día siguiente a la fecha de notificación del oficio señalado (en lo sucesivo, el “Oficio de Alegatos”).
+
+
+
+El 7 de enero de 2010, el representante legal de Telmex y Telnor presentó ante la Comisión los escritos Jrr.Cft.001/2010 y Jrr.Cft.O10/2010, por los que formuló en tiempo los correspondientes alegatos (en lo sucesivo, los "Alegatos de Telnor").
+
+
+
+El 8 de enero de 2010, el representante legal de Axtel presentó ante la Comisión el escrito No. 003-2010 por el que formuló en tiempo los correspondientes alegatos (en lo sucesivo, los "Alegatos de Axtel").
+
+
+
+VIII.      Cierre de la instrucción. El 15 de enero de 2010, se notificó por instructivo a Axtel, Telmex y Telnor, el oficio CFT/D05/UPR/060/2010 de 11 de enero de 2010, mediante el cual se acordó el cierre de la instrucción toda vez que el procedimiento administrativo había concluido y se ordenó pasar el expediente para resolución.
+
+
+
+En virtud de los referidos Antecedentes, y
+
+
+
+CONSIDERANDO
+
+
+
+PRIMERO.- Competencia. Que de conformidad con los artículos 17 y 36 de la Ley Orgánica de la Administración Pública Federal y 9-A de la LFT, en relación con los artículos 2 fracción XXX y 40 del Reglamento Interior de la Secretaría de Comunicaciones Y_Transportes, la Comisión es un órgano administrativo desconcentrado de la Secretaría con autonomía técnica, operativa, de gasto y de gestión, encargado de regular, promover y supervisar el desarrollo eficiente y la cobertura social amplia de las telecomunicaciones y la radiodifusión en México, con autonomía plena para el dictado de sus resoluciones;
+
+
+
+Que de conformidad con los artículos 7 fracción II, 9-A fracciones I y X y 9-B de la LFT, en relación con los artículos 9 del Plan Técnico Fundamental de Interconexión e Interoperabilidad, (en lo sucesivo, el "Plan de Interconexión") 9 fracción VIII del Reglamento Interno de la Comisión Federal de Telecomunicaciones, el Pleno de la Comisión como órgano de gobierno de la misma, está facultado para expedir disposiciones administrativas, para promover y vigilar la eficiente interconexión de los equipos y redes públicas de telecomunicaciones, así como determinar las condiciones que en materia de interconexión no hayan podido convenirse entre los concesionarios de redes públicas de telecomunicaciones, por lo tanto, cuenta con facultades suficientes para emitir la presente Resolución.
+
+
+
+SEGUNDO.-Importancia de la interconexión e Interés público.- Las telecomunicaciones son estratégicas para el crecimiento económico y social de cualquier país. El desarrollo de la infraestructura y de las redes de comunicación se ha convertido en una prioridad inaplazable, particularmente para países como México, en el que se requiere un aumento en la tasa de penetración de los servicios de telecomunicaciones.
+
+
+
+El desarrollo tecnológico y la marcada tendencia de globalización y convergencia de las telecomunicaciones, han promovido que las fuerzas del mercado asuman un papel más activo en la asignación de los recursos, incentivando el surgimiento de nuevas empresas las cuales requieren de un entorno regulatorio que permita la acción natural de las fuerzas de mercado y de la sana competencia entre todos los participantes, mediante la rectoría del Estado.
+
+
+
+En este sentido, la competencia es un factor decisivo para la innovación y el desarrollo de los mercados de las telecomunicaciones. Un mercado en competencia implica la existencia de distintos prestadores de servicios, a fin de permitir que los usuarios elijan libremente a aquel concesionario que ofrezca las mejores condiciones en precio, calidad y diversidad. Es en este contexto de competencia en el que la interconexión entre redes públicas de telecomunicaciones se convierte en un factor de interés público, en tanto solventa la consecución de los objetivos que el legislador plasmó en la LFT. Para el usuario, la interconexión asegura que cualquier comunicación que inicie pueda llegar a su destino, independientemente de la red pública concesionada que se utilice propiciando que su decisión de contratar los servicios de determinada empresa sea por factores de precio, calidad y diversidad, y no por el tamaño de la red con la que contrata tales servicios.
+
+
+
+Uno de los elementos que el usuario considera para contratar los servicios de telecomunicaciones es el número de usuarios con los cuales podrá comunicarse. A medida que las redes interconectadas cuenten con un mayor número de usuarios suscritos, mayor será el beneficio que se obtenga de conectarse a la misma, lo que se conoce como externalidad de red en los servicios de telecomunicaciones. En caso contrario, el usuario tendría que contratar necesariamente los servicios de telecomunicaciones con todas las redes que existieran para asegurar que su universo de llamadas llegue a su destino de esta forma, sólo podría establecer comunicación con los usuarios que también hayan contratado los servicios de telecomunicaciones con la red a la que él se encuentre suscrito. Esta situación repercutiría en la toma de decisión para adquirir dichos servicios, ya que estaría afectada sensiblemente por el tamaño de las redes, haciendo a un lado criterios relacionados con precio, calidad y diversidad y eliminando el beneficio social de la externalidad de red en los servicios de telecomunicaciones.
+
+
+
+De lo anterior, se desprende que la falta de interconexión resultaría notoriamente contraria al objetivo de interés público plasmado en el artículo 7 de la LFT, consistente en promover el desarrollo eficiente de las telecomunicaciones para que a través de la sana competencia en el sector, los usuarios tengan acceso a una mayor diversidad y oferta de servicios en mejores condiciones de calidad y precio.
+
+
+
+La interconexión de las redes públicas de telecomunicaciones constituye un elemento clave en el desarrollo de la competencia efectiva del sector. Para las empresas concesionarias, asegurar la interconexión con todas las demás redes públicas de telecomunicaciones representa la oportunidad de ampliar la oferta de sus servicios, lo cual permitiría incrementar la teledensidad e infraestructura en materia de telecomunicaciones.
+
+
+
+Por ello, el legislador estableció (i) la obligación de todos los concesionarios de redes públicas de telecomunicaciones de adoptar diseños de arquitectura abierta para permitir la interconexión e interoperabilidad de sus redes, contenida en el artículo 41 de la LFT, (ii) la obligación de los concesionarios de redes públicas de interconectar sus redes de conformidad con lo establecido en el artículo 42 de la LFT, y (iii) como causal de revocación inmediata de la concesión. La negativa de un concesionario a interconectar su red con la de otros concesionarios sin causa justificada, referida en el artículo 38 fracción V de la LFT.
+
+
+
+Sin embargo, la interconexión se ha convertido en los últimos años en un factor crítico debido al desarrollo tecnológico y al surgimiento de nuevos servicios, ya que ésta permite que los distintos concesionarios coexistan para ofrecer sus servicios a todos los usuarios y a su vez compitan de manera efectiva por el mercado de las telecomunicaciones.
+
+
+
+En este tenor, una de las principales tareas de la Comisión es la de establecer una regulación adecuada, precisa e imparcial de la interconexión, que promueva y facilite el uso eficiente de las redes públicas de telecomunicaciones, fomente la entrada en el mercado de competidores eficientes, incorpore nuevas tecnologías y servicios, así como que promueva un entorno de sana competencia entre los operadores establecidos. El principio a salvaguardar es el interés público, ya que otorga al usuario la oportunidad de adquirir servicios a menor precio, mayor calidad y diversidad, de ahí que los concesionarios estén obligados a entregar el tráfico a su destino final o a un concesionario o combinación de concesionarios que puedan hacerlo, proveyendo los servicios de interconexión a que los obliga la normatividad de la materia.
+
+
+
+TERCERO.- Obligatoriedad de la interconexión.- En el artículo 42 de la LFT quedó previsto que los concesionarios de redes públicas de telecomunicaciones tienen la obligación de interconectar sus redes cuando así les sea solicitado y. en todo caso, formalizarán dicha interconexión mediante la suscripción del convenio respectivo, Lo anterior pone de manifiesto que la LFT no prevé supuesto alguno que permita a los concesionarios de redes públicas de telecomunicaciones negarse a celebrar un convenio de interconexión tras la presentación de la solicitud de inicio de negociaciones. Una vez presentada ésta, los concesionarios involucrados deben negociar los términos, condiciones y tarifas de la interconexión, así como suscribir el convenio respectivo.
+
+
+
+La interconexión es el instrumento que garantiza la interoperabilidad de las redes y de los servicios, esto es, que los usuarios de una red puedan conectarse y comunicarse con los usuarios de otra y viceversa, o utilizar servicios proporcionados por la otra red. La obligatoriedad de la interconexión incluye ofrecer de manera no discriminatoria aquellas funciones necesarias para llevar a cabo la interconexión, en las mismas condiciones y con cuando menos la misma calidad de servicio que se otorguen a otros concesionarios que utilicen servicios de interconexión, capacidades o funciones similares.
+
+
+
+El bien jurídico tutelado por los artículos 41 y 42 de la LFT es consumar la interconexión de redes públicas de telecomunicaciones para que los usuarios de la red A puedan comunicarse con los usuarios de la red B. Si no hubiere interconexión entre la red A y la red B. un usuario necesariamente tendría que contratar sus servicios con ambas redes para asegurar que su universo de llamadas llegue a su destino. En caso de no hacerlo de esta forma, sólo podría establecer comunicación con los usuarios que también hayan contratado sus servicios con la red que él haya contratado. Esta situación repercutiría en que si decisión para adquirir sus servicios estaría afectada sensiblemente por la cobertura de las redes haciendo a un lado criterios relacionados con precio, calidad y diversidad de servicios. Esto resultaría notoriamente contrario al objetivo de interés público plasmado en el artículo 7 de la LFT, consistente en promover el desarrollo eficiente de las telecomunicaciones.
+
+
+
+Es así que el artículo 42 de la LFT es garante del derecho que asiste a los usuarios de servicios de telecomunicaciones de tener comunicación con usuarios conectados a otras redes públicas de telecomunicaciones, así como de poder utilizar servicios proporcionados por otras redes, lo cual se logra con la obligación de todo concesionario de interconectar su red para garantizar el citado derecho de los usuarios. El objetivo último de un convenio de interconexión es que mediante la interconexión de las redes públicas de telecomunicaciones, se privilegie el interés público al permitir que los usuarios de una red puedan comunicarse con los usuarios de otra red y viceversa, o utilizar servicios proporcionados por la otra red.
+
+
+
+Por su parte, el artículo 2 del Plan de Interconexión, establece que la interconexión consiste en la conexión física o virtual, lógica y funcional entre redes públicas de telecomunicaciones, que permite la conducción de tráfico entre dichas redes y/o entre servicios de telecomunicaciones prestados a través de las mismas, de manera que los usuarios de una de las redes públicas de telecomunicaciones puedan conectarse e intercambiar tráfico con los usuarios de la otra red pública de telecomunicaciones y viceversa; o bien permite a una red pública de telecomunicaciones y/o a sus usuarios la utilización de servicios de telecomunicaciones y/o capacidad y funciones provistos .por o a través de otra red pública de telecomunicaciones.
+
+
+
+Asimismo, el artículo 4 del Plan de Interconexión prevé que los concesionarios están obligados a entregar el tráfico a su destino final o a un concesionario o combinación de concesionarios que puedan hacerlo y en tal sentido deberán proveer y tener acceso a los servicios de interconexión en términos de lo- dispuesto por la LFT, por el propio Plan de Interconexión, así como por las demás disposiciones que resulten aplicables.
+
+
+
+Por su parte, el artículo 22 del Plan de Interconexión señala que los concesionarios deberán ofrecer a los demás concesionarios interconectados a su red, los elementos, capacidades, servicios, infraestructura y funciones necesarias para llevar a cabo los servicios de interconexión con cuando menos las mismas condiciones y la misma calidad de servicio con que prestan dichas funciones para su propia operación y a sus afiliadas, filiales, subsidiarias o empresas que pertenezcan al mismo grupo de interés económico, a cuyo efecto establecerán los mecanismos y procedimientos necesarios para mantener los niveles de calidad y seguridad acordados entre las partes.
+
+
+
+Adicionalmente, el párrafo segundo de la Regla Decimaquinta de las Reglas del Servicio Local (en lo sucesivo, las "RdSL") establece que los concesionarios de servicio local deberán proveer interconexión a la red de cualquier concesionario de red pública de telecomunicaciones autorizado para prestar el servicio de larga distancia que se lo solicite.
+
+
+
+Por otro lado, la condición 5-2 de la Concesión de Telmex y de la Concesión de Telnor, establece la obligación de dichos concesionarios de celebrar convenios de interconexión con otros concesionarios de redes públicas de telecomunicaciones que se lo soliciten.
+
+
+
+Asimismo, la condición 5-4 de la Concesión de Telmex y de la Concesión de Telnor establece que, a partir del 1° de enero de 1997, la Secretaría podría obligar a dichos concesionarios a permitir la interconexión de otras redes públicas de larga distancia, a efecto de que el usuario pudiera optar por la red básica por la que se cursará tráfico.
+
+
+
+De igual forma, la condición 8-3 de la Concesión de Telmex y de la Concesión de Telnor, señala que las mismas caducará por cualquiera de las causas previstas en la ley, por negarse a interconectar a otros concesionarios de servicios de telecomunicaciones y previo apercibimiento de la Secretaría, entre otras.
+
+
+
+En virtud de lo anterior, se concluye que: (i) la interconexión es el mecanismo que materializa la interoperabilidad de las redes y de los servicios, esto es, que los usuarios de una de las redes públicas de telecomunicaciones puedan conectarse e intercambiar tráfico con los usuarios de la otra red pública de telecomunicaciones y viceversa, o bien permite a una red pública de telecomunicaciones y/o a sus usuarios la utilización de servicios de telecomunicaciones y/o capacidad y funciones provistos por o a través de otra red pública de telecomunicaciones; (ii) los concesionarios están obligados a interconectar sus redes y, a tal efecto, suscribir un convenio en un plazo no mayor de sesenta (60) días naturales contados a partir de que alguno de ellos lo solicite; (iii) en caso de desacuerdo entre las partes, la Comisión resolverá los términos y condiciones de interconexión no convenidos, y (iv) la obligatoriedad de la interconexión incluye el ofrecer de manera no discriminatoria aquellas funciones necesarias para llevar a cabo la interconexión, en las mismas condiciones y con cuando menos la misma calidad de servicio con que se presten a la propia operación, a las filiales y subsidiarias.
+
+
+
+Una vez analizado el marco regulatorio se desprende que los únicos requisitos para ser sujeto de la obligación de interconexión son: (i) tener una concesión de red pública de telecomunicaciones, y (ii) que un concesionario de red pública de telecomunicaciones la solicite a otro.
+
+
+
+En consecuencia está acreditado que Axtel, Telmex y Telnor tienen el carácter de concesionarios de redes públicas de telecomunicaciones y que efectivamente Axtel solicitó a Telmex y Telnor la interconexión de sus respectivas redes públicas de telecomunicaciones, según se desprende de los antecedentes I, II, III Y IV de la presente Resolución.
+
+
+
+Por ello, conforme al artículo 42 de la LFT Axtel, Telmex y Telnor' están obligados a interconectar sus respectivas redes públicas de telecomunicaciones, formalizando en todo caso dicha interconexión mediante la suscripción del convenio respectivo que estipule los términos, condiciones y tarifas aplicables, en el entendido que aquel concesionario que niegue la interconexión sin causa justificada, se sitúa en la causal de revocación inmediata de la concesión en términos de lo dispuesto por la fracción V del artículo 38 de la LFT.
+
+
+
+CUARTO.- Plazo previsto en el artículo 42 de la LFT.- En virtud de que Axtel solicitó a Telmex y Telnor con fecha 31 de julio de 2009, el inicio formal de negociaciones de los términos, condiciones y tarifas aplicables para la interconexión de sus respectivas redes públicas de telecomunicaciones a partir del 10 de enero de 2010 y hasta el 31 de diciembre de 2010, Y dado que ha transcurrido en exceso el plazo legal de 60 (sesenta) días, sin que a la fecha de emisión de la presente Resolución las partes hayan acordado los términos y condiciones, esta Comisión de conformidad con los artículos 9-A fracción X y 42 de la LFT, 8 Y 9 del Plan de Interconexión, se aboca a resolver sobre aquellos puntos de desacuerdo que se someten a su consideración.
+
+
+
+En efecto, de las constancias que obran en el expediente en que se actúa, en particular de las indicadas en el Antecedente IV de la presente Resolución, se desprende que Axtel en la Solicitud de Resolución adjuntó copia certificada de la petición formulada a Telmex y Telnor el 31 de julio de 2009. En tal virtud, esta Comisión considera que la solicitud de Axtel está suficientemente acreditada, por lo que goza de plena validez legal.
+
+
+
+De igual forma, se advierte que el plazo de 60 (sesenta) días naturales establecido en el artículo 42 de la LFT para que Axtel, Telmex y Telnor acordaran los términos, condiciones y tarifas de interconexión, ha transcurrido en exceso desde la fecha en que Axtel solicitó a Telmex y Telnor el inicio de negociaciones al 16 de octubre de 2009, fecha de la solicitud presentada por Axtel ante la Comisión. En la Solicitud de Resolución, Axtel señala que al momento de presentar la misma no había alcanzado un acuerdo con Telmex y Telnor. Lo cual quedó corroborado con las Respuestas de Telmex y Telnor, de las cuales se desprende que no han convenido las condiciones de interconexión propuestas por Axtel.
+
+
+
+Por tanto, se materializa la hipótesis normativa prevista en dicho artículo, por lo que la Comisión se encuentra plenamente facultada para resolver aquellas condiciones de interconexión no convenidas entre las partes, es decir, los términos, condiciones y tarifas relacionadas con la interconexión de las redes públicas de telecomunicaciones de dichos concesionarios.
+
+
+
+QUINTO.- Condiciones no convenidas sujetas a resolución. En la Solicitud de Resolución, Axtel plantea los términos, condiciones y tarifas de interconexión que no pudo convenir con Telmex y Telnor aplicables a partir del 1° de enero de 2010, consistentes en:
+
+
+
+1.  	Puntos de Interconexión. La modificación con respecto a los puntos de interconexión de larga distancia de forma que exista la obligación de Telmex y Telnor de prestar todos los servicios de interconexión en cada una de las Áreas de Servicio Local (en lo sucesivo, "ASL"), en que se encuentra dividido el territorio nacional.
+
+
+
+Las solicitudes de interconexión deberán ser atendidas por Telmex y Telnor dentro de los 30 (treinta) días naturales tratándose de nuevos puntos de interconexión, o los 10 (diez) días naturales tratándose de ampliaciones de los servicios de interconexión en los puntos de interconexión existentes, los anteriores plazos contados a partir de la fecha en que hubiese sido recibida la orden de servicio respectiva.
+
+
+
+Cuando una solicitud de interconexión no pueda ser atendida por saturación de la capacidad en el punto de interconexión correspondiente, Telmex y Telnor serán responsables de ofrecer a Axtel en un plazo no mayor a 20 (veinte) días hábiles, contados a partir de la fecha de recepción de la solicitud respectiva, una alternativa viable de punto de interconexión, sin que ello resulte en un costo adicional o diferenciado.
+
+
+
+2.    Tarifas de interconexión:
+
+
+
+2.1 "Que por originar o terminar tráfico en el Área de Servicio Local ('ASL ') que no tiene punto de interconexión, en la cual se encuentra el usuario de origen o destino y que depende del ASL con punto de interconexión correspondiente a la red pública de Telmex, se deberá aplicar a Axtel una tarifa del equivalente en moneda nacional a $0.80 USc (cero punto ochenta centavos de dólar americano) por minuto de interconexión. La tarifa "anterior deberá aplicarse tomando como base la duración real de cada llamada y sin factores o sobrecargos. "
+
+ 
+
+2.2 "Que la tarifa de interconexión en localidades cuyas ASL sí cuenten con punto de interconexión, deberá ser igual a la cantidad del inciso anterior, menos los servicios de transporte, tarifa que resulta ser el equivalente en moneda nacional a $0.55 USc (Cero punto cincuenta y cinco centavos de dólar americano) por minuto, misma tarifa que se deberá facturar en función de la duración real de las llamadas (sin redondear al minuto siguiente cada llamada) y sin la aplicación de cargo alguno por intento de llamadas. "
+
+ 
+
+2.3 "Que la tarifa de interconexión a nivel central de tráfico interurbano para: (i) originar o terminar tráfico en una central de destino perteneciente a otra ASL conectada directamente a la central de tráfico interurbano y finalizar en líneas de usuarios de la red de Telmex; (ii) originar o terminar tráfico en el ASL que no tiene punto de interconexión en la cual se encuentra el usuario de Telmex, según corresponda, que está subordinada a la central con capacidad de enrutamiento conectada directamente a la central de tráfico interurbano, deberá ser el equivalente en moneda nacional a $1.05 USc (uno punto cero cinco centavos de dólar americano). La tarifa anterior deberá aplicarse tomando como base la duración real de cada llamada y sin factores o sobrecargos. "
+
+ 
+
+2.4 "Que la tarifa de interconexión a nivel central de tráfico interurbano para: (i) originar o terminar tráfico en una central de destino perteneciente a otra ASL conectada indirectamente a la central de tráfico interurbano y finalizar en líneas de usuarios de la red de Telmex; (ii) originar o terminar tráfico en el ASL que no tiene punto de interconexión en la cual se encuentra el usuario de la red de Telmex, según corresponda, que está subordinada a la central con capacidad de enrutamiento conectada indirectamente a la central de tránsito interurbano, deberá ser el equivalente en moneda nacional a $1.30 USc (uno punto treinta centavos de dólar americano). "
+
+ 
+
+3.    Tarifas de Tránsito
+
+
+
+3.1 "Que la tarifa por la función de tránsito correspondiente a la entrega de tráfico de la red de Axtel en el ASL con punto de interconexión de la red de Telmex que tiene como destino una tercera red interconectada con éste concesionario en la misma ASL y desde la cual esa tercera red recibe y entrega tráfico a sus usuarios en un ASL sin punto de interconexión, debe ser el equivalente en moneda nacional a $0.18 USe (Cero punto dieciocho centavos de dólar americano) por minuto de interconexión. La tarifa deberá aplicarse tomando como base la' duración real de cada llamada y sin factores o cargos adicionales. "
+
+
+
+3.2 "Que por la entrega del tráfico de la red de Axtel en la central de tránsito interurbano de Telmex, que tiene como destino una tercera red conectada a la central de destino de Telmex, siempre y cuando dichas centrales pertenezcan a ASLs distintas y Axtel así lo solicite, la tarifa sea equivalente a la cantidad en moneda nacional de $0.43 USe (cero punto cuarenta y tres centavos de dólar americano) por minuto de interconexión La tarifa anterior deberá aplicarse tomando como base la duración real de cada llamada y sin factores o sobrecargos."
+
+
+
+4.  	Compartición de infraestructura. Telmex y Telnor deberán permitir la compartición de infraestructura y deberán hacer disponible el servicio de coubicación y todos los elementos necesarios como el servicio de suministro de energía, aire acondicionado, medidas de seguridad y demás facilidades que requiera Axtel.
+
+ 
+
+5.  	Coubicación. Telmex y Telnor deberán permitir que Axtel se interconecten por medio de las canalizaciones y enlaces de transmisión con las redes públicas de telecomunicaciones de los concesionarios con presencia en un mismo espacio de coubicación y/o entre diferentes espacios de coubicación de distintos concesionarios ubicados dentro de la misma instalación de Telmex y Telnor, sin imponer restricciones ni cargo adicional alguno al respecto.
+
+
+
+6.  	 Medición de tráfico y sobrecargos. Las tarifas deberán aplicarse tomando como base la duración real de cada llamada y sin factores o sobrecargos. Telmex y Telnor no deberán agregar ningún sobrecargo por intentos de llamadas no completadas en la terminación del tráfico en su red.
+
+
+
+Por su parte, en la Respuestas de Telmex y Telnor, así como en sus respectivos alegatos, dichos concesionarios formularon manifestaciones respecto a la improcedencia tanto de la Solicitud de Resolución presentada por Axtel como del presente procedimiento administrativo. En este sentido, esta Comisión procede en primera instancia a resolver específicamente las argumentaciones de Telmex y Telnor y los alegatos que al respecto emitió Axtel.
+
+
+
+A.   Vigencia del Convenio.
+
+ 
+
+Argumentos de las partes.
+
+ 
+
+En el inciso a) de la Respuesta de Telmex y Telnor, dichos concesionarios exponen como cuestión previa que la Comisión carece de facultades para iniciar un procedimiento de desacuerdo en los términos planteados en el Oficio de Vista, ya que es un asunto que compete a los tribunales del orden común. En este sentido, Telmex y Telnor indican que el Convenio Axtel-Telmex y el Convenio Axtel-Telnor continúan vigentes, toda vez que se han suscrito los convenios modificatorios correspondientes, motivo por el cual todo lo relacionado con los mismos debe ser negociado y acordado por las partes y en caso de existir diferencias de interpretación, entonces será un tribunal el que resuelva las cuestiones que las partes no hayan podido acordar, por lo anterior señalan Telmex y Telnor, que la Comisión no es competente para conocer del procedimiento administrativo en que se actúa.
+
+ 
+
+Indican Telmex y Telnor que de la lectura al numeral 16.2 "Aplicación Continua" de la Cláusula Decimosexta del Convenio Axtel-Telmex y el Convenio Axtel-Telnor, los términos y condiciones de los mismos continúan vigentes, pese a que las partes convinieron que la vigencia de dichos convenios vencería el 31 de diciembre de 2003, toda vez que se actualizan los dos supuestos contemplados en dicho numeral como lo son que: i) Axtel cuente con una red pública de telecomunicaciones y ii) que Axtel cuente con el título de concesión otorgado por la Secretaría. Telmex y Telnor manifiestan que pretender hacer valer un supuesto desacuerdo ante la Comisión es improcedente, pues sí existen documentos, debidamente firmados y consentidos entre ambas partes, que rigen la relación entre ellas, los cuales son vigentes y por lo tanto, sí produce efectos entre las partes, como consecuencia de la Aplicación Continua contenida en dichos documentos.
+
+ 
+
+De igual forma, en el segundo argumento de las Respuestas de Telmex y Telnor, dichos concesionarios señalan que la Comisión carece de facultades para iniciar un procedimiento de desacuerdo en los términos planteados en el Oficio de Vista, ya que existen términos y condiciones de interconexión convenidos entre las partes, los cuales están vigentes para todos los efectos a que haya lugar. En el caso concreto, no se actualiza la hipótesis normativa contenida en el artículo 42 de la LFT, ya que el requisito para que proceda el desacuerdo es que las partes no hayan acordado los términos y condiciones de interconexión, siendo que Telmex, Telnor y Axtel sí dieron cumplimiento a dicho artículo mediante la suscripción y celebración del Convenio Axtel-Telmex y el Convenio Axtel-Telnor, los cuales están inscritos en el Registro de Telecomunicaciones de la Comisión.
+
+ 
+
+Telmex y Telnor indican que cualquier disputa o modificación que deba realizarse a los términos y condiciones de interconexión deberá ser convenida entre las partes sin necesidad de mediación, ni interconexión de la Comisión, y en caso de presentarse cualquier controversia, ésta deberá ser dirimida ante los Tribunales competentes del Poder Judicial según lo establece la cláusula Decimonovena numeral 19.2 del Convenio Axtel-Telmex y del Convenio Axtel- Telnor. En este sentido, Telmex y Telnor señalan que al tratarse de un documento privado el que regula los términos y condiciones que son aplicados en la prestación de los servicios de interconexión, las partes deberán negociar en forma independiente la modificación a los mismos, ya que ni en el cuerpo de los convenios, ni en sus anexos se establece como figura para la resolución de controversias derivadas del propio convenio la intervención de la Comisión, por lo tanto, las controversias que se susciten al amparo del mismo, deberán resolverse bajo los procedimientos ahí establecidos.
+
+ 
+
+Por su parte, en los Alegatos de Axtel, dicho concesionario señala que la Comisión debe iniciar el procedimiento de desacuerdo cuando le sea solicitado por una o ambas partes, respecto a condiciones que no hayan podido convenirse. En este tenor, Axtel manifiesta que no se han podido convenir las condiciones que serán aplicables a partir del 10 de enero de 2010, ya que las condiciones pactadas en los convenios de interconexión firmados así como sus respectivos convenios modificatorios terminaron su vigencia el 31 de diciembre de 2008. Por lo anterior, queda plenamente demostrado que en ausencia de un acuerdo expreso entre· las partes, existe un desacuerdo que da motivo a un procedimiento en materia, de interconexión, el cual permita dirimir las condiciones no convenidas entre Axtel, Telmex y Telnor.
+
+ 
+
+Asimismo, Axtel manifiesta que la cláusula de aplicación continua se estableció para asegurar la prestación del servicio en beneficio del interés público, pero también se aprecia que las condiciones convenidas en el Convenio Axtel-Telmex y en el Convenio Axtel-Telnor, sólo estarían vigentes por el plazo acordado y posteriormente se acordarían las nuevas condiciones aplicables, o en su defecto se utilizaría el procedimiento contenido en el artículo 42 de la LFT.
+
+ 
+
+Por lo anterior, Axtel sostiene que la Comisión cuenta con facultades para resolver el desacuerdo sometido en el presente procedimiento puesto que existen condiciones de interconexión no acordadas entre las partes y otras dejaron de tener vigencia, ya que si bien es cierto, existe aplicación continúa esto, no implica que las condiciones de interconexión se consideren acordadas de manera automática.
+
+ 
+
+Por otro lado, respecto a lo manifestado por Telmex y Telnor en el sentido de que las cuestiones que se deriven de la aplicación de los términos y condiciones convenidos entre dos particulares en un acuerdo privado celebrado entre ambos, no es propiamente un desacuerdo de interconexión, Axtel manifiesta que el desacuerdo de interconexión solicitado no es una cuestión que derive de la aplicación de los términos y condiciones convenidos entre dos particulares, sino la ausencia de acuerdo entre dos concesionarios de redes públicas de telecomunicaciones, en donde la Comisión deberá resolver los términos y condiciones de interconexión no pactadas entre dos concesionarios.
+
+Consideraciones de la Comisión.
+
+
+
+Al respecto, esta Comisión como ya se mencionó, está facultada en términos de lo dispuesto por el artículo 9-A fracción X y 42 de la LFT, para determinar las condiciones que, en materia de interconexión, no hayan podido convenirse entre los concesionarios de redes públicas de telecomunicaciones interesados. En este sentido, el artículo 9 fracción VIII del Reglamento Interno vigente de la Comisión es consistente con la facultad anteriormente señalada, al establecer que corresponde al Pleno de dicho órgano el ejercicio de la atribución relativa a la resolución de condiciones de interconexión que no hayan podido convenirse entre los concesionarios de, las redes públicas de telecomunicaciones de que se trate.
+
+
+
+Es así, que para que esta Comisión pueda ejercer la facultad consagrada en la segunda parte del artículo 9-A fracción X de la LFT, en relación con lo establecido por el artículo 42 de la LFT, sólo requiere la acreditación de un presupuesto esencial, como lo es, la existencia de condiciones no convenidas en materia de interconexión entre concesionarios de redes públicas de telecomunicaciones, de tal suerte que, de acreditarse este presupuesto, puede materializarse la hipótesis normativa consagrada en dicho precepto y, por lo tanto, la Comisión queda facultada para ejercer las atribuciones establecidas en la legislación de la materia.
+
+
+
+Para efectos de lo anterior, es importante atender a lo dispuesto por el Convenio Axtel-Telmex y el Convenio Axtel-Telnor.
+
+
+
+En este sentido, el numeral 16.1 de la cláusula Decimosexta del Convenio Axtel-Telmex, establece expresamente lo siguiente:
+
+
+
+"PLAZO INICIAL: El presente Convenio se extinguirá el 31 de diciembre de 2003, salvo que sea terminado anticipadamente por alguna de las causas establecidas en este instrumento. [...]" [Énfasis añadido].
+
+
+
+Asimismo, el numeral 16.2 de la cláusula Decimosexta del Convenio Axtel-Telmex prevé que:
+
+
+
+"APLICACIÓN CONTINUA: Sin embargo, si al concluir el plazo inicial del presente Convenio, que vence el 31 de diciembre de 2003 en los términos del sub-inciso 16.1 precedente, AXTEL continúa contando con una Red Pública de Telecomunicaciones de Larga Distancia y con la concesión correspondiente de la Secretaría, no obstante haber terminado el presente Convenio por haber vencido su plazo, sus términos y condiciones continuarán aplicándose, incluyendo la contraprestaciones pactadas ajustadas conforme se hubiese previsto en las mismas y a lo pactado, hasta que, conforme a lo previsto por el Artículo 42 de la Ley Federal de Telecomunicaciones, las partes celebren un nuevo convenio para continuar con la interconexión de sus redes; [...]
+
+
+
+En todo caso, las parles podrán utilizar el procedimiento contenido en el Artículo 42 de la Ley Federal de Telecomunicaciones para que en todo momento exista vigente un Convenio." [Énfasis añadido].
+
+
+
+Para el caso del Convenio Axtel-Telnor, el numeral 16.1 de la cláusula Decimosexta establece expresamente lo siguiente:
+
+
+
+"PLAZO INICIAL: El presente Convenio se extinguirá el 31 'de diciembre de 2003, salvo que sea terminado anticipadamente por alguna de las causas establecidas en este instrumento. [...]” [Énfasis añadido].
+
+
+
+Por otro lado, el numeral 16.2 de la cláusula Decimosexta del Convenio Axtel-Telnor prevé que:
+
+
+
+"APLICACIÓN CONTINUA: Sin embargo, si al concluir el plazo inicial del presente Convenio, que vence el 31 de diciembre de 2003 en los términos del sub-inciso 16.1 precedente, AXTEL continúan contando con una Red Pública de Telecomunicaciones de Larga Distancia y con la concesión correspondiente de la Secretaría, no obstante haber terminado el presente Convenio por haber vencido su plazo, sus términos y condiciones continuarán aplicándose, incluyendo la contraprestaciones pactadas ajustadas conforme se hubiese previsto en las mismas y a lo pactado, hasta que, conforme a lo previsto por el Artículo 42 de la Ley Federal de Telecomunicaciones, las partes celebren un nuevo convenio para continuar con la interconexión de sus redes; [. . .]
+
+
+
+En todo caso, las parles podrán utilizar el procedimiento contenido en el Artículo 42 de la Ley Federal de Telecomunicaciones para que en todo momento exista vigente un Convenio. [...]” [Énfasis añadido].
+
+
+
+Como se desprende de lo anterior, las partes pactaron expresamente que el Convenio Axtel-Telmex y el Convenio Axtel-Telnor se extinguirían el 31 de diciembre de 2003 respectivamente. Sin embargo, también pactaron que al actualizarse la condición prevista en el numeral 16.2 de la cláusula Decimosexta de los referidos convenios, en el sentido que al concluir el plazo de los mismos sí Axtel continuaba siendo titular de su respectiva red pública de telecomunicaciones de larga distancia concesionada por la Secretaría, las partes continuarían aplicando los términos y condiciones pactados en los convenios.
+
+
+
+No obstante lo anterior, también se estableció claramente en los respectivos convenios que las partes podrían acudir ante la Comisión para resolver cualquier desacuerdo de interconexión en términos del artículo 42 de la LFT, es decir, las partes expresamente dejaron a salvo su derecho de solicitar la intervención de la autoridad en caso de que no pudieran llegar a un acuerdo respecto de los términos y condiciones de la interconexión entre sus redes. Lo anterior resulta lógico ya que asumir lo contrario sería tanto como obligar a las partes a quedar sujetas a términos y condiciones inamovibles que en un sector tan dinámico y competitivo como el de las telecomunicaciones puede resultar arcaico y anticompetitivo para el sector.
+
+
+Tan es así, que en la parte final del numeral 16.2. de la Cláusula Decimosexta de los multicitados convenios, se prevé expresamente que para la celebración de los nuevos convenios las partes pueden utilizar el procedimiento contenido en el artículo 42 de la LFT, esto es, que de no llegar a un acuerdo en la celebración de los nuevos convenios, dentro de un plazo de sesenta días contado a partir de que alguna de ellas lo solicite, la autoridad competente, en la especie, la Comisión, resolverá sobre las condiciones que no hayan podido convenir.
+
+
+En este orden de ideas, no resulta fundado y en consecuencia atendible lo señalado por Telnor respecto a que no se actualiza la hipótesis normativa contenida en el artículo 42 de la LFT, en el sentido de que Axtel, Telmex y Telnor tienen suscrito un convenio de interconexión, debido a que como ya quedó estipulado, la Condición 16.2 de la Cláusula Decimosexta del Convenio Axtel-Telmex y del Convenio Axtel-Telnor establece que al concluir el plazo inicial de dichos convenios las partes podrían celebrar nuevos convenios siguiendo el procedimiento previsto en el supracitado artículo 42. Es decir, vencido el plazo de éste podrían las partes proponer nuevos términos y condiciones para la celebración de los nuevos convenios.
+
+
+Por tanto, si bien a la fecha ha operado entre Axtel, Telmex y Telnor el acuerdo para la aplicación continúa de los términos, condiciones y contraprestaciones del Convenio Axtel-Telmex y del Convenio Axtel-Telnor, éstos tienen como vigencia la condición de la celebración de los nuevos convenios de interconexión conforme al procedimiento establecido en el artículo 42 de la LFT.
+
+
+Ahora bien, la aplicación continua de los términos y condiciones del Convenio Axtel-Telmex y del Convenio Axtel-Telnor, terminaría en el caso de que conforme a lo previsto por el artículo 42 de la LFT las partes celebren nuevos convenios, para lo cual se sujetarían al procedimiento contenido en dicho precepto legal. En este tenor, las solicitudes formuladas por Axtel a Telmex y Telnor a efecto de modificar los términos y condiciones de interconexión, consistieron en peticiones para acordar nuevos convenios de interconexión y una vez transcurrido el plazo de 60 (sesenta) días establecido para tal efecto en la legislación aplicable, sin que las partes llegaran a un acuerdo, es que Axtel solicitó la intervención de esta autoridad para resolver las condiciones que no convinieron para la interconexión de sus redes públicas de telecomunicaciones.
+
+
+Por otra parte, es importante señalar que Axtel, Telmex y Telnor reconocen expresamente la facultad que tiene la autoridad para resolver las condiciones de interconexión conforme a lo establecido en el artículo 42 de la LFT, al haber estipulado en el numeral 16.2 de los Convenios de Interconexión, que la vigencia en la aplicación continua de los términos, condiciones y contraprestaciones está sujeta a la condición de la celebración de nuevos convenios conforme al procedimiento previsto en el precepto legal en cita. 
+	 	 	
+
+Al ofrecer tanto Axtel, Telmex y Telnor como pruebas documentales el Convenio Axtel- Telmex y el Convenio Axtel-Telnor, se les otorga pleno valor probatorio en términos de los artículos 197 y 203 del Código Federal de Procedimientos Civiles (en lo sucesivo, el "CFPC"), de aplicación supletoria conforme al artículo 8 fracción V de la LFT.
+
+
+
+En este sentido y dado el análisis efectuado, se desprende que los supuestos requeridos por el artículo 42 de la LFT se materializaron y es así que la Comisión tiene facultades· para intervenir y resolver las condiciones de interconexión antes señaladas que Axtel no pudo convenir con Telmex y Telnor. Lo anterior, en concordancia con lo pactado por las partes en el numeral 16.2 de la cláusula Decimosexta del Convenio Axtel-Telmex y del Convenio Axtel-Telnor, en el 'sentido de que los referidos concesionarios continuarían aplicando los términos, condiciones y contraprestaciones hasta que conforme a lo previsto por el artículo 42 de la LFT, las partes celebren un nuevo convenio para continuar con la interconexión de sus redes. 
+
+	 	 	
+
+Sin perjuicio de lo anterior, es importante señalar que los artículos 9-A fracción X y 42 de la LFT facultan lisa y llanamente a la autoridad para determinar las condiciones de interconexión que no hayan podido convenir dos o más concesionarios, cuando éstas no han sido pactadas expresamente en algún convenio, o se refieren como en el caso que nos ocupa a un periodo diferente al convenido.
+
+
+
+Una interpretación distinta equivaldría a sostener, contrario al espíritu de la LFT, que cualquier concesionario tendría sólo una oportunidad de solicitar a otro determinado concesionario la interconexión de sus respectivas redes públicas de telecomunicaciones y en dicha oportunidad agotar cualquier esquema de interconexión o todo tipo de tráfico que desee o pueda intercambiar para proveer a sus usuarios el más amplio espectro de servicios que les permita comunicarse con los usuarios de la otra red pública de telecomunicaciones. Contrario a ello, las partes pueden convenir la modificación a las condiciones de sus convenios, o bien, cada una de las partes tiene derecho a solicitar la modificación del convenio de interconexión en atención al trato no discriminatorio que merece en relación a aquellas condiciones ofrecidas a terceros.
+
+
+
+Por lo anterior, esta Comisión considera que los argumentos manifestados por T elmex y Telnor son improcedentes por infundados, y al haberse solicitado a dicho concesionario por parte de Axtel, con fecha 31 de julio de 2009, la aplicación de términos, condiciones y tarifas de la interconexión entre sus redes, sin que a la fecha de emisión de la presente Resolución dichos concesionarios hubieren celebrado los convenios de interconexión correspondientes, esta Comisión de conformidad con los artículos 9-A fracción X y 42 de la LFT, 8 Y 9 del Plan de Interconexión, se aboca a resolver sobre aquellos puntos de desacuerdo que se someten a su consideración. 
+
+ 	 	
+
+B. Facultades del Jefe de la Unidad de Prospectiva y Regulación.
+
+
+
+Argumentos de las partes.
+
+
+
+Dentro del inciso b) de las Respuestas de Telmex y Telnor, dichos concesionarios señalan que el inicio del procedimiento de desacuerdo de interconexión promovido por Axtel fue dictado por un funcionario que carece de facultades para ello. En este sentido, Telmex y Telnor indican que no obstante que Axtel dirigió su escrito al Pleno de la Comisión, el Jefe de la Unidad de Prospectiva y Regulación se avocó al conocimiento del asunto a pesar de que, carece de competencia para ello.
+
+
+
+Telmex y Telnor citan los preceptos legales establecidos en el Oficio de Vista e indica que los mismos refieren a la Comisión en general y no a la Unidad de Prospectiva y Regulación, por lo que no le atribuyen competencia específica alguna, con excepción de los artículos 21 fracción 11 y 23 inciso b) fracciones XII y XIV del Reglamento Interno de la Comisión. Sin embargo, Telmex y Telnor aducen que dichos preceptos no establecen que el Jefe de la Unidad de Prospectiva y Regulación tenga facultades para admitir el escrito por el que se hace del conocimiento de la Comisión un desacuerdo en materia de interconexión, determinar el inicio del procedimiento y emplazar al otro concesionario.
+
+
+
+Asimismo, Telmex y Telnor señalan que el artículo 9 fracción VIII del Reglamento Interno de la Comisión le otorga al Pleno de la Comisión la facultad de resolver las condiciones relativas a interconexión que no hayan podido convenirse entre los concesionarios, por lo que es a dicho Pleno al que corresponde iniciar el procedimiento, mediante un acuerdo que tenga por formulada la denuncia y cite o emplace a Telmex y Telnor para que manifieste lo que a su derecho corresponda.
+
+
+
+Por su parte en los Alegatos de Axtel, dicho concesionario manifiesta que el Jefe de la Unidad de Prospectiva y Regulación sí es competente para admitir el escrito por el que se hace del conocimiento de esta Comisión un desacuerdo en materia de interconexión, determinar el inicio del procedimiento y emplazar al otro concesionario, debido a que dichos actos se deben considerar implícitos dentro de la atribución de participar e intervenir en la resolución de desacuerdos que se susciten en materia de interconexión.
+
+
+
+Consideraciones de la Comisión.
+
+
+
+Al respecto, es de manifestarse que, el artículo 21 fracción II del Reglamento Interno de esta Comisión dispone lo siguiente:
+
+
+
+"Artículo 21.- Corresponde a cada Unidad y Coordinación General las siguiente~ atribuciones:
+
+
+
+[ ...]
+
+
+
+II.- Atender y resolver los asuntos cuya tramitación se encuentre dentro de su competencia, así como substanciar los procedimientos que correspondan;"
+
+
+
+Asimismo, el artículo 23 inciso b), fracciones XII y XIV del mencionado Reglamento, establece que:
+
+
+
+"Artículo 23.- Para el despacho de los asuntos de su competencia, la Unidad de Prospectiva y Regulación tendrá adscritas a su cargo las Direcciones Generales de Prospectiva Regulatoria; de Regulación "A"; de Regulación "B", y de Regulación "C". Al Jefe de Unidad de Prospectiva y Regulación le corresponden originalmente las atribuciones conferidas a las direcciones generales que se establecen en los apartados A) y B) de este artículo.
+
+
+
+[...]
+
+
+
+B) Corresponden a las Direcciones Generales de Regulación "A", "B" y "C", las siguientes atribuciones:
+
+
+
+[...]
+
+
+
+XII.- Requerir a los concesionarios y permisionarios la información económica, financiera, administrativa, comercial y operativa que considere necesaria para resolver los asuntos de interconexión y demás que sean de su competencia, así como requerir información al concesionario que tenga poder sustancial en el mercado relevante según la Ley Federal de Competencia Económica, en términos de lo dispuesto en la Ley, los ordenamientos jurídicos aplicables y los títulos de concesión y permisos respectivos;
+
+[...]
+
+
+
+XlV.- Participar e intervenir en la resolución de los desacuerdos que se susciten en materia de interconexión y, en su caso, señalar las condiciones técnicas, económico-financieras y demás a que se ajustarán los prestadores de servicios de telecomunicaciones;
+
+
+
+De los artículos antes citados, se desprende que corresponde al Jefe de Unidad de Prospectiva y Regulación de esta Comisión tramitar los asuntos que se encuentren dentro de su competencia. En este sentido, tiene la facultad para requerir a los concesionarios la información necesaria para resolver los asuntos de interconexión, así como de participar e intervenir en los desacuerdos de interconexión, derivado de lo cual en el presente caso emitió los oficios correspondientes a fin de iniciar el procedimiento para resolver la solicitud de Axtel. Asimismo, requirió a los concesionarios involucrados dentro de dichos asuntos, información y demás elementos que estimó necesarios a efecto de que el asunto sea debidamente integrado y tener todos los elementos para que el Pleno de esta Comisión emita la resolución correspondiente de conformidad con el artículo 9 fracción VIII del Reglamento Interno de esta Comisión.
+
+
+
+En este tenor, corresponde exclusivamente al Jefe de Unidad de Prospectiva y Regulación coadyuvar con el Pleno de esta Comisión en la integración y gestión de los desacuerdos que en materia de interconexión se susciten entre concesionarios de redes públicas de telecomunicaciones y, corresponde al propio Pleno, la emisión de la resolución correspondiente que ponga fin a dicho desacuerdo.
+
+
+
+Por lo manifestado, esta Comisión considera que lo argumentado por Telmex y Telnor resulta improcedente, toda vez que como ya se mencionó, el Jefe de Unidad de Prospectiva y Regulación se encuentra facultado para auxiliar al Pleno de la Comisión mediante su participación e intervención en la tramitación de los desacuerdos en materia de interconexión y así requerir a los concesionarios de la información que sea necesaria para el desarrollo de dicho procedimiento.
+
+
+
+Finalmente es importante destacar que los oficios emitidos por el Jefe de la Unidad de Prospectiva y Regulación, para iniciar el presente procedimiento, al ser notificados no causaron ningún perjuicio a Telmex y Telnor, puesto que solo tenían la finalidad de que conociera el inicio del procedimiento y manifestaran lo que a su derecho corresponda, situación que en la especie se corrobora de su participación en el presente procedimiento, de ahí que se haya hecho conocedor del contenido de los oficios emitidos por el funcionario de referencia mismos que no le causaron perjuicio alguno, por no ser actos definitivos.
+
+
+
+C. Acuerdo sobre negociaciones.
+
+
+
+Argumentos de las partes.
+
+
+
+En las Respuestas de Telmex y Telnor, se aduce que de conformidad con el artículo primero del "Acuerdo por el que se establece la obligación a cargo de los concesionarios de Redes Públicas de Telecomunicaciones de informar sobre las negociaciones que lleven a cabo en materia de interconexión" (en lo sucesivo, el "Acuerdo"), publicado en el Diario Oficial de la Federal el 31 de octubre de 1995, los concesionarios deben informar conjuntamente a la Secretaría el inicio de las negociaciones. En este sentido, Telmex y Telnor señalan que no existió una notificación efectuada tanto por Axtel como de Telmex y Telnor, sobre el inicio de negociaciones.
+
+
+
+Asimismo, se argumenta que antes de admitir y tramitar la Solicitud de Resolución presentada por Axtel a la Comisión, se debió revisar la existencia de la notificación conjunta y al verificar que la misma no se había llevado a cabo se debió desechar la Solicitud de Resolución. Por lo que a decir de Telmex y Telnor, la falta de observancia al Acuerdo hace que el acto administrativo, consistente en el Oficio de Vista, esté viciado de nulidad.
+
+
+
+Por su parte, en los Alegatos de Axtel, se afirma que el Reglamento Interior de la Secretaría en su artículo 2° establece las unidades administrativas y órganos desconcentrados con los que la Secretaría cuenta para el despacho de los asuntos que le competen, en los cuales no se contempla ninguna unidad administrativa denominada Dirección General de Redes y Radiocomunicación. En este sentido, Axtel señala que las facultades de lo que fue dicha Dirección General, fueron transferidas a la Comisión, la cual cuenta con facultades en materia de telecomunicaciones de acuerdo a lo establecido por la LFT y el Reglamento Interno de la Comisión, ordenamientos que no marcan la obligación de dar aviso conjunto del inicio de negociaciones.
+
+
+
+Consideraciones de la Comisión.
+
+
+
+Al respecto, esta Comisión considera que los argumentos de Telmex y Telnor resultan improcedentes, en virtud de que como ha quedado manifestado en el considerando Cuarto de la presente Resolución, se materializó la hipótesis normativa prevista en el artículo 42 de la LFT, en el sentido de que Axtel solicitó a Telmex y Telnor el inicio de negociaciones para acodar los términos y condiciones de interconexión. Por tanto y dado que transcurrió el plazo de 60 (sesenta) días naturales, sin que a la fecha exista constancia de que los referidos concesionarios hayan convenido las condiciones de interconexión, es que la Comisión se encuentra plenamente facultada para intervenir en el procedimiento en que se actúa y resolver las cuestiones sometidas a desacuerdo por las partes. En este sentido, Axtel cumplió con los requisitos establecidos en el artículo 42 de la LFT.
+
+
+
+En tales condiciones, resulta intrascendente el hecho de que Telmex, Telnor y Axtel no hubieren solicitado y notificado conjuntamente el inicio de negociaciones de interconexión para que esta Comisión procediera en consecuencia, cuando es evidente la existencia de un desacuerdo entre dichos concesionarios de conformidad con las constancias que obran en el presente procedimiento y que se destacan en el considerando Cuarto, que se deberá tener aquí por reproducido como si a la letra se insertase. En consecuencia carece de fundamento la aseveración de Telmex y Telnor en el sentido de que la solicitud de Axtel debió haber sido desechada por no haberse presentado de manera conjunta con Telmex y Telnor.
+
+
+
+Adicionalmente, los artículos 8 y 9 del Plan de Interconexión mencionan los documentos que deberán ser presentados ante la Comisión para acreditar el inicio formal de gestiones tendientes al establecimiento de los términos y condiciones que se establecerán en el convenio de interconexión que se celebre.
+
+
+
+De lo anterior se desprende que el Plan de Interconexión, en específico sus artículos 8 y 9, al citar expresamente la documentación que se debe acompañar en la solicitud de resolución de un desacuerdo de interconexión, hacen innecesario la remisión a cualquier otra disposición anterior para acreditar ante esta Comisión el inicio de gestiones formales para resolver los términos y condiciones que en materia de interconexión que no pudieron convenir los concesionarios involucrados, lo cual aconteció en el procedimiento en que se actúa, ya que en la Solicitud de Resolución se adjuntó el inicio de gestiones tendientes al establecimiento de los términos y condiciones de interconexión y se indicaron los servicios de interconexión requeridos por Axtel.
+
+
+
+D. Aplicación de Resoluciones anteriores.
+
+
+
+Argumentos de las partes.
+
+
+
+En el numeral IV de las Respuestas de Telmex y Telnor, dichos concesionarios formulan manifestaciones respecto a resoluciones previas en los siguientes términos:
+
+
+
+Por lo que hace a la Resolución P/270808/223, Telmex y Telnor aducen que la impugnaron, por lo que la Comisión no puede emitir resolución alguna asociada a ésta, hasta en tanto no adquiera el carácter de definitiva y por lo tanto no admita recurso legal alguno en su contra.
+
+
+
+En cuanto a las Resoluciones P/270808/224 y P/250209118, no son aplicables a Telmex, Telnor ni, a Axtel por que no fueron dictadas para dichos concesionarios.
+
+
+
+Respecto a la Resolución P/EXT/030209/12 Telmex y Telnor señalan que es imprecisa, puesto que solo se hace referencia la fecha en la que se dictó, sin especificar cuál es el número en particular.
+
+
+
+Por su parte, en los Alegatos de Axtel, dicho concesionario manifiesta que las solicitudes son independientes de la suerte procesal que sigan los procedimientos derivados de las resoluciones señaladas, además de que en ningún momento se hizo una petición textual de que se le aplicaran las condiciones contenidas en las resoluciones referidas, sino que sólo consideró algunas de las tarifas de dichas resoluciones para efectuar estimaciones sobre diferentes niveles tarifarios. Por lo que resulta erróneo que Axtel hayan solicitado que les fueran aplicados los términos y condiciones de las resoluciones referidas.
+
+
+
+Consideraciones de la Comisión.
+
+
+
+Al respecto, tal y como lo manifiesta Axtel, dicho concesionario no solicitó que se determinará como condición de interconexión no convenida la aplicación de las Resoluciones antes citadas. En este sentido, el argumento de Telmex y Telnor resulta inoperante ya que no es materia de análisis dentro del presente procedimiento determinar la aplicación de las Resoluciones referidas por Telmex y Telnor.
+
+
+
+E. Manifestaciones respecto a la resolución de precios tope.
+
+
+
+Aducen Telmex y Telnor que de emitirse una resolución que las obligue a dar interconexión en los términos solicitados por Axtel o que modifique las tarifas que actualmente cobran, se estaría violando el equilibrio económico establecido en la Concesión de Telmex y en la concesión Telnor, dichos concesionarios señalan que una disminución en las tarifas de los servicios de interconexión provocará una reducción en los ingresos, afectando los Flujos de Efectivo Relevantes y la Tasa Interna de Retorno, modificando las condiciones de rentabilidad autorizadas por la Comisión en la Resolución aprobada mediante acuerdo P/140307/119.
+
+
+
+Por su parte, en los Alegatos de Axtel se indica que la TIR es un parámetro financiero que puede variar dependiendo del método de estimación y los datos que se utilicen para su cálculo. Asimismo, Axtel señala que en ninguna parte del mundo existe una legislación que garantice a una empresa privada cuáles serían sus ganancias. De hecho, lo anterior significaría que si por algún motivo Telmex y Telnor obtuvieran una TIR superior al 11.05% (once punto cero cinco por ciento), entonces dichos concesionarios estarían obligados a devolver al gobierno una cantidad de dinero suficiente para situar nuevamente la TIR en el valor autorizado, lo cual evidentemente sería absurdo.
+
+
+
+Consideraciones de la Comisión.
+
+
+
+Por lo que hace a la Resolución P/140307/119 referente al sistema de precios tope, es importante señalar que la misma se emitió para efecto de establecer el factor de ajuste y el salto inicial que se regulan conforme al capítulo 6 de la Concesión de Telmex y de la Concesión de Telnor denominado "Regulación tarifaria y equilibrio financiero", siendo que el caso que nos ocupa versa sobre la interconexión de redes públicas de telecomunicaciones previsto en el capítulo 5 de la Concesión de Telmex y de la Concesión de Telnor. Por lo que los argumentos de Telmex y Telnor resultan ajenos al presente procedimiento.
+
+
+
+Telmex y Telnor ofrecieron como prueba documental la Resolución P/140307/119, misma que no es susceptible de ser valorada en el presente procedimiento administrativo, toda vez que no guarda relación con el fondo del asunto, ya que dicha prueba se refiere a una resolución diversa al presente procedimiento, por lo anterior la mencionada prueba ofrecida por Telmex y Telnor no es materia de análisis de la presente Resolución.
+
+
+
+F. Manifestaciones respecto al servicio de reventa.
+
+
+
+En los Alegatos de Telmex y Telnor, dichos concesionarios describen la forma en que prestan el servicio conocido como reventa a los concesionarios de larga distancia cuando no tienen presencia en algunas de las ciudades de destino en donde los usuarios requieren terminar sus llamadas. En este sentido, indican que la reventa no es un servicio de interconexión y no está definido en las Reglas del Servicio de Larga Distancia (en lo sucesivo, las "RSLD"), ya que Telmex y Telnor lo prestan al amparo de acuerdos comerciales.
+
+
+
+Consideraciones de la Comisión.
+
+
+
+Al respecto, el Pleno de esta Comisión ha sostenido que el servicio de transporte interurbano (reventa) constituye un servicio de interconexión toda vez que, se ajusta al supuesto normativo previsto por la fracción V del artículo 2° del Reglamento de Telecomunicaciones, en la medida que involucra la conducción de señales para combinar o complementar las instalaciones de un determinado concesionario de red pública de telecomunicaciones para la originación y terminación de las llamadas de larga distancia de los usuarios presuscritos con dicho concesionario para la prestación del servicio de larga distancia.
+
+
+
+Asimismo, el artículo 42 de la LFT no hace distinción alguna respecto de los servicios que presten las redes que vayan a interconectarse, simplemente se limita a señalar la obligación de interconexión entre redes públicas de telecomunicaciones, por lo que el legislador sí previó que las redes públicas de telecomunicaciones que prestan el servicio de larga distancia tuvieran que interconectarse.
+
+El artículo 43 fracción IX de la LFT, dispone que en los convenios de interconexión, los concesionarios deben entregar la comunicación a su destino final o a un concesionario o combinación de concesionarios que puedan hacerlo, lo cual implica un esquema de interconexión eficiente de las redes públicas de telecomunicaciones que asegure la entrega de la llamada a su destino final, independientemente del servicio que preste el concesionario de la red pública de telecomunicaciones en cuestión.
+
+
+
+De lo antes expuesto, se desprende que el servicio de transporte interurbano sí es un servicio de interconexión en términos de lo establecido en los artículos 42 y 43 de la LFT, así como la fracción V del artículo 2 del Reglamento de Telecomunicaciones.
+
+
+
+El anterior criterio fue confirmado y sostenido por el Octavo Tribunal Colegiado en Materia Administrativa del Primer Circuito, en el considerando Trigésimo Segundo de la resolución de fecha 12 de febrero de 2003, en el Toca número R.A. 2090/2001, del recurso de revisión que Telnor, interpuso en contra de la sentencia de fecha 31 de agosto de 2001, dictada por el Juez Segundo de Distrito en Materia Administrativa en el Distrito Federal, en el juicio de amparo indirecto número 762/2000, que Telnor promovió contra diversas autoridades, entre las cuales señaló al Pleno de esta Comisión y manifestó, entre otros actos de aplicación, la resolución número P/EXT/111 000/008 de fecha 11 de octubre de 2000, por la aplicación del artículo 42 de la LFT, por la que el Pleno de esta Comisión resolvió las condiciones no convenidas por Alestra Srldecv, Telmex y Telnor en materia de interconexión de sus redes públicas de telecomunicaciones, para el periodo comprendido entre el 1° de enero y el 31 de diciembre de 2001.
+
+
+
+En los siguientes numerales esta Comisión en términos de lo dispuesto por los artículos 9-A fracción X y 42 de la LFT, se aboca a resolver sobre aquellos puntos de desacuerdo que en materia de interconexión fueron sometidos a consideración por Axtel, Telmex y Telnor.
+
+
+
+1. Puntos de interconexión.
+
+
+
+Argumentos de las partes.
+
+
+
+Axtel señala que su solicitud estriba en que exista una obligación a cargo de Telmex y Telnor de prestar todos los servicios de interconexión en cada una de las ASL en que se encuentra dividido el territorio nacional. Las solicitudes de interconexión en todas las localidades deberán ser atendidas por Telmex y Telnor dentro de los 30 (treinta) días naturales tratándose de nuevos puntos de interconexión o los 10 (diez) días naturales tratándose de ampliaciones a los servicios de interconexión en los puntos de interconexión existentes, lo anteriores plazos serán contados a partir de la fecha en que hubiese sido recibida la orden de servicio respectiva.
+
+
+
+Cuando una solicitud de interconexión no pueda ser atendida por saturación de la capacidad en el punto de interconexión correspondiente, Telmex y Telnor serán responsables de ofrecer a Axtel, en un plazo no mayor a 20 (veinte) días hábiles contados a partir de la fecha de recepción de la solicitud respectiva, una alternativa viable de punto de interconexión, sin que ello resulte en un costo adicional o diferenciado.
+
+
+
+Adicionalmente en las páginas 28 y 29 de la Solicitud de Resolución, Axtel propone que se le permita interconectar de forma remota el tráfico de larga distancia, cuyo destino sea el de un ASL en cuya central no sea técnica o económicamente factible instalar puertos y/o enlaces de larga distancia (interconexión virtual).
+
+
+
+Asimismo, Axtel señala que con base en la obligación de trato no discriminatorio que se establece tanto en la LFT, así como en el Plan de Interconexión y demás disposiciones aplicables, Telmex y Telnor están obligadas a otorgar, en términos no discriminatorios, las condiciones de interconexión que se le soliciten, por lo que en este caso específico Axtel ha solicitado la aplicación de las condiciones establecidas en el Anexo A del Convenio Axtel-Telmex y del Convenio Axtel-Telnor respecto a la modificación de los puntos de interconexión.
+
+
+
+Por su parte, Telnor señala que su concesión no es nacional, por lo que se ve imposibilitado a cumplir con la petición efectuada por Axtel. Sin embargo manifiesta que suponiendo que se refiera a las ASL comprendidas dentro de la cobertura de la Concesión de Telnor, dicha solicitud deberá de realizarse en términos de las RSLD, así como por la Concesión de Telnor.
+
+
+
+Manifiestan Telmex y Telnor que están obligadas a observar estrictamente lo dispuesto en la Condición 5-2 de las Concesiones de Telmex y Telnor, en la que se establece la obligación de dichos concesionarios de celebrar convenios de interconexión con otros concesionarios de redes públicas de telecomunicaciones que se lo soliciten formalmente, sin embargo en caso de que dicha solicitud dañe la calidad de cualquiera de los servicios de telecomunicaciones provistos a través de su red cuando no se pueda permitir en el tiempo y la manera requerida por el operador, Telmex y Telnor no estarán obligadas a otorgar el convenio respectivo.
+
+
+
+Asimismo, Telmex y Telnor manifiestan que dado que la solicitud de Axtel la formula en su carácter de concesionario de larga distancia, la misma debe realizarse en términos de las disposiciones de las RSLD. En este sentido, indican que de conformidad con la Regla 8 de las RSLD le corresponden al concesionario del servicio de larga distancia las funciones de conmutación y transmisión. Asimismo, Telmex y Telnor citan el contenido de las Reglas Quinta, Sexta y Séptima Transitorias de las RSLD, así como lo establecido en las Resoluciones P/240997/171, P/250898/175 Y P/091199/453, la Resolución sobre el Plan de Interconexión con Redes Públicas de Larga Distancia a efecto de indicar las ciudades en que ofrece interconexión y el servicio de selección por presuscripción del operador de larga distancia.
+
+
+
+En el mismo sentido, Telmex y Telnor manifiestan que para la interconexión local en poblaciones sin punto de interconexión se prevé lo conducente en la Regla Quinta Transitoria de las RdSL. Por lo que asegura que las condiciones establecidas para la interconexión local y de larga distancia son diferentes, con reglas distintas y específicas. Mencionan Telmex y Telnor que no es factible que la Comisión pretenda que la interconexión de larga distancia se lleva a cabo de la misma forma que la interconexión local, deduciendo de la Regla Quinta Transitoria de las RdSL que dichas interconexiones se deben comportar de la misma forma, en relación con las ASL donde no existen puntos de interconexión de larga distancia definidos.
+
+
+
+Respecto a la interconexión virtual, Telmex y Telnor señalan que Axtel funda inadecuadamente su petición en las RdSL, ordenamiento que en nada es aplicable, pues ésta no se refiere a la interconexión local, sino a la interconexión entre un operador local y otro de larga distancia, por lo.que se deberá estar a lo establecido en las RSLD.
+
+
+
+Con relación a la interconexión a través de centrales jerárquicamente superiores, Telmex y Telnor señalan que la Comisión no toma en cuenta lo dispuesto por la Regla 8 de las RSLD. Asimismo, indican que la topología de las redes de Telmex y Telnor tienen una configuración diferente para cada una de las ASL en que tiene cobertura, en algunos casos para llegar al usuario final se requiere establecer varios pasos de conmutación, así como la utilización de varios tramos de transporte de larga distancia. Los costos asociados a esta forma de interconexión son para Telmex y Telnor, dado que al concesionario le basta tener presencia en una ASL cercana a la ASL de interés, en cambio los costos de transportar la llamada son a cargo de Telmex y Telnor causándole un agravio a éstos. Menciona Telmex y Telnor que la interconexión local que se ofrece a los concesionarios locales en áreas no contenidas en las RdSL, se establece considerando reciprocidad en la infraestructura.
+
+
+
+Por otro lado, Telmex y Telnor manifiestan respecto a la entrega de los servicios de interconexión en 30 (treinta) días naturales a partir de la fecha de solicitud para nuevos puntos de interconexión que se deberán de realizar diversas actividades tales como obra civil, trámites para la construcción de las canalizaciones, importación de los equipos de comunicación, los proyectos para la construcción y habilitación de las facilidades solicitadas, etc.
+
+
+
+Una vez reunidos los requisitos anteriores, Telmex y Telnor manifiestan que se están en condiciones de solicitar correctamente los servicios de interconexión con base en los formatos establecidos. Asimismo, Telmex y Telnor manifiestan que cuando se requiere realizar un incremento en la capacidad del equipo de transmisión existente en la red troncal, el tiempo promedio es de 5 semanas siempre y cuando se haya pronosticado oportunamente y el proveedor lo tenga disponible en su inventario, de lo contrario se requiere la importación del equipo lo cual implica 12 semanas para contar con la instalación de dicha infraestructura.
+
+
+
+Además, manifiestan que para contar con la infraestructura que permita la interconexión en ciudades nuevas, se requieren de hasta 6 meses, ya que el proceso contempla múltiples actividades como comprar equipo, realizar trabajo de obra civil, efectuar trámites ante las autoridades competentes para la autorización de canalizaciones que permitan las construcción de los medios de transmisión de fibra óptica, instalación y prueba de equipos.
+
+
+
+Respecto a la entrega de los servicios de interconexión en 10 (diez) días naturales a partir de la fecha de solicitud, tratándose de ampliaciones en puntos de interconexión existentes, Telmex y Telnor manifiestan que no son suficientes para lograr, una óptima interconexión física entre redes, toda vez que se requiere la realización de diversas actividades. Manifiestan Telmex y Telnor que si para dichas ampliaciones es necesario el incremento de la capacidad instalada de equipo de transmisión en las instalaciones del concesionario solicitante habrá que considerar 3 semanas adicionales en promedio si es que se cuenta con un inventario disponible por parte de los proveedores o hasta 12 semanas cuando no se cuente con él.
+
+
+
+Por otro lado, Telmex y Telnor manifiestan que respecto a que deberán de ofrecer sin costo adicional diferenciado en un tiempo no mayor de 20 (veinte) días hábiles una alternativa en caso de que por saturación de la capacidad en el punto de interconexión correspondiente una solicitud de interconexión no sea atendida, que no es posible generar en el tiempo solicitado una alternativa viable sin costo adicional pues para ello sería necesario elaborar un nuevo proyecto de ingeniería que se sujetara estrictamente a lo establecido en las RSLD. Por lo que en el supuesto de que se presentaran este tipo de eventualidades, sería necesario el incremento de la capacidad instalada en el equipo de transmisión en las instalaciones del concesionario solicitante, lo cual puede tomar 3 (tres) semanas adicionales en promedio siempre y cuando se cuente con inventario disponible por parte de los proveedores o hasta 12 (doce) semanas cuando no se cuente con él.
+
+
+
+Consideraciones de la Comisión.
+
+
+
+Respecto a la solicitud de Axtel en el sentido de que existe la obligación de Telmex y Telnor de prestar todos los servicios de interconexión en cada una de las ASL en que se encuentra dividido el territorio nacional, misma que está relacionada con la petición para que se le permita interconectar de forma remota el tráfico de larga distancia, cuyo destino sea una ASL en cuya central no sea técnica o económicamente factible instalar puertos y/o enlaces de larga distancia, esta Comisión considera lo siguiente:
+
+
+
+La solicitud planteada por Axtel implica esquemas de interconexión en los que es posible llevar a cabo el intercambio de tráfico en diferentes niveles jerárquicos dentro de las redes públicas de telecomunicaciones, por lo que se debe analizar la viabilidad legal y técnica de dicho esquema, que en el caso concreto consiste en el intercambio de tráfico en las ASL que cuentan con puntos de interconexión y de las cuales dependen las ASL de origen o destino que no tienen dichos puntos, así como en el intercambio de tráfico a nivel de central de tránsito interurbano (en lo sucesivo, "CTl").
+
+
+
+Al respecto, el artículo 43 fracción V de la LFT dispone que la interconexión se llevará a cabo en cualquier punto de conmutación u otros en que sea técnicamente factible. En este tenor, el artículo 16 del Plan de Interconexión establece la obligación de los concesionarios de señalar y poner a disposición de los demás concesionarios, un punto de interconexión con el que se podrá acceder a todos los usuarios de una o varias ASL en la que presten sus servicios. En una ASL podrá existir más de un punto de interconexión, siempre y cuando cada punto de interconexión cubra a todos los usuarios de una o varias ASL. Por su parte, el artículo 17 del Plan de Interconexión prevé, entre otros, que los concesionarios deberán permitir la interconexión en cualquiera de los niveles de la jerarquía de red.
+
+
+
+En este sentido, el artículo 2 del Plan de Interconexión define al punto de interconexión como el punto físico o virtual donde se establece la interconexión entre redes públicas de telecomunicaciones.
+
+
+
+Asimismo, en dicho artículo se define a las Jerarquías como los niveles de los puntos de interconexión dentro de la estructura de una red pública de telecomunicaciones con base en la funcionalidad que ofrece en la prestación de servicios de interconexión.
+
+
+
+Por tanto, esta Comisión advierte que a través de un punto de interconexión se pueden cubrir los usuarios de una o varias ASL, dependiendo del nivel en que se encuentre dicho punto de interconexión dentro de la estructura de la red pública de telecomunicaciones por la que se conduzca el tráfico.
+
+
+
+Para efectos de lo anterior, es importante señalar que es técnicamente factible que se lleve a cabo el intercambio de tráfico en una central de interconexión con jerarquía superior, toda vez que es posible el transporte y la terminación de tráfico en una central subordinada a ésta.
+
+
+
+Como se observa en la figura 1, el concesionario de la Red A, interconectado con el concesionario de la Red B en la Central B, estaría en posibilidades de intercambiar tráfico originado y/o terminado en usuarios conectados en la propia Central B, o bien en las centrales B.1 y B.2, jerárquicamente subordinadas a la Central B.
+
+
+
+
+
+
+
+Lo anterior, concuerda con los esquemas planteados por Axtel, por tanto es técnicamente factible que la interconexión entre dichos concesionarios con Telmex y Telnor se lleve a cabo en las ASL que cuentan con puntos de interconexión y de las cuales dependen las ASL de origen o destino que no tienen puntos de interconexión, o bien, CTI's conectados directa o indirectamente a las centrales de destino.
+
+
+
+El esquema anterior permite que las comunicaciones que realicen los suscriptores que dependan de cualquiera de las centrales de la Red A sean entregadas a los suscriptores de la Red B, a través de 1a Central B, la cual corresponde al punto más próximo para entregar las comunicaciones a los suscriptores de las centrales B.1 y B.2. Además de que tal esquema es técnicamente eficiente en la medida en que sólo se hace uso de los elementos técnicos que son necesarios para entregar las comunicaciones.
+
+
+
+Con el referido esquema de interconexión Axtel se encontraría en posibilidad de entregar la comunicación que se origine en su red y que tenga como destino final algún usuario de las redes de Telmex y Telnor que se ubique en las ASL que no cuentan con punto de interconexión y en las éste ultimo concesionario puede entregar la comunicación.
+
+
+
+Se permite el acceso de manera desagregada a las funciones y componentes que son necesarios para intercambiar las comunicaciones entre las redes públicas de telecomunicaciones de Axtel, Telmex y Telnor.
+
+
+
+Permite establecer un esquema de interconexión económicamente eficiente derivado de que los concesionarios no estarían obligados a establecer centrales con capacidad de interconexión en cada ASL, sino que haciendo uso de las centrales ya existentes pueden dar servicios a través de las mismas a usuarios propios o de otros concesionarios logrando con ello un uso eficiente de la infraestructura ya instalada y propiciando una disminución de los costos de proveer los servicios.
+
+
+
+En este sentido, el esquema de interconexión propuesto por Axtel a Telmex y Telnor para intercambiar tráfico en las ASL que cuentan con puntos de interconexión y de las cuales dependen las ASL de origen o destino que no tienen puntos de interconexión, o en CTI's conectados directa o indirectamente a las centrales de destino se ajusta a lo dispuesto por el artículo 43 fracciones I, V, VIII Y IX de la LFT, en virtud de que:
+
+
+
+i) Permite el acceso de manera desagregada a servicios, capacidad y funciones de las redes sobre bases de tarifas no discriminatorias,
+
+ii) Se lleva a cabo la interconexión en cualquier punto de conmutación u otros en que sea técnicamente factible,
+
+iii) Es posible entregar la comunicación al operador seleccionado por el suscriptor en el punto más próximo en que sea técnicamente eficiente y,
+
+iv) Se entrega la comunicación a su destino final o a un concesionario o combinación de concesionarios que puedan hacerlo.
+
+
+
+De igual forma, esta Comisión considera que en términos del artículo 42 de la LFT los concesionarios están obligados a interconectar sus redes sin hacer distinción alguna respecto a: (i) los servicios de telecomunicaciones que se prestan a través de dichas redes; (ii) la tecnología utilizada en cada una de las redes de telecomunicaciones; (iii) los servicios de interconexión que se presten; o (iv) si se trata del primer convenio de interconexión o si existe otro convenio ya suscrito, en éste último caso podría referirse al mismo servicio pero con diferente vigencia o respecto a otro tipo de servicio con diferente esquema de interconexión.
+
+
+
+Por tanto y en razón de que el artículo 42 de la LFT no hace distinción alguna del servicio que prestan las redes públicas de telecomunicaciones que se pretendan interconectar o al esquema de interconexión que al efecto se implemente, es procedente la solicitud promovida por Axtel.
+
+
+
+Adicionalmente, el artículo 5 fracción I del Plan de Interconexión, establece que en la interconexión que lleven a cabo los concesionarios de redes públicas de telecomunicaciones y en la prestación de los servicios de interconexión, deberán establecer las condiciones necesarias para la adopción de arquitecturas abiertas de red que permitan la interconexión e interoperabilidad de las redes.
+
+
+
+En este sentido, esta Comisión considera que dado que la interconexión es obligatoria y ésta no se restringe a áreas geográficas derivado de que la no interconexión en algunas áreas evitaría el desarrollo de la competencia, es necesario mencionar que en congruencia con el artículo 41 de la LFT, todas las redes del país deben estar obligadas a la interconexión independientemente del área geográfica en la que presten sus servicios y a fin de asegurar la máxima eficiencia en la interconexión, es procedente que un mismo punto de interconexión puede atender varias ASL sin que la interconexión en este tipo de puntos implique cargos adicionales.
+
+
+
+Como se ha considerado en la presente Resolución, de conformidad con lo dispuesto en el artículo 43 fracciones V y IX de la LFT, se obliga a los concesionarios a llevar a cabo la interconexión en cualquier punto de conmutación u otros en que sea técnicamente factible, y entregar la comunicación a su destino final o a un concesionario o combinación de concesionarios que puedan hacerlo.
+
+
+
+En tal virtud, Telmex y Telnor están obligados a señalar y poner a disposición de Axtel el punto de interconexión que depende de las ASL sin punto de interconexión, a través del cual pueda acceder a los usuarios de éstas ASL. Además de que Telmex y Telnor deberán permitir la interconexión con la red de Axtel en el nivel de la jerarquía correspondiente a las ASL con punto de interconexión que pueden ser aquellas centrales que enrutan tráfico como son los CTI's o las centrales con capacidad de enrutamiento (en lo sucesivo, "CCE").
+
+
+
+De conformidad con lo anterior, esta Comisión reitera que Telmex y Telnor están obligados a ofrecer interconexión a los concesionarios en cualquier punto de conmutación u otros en que sea técnicamente factible y asegurar el uso eficiente de la infraestructura.
+
+
+
+Derivado de lo anterior y de conformidad con lo dispuesto por el artículo 6 fracción I, inciso b) del Plan de Interconexión y la condición 7-4 de la Concesión de Telmex y la Concesión de Telnor, se considera que dichos concesionarios deberán entregar a Axtel la lista de puntos de interconexión desde los cuales sea técnicamente factible llevar a cabo el intercambio de tráfico entre las redes de Telmex y Telnor y la red de Axtel que tengan como origen o destino las ciudades en las cuales Telmex y Telnor tengan cobertura.
+
+
+
+Para efectos de lo anterior, Telmex y Telnor deberán entregar a esta Comisión, así como a Axtel, dentro de un plazo no mayor a 5 (cinco) días hábiles contados a partir del día siguiente a la notificación de la presente Resolución, la información referente a los puntos de interconexión, la cual en términos del artículo 15 del Plan de Interconexión consiste en: lo siguiente:
+
+
+
+• Nombre o identificación.
+
+• Especificaciones técnicas que incluyan cuando menos, capacidad en Puertos de  Acceso y Enlaces de Transmisión y disponibilidad de espacios de Coubicación.
+
+• Dirección y coordenadas geográficas.
+
+• Funcionalidad o jerarquía.
+
+• El ASL donde se ubica y que atiende.
+
+• Las ASL, diferentes a donde se ubica y que atiende indirectamente.
+
+• Número de Accesos a Usuarios Fijos que son atendidos desde el punto de interconexión.
+
+• Los códigos de señalización de origen y destino.
+
+
+
+Con la determinación anterior, se atiende la petición Axtel en el sentido de que Telmex y Telnor otorguen a dicho concesionario la condición de interconexión establecida en el Anexo A del Convenio Axtel-Telmex y del Convenio Axtel-Telnor, consistente en que se puede modificar la lista de puntos de interconexión a efecto de que las redes públicas de telecomunicaciones de dichos concesionarios se interconecten en todas la ASL en las cuales Telmex y Telnor tengan cobertura.
+
+
+
+Respecto a los plazos propuestos por Axtel para la entrega de servicios de interconexión por parte de Telmex y Telnor, esta Comisión considera que deben prevalecer condiciones que permitan a los concesionarios aprovechar de forma eficiente los recursos y la infraestructura de telecomunicaciones existente. Asimismo, a fin de asegurar que se mantienen niveles adecuados de calidad y que, en su caso, no se llegue a niveles de saturación que podrían comprometer la continuidad en la provisión de los servicios, es indispensable establecer periodos máximos para la entrega de facilidades que sean requeridas, lo cual otorgará certeza jurídica a todos los concesionarios.
+
+
+
+En virtud de lo anterior y de conformidad con lo dispuesto por los artículos 43 fracciones 11 y VII de la LFT, 6 fracción 1, inciso g) y 23, segundo párrafo del Plan de Interconexión, Telmex y Telnor están obligados a proveer la ampliación de servicios de interconexión en un plazo que no excederá de 10 (diez) días naturales contados a partir de que algún concesionario lo solicite, y de 30 (treinta) días naturales tratándose de nuevos puntos de interconexión.
+
+
+
+Por otra parte, de conformidad con los artículos 5 fracción IV, 6 fracción 1, inciso g) y 18 del Plan de Interconexión, en aquellos casos en que una solicitud de interconexión no pueda ser atendida por saturación de la capacidad en el punto de interconexión correspondiente, Telmex y Telnor estarán obligados a ofrecer a Axtel, en un plazo no mayor a 20 (veinte) días hábiles contados a partir de la fecha de recepción de la solicitud respectiva, una alternativa de interconexión viable, sin que esto resulte en un costo adicional o diferenciado para su establecimiento o en la prestación de los servicios de interconexión hacia Axtel.
+
+
+
+Lo anterior, en virtud de que la interconexión es un asunto de interés público para todos los concesionarios, por lo que en caso de que un concesionario no cuente con punto de interconexión o capacidad disponible, es su obligación ofrecer de manera expedita una solución alternativa para lograr la interconexión e interoperabilidad entre redes. Asimismo y dado que la interconexión es obligatoria y los concesionarios deben adoptar diseños de arquitectura abierta de red, así como atender la demanda de servicios de interconexión, estas soluciones alternativas no deben suponer un costo adicional para los concesionarios solicitantes.
+
+
+
+Con relación a los argumentos de Telmex y Telnor en el sentido de que es improcedente la interconexión virtual y la que se lleva a cabo en centrales jerárquicamente superiores, además de que conforme a las RSLD y RdSL la solicitud de Axtel es improcedente ya que no se trata de interconexión, esta Comisión considera que dichos argumentos son infundados, toda vez que en términos del artículo 42 de la LFT, los concesionarios están obligados a interconectar sus redes públicas de telecomunicaciones cuando otro concesionario lo solicite y, en todo caso, formalizar dicha interconexión mediante la suscripción del respectivo convenio, sin que para ellos existan limitaciones, condiciones o requisitos como acreditar la existencia de un servicio de interconexión o que se establezca determinado esquema de interconexión.
+
+
+
+En este tenor y como quedó acreditado en el presente numeral, los esquemas de interconexión planteados por Axtel consistentes en la interconexión a través de centrales jerárquicamente superiores, se ajustaron a lo establecido por el artículo 43 fracciones 11, V, VIII Y IX de la LFT, así como a lo dispuesto por los artículos 16 y 17 del Plan de Interconexión, por lo que están debidamente sustentados en la legislación aplicable.
+
+
+
+Adicionalmente, es importante señalar que lo determinado en la presente Resolución no contraviene las disposiciones establecidas en la Regla 8 de las RSLD, ya que conforme a lo dispuesto en dicha Regla, las funciones de transmisión y conmutación corresponden al operador de larga distancia, las cuales pueden ser realizadas con medios propios o de otros operadores, siendo este último supuesto el que se materializa en el caso que nos ocupa, esto es, las funciones de transmisión y conmutación pueden ser realizadas a través de otros operadores, siendo Telmex y Telnor los concesionarios que lo pueden llevar a cabo. Además de que Axtel pagará por los servicios de interconexión que sean proporcionados por Telmex y Telnor conforme a las tarifas que determine la Comisión en el siguiente numeral. En este sentido, los argumentos de Telmex y Telnor resultan improcedentes por infundados.
+
+
+
+Con relación a los argumentos de Telmex y Telnor en el sentido de que conforme a sus títulos de concesión o la legislación y normatividad vigente, no están obligados a dar interconexión en todas aquellas ciudades que no cuentan con centrales con capacidad de enrutamiento, esta Comisión considera que dicho argumento es inoperante, en razón de que la presente resolución no obliga a Telmex y Telnor a instalar centrales con capacidad de enrutamiento en aquellas ciudades que no las tienen, sino que haciendo uso de las centrales ya existentes dichos concesionarios pueden dar servicios a través de las mismas a usuarios propios o de otros concesionarios logrando con ello un uso eficiente de la infraestructura ya instalada y propiciando una disminución de los costos de proveer los servicios.
+
+
+
+A mayor abundamiento, la interconexión entre Axtel, Telmex y Telnor se llevará a cabo, efectivamente, en aquellas ciudades en las que Telmex y Telnor cuentan con CCE's y CTI's, ya que dichos equipos permiten las funciones de conmutación, transporte y señalización necesarias para el adecuado enrutamiento del tráfico que intercambien dichos concesionarios. Por lo que, no se está obligando a Telmex y Telnor a instalar CCE's o CTl's, ni a que lleven a cabo la interconexión en ciudades diversas a las establecidas en las disposiciones invocadas por Telmex y Telnor, sino que a partir de los esquemas indicados en la presente Resolución los referidos concesionarios intercambien el tráfico en los CCE's o CTl's, ubicados en las ciudades previstas en las disposiciones invocadas por Telmex y Telnor y que como ha quedado acreditado en el párrafo anterior, son esquemas de interconexión sustentados conforme a lo establecido en el artículo 43 fracciones II, V, VIII y IX de la LFT, así como a lo dispuesto por los artículos 16 y 17 del Plan de Interconexión.
+
+
+
+Adicional a lo anterior, también conforme a lo establecido en la sección 5-6 de la Concesión de Telmex y la Concesión de Telnor, dichos concesionarios se encuentran obligados a aplicar los criterios de arquitectura abierta de red para que otras redes puedan llevar a cabo la interconexión en cualquier punto de la red en el cual sea técnicamente factible, lo cual ha sido técnicamente reconocido desde hace más de 17 (diecisiete) años por Telmex y Telnor, cuando en su propuesta técnica del 29 de diciembre de 1993 hecha a la Secretaría y de la cual derivó la Resolución sobre el Plan de Interconexión con Redes de Larga Distancia de 1994, ofrecieron que la interconexión con los operadores de larga distancia se podía llevar a cabo en sus CTl's ubicadas en 10 ciudades del país a través de las cuales se podía tener acceso a sus usuarios de todas las poblaciones con servicio telefónico en el territorio nacional (ver sección 2.1.3 de la Propuesta).
+
+
+
+Los escenarios de interconexión aquí establecidos se corroboran en el hecho de que Telmex y Telnor ya tienen implementados desde hace muchos años dichos escenarios de interconexión para todas las ASL del país, incluyendo aquellas que no tiene un punto de interconexión físico dentro de su área geográfica respectiva, lo anterior, al permitir la interconexión con diversos operadores locales, tanto fijos como móviles en sus centrales ubicadas en ASL distintas y de las cuales se les da servicio o depende el tráfico de aquellas ASL sin punto de interconexión.
+
+
+
+Para lo anterior, es importante mencionar, que en virtud de que la tecnología desde hace muchos años ha permitido que una Central de Conmutación de servicio u opere el tráfico de una o más ASL al mismo tiempo y que esta funcionalidad permite reducir las inversiones y gastos que tienen que realizar los operadores de telecomunicaciones, ya que con esto se ahorran el invertir en la instalación de Centrales de Conmutación adicionales para cada una de las ASL en donde presten servicios.
+
+
+
+Lo anterior conlleva a que pueden existir ASL en las que no cuentan físicamente en su área geográfica respectiva con una Central de Conmutación, ya que la misma se encuentra en otra ASL, esto no significa que dicha ASL no cuente con un punto de interconexión, ya que su punto de interconexión se debe de considerar para todos los efectos técnicos y legales aquel que se encuentra en aquella Central de Conmutación con respecto a la cual opera su tráfico, aunque dicha Central de Conmutación se ubique en un ASL distinta, esta situación técnica ha sido prevista por nuestro marco regulatorio en los artículos 16 y 17 del Plan de Interconexión y en las Reglas Quinta y Sexta de las RdSL.
+
+
+
+Las disposiciones antes mencionadas establecen que el operador que tenga una Central de Conmutación que dé servicio a dos o más ASL, deberá permitir que en dicha Central de Conmutación se lleve a cabo la interconexión para todas las ASL de los que forme parte, situación que aplica tanto para el tráfico de terminación local como para el tráfico de terminación de larga distancia, tal y como lo establecen las Reglas Décima y Décima Quinta de las RdSL.
+
+
+
+En este sentido, lo determinado por el Pleno de la Comisión en la presente Resolución no contraviene lo dispuesto en el artículo Décimo Transitorio de la LFT, la Resolución sobre el Plan de Interconexión con Redes Públicas de Larga Distancia, las RSLD y las Resoluciones emitidas por el Pleno de la Comisión, respecto a las ciudades en donde los operadores locales deben ofrecer interconexión y proporcionar el servicio de selección por presuscripción del operador de larga distancia, toda vez que como ha quedado acreditado en el presente numeral la interconexión se logra desde las ciudades que cuentan con centrales ya instaladas, mediante los esquemas de interconexión que han quedado sustentados en la LFT.
+
+
+
+De igual forma, resulta improcedente por infundado el argumento de Telmex y Telnor en el sentido de que la interconexión de larga distancia se lleve a cabo de la misma forma que la interconexión local, y que las mismas se deban comportar de la misma forma en las ASL donde no existen puntos de interconexión de larga distancia definidos. Lo anterior, en virtud de que los esquemas de interconexión planteados por Axtel consistentes en la interconexión a través de centrales jerárquicamente superiores, están debidamente sustentados conforme a lo establecido en el artículo 43 fracciones 11, V, VIII Y IX de la LFT, así como a lo dispuesto por los artículos 16 y 17 del Plan de Interconexión.
+
+
+
+2. Tarifas de interconexión.
+
+	
+
+	Argumentos de las partes.
+
+
+
+Axtel solicita que las siguientes tarifas de interconexión les sean aplicadas a partir del 1° de enero de 2010, mismas que se deberán facturar en función de la duración real de las llamadas (sin redondear al minuto siguiente la llamada) y sin aplicación de cualquier tipo de factores o sobrecargos adicionales, como el sobrecargo por intentos de llamadas.
+
+
+
+1) Por originar o terminar tráfico en el ASL que no tiene punto de interconexión en la cual se encuentra el usuario de origen o destino y que depende del ASL con punto de interconexión de la red de Telmex y Telnor, se le deberá aplicar a Axtel una tarifa equivalente en moneda nacional a $0.80 USc (cero punto ochenta centavos dólar americano) por minuto de interconexión.
+
+
+
+2) La tarifa de interconexión a nivel de CTI para: (i) originar o terminar tráfico en una central de destino perteneciente a otra ASL conectada directamente al CTI y finalizar en usuarios de Telmex y Telnor; (ii) originar o terminar tráfico en el ASL que no tiene punto de interconexión en la cual se encuentra el usuario de Telmex y Telnor, según corresponda, que está subordinada al CCE conectado directamente al CTI, deberá ser el equivalente en moneda nacional a $1.05 USc (uno punto cero cinco centavos dólar americano) por minuto.
+
+
+
+3) Que las tarifas de interconexión en localidades cuyas ASL sí cuenten con punto de interconexión, deberán ser equivalentes al monto señalado en el numeral 1 anterior, menos los servicios de transporte, lo que resulta ser el equivalente en moneda nacional a 0.55 USc (cero punto cincuenta y cinco centavos dólar americano).
+
+
+
+4) La tarifa de interconexión a nivel de CTI para: (i) originar o terminar tráfico en una central de destino perteneciente a otra ASL conectada indirectamente al CTI y finalizar en usuarios de Telmex y Telnor; (ii) originar o terminar tráfico en el ASL que no tiene punto de interconexión en la cual se encuentra el usuario de Telnor, según corresponda, que está subordinada al CCE conectado indirectamente al CTl, deberá ser el equivalente en moneda nacional a 1.30 USc (uno punto treinta centavos dólar americano) por minuto.
+
+
+
+Axtel señala que esta tarifa se refiere a localidades cuyas ASL se encuentran subordinadas al CTI en que se lleva a cabo la interconexión, por lo que solicita que la Comisión considere el escenario en el cual la interconexión se realiza en un CTI desde el cual no se encuentra subordinadas el ASL de interés, es decir, se encuentra conectada indirectamente al CTI donde se realiza la interconexión.
+
+
+
+Menciona Axtel que en virtud de que el escenario planteado considera un elemento de transporte adicional a la tarifa señalada en el inciso 2) anterior, Axtel sostiene que la Comisión en las Resoluciones P/270808/223, P/270808/224, P/EXT/030209/12 y P/250209/18 implicó que el transporte entre centrales es equivalente en moneda nacional a $0.25 Usc (cero punto veinticinco centavos de dólar americano), la tarifa de acuerdo al presente escenario debe adicionar dicho elemento de transporte para llegar al CTI desde el que se encuentra subordinado el ASL de interés. De ese ejercicio se obtiene que la tarifa por interconexión indirecta al CTI será equivalente en moneda nacional a $1.30 Usc (uno punto treinta centavos de dólar americano), como se ejemplifica en la siguiente figura. 
+
+
+
+
+
+
+
+
+
+En las Respuestas de Telmex y Telnor, dichos concesionarios manifiestan que Axtel hace referencia en la Solicitud de Resolución a servicios que de manera errónea consideran modalidades de interconexión, solicitando para cada uno de ellos la aplicación de una tarifa determinada de forma unilateral y sin fundamentación ni motivación alguna. Asimismo manifiestan que de acuerdo al último párrafo de la Regla Séptima Transitoria de las RSLD, sólo se contempla la interconexión en las ASL donde exista capacidad de enrutamiento. 
+
+
+
+Respecto a las tarifas de interconexión referidas en los incisos 2) y 4) anteriores, Telmex y Telnor argumentan que no son servicios de interconexión, ya que resultan contrarias a la Regla Séptima Transitoria de las RSLD, donde sólo se contempla la interconexión en las ASL donde existe capacidad de enrutamiento. Además de que no es un servicio de un concesionario local a uno de larga distancia, ya que tiene transporte de larga distancia entre ASL por lo que no encuadra en la Regla 8 de las RSLD, por tanto no es interconexión. 
+
+
+
+Respecto a las tarifas de interconexión solicitadas por Axtel en el inciso 3), Telmex y Telnor indican que dicha propuesta carece de toda lógica ya que las mismas derivan de los cálculos de costos que ha realizado la Comisión en un modelo que nunca ha sometido a consulta a los operadores, además usa de referencia el resultado de cálculo de costos para la interconexión en ASL con punto para la misma y de la cual se extrapola el mismo al eliminar del costo el transporte adicional para llevar la supuesta interconexión a ASL sin punto de interconexión. 
+
+
+
+Consideraciones de la Comisión. 
+
+
+
+Las tarifas de interconexión solicitadas por Axtel derivan de los esquemas de interconexión analizados en. el numeral 1 del considerando Quinto de la presente Resolución, los cuales en obvio de repeticiones, se deben tener por reproducidos como si a la letra se insertaran, ya que están debidamente sustentados en la regulación vigente en materia de telecomunicaciones. 
+
+En este sentido, es importante señalar que los argumentos de Telmex y Telnor respecto a que las tarifas de interconexión solicitadas por Axtel no corresponden a servicios de interconexión resultan improcedentes. 
+
+
+
+En virtud de lo anterior, es menester de esta Comisión determinar las tarifas de interconexión solicitadas por Axtel. En este sentido, para que la Comisión se encuentre en posibilidad de ejercer las facultades conferidas específicamente en los artículos 7 fracción 11, 9-A fracción X y 42 de la Ley en el sentido de promover y vigilar la eficiente interconexión entre las redes públicas de telecomunicaciones y resolver las condiciones que en materia de interconexión no hayan podido convenirse entre los concesionarios, es necesario que la propia Comisión desarrolle modelos, metodologías o sistemas necesarios para la determinación de tales condiciones. 
+
+
+
+De no contar con un modelo de costos o de un mecanismo idóneo para la determinación de las tarifas de interconexión, esta Comisión se vería impedida para el debido ejercicio de las facultades correspondientes a la resolución de las condiciones de interconexión no convenidas entre los concesionarios, que permitan alcanzar los objetivos plasmados en la Ley, en particular lo establecido en su artículo 7 de fomentar una sana competencia entre los diferentes prestadores de servicios de telecomunicaciones a fin de que éstos se presten con mejores precios, diversidad y calidad en beneficio de los usuarios, y promover una adecuada cobertura social. 
+
+
+
+En este tenor, se deberá considerar lo dispuesto por el párrafo segundo del artículo Tercero Transitorio del Plan de Interconexión, que establece lo siguiente: 
+
+
+
+"Previamente a la entrada en vigor de la resolución de carácter general por virtud de la cual se definan los Modelos de Costos, la Comisión continuará determinando las Tarifas de Interconexión cuando resulte aplicable, utilizando los elementos de convicción que tenga disponibles, tales como: modelos de costos utilizados previamente, información pública de costos, información de costos y contable, previamente auditada, proporcionada por los Concesionarios, el nivel y la evolución de las tarifas al público de los Servicios de ' Telecomunicaciones relacionados con los Servicios de Interconexión correspondientes, las referencias internacionales, entre otros." [Énfasis añadido].
+
+
+
+Por tanto, para cuantificar los costos en que incurren los concesionarios por la interconexión de las redes públicas de telecomunicaciones, la metodología adecuada es la utilización de un modelo de costos (en lo sucesivo, el "Modelo") conforme a bases y estándares reconocidos internacionalmente. ,Esta metodología ha sido avalada por expertos internacionales, tales como la empresa consultora National Economic Research Associates, Inc. y utilizada por reguladores internacionales . 
+
+
+
+En este sentido, se considera que en un escenario donde priva la competencia en la prestación de todos los servicios de telecomunicaciones, es necesario establecer tarifas que estén basadas en costos, ya que esto constituye una política que es neutral para el desarrollo de la competencia, en la medida que no se distorsiona el crecimiento eficiente del sector, ya que todos los participantes del mercado acceden a un elemento básico como lo es la interconexión, sin que ninguno obtenga ventajas extraordinarias en la prestación de dicho servicio. Asimismo, es necesario permitir el acceso de manera desagregada a servicios, capacidad y funciones de sus redes con la finalidad de no sufragar por servicios o elementos de red no utilizados. 
+
+
+
+Para determinar las tarifas de interconexión, es preciso calcular los costos de los elementos de red que utilice el concesionario para la terminación de la llamada. Por ello, es importante señalar que la tarifa de interconexión puede variar dependiendo del punto de la red en el que el concesionario que originó la llamada se la entregue al concesionario que la termina. Si la llamada es entregada en el punto más cercano al destino final, los costos menores que en caso que se requiera un mayor número de componentes de red como lo son los elementos de conmutación y transmisión para que sea entregada al destino final. 
+
+
+
+En este sentido, los esquemas que permiten la entrega de llamadas por parte de Axtel a Telmex y Telnor son los siguientes:
+
+
+
+ 1. 	 El primero de ellos se establece cuando Axtel con infraestructura propia o arrendada puede entregar el tráfico a Telmex y Telnor en la misma ASL de destino de la llamada. En este esquema, se establecen como puntos de interconexión aquellas centrales que puedan enrutar el tráfico, como son las CCE o CTI.
+
+
+
+ 2. 	 En el segundo esquema se considera que Axtel no tiene presencia en todas las ASL con centrales con capacidad de interconexión de Telmex y Telnor o porque dichos concesionarios no cuentan con centrales con capacidad de interconexión en ciertas ASL, para lo cual si un usuario desea llamar a otro ubicado en una ASL donde Axtel no cuenta con presencia o en donde Telmex y Telnor no tienen central con capacidad de interconexión, Axtel necesitaría utilizar la interconexión en el CTI o CCE para que se encontrara en posibilidad de terminar el tráfico. 
+
+
+
+En este tenor, el artículo 17 del Plan de Interconexión establece que a fin de definir las tarifas de interconexión en los casos en que así corresponda, la Comisión podrá definir jerarquías de puntos de interconexión. En este sentido, los concesionarios deberán permitir la interconexión en cualquiera de los niveles de la jerarquía y cobrar las tarifas correspondientes, sin obligar a los concesionarios a la entrega del tráfico en jerarquías que los obliguen a utilizar: servicios no requeridos. En tales condiciones, el artículo 2 del Plan de Interconexión define a las Jerarquías como los niveles de los puntos de interconexión dentro de la estructura de una red pública de telecomunicaciones, con base en la funcionalidad que ofrece en la prestación de servicios de interconexión. 
+
+
+
+En tales condiciones, la Regla Segunda, fracción XI de las RdSL, establece que: 
+
+
+
+"Grupo de centrales de servicio local.” Conjunto de centrales locales dentro del cual se cursa tráfico público conmutado sin la marcación de un prefijo de acceso al servicio de larga distancia;"
+
+
+
+Por su parte la Regla Sexta de las RdSL, dispone que: 
+
+
+
+"Regla Sexta. Una central de servicio local podrá formar parte de uno o varios grupos de centrales de servicio local. Al efecto, los concesionarios de servicio local deberán solicitar autorización a la Comisión, quien asignará la numeración local que se utilizará en la central, de conformidad con el Plan de Numeración. Dicha central deberá tener interconexión en todos los grupos de centrales de servicio local de los que forme parle". 
+
+
+
+Por lo anterior, se puede señalar que una central puede formar parte de uno o varios grupo de centrales del servicio local y que por loo tanto puede intervenir en el intercambio de tráfico para cualquiera de los grupos de centrales a los que pertenezca, además dicha central deberá tener interconexión en todos los grupos de centrales de servicio local de los que forme parte.
+
+
+
+En este tenor, existen ASL en las que Telmex y Telnor prestan el servicio de telefonía local pero no cuentan con equipos que realicen la función de conmutación en dichas ASL. En este caso, es necesario que las llamadas se transporten a través de enlaces existentes hasta la ASL en que se dispone de dichos equipos, en donde se realiza la función de conmutación, y la llamada regresa a la misma ASL para terminar en el usuario final. 
+
+
+
+
+
+
+
+
+
+
+
+En este esquema, la central de conmutación forma parte de ambas ASL y conforme a las RdSL esta central debe tener interconexión para atender a las dos ASL a las que pertenece.
+
+
+
+Asimismo, la Regla Vigesimasegunda, fracciones 111 y IV de las RdSL, prevé que: 
+
+
+
+“Regla Vigesimasegunda. Los concesionarios de servicio local que se interconecten en un grupo de centrales de servicio local determinado, se sujetarán a lo siguiente: 
+
+[. ..] 
+
+III.	 Cualquier concesionario de servicio local que opere una o más centrales locales dentro de un grupo de centrales de servicio local ubicadas en las poblaciones a que se refiere la REGLA QUINTA TRANSITORIA, deberá, previa solicitud de otro concesionario de servicio local, ofrecer interconexión en cualquiera de las centrales que operen en dicho grupo, y 
+
+IV. 	 Los concesionarios de servicio local podrán convenir que la interconexión para cursar tráfico público conmutado local dentro del grupo de centrales de servicio local de que se trate, se lleve a cabo en cualquier punto acordado entre las partes, Los concesionarios de servicio local no deberán aplicar cargos adicionales a la tarifa de determinación en la central de destino por la realización de esta función.” [Énfasis añadido]. 
+
+
+
+Por su parte, la Regla Quinta Transitoria de las RdSL establece que: 
+
+
+
+"[. .. ] Los concesionarios de servicio local que presten servicios en las poblaciones antes indicadas deberán interconectar sus redes con las de los concesionarios de servicio local que se los soliciten, dentro de los 180 días naturales posteriores a la celebración del convenio de interconexión respectivo. Asimismo, cuando un concesionario de servicio local pretenda dar servicio en un sitio localizado fuera de las poblaciones listadas en la presente Regla Transitoria, los concesionarios de servicio local existentes que presten servicios en el grupo de centrales de servicio local a que corresponda dicho sitio, deberán ofrecer interconexión para cursar tráfico público conmutado local desde alguna de las citadas poblaciones, de conformidad con lo establecido en la fracción IV de la Regla Vigesimasegunda. [. ..]". [Énfasis añadido]. 
+
+
+
+De conformidad con las Reglas antes citadas, se desprende que Telmex y Telnor están obligados a ofrecer interconexión a los concesionarios que pretendan dar servicio en un sitio localizado fuera de las poblaciones que se mencionan en la Regla Quinta Transitoria en donde tenga cobertura. A manera de ejemplo, el concesionario "A" pretende dar servicio en un sitio fuera de las poblaciones mencionadas en la citada Regla, la interconexión con Telmex y Telnor se tendría que realizar desde alguna población incluida en la ,Regla Quinta Transitoria en donde tenga cobertura. En este sentido, las llamadas locales originadas en el sitio del concesionario "A" son transportadas mediante enlaces propios o arrendados hasta las centrales de Telmex y Telnor ubicadas en la población incluida en la Regla Quinta Transitoria, para que sean enrutadas hasta el equipo del usuario final localizado en el sitio donde se originó la llamada. En términos de la fracción IV de la Regla Vigesimasegunda de las RdSL, dicho esquema no implica un cargo adicional. 
+
+
+
+
+
+
+
+De lo anterior, se advierte que: i) las ASL que no cuentan con equipos de conmutación están subordinadas a las ASL que tienen centrales de conmutación, ii) las llamadas originadas y terminadas en las ASL sin equipo de conmutación se consideran como locales y se cobran como tales, no obstante que se transporta el tráfico hasta el ASL en la que se realizan las funciones de conmutación y iii) las funciones y componentes utilizados en todos los casos para terminar las llamadas que son entregadas en la ASL con punto de interconexión hasta la ASL sin punto de interconexión en la que se encuentra el usuario de destino, son los mismos. 
+
+
+
+En consecuencia, es técnicamente factible que Telmex y Telnor interconecten a Axtel en las ASL que cuenten con centrales con capacidad de interconexión, para originar o terminar tráfico en el ASL donde Telmex y Telnor no cuentan con punto de interconexión, en la cual se encuentra el usuario de origen o destino. 
+
+
+
+Por tanto, esta Comisión considera que para determinar las tarifas de interconexión se deben considerar los costos de los elementos de red que utilice el concesionario para la terminación de la llamada. 
+
+
+
+Respecto a las tarifas de interconexión a nivel de CTI, es importante señalar que los concesionarios que pueden prestar la interconexión en CTl's son aquellos que cuentan con infraestructura y medios de transmisión en gran parte del territorio nacional y que, además, se relaciona con la infraestructura desarrollada por cada una de las empresas, existentes en cada una de las ASL, lo que determinará la posibilidad de que ésta pueda ofrecer el servicio a las demás. 
+
+
+
+Asimismo, se puede señalar que la demanda se relaciona con el nivel de tráfico que los concesionarios de redes públicas de telecomunicaciones requieren cursar en las ASL, así como de los precios de los enlaces de interconexión requeridos para complementar las redes de los concesionarios y estar en posibilidad de entregar las llamadas en un mayor número de ASL. 
+
+
+
+Por lo que, si entre ASL o entre dos rutas existe un bajo nivel de tráfico, probablemente el operador optará por utilizar la interconexión en CTI brindada por Telmex y Telnor, en lugar del arrendamiento o de la instalación de enlaces para implementar una red de transporte entre dichas localidades. Si el nivel de tráfico se incrementa al punto que el pagar un cargo por minuto resulta costoso, posiblemente el operador optará por implementar su red de transporte ya sea con sus propios medios, o alquilando enlaces a otro operador de larga distancia nacional. 
+
+
+
+En este sentido, se debe considerar que· en esta interconexión se utilizan como elementos de infraestructura: el medio de transmisión entre los CTl's, así como entre los CTl's y CCE's, el transporte entre el CCE y el centro de conexión de abonado, los cuales como se mencionó anteriormente pueden ubicarse dentro de la misma ASL o en ASL diferentes. 
+
+
+
+Congruente con todo lo anterior, para determinar de la tarifa de interconexión por recibir o entregar tráfico de la red de Axtel cuyo origen o destino sea una central de destino perteneciente a otra ASL y finalizar en usuarios de Telmex y Telnor, la Comisión considera que la tarifa se puede componer de los siguientes elementos dependiendo del nivel jerárquico en el que sea entregada la llamada. 
+
+
+
+La tarifa de interconexión por originar o terminar tráfico en la ASL que no tiene punto de interconexión en la cual se encuentra el usuario de origen o destino y que depende del ASL con punto de interconexión correspondiente a la red pública de telecomunicaciones de Telmex y Telnor; 
+
+
+
+Del costo asociado a la conmutación y al transporte de un CTI a un CCE conectados directamente. Cabe mencionar, que estos costos están directamente relacionados con el volumen de tráfico que se cursa a través de los elementos de red. 
+
+
+
+Del costo asociado a la conmutación y al transporte adicional de un CTI a otro CTI conectados directamente. De igual forma estos costos están directamente relacionados con el volumen de tráfico que se cursa a través de los elementos de red .
+
+
+
+Asimismo, esta Comisión considera que el esquema de interconexión a nivel de CTI ilustrado en la figura 2, es consistente con el principio de jerarquía de puntos de interconexión sustentado en la LFT, además de que a través del CTI los concesionarios logran un uso eficiente de la infraestructura ya instalada al permitirse que a través de los enlaces de transmisión entre CTl's curse tráfico que tenga como destino usuarios de Telmex y Telnor ubicados en localidades cuyas ASL se encuentren subordinadas al CTI en el que se lleva a cabo la interconexión, por lo que resulta procedente determinar el nivel de la tarifa de interconexión para dicho escenario. 
+
+
+
+Para el cálculo de la tarifas de interconexión solicitadas por Axtel se consideraron los costos asociados a la expansión eficiente de una red pública de telecomunicaciones, tomando como punto de partida la topología de las redes de los operadores de servicio local fijo ya establecidos y la mejor tecnología disponible, evitando con esto basarse en los costos históricos en los cuales hubiera incurrido cualquier concesionario. Este enfoque evita que los costos de interconexión determinados resulten más altos de lo debido al recoger posibles ineficiencias de la red del concesionario de que se trate. Asimismo, evita incorporar topologías no acordes con las características geográficas del país. 
+
+
+
+Adicionalmente, al tomar como referencia la mejor tecnología disponible, se eliminan las obsolescencias en los equipos e incorpora adelantos tecnológicos que generalmente se reflejan en un mejor precio.
+
+
+
+El Modelo calcula los costos sensibles al tráfico (en lo sucesivo, "CST"), entendiéndose como tales aquellos que varían con el nivel de la actividad que los genera. Por ejemplo, el número de centrales depende del volumen de uso (tráfico de conmutación) en esa red. En la medida que aumenta el tráfico, es necesaria más capacidad de conmutación que debe ser instalada. 
+
+
+
+No se incluyen los costos no sensibles al tráfico (en lo sucesivo, "CNST"). Entendiéndose este tipo de costos como los,que se generan por una actividad pero que no varían con el nivel de esa actividad. El excluir CNST se debe a que por razones de eficiencia económica los CNST, como la red de distribución al abonado local, deben ser recuperados a través de cargos fijos. En el mismo tenor, los costos de la infraestructura de transporte utilizada en forma exclusiva por algunos usuarios, deben ser recuperados a través de cargos fijos, ya que éstos son CNST.
+
+
+
+El Modelo identifica los costos incrementales totales de largo plazo del servicio (en lo sucesivo, "CITLPS"), esto es, todos los costos fijos y variables directamente asociados a la provisión de los servicios de interconexión por parte de la empresa. 
+
+
+
+La primera etapa del Modelo determina las inversiones para la operación de la red pública de telecomunicaciones del concesionario eficiente. Estas deben incluir los costos del equipo y todos los gastos asociados con la ingeniería, amueblado e instalación de los mismos. Por ejemplo, las inversiones incluyen: 
+
+
+
+Los costos laborales y de ingeniería de la instalación del equipo;
+
+Los costos de colocación;
+
+Los costos de las pruebas del equipo; 
+
+Los costos de transporte, y 
+
+Los costos del seguro del equipo mientras está en tránsito. 
+
+
+
+Una vez que se calculan las inversiones, se determinan los gastos anuales asociados a cada elemento de la red. Estos gastos toman en cuenta: 
+
+
+
+Los costos de capital que incluyen un retorno en el capital invertido (costo de capital), estos deben ser suficientes para incentivar a los inversionistas a mantener y expandir la infraestructura de la red. 
+
+Los costos de depreciación que son el retorno del capital que las empresas deben , recuperar sobre la vida útil de los activos. La depreciación anual se determina tomando en cuenta la vida útil de los activos la cual varía según el tipo de planta y tecnología utilizada. 
+
+Los costos directos que incluyen gastos en operaciones específicas de la planta. Estos son los gastos relacionados con el mantenimiento de las distintas partes de la planta de telecomunicaciones. 
+
+
+
+Para convertir estos gastos anuales totales por elemento a costos por minuto de cada elemento es necesario calcular el uso anual de los diversos componentes de la la red.
+
+
+
+Por último para determinar el costo promedio en que un concesionario eficiente incurre para la terminación de tráfico en su red entregado en un CTI, es necesario establecer el grado de utilización de cada elemento de la red para la terminación del mismo, lo que se conoce como "factores de uso de los elementos". Una vez estimados los factores de uso de cada uno de los elementos de la red sensibles al tráfico, éstos se multiplican con el costo por minuto del elemento respectivo, con lo que se obtiene el costo promedio de la interconexión por terminación de llamadas. 
+
+
+
+Lo anterior se justifica en la medida en que el destino del tráfico tiende a ser aleatorio por lo que la suma de los pagos de interconexión tendería a ser igual a si a cada una de las llamadas se le aplicará una tarifa de interconexión calculada individualmente en los costos que incurrió para su terminación. 
+
+
+
+Cabe señalar que en industrias caracterizadas por economías de escala o de alcance, como es el sector de las telecomunicaciones, los CITLPS deben considerarse como el "piso" tarifario de un servicio. Esto es, como el nivel más bajo permisible del precio del servicio, en el entendido de que si la tarifa es inferior, se estaría dando origen a una situación de subsidios cruzados entre servicios. 
+
+
+
+Sin embargo, es preciso señalar que desde un punto de vista económico, no es posible establecer precios iguales a los CITLPS. Esto, debido a que el establecimiento de precios a un nivel igual a CITLPS da lugar a ineficiencias y distorsiones económicas. Una empresa que. ofrece en forma conjunta varios productos y/o servicios, incurre en diferentes tipos de costos, como son los siguientes: 
+
+
+
+Costos directamente asociados a cada servicio y/o productos ofrecidos por la empresa;
+
+Costos que son compartidos entre dos o más servicios y/o productos ofrecidos por la empresa, y ,
+
+Costos que son comunes entre todos los servicios y/o productos ofrecidos por la empresa. 
+
+
+
+Si se pretende que la empresa obtenga una tasa de retorno competitiva sobre el capital empleado en la prestación de servicios de interconexión y continúe invirtiendo en el mantenimiento y la expansión de dichos servicios, se requiere que la tarifa que se cobre por el servicio sea suficiente para que recupere, además de los costos directamente asociados a la prestación de los servicios, la parte que corresponda a los costos compartidos y a los costos comunes. 
+
+
+
+En los mercados competitivos, la mayoría de las empresas son "empresas multiproducto", como el caso de empresas en telecomunicaciones, que requieren de márgenes sobre los costos incrementales. Dichos márgenes les permiten recuperar los costos prospectivos comunes y compartidos, así como una porción de los costos históricos. El tamaño de los márgenes depende de la capacidad de la empresa para competir con otras empresas en el mercado o lo que es lo mismo, de las condiciones de mercado.
+
+
+
+De los cálculos realizados en el Modelo para determinar las tarifas de interconexión solicitadas por Axtel, se obtuvieron los siguientes resultados: 
+
+
+
+a) Tarifa de interconexión por originar o terminar tráfico en el ASL que no tiene punto de interconexión en la cual se encuentra el usuario de origen o destino y que depende del ASL con punto de interconexión de las redes de Telmex y Telnor, será la equivalente, en.moneda nacional a $0.80 USc (cero punto ochenta centavos de dólar americano) por minuto de interconexión. 
+
+
+
+b) Tarifa de interconexión por originar o terminar tráfico en el ASL con punto de interconexión en las redes de Telmex y Telnor, será la equivalente, en moneda nacional a $0.80 USc (cero punto ochenta centavos de dólar americano) por minuto de interconexión. 
+
+
+
+c) Tarifa de interconexión por: (i) originar o terminar tráfico en una central de destino perteneciente a otra ASL conectada directamente al CTI y finalizar en usuarios de Telmex y Telnor; (ii) originar o terminar tráfico en el ASL que no tiene punto de interconexión en la cual se encuentra el usuario de Telmex y Telnor que está subordinada al CCE conectado directamente al CTI, será la equivalente, en moneda nacional a 1.05 USc (uno punto cero cinco centavos de dólar americano) por minuto de interconexión. 
+
+
+
+d) Tarifa de interconexión por: (i) originar o terminar tráfico en una central de destino perteneciente a otra ASL conectada directamente al CTI que a su vez se encuentra conectado a otro. CTI con el cual Axtel tenga interconexión directa y finalizar en usuarios de Telmex y Telnor; (ii) originar o terminar tráfico en el ASL que no tiene punto de interconexión en la cual se encuentra el usuario de Telmex y Telnor, que está subordinada al CCE conectado directamente al CTI que a su vez se encuentra conectado a . otro CTI con el cual Axtel tengan interconexión directa, será la equivalente, en moneda nacional a 1.26 USc (uno punto veintiséis centavos de dólar americano) por minuto de interconexión. 
+
+
+
+Las tarifas determinadas en los incisos a), b), c), y d) anteriores incluyen el costo correspondiente a los puertos necesarios para la interconexión. Asimismo contienen un margen adecuado sobre los costos incrementales que permite recuperar los costos comunes y compartidos. Estas tarifas estarán vigentes del 1° de enero de 2010 al 31 de diciembre de 2010. 
+
+
+
+Es importante señalar que las tarifas se determinan en dólares americanos en virtud de que para determinar los costos de proveer el servicio de interconexión en una red local fija de una empresa eficiente se utiliza el precio de cada uno de los elementos de red expresados en dólares; y con ello se determinan las inversiones requeridas para prestar el servicio, por ello para que una empresa pueda recuperar todos los costos de proveer el servicio resulta necesario expresar la tarifa en dólares, a fin de que, de existir una modificación en el tipo de cambio este no tuviera efectos en la recuperación de los costos y con ello evitar que el concesionario de redes fija obtuviera pérdidas por la prestación del servicio o ganancias extraordinarias.
+
+
+
+A fin de que Axtel, Telmex y Telnor identifiquen adecuadamente el tráfico para la correcta tasación y facturación de los servicios, esta Comisión considera que dichos concesionarios deberán cumplir con el numeral 8 del Plan Técnico Fundamental de Señalización y con el artículo 21 inciso a) del Plan de Interconexión, el cual establece la información que deberá intercambiarse en la interconexión de redes.
+
+
+
+Con el objeto de eficientar la provisión del servicio de interconexión y por ende el debido cumplimiento a la presente Resolución, se precisa contar con la información referente a la dirección y coordenadas geográficas de los CTI's y de los CCE' s, funcionalidad y jerarquía de las centrales, las ASL's que atienden directamente cada central, así como de los puntos de interconexión que se ubiquen en las ASL desde los cuales se atiende a cada una de las ASL sin punto de interconexión.
+
+
+
+En este sentido, Telmex y Telnor deberán presentar la información referente a los puntos de interconexión establecida en el artículo 15 del Plan de Interconexión, a saber:
+
+
+
+• Nombre o identificación.
+
+• Especificaciones técnicas que incluyan cuando menos, capacidad en Puertos de Acceso y Enlaces  de Transmisión y disponibilidad de espacios de Coubicación.
+
+• Dirección y coordenadas geográficas.
+
+• Funcionalidad o jerarquía.
+
+• El ASL donde se ubica y que atiende.
+
+• Las ASL, diferentes a donde se ubica y que atiende indirectamente.
+
+• Número de Accesos a Usuarios Fijos que son atendidos desde el punto de interconexión.
+
+• Los códigos de señalización de origen y destino.
+
+ 
+
+Por tanto, Telmex y Telnor deberán entregar a esta Comisión y Axtel en un plazo de 5 (cinco) días hábiles contados a partir de la notificación de la presente Resolución la información descrita en el párrafo que antecede, de conformidad con lo establecido en los artículos 68 de la LFT, 6 fracción I, inciso b) y 15 del Plan de Interconexión, que obliga a los concesionarios a señalar la ubicación geográfica de la instalación del concesionario donde se encuentren los puntos de interconexión y la condición 7-4 de la Concesión de Telmex y de la Concesión de Telnor que obliga a dichas empresas a proporcionar a la Secretaría la información técnica, administrativa y financiera en la forma y términos que la misma determine.
+
+
+
+Con relación al argumento de Telmex y Telnor, en el sentido de que el Modelo de la Comisión no se ha sometido a consulta pública, se considera que dicho argumento es improcedente, ya que el párrafo segundo del artículo Tercero Transitorio del Plan de Interconexión establece que previamente a la entrada en vigor de la resolución de carácter general por virtud de la cual se definan los Modelos de Costos, la Comisión continuará determinando las Tarifas de Interconexión cuando resulte aplicable, utilizando los elementos de convicción que tenga disponibles, tales como: modelos de costos utilizados previamente. En este sentido, el Modelo de la Comisión es un elemento de convicción para determinar las tarifas de interconexión en la presente Resolución. Asimismo, en el presente considerando se establece la metodología que contiene los elementos y principios bajo los cuales se desarrollo el Modelo de la Comisión avalados por un experto internacional, por lo que Telmex y Telnor tienen conocimiento de los diversos aspectos considerados en el Modelo de la Comisión. 
+
+
+
+3. Tarifas de tránsito.
+
+
+
+Argumentos de las partes.
+
+
+
+Axtel solicita que las siguientes tarifas de tránsito le sean aplicadas a partir del 1° de enero de 2010, mismas que deberán facturar en función de la duración real de las llamadas (sin redondear al minuto siguiente cada llamada) y sin aplicación de cualquier tipo de factores o sobrecargos adicionales, como el sobrecargo por intentos de llamadas.
+
+
+
+a) Que la tarifa por la función de tránsito correspondiente a la entrega de tráfico de la red de Axtel en el ASL con punto de interconexión de las redes de Telmex y Telnor que tiene como destino un tercera red interconectada con éstos concesionarios en la misma ASL y desde la cual esa tercera red recibe y entrega tráfico a sus usuarios en un ASL sin punto de interconexión, deberá ser equivalente en moneda nacional a $0.18 USc (cero punto dieciocho centavos de dólar americano) por minuto.
+
+
+
+b) Que por la entrega de tráfico de la red de Axtel en el CTI de Telmex y Telnor, que tiene como destino una tercera red conectada a las centrales de destino de Telmex y Telnor, siempre y cuando dichas centrales pertenezcan a ASL distintas y Axtel así lo solicite, la tarifa será equivalente en moneda nacional a $0.43 USc (cero punto cuarenta y tres centavos de dólar americano) por minuto.
+
+
+
+En las Respuestas de Telmex y Telnor, dichos concesionarios argumentan que las RdSL definen al servicio de tránsito local. Asimismo, aducen que en la práctica puede ser ofrecido por cualquier concesionario de red pública de telecomunicaciones y en términos de la Regla Vigesimocuarta de las RdSL, sólo el concesionario de servicio local que opere el mayor porcentaje de números de un grupo de centrales de servicio local está obligado a proveer el servicio de tránsito local. Por lo que actualmente existen ASL en las cuales otros concesionarios de servicio local operan un mayor porcentaje de números de un grupo de centrales de servicio local que Telmex y Telnor. De igual forma dichos concesionarios señalan que al ser una obligación la prestación del servicio de tránsito, Telmex y Telnor no pueden restringir el servicio, por tanto proporcionan actualmente el mismo a cualquier concesionario de servicio local fijo o móvil que lo solicite.
+
+
+
+Por otra parte, Telmex y Telnor argumentan que el concepto de "tránsito interurbano" definido por Axtel, que tiene como destino una tercera red conectada a la central de destino de Telmex y Telnor, siempre y cuando dichas centrales pertenezcan a ASL distintas no está definido en la legislación y normatividad vigente.
+
+
+
+Aducen Telmex y Telnor que la tarifa vigente de tránsito local de "$3 USc" (tres centavos de dólar americano) es totalmente justificada, ya que los concesionarios que la solicitan sólo necesitan interconectarse a una sola central para tener acceso y terminar tráfico a la totalidad de los concesionarios locales que proporcionan servicio en la correspondiente ASL.
+
+
+
+Argumentan Telmex y Telnor que por lo que se refiere al servicio de tránsito, Axtel refiere a un monto de tarifa de $0.18 USc (cero punto dieciocho centavos de dólar americano), obtenida de otras resoluciones emitidas por la Comisión, con base en cálculos de la propia Comisión de un modelo de costos que nunca se ha sometido a consulta pública, por lo tanto, la petición de Axtel carece de fundamento. Asimismo, manifiesta que el tránsito es un servicio dentro de un grupo de centrales locales, o sea dentro de una ASL, por lo que el servicio contemplado por Axtel es contrario a las RdSL.
+
+
+
+Por lo que hace a la tarifa de tránsito indicada en el inciso b) anterior, Telmex y Telnor se limitan a señalar que él tránsito es un servicio dentro de un grupo de centrales locales, o sea dentro de una ASL, por lo que el servicio contemplado por Axtel es contrario a las RdSL. 
+
+
+
+Consideraciones de la Comisión.
+
+
+
+El artículo 2 del Plan de Interconexión, define al tránsito como:
+
+
+
+"Servicio de Interconexión para el enrutamiento de Tráfico que el Concesionario de una RPT provee para la Interconexión de dos o más RPTs distintas, ya sea para la originación o terminación de Tráfico dentro de la misma ASL o en otra ASL"
+
+De la definición anterior, se colige que el servicio de tránsito se puede prestar por los concesionarios para originar o terminar tráfico dentro de las misma ASL o en otra ASL, por lo que es legalmente viable la solicitud promovida por Axtel.
+
+
+
+Asimismo, el Plan de Interconexión no limita a que el servicio de tránsito se provea dentro de una misma ASL, por lo que los argumentos de Telmex y Telnor en este sentido resultan improcedentes.
+
+
+
+Con relación a los argumentos de Telmex y Telnor referentes al Modelo de Costos, esta Comisión estima que los mismos han sido atendidos en el numeral 2 del considerando Quinto de la presente Resolución.
+
+
+
+Por otra parte, esta Comisión no observa inconveniente alguno para que Telmex y Telnor provean el servicio de tránsito en las ASL con punto de interconexión, toda vez que precisamente en las referidas ASL es técnica y económicamente eficiente que Telmex y Telnor provean los servicios de tránsito solicitados por Axtel en virtud de que cuentan con la capacidad necesaria para realizar funciones de conmutación y de tránsito con otras redes públicas de telecomunicaciones, tal y como se muestra en la siguiente figura. 
+
+
+
+Ahora bien, para determinar el nivel de la tarifa para el servicio de tránsito se deben considerar los costos de los elementos de red que utilice el concesionario para entregar la llamada a una tercera red.
+
+
+
+En este sentido, para calcular el costo por la entrega de tráfico de la red de Axtel a una tercera red a través del CTI que atiende el ASL de destino correspondiente, se toma en cuenta:
+
+
+
+• La tarifa de tránsito local, en donde el único elemento de costo que enfrenta el concesionario autorizado para prestar el servicio de telefonía local es el que resulta de la utilización de la central en la cual están interconectados los demás concesionarios y;
+
+• El costo asociado a la conmutación y al transporte de un CTI a un CCE.
+
+
+
+En virtud de que en el numeral 2 del considerando Quinto de la presente Resolución se estableció la debida fundamentación y motivación para utilizar en el cálculo de las tarifas el Modelo de la Comisión, es que se llevaron a cabo los cálculos correspondientes para determinar las tarifas de tránsito solicitadas por Axtel.
+
+
+
+De los cálculos realizados en el Modelo para determinar la tarifa para la entrega de tráfico de la red de Axtel a una tercera red a través del CTI que atiende el área local de destino correspondiente, se obtiene que ésta será la equivalente en moneda nacional a $0.43 USc (cero punto cuarenta y tres centavos de dólar americano) por minuto. Dicha tarifa contiene un margen adecuado sobre los costos incrementales que permite recuperar los costos comunes y compartidos. Cabe señalar que Axtel tendrá que pagar la tarifa de interconexión registrada en los convenios de interconexión con la tercera red de destino.
+
+
+
+Asimismo, de los cálculos realizados para determinar la tarifa por la función de tránsito correspondiente a la entrega de tráfico de la red de Axtel en el ASL con punto de interconexión de la red de Telmex y Telnor que tiene como destino un tercera red interconectada con dicho concesionario en la misma ASL y desde la cual esa tercera red recibe y entrega tráfico a sus usuarios en un ASL sin punto de interconexión, se obtiene que ésta será la equivalente en moneda nacional a $0.18 USc (cero punto dieciocho centavos de dólar americano) por minuto de interconexión. Cabe señalar que Axtel tendrá que pagar la tarifa de interconexión registrada en los convenios de interconexión con la tercera red de destino.
+
+
+
+Las tarifas de referencia se encontrarán vigentes a partir del 1° de enero de 2010 Y hasta el 31 de diciembre de 2010.
+
+
+
+De conformidad con lo establecido en la fracción IV de la Regla Vigesimasegunda de las RdSL, el transporte que lleve a cabo la tercera red desde el ASL con punto de interconexión en la que se intercambia el tráfico, hasta el ASL sin punto de interconexión en la que se encuentra el usuario de destino, no implica un cargo adicional. Por lo que Axtel sólo tendrá que pagar la tarifa de interconexión por la terminación de tráfico que esté registrada en los convenios de interconexión con la tercera red de destino. 
+
+
+
+4. Compartición de infraestructura y coubicación.
+
+
+
+Argumentos de las partes.
+
+
+
+Axtel señala que Telmex y Telnor deberán permitir la compartición de infraestructura y deberán hacer disponible el servicio de coubicación y todos los elementos necesarios como el servicio de suministro de energía, aire acondicionado, medidas de seguridad y demás facilidades que requiera Axtel. 
+
+
+
+Asimismo, Telmex y Telnor deberán permitir que Axtel se interconecte por medio de las canalizaciones y enlaces de transmisión con las redes de los concesionarios con presencia en un mismo espacio de coubicación y/o entre diferentes espacios de coubicación de distintos concesionarios ubicados dentro de la misma instalación de Telmex y Telnor, sin imponer restricciones ni cargo adicional alguno al respecto.
+
+
+
+A este respecto, Axtel indica que al ser estos servicios, elementos esenciales para la interconexión de redes públicas de telecomunicaciones y en virtud de que son insumos para la prestación de los servicios a los usuarios finales, deben existir las condiciones necesarias para que los concesionarios aprovechen de forma eficiente los recursos e infraestructura existente, sin que existan limitaciones, restricciones o cargos específicos para la prestación de estos servicios ya que esto perjudica el desarrollo eficiente de la interconexión e interoperabilidad entre las redes.
+
+
+
+En las Respuestas de Telmex y Telnor, dichos concesionarios indican que sus instalaciones no fueron diseñadas para los propósitos de la solicitud de Axtel y no cuentan con los elementos para cubrir las expectativas de suministro de energía, aire acondicionado, medidas de seguridad, etc., toda vez que se pondría en riesgo la seguridad del inmueble y los equipos que aloja. Para dar la interconexión, Telmex y Telnor mencionan que procedió de manera improvisada a suministrar los servicios de coubicación en sitios con muchas limitaciones de diseño y bajo la premisa de que los espacios de coubicación son para la colocación de equipos y dispositivos de transmisión (exclusivamente), necesarios para la interconexión como lo indican las RdSL en la Regla Segunda fracción IX.
+
+
+
+Por lo que hace a la solicitud de Axtel para que se interconecte con otros concesionarios por medio de canalizaciones y enlaces de transmisión, Telmex y Telnor argumentan que han establecido un procedimiento con los concesionarios que utilizan coubicaciones en instalaciones de su propiedad para el buen resguardo de los equipos de transmisión. Telmex y Telnor indican que de acuerdo a dicho procedimiento, Axtel es el único que puede ingresar a su coubicación y son los responsables de los equipos instalados en ésta, por tal motivo, en caso de que los operadores se interconecten entre sí una vez coubicados, Telmex y Telnor formulan preguntas respecto a la responsabilidad que asumiría cada concesionario.
+
+
+
+Aducen Telmex y Telnor que existen instalaciones especialmente diseñadas para cubrir las expectativas señaladas, en este sentido describe un ejemplo de un Hotel de Carriers en Los Ángeles, California. 
+
+
+
+Consideraciones de la Comisión.
+
+
+
+En términos del artículo 43 fracción VI de la LFT en los convenios de interconexión se deberá prever que los equipos necesarios para la interconexión puedan ser proporcionados por cualquiera de los concesionarios y ubicarse en las instalaciones de cualquiera de ellos.
+
+
+
+En este sentido, la coubicación resulta indispensable para lograr la interconexión entre redes, por lo que es necesario asegurar que ésta sea utilizada eficientemente y que no se impongan limitantes a su uso. Por lo que, al ser un componente esencial para la interconexión de redes públicas y toda vez que es un insumo en la prestación de los servicios telefónicos esta Comisión determina que deben prevalecer condiciones que permitan a los concesionarios aprovechar de forma eficiente los recursos y la infraestructura de telecomunicaciones existente.
+
+
+
+De conformidad con el artículo 2 del Plan de Interconexión, la coubicación consiste en lo siguiente:
+
+
+
+"Coubicación: Servicio de Interconexión para la colocación de equipos y dispositivos de la RPT de un Concesionario, necesarios para la Interoperabilidad y la provisión de otros Servicios de Interconexión de una RPT con otra, mediante su ubicación en los espacios físicos abiertos o cerrados en la Instalación del Concesionario con el que se lleve a cabo la Interconexión, mismo que incluye el suministro de energía, medidas de seguridad, aire acondicionado, Compartición de Infraestructura y demás facilidades necesarias para su adecuada operación, así como el acceso a los espacios físicos mencionados;"
+
+
+
+No es deseable que los espacios de coubicación arrendados por los concesionarios sean limitados de manera artificial perjudicando el desarrollo eficiente de la interconexión e interoperabilidad de las redes y por lo tanto de una competencia equitativa en el sector; por ello, en cumplimiento a Ios objetivos señalados en el artículo 41 de la LFT deberá permitirse la interconexión entre concesionarios ubicados en la misma instalación del concesionario y no podrán establecerse restricciones que limiten el uso eficiente de la infraestructura.
+
+
+
+Por su parte el artículo 19 del Plan de Interconexión, establece lo siguiente:
+
+
+
+"Artículo 19. Los Concesionarios deberán proveer el servicio de Coubicación cumpliendo con lo establecido en los Artículos 5 y 13 del presente Plan y, en tal sentido, están obligados a permitir la Compartición de Infraestructura, así como hacer disponibles el espacio físico y todos los servicios de suministro de energía, aire acondicionado, medidas de seguridad y demás facilidades que se requieran. En caso de impedimento técnico, el Concesionario Solicitado deberá acreditar a satisfacción de la Comisión tal situación y, en tal caso, deberá ofrecer un medio alternativo de solución sin cargo adicional para el Concesionario Solicitante.
+
+
+
+Atendiendo a Ios principios de eficiencia y sana competencia, el Concesionario que proporcione la Coubicación, deberá permitir que se interconecten entre sí, por medio de las canalizaciones y Enlaces de Transmisión, las RPTs de los Concesionarios con presencia en un mismo espacio de Coubicación y/o entre diferentes espacios de Coubicación de distintos Concesionarios ubicados dentro de la misma Instalación del Concesionario, sin imponerles restricciones ni cargo adicional alguno al respecto y sin que ninguna de las partes se encuentre obligada a contratar el servicio de Tránsito al propietario de la Instalación del Concesionario. Asimismo, deberá permitir que en sus espacios de Coubicación, los Concesionarios puedan recibir y entregar el Tráfico relativo a los Servicios de Telecomunicaciones de sus Usuarios u otros proveedores de servicios.
+
+
+
+Los costos derivados de las canalizaciones y Enlaces de Transmisión para cumplir con lo establecido en el párrafo anterior correrán por cuenta de los Concesionarios interesados en llevar a cabo esta Interconexión.
+
+
+
+Adicionalmente, cualquier tipo de Tráfico que sea cursado entre Concesionarios podrá ser conducido por medio del mismo Enlace de Transmisión a conveniencia de quien lo requiere.”
+
+
+
+Por lo anterior y con fundamento en lo dispuesto en los artículos 6 fracción 1, incisos d) y h), y 19 del Plan de Interconexión, la Comisión determina que Telmex y Telnor deberán permitir la compartición de infraestructura, hacer disponible el servicio de coubicación y todos los elementos necesarios como el servicio de suministro de energía, aire acondicionado, medidas de seguridad y demás facilidades que se requieran.
+
+
+
+Para tales efectos, esta Comisión considera que el tiempo máximo para que Telmex y Telnor preparen, instalen y terminen el sitio para su ocupación por parte de Axtel será de 30 (treinta) días naturales a partir de presentada la solicitud de servicio.
+
+
+
+Asimismo, Telmex y Telnor deberán permitir que se interconecten entre sí, por medio de las canalizaciones y enlaces de transmisión, las redes públicas de telecomunicaciones de los concesionarios con presencia en un mismo espacio de coubicación y/o entre diferentes espacios de coubicación de distintos concesionarios ubicados dentro de la misma instalación de Telmex y Telnor, sin imponer restricciones ni cargo adicional alguno al respecto.
+
+
+
+5. Medición de tráfico y sobrecargos.
+
+
+
+Argumentos de las partes.
+
+
+
+Axtel manifiesta que las tarifas sometidas a desacuerdo ante la Comisión deberán aplicarse tomando como base la duración real de cada llamada y sin factores o sobrecargos, ya que al ser un servicio de interconexión, el mismo debe estar basado en el costo real de prestar el servicio y la facturación debe ser en función de la duración real de las llamadas, como lo establece el último párrafo del artículo 31 del Plan de Interconexión. 
+
+
+
+Menciona Axtel que los esquemas planteados cumplen con los objetivos de la LFT, ya que en la medida en que los insumos como las tarifas de interconexión sean menores y acordes a los costos reales de la prestación del servicio, los concesionarios podrán ofrecer mejores tarifas, diversidad y calidad en los servicios en beneficio de los usuarios.
+
+
+
+En las Respuestas de Telmex y Telnor, dichos concesionarios argumentan que independientemente del éxito o fracaso en la completación de llamadas hacia la red pública de telecomunicaciones de Telmex y Telnor, cada intento de llamada utiliza toda la infraestructura de transmisión, conmutación, sistemas de administración y monitoreo dispuesta por Telmex y Telnor para proporcionar una óptima interoperabilidad entre concesionarios. Por lo que es completamente justificado el cobro que por intento de llamada se tiene estipulado en el Convenio de Interconexión. 
+
+
+
+Consideraciones de la Comisión.
+
+
+
+Al respecto, es económicamente eficiente que un concesionario pague por el uso de la infraestructura en función de su utilización real. Es decir, se deben eliminar, de los cargos de interconexión, aquellos costos o elementos que no son utilizados para la prestación del servicio. En este caso si un concesionario utiliza la infraestructura de otro concesionario solamente en una fracción de minuto, es económicamente ineficiente que se le cobre como si hubiera utilizado dicha infraestructura por un minuto completo, porque este sobre pago se trasladaría directamente a las tarifas que el concesionario ofrece al usuario final.
+
+
+
+Los costos determinados por el Modelo de la Comisión y que serán aplicados a las tarifas para 2010 están calculados con base en un pronóstico del uso real de la infraestructura de interconexión, por lo que las tarifas determinadas permiten a Telmex y Telnor recuperar los costos en los que incurre para la prestación del servicio de interconexión.
+
+
+
+En tal virtud, la Comisión determina que el cálculo de las contraprestaciones que Axtel deberá pagar a Telmex y Telnor por las llamadas cursadas hacia sus redes, se lleve a cabo sumando la duración de todos los minutos y segundos consumidos durante el periodo mensual de facturación acordado por las partes y dicha suma se redondeará al minuto siguiente. El total se multiplicará por la tarifa por minuto correspondiente.
+
+
+
+Con relación a los sobrecargos, esta Comisión considera que la implementación de la señalización por canal común número 7 evita el uso de recursos de la red de transporte y conmutación, ya que sólo se utilizan los mensajes de señalización para la atención de intentos de llamadas. De igual forma, mediante el servicio de buzón de voz ofrecido por Telnor a sus usuarios, se reduce en forma considerable la cantidad de intentos de llamadas no completadas.
+
+
+
+En virtud de lo anterior, es procedente la solicitud planteada por Axtel en el sentido de que no resulta justificado adicionar un sobrecargo por intentos de llamadas no completadas en la terminación del tráfico en las redes de Telmex y Telnor.
+
+
+
+En virtud de lo antes expuesto, en términos de los artículos 41, 42 y 43, fracciones II, V, VIII y IX de la LFT, de la condición 5-2 de la Concesión de Telmex y de la Concesión de Telnor así como de las constancias que obran en el expediente en que se actúa, en particular de las indicadas en los numerales 3 al 8 del Antecedente IV de la presente Resolución, ofrecidas por Axtel como pruebas documentales y a las cuales se les otorga pleno valor probatorio en términos de los artículos 197, 202 y 203 del CFPC de aplicación supletoria conforme al artículo 8 fracción V de la LFT, las partes en el presente procedimiento deberán garantizar la interconexión de sus respectivas redes públicas de telecomunicaciones y en su caso formalizar el convenio de interconexión atento a lo establecido en la presente Resolución, con la finalidad de satisfacer el interés público tutelado en la LFT.
+
+
+
+Por lo que hace a las pruebas indicadas en los numerales 9 y 10 del Antecedente IV de la presente Resolución, las mismas no son susceptibles de ser valoradas en el presente procedimiento administrativo, toda vez que no guardan relación con el fondo del asunto, ya que dichas pruebas se refieren a un convenio de interconexión y a un modelo de costos diverso al presente procedimiento, por lo anterior las mencionadas pruebas ofrecidas por Axtel no son materia de análisis de la presente Resolución.
+
+
+
+Ahora bien, como se ha mencionado, la condición 5-2 de la Concesión de Telmex y de la Concesión de Telnor establece que dichos concesionarios se obligan a celebrar convenios de interconexión con otros concesionarios de redes públicas de telecomunicaciones que se lo soliciten, y la condición 8.3 inciso d) establece que en caso de negarse a interconectar a otros concesionarios, sin causa justificada y previo apercibimiento de la Secretaría, podría procederse a la caducidad de sus títulos, situación que en términos de la LFT equivale a la revocación del mismo, de conformidad con lo dispuesto en el artículo 38 fracción V de dicho ordenamiento.
+
+
+
+Lo anterior cobra especial relevancia si se considera que de negarse a interconectar su red pública de telecomunicaciones con la red pública de telecomunicaciones de Axtel en los términos establecidos en la presente Resolución, Telmex y Telnor estarían situándose en los supuestos antes mencionados, dando lugar al procedimiento respectivo con las consecuencia legales correspondientes.
+
+
+
+Por otra parte y con el fin de que los términos, condiciones y tarifas de interconexión determinadas por esta Comisión en la presente Resolución sean ofrecidos de manera no discriminatoria a los demás concesionarios que lo soliciten y que requieran servicios de interconexión, capacidades o funciones similares, el Pleno de la Comisión estima conveniente poner la presente Resolución a disposición de los concesionarios. Para efectos de lo anterior y en términos de lo dispuesto por los artículos 64, fracción XVI y 65 de la LFT, la presente Resolución será inscrita en el Registro de Telecomunicaciones a cargo de la propia Comisión.
+
+
+
+Lo anterior, sin perjuicio de que Axtel, Telmex y Telnor formalicen los términos, condiciones y tarifas de interconexión que se ordenan a través de la presente Resolución y a tal efecto suscriban el correspondiente convenio. En tal sentido, dichos concesionarios, conjunta o separadamente, deberán inscribir el convenio de interconexión en el Registro de Telecomunicaciones, de conformidad con lo dispuesto por el artículo 64 fracción VII de la LFT.
+
+
+
+Con base en lo anterior y además con fundamento en lo dispuesto por los artículos 17 y 36 fracción III de la Ley Orgánica de la Administración Pública Federal; 1, 2, 3, 7 fracciones II, XII Y XIII, 8 fracción II, 9-A fracciones IX, X, XIII Y XVII, 9-B, 41, 42, 43 64 fracción VII y 68 de la Ley Federal de Telecomunicaciones; 1, 2, 3, 9, 13, 16 fracción X, 32, 35, 36, 38 y 39 de la Ley Federal de Procedimiento Administrativo; 2, 4, 5 fracciones I y IV, 6 fracción I, incisos b) y g), 7, 8, 9, 15, 16, 17, 18, 19, 21 inciso a), 22, 23, 31 y Tercero Transitorio del Plan Técnico Fundamental de Interconexión e Interoperabilidad; artículo 2 fracción XXX y 40 del Reglamento Interior de la Secretaría de Comunicaciones Y_Transportes, y 4 fracción I, 8 y 9 fracciones VIII y XIII del Reglamento Interno de la Comisión Federal de Telecomunicaciones el Pleno de la Comisión Federal de Telecomunicaciones, resuelve lo siguiente:
+
+
+
+RESOLUTIVOS
+
+
+
+PRIMERO.- Se determinan las condiciones que en materia de interconexión no pudieron convenir los concesionarios de redes públicas de telecomunicaciones denominados: Axtel, S.A.B. de C.v., Teléfonos de México, S.AB. de C.V. y Teléfonos del Noroeste, S.A de C.V. para el período que comprende del primero de enero de dos mil diez al treinta y uno de diciembre de dos mil diez, lo anterior en términos de los resolutivos Segundo y Tercero de esta Resolución. Asimismo, como se establece en el artículo 9 de la Ley Federal del Procedimiento Administrativo, las obligaciones en materia de interconexión establecidas en la presente Resolución serán eficaces y exigibles para Axtel, S.A.B de C.V., Teléfonos de México Sabdecv y Teléfonos del Noroeste, S.A de C.V., a partir del día siguiente al que surta efectos legales la notificación de la presente Resolución. 
+
+
+
+SEGUNDO.- En la interconexión entre las redes públicas de telecomunicaciones de Axtel, S.AB. de C.V., Teléfonos de México Sabdecv y Teléfonos del Noroeste, S.A de C.V., se le aplicarán las siguientes tarifas:
+
+
+
+1. La tarifa de interconexión que Axtel Sabdecv deberá pagar por originar o terminar tráfico en el Área de Servicio Local con punto de interconexión correspondiente a las redes públicas de telecomunicaciones de Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, será la equivalente, en moneda nacional, a $0.80 USc (cero punto ochenta centavos de dólar americano) por minuto de interconexión.
+
+
+
+2. La tarifa de interconexión que Axtel Sabdecv deberá pagar por originar o terminar tráfico en el Área de Servicio Local que no tiene punto de interconexión en la cual se encuentra el usuario de origen o destino y que depende del Área de Servicio Local con punto de interconexión correspondiente a las redes públicas de telecomunicaciones de Teléfonos de México Sabdecv y Teléfonos del Noroeste, S.A de C.V., será la equivalente, en moneda nacional, a $0.80 USc (cero punto ochenta centavos de dólar americano) por minuto de interconexión.
+
+
+
+3. La tarifa de interconexión que Axtel Sabdecv, deberá de pagar a Teléfonos de México, S.AB. de C.V. y Teléfonos del Noroeste, S.A de C.V., por interconexión a nivel de central de tránsito interurbano para:
+
+
+
+• Originar o terminar tráfico en una central de destino perteneciente a otra Área de Servicio Local conectada directamente a la central de tránsito interurbano y finalizar en usuarios de Teléfonos de México Sabdecv y Teléfonos del Noroeste, S.A. de C.v.
+
+
+
+• Originar o terminar tráfico en el Área de Servicio Local que no tiene punto de interconexión en la cual se encuentra el usuario de Teléfonos de México Sabdecv y Teléfonos del Noroeste, S.A de C.V., que está subordinada a la central con capacidad de enrutamiento conectada directamente a la central de tránsito interurbano.
+
+
+
+Será la equivalente, en moneda nacional, a $1.05 USc (uno punto cero cinco centavos de dólar americano) por minuto de interconexión.
+
+
+
+4. La tarifa de interconexión que Axtel Sabdecv deberá de pagar a Teléfonos de México Sabdecv y Teléfonos del Noroeste, S.A de C.V., por interconexión a nivel de central de tránsito interurbano para:
+
+
+
+• Originar o terminar tráfico en una central de destino perteneciente a otra Área de Servicio Local conectada directamente a la central de tránsito interurbano que a su vez se encuentra conectada a otra central de tránsito interurbano con la cual Axtel Sabdecv tenga interconexión directa y finalizar en usuarios de Teléfonos de México Sabdecv y Teléfonos del Noroeste, S.A de C.V.
+
+
+
+• Originar o terminar tráfico en el Área de Servicio Local que no tiene punto de interconexión en la cual se encuentra el usuario de Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, que está subordinada a la central con capacidad de enrutamiento conectada directamente a la central de tránsito interurbano que a su vez se encuentra conectada a otra central de tránsito interurbano con la cual Axtel Sabdecv tengan interconexión directa.
+
+
+
+Será la equivalente, en moneda nacional, a $1.26 USc (uno punto veintiséis centavos de dólar americano) por minuto de interconexión.
+
+
+
+5. Por la función de tránsito correspondiente a la entrega de tráfico de la red de Axtel Sabdecv en el Área del Servicio Local con punto de interconexión de las redes de Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, que tiene como destino un tercera red interconectada con éste concesionario en la misma Área del Servicio Local y desde la cual esa tercera red recibe y entrega tráfico a sus usuarios en un Área del Servicio Local sin punto de interconexión, será la equivalente, en moneda nacional, a $0.18 USc (cero punto dieciocho centavos de dólar americano) por minuto.
+
+
+
+De manera independiente, Axtel, S,A.B. de C.V. deberá pagar la tarifa de interconexión registrada en los convenios de interconexión con la tercera red de destino. 
+
+
+
+6. Por la entrega del tráfico de la red pública de telecomunicaciones de Axtel Sabdecv en las centrales de tránsito interurbano de Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, que tiene como destino una tercera red conectada a la central de destino de Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, siempre y cuando dichas centrales pertenezcan a Áreas del Servicio Local distintas, la tarifa será la equivalente, en moneda nacional, a $0.43 USc (cero punto cuarenta y tres centavos de dólar americano) por minuto.
+
+
+
+De manera independiente Axtel Sabdecv deberán pagar la tarifa de interconexión registrada en los convenios de interconexión con la tercera red de destino.
+
+
+
+Para la conversión en moneda nacional de las tarifas antes referidas, deberá tomarse como referencia el tipo de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana, que publica el Banco de México en el Diario Oficial de la Federación, vigente el último día hábil del mes anterior al mes que se pretendan aplicar dichas tarifas.
+
+
+
+La vigencia de las tarifas de interconexión establecidas en los numerales 1 al 6 del presente Resolutivo aplicará a partir del día 1° de enero de 2010 y hasta el 31 de diciembre de 2010.
+
+
+
+Para efectos de lo anterior, dichas tarifas deberán aplicarse para todo el tráfico que se haya cursado durante dicho periodo, entre la red pública de telecomunicaciones de Axtel Sabdecv, Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, incluyendo al transporte interurbano, en el entendido que con respecto a este último, la empresa Axtel Sabdecv deberá pagar a Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, por los enlaces que estas últimas le haya proporcionado para la conducción de dicho tráfico durante dicho periodo del año 2010, incluyendo la cuota por gasto de instalación de dichos enlaces y la renta mensual de los mismos conforme a las tarifas respectivas que al efecto se estén aplicando actualmente para los enlaces de interconexión.
+
+
+
+De conformidad con lo establecido en la fracción IV de la Regla Vigesimasegunda de las Reglas del Servicio Local, el transporte que lleve a cabo la tercera red pública de telecomunicaciones desde el Área de Servicio Local con punto de interconexión, central de tránsito interurbano o central con capacidad de enrutamiento en la que se intercambia el tráfico, hasta el Área de Servicio Local sin punto de interconexión en la que se encuentra el usuario de destino, no implica un cargo adicional. Por lo que Axtel Sabdecv, sólo tendrá que pagar la tarifa de interconexión por la terminación de tráfico que esté registrada, en los convenios de interconexión con la tercera red pública de telecomunicaciones de destino.
+
+
+
+De conformidad con lo anterior, Axtel Sabdecv, podrá continuar usando los enlaces por donde se conduce el anteriormente nombrado tráfico de transporte interurbano ahora de interconexión, estando obligados Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv a cobrar únicamente por dicho servicio de interconexión: (i) las tarifas de interconexión que se establecen en la presente Resolución, según corresponda el punto de entrega de dicho tráfico, y (ii) la renta mensual de los enlaces (a las tarifas respectivas que al efecto esté aplicando a Axtel Sabdecv, para los enlaces de interconexión). 
+
+
+
+TERCERO.- Teléfonos de México Sabdecv, Teléfonos del Noroeste Sadecv, Axtel Sabdecv, deberán cumplir con los siguientes términos y condiciones de interconexión:
+
+
+
+Teléfonos de México, S.AB. de C.V. y Teléfonos del Noroeste Sadecv deberán entregar a esta Comisión Federal de Telecomunicaciones y a Axtel Sabdecv, en un plazo no mayor a 5 (cinco) días hábiles contados a partir del día siguiente a la fecha de notificación de la presente Resolución, la información de las centrales de tránsito interurbano, las centrales con capacidad de enrutamiento y de los puntos de interconexión que tienen en operación en las Áreas de Servicio Local desde los cuales recibirán y entregarán el tráfico de cada una de las Áreas de Servicio Local sin punto de interconexión, de acuerdo con lo dispuesto en el artículo 15 del Plan Técnico Fundamental de Interconexión e Interoperabilidad, a saber:
+
+ 
+
+• Nombre o identificación.
+
+• Especificaciones técnicas que incluyan cuando menos, capacidad en Puertos de Acceso y Enlaces de Transmisión y disponibilidad de espacios de Coubicación.
+
+• Dirección y coordenadas geográficas.
+
+• Funcionalidad o jerarquía.
+
+• El ASL donde se ubica y que atiende.
+
+• Las ASL, diferentes a donde se ubica y que atiende indirectamente.
+
+• Número de Accesos a Usuarios Fijos que son atendidos desde el punto de interconexión.
+
+• Los códigos de señalización de origen y destino.
+
+
+
+B) Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv deberán entregar a esta Comisión Federal de Telecomunicaciones y Axtel Sabdecv, en un plazo no mayor a 5 (cinco) días hábiles contados a partir del día siguiente a la fecha de notificación de la presente Resolución, la información referente a la lista de puntos de interconexión de larga distancia desde los cuales sea técnicamente factible llevar a cabo el intercambio de tráfico entre las redes públicas de telecomunicaciones de Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv y la red pública de telecomunicaciones autorizada para prestar el servicio de larga distancia de Axtel Sabdecv, que tengan como origen o destino todas las ciudades en las que Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv tengan cobertura.
+
+
+
+C) El cálculo de las contraprestaciones que Axtel Sabdecv, deberá pagar a Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, por el tráfico de interconexión y de tránsito cursado hacia sus redes públicas de telecomunicaciones, se realizará sumando la duración de todos los minutos y segundos consumidos durante el periodo mensual de facturación acordado por las partes y dicha suma se redondeará al minuto siguiente. El total se multiplicará por la tarifa por minuto correspondiente.
+
+
+
+D) Las tarifas de interconexión determinadas en el Resolutivo SEGUNDO de la presente Resolución incluyen los costos relacionados a las funciones y componentes utilizados en los intentos de llamadas no completadas, por lo que no se deberá adicionar un sobrecargo por intentos de llamadas no completadas en la terminación del tráfico en las redes públicas de telecomunicaciones de Teléfonos de México Sabdecv y Teléfonos del Noroeste, S.A de C.V.
+
+
+
+E) Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv deberán proveer la ampliación de servicios de interconexión en un plazo que no excederá de 10 (diez) días naturales contados a partir de que Axtel Sabdecv, lo solicite y de 30 (treinta) días naturales tratándose de nuevos puntos de interconexión.
+
+
+
+F) En caso de que una solicitud de interconexión no pueda ser atendida por saturación de la capacidad en el punto de interconexión correspondiente, Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, serán responsables de ofrecer a Axtel Sabdecv, en un plazo no mayor a 20 (veinte) días hábiles contados a partir de la fecha de recepción de la solicitud respectiva, una alternativa de interconexión viable, para que se garantice la prestación de los mismos en forma continua y eficiente, sin que esto resulte en un costo adicional o diferenciado para su establecimiento o en la prestación de los servicios de interconexión hacia Axtel Sabdecv
+
+
+
+G) Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv deberán permitir la compartición de infraestructura, y deberán hacer disponible el servicio de coubicación y todos los elementos necesarios como el servicio de suministro de energía, aire acondicionado, medidas de seguridad y demás facilidades que requiera Axtel Sabdecv
+
+
+
+H) El tiempo máximo para que Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, preparen, instalen y terminen el sitio para su ocupación por parte de Axtel Sabdecv, será de 30 (treinta) días naturales a partir de presentada la solicitud de servicio.
+
+
+
+I) Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv deberán permitir que se interconecten entre sí, por medio de las canalizaciones y enlaces de transmisión, las redes públicas de telecomunicaciones de los concesionarios con presencia en un mismo espacio de coubicación y/o entre diferentes espacios de coubicación de distintos concesionarios ubicados dentro de la misma instalación de Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, sin imponer restricciones ni cargo adicional alguno al respecto.
+
+
+
+CUARTO.- En términos de lo establecido por el artículo 3, fracción XV de la Ley Federal de Procedimiento Administrativo de aplicación supletoria a la legislación en telecomunicaciones, se hace del conocimiento de las partes que la presente Resolución es impugnable mediante la interposición del recurso de revisión que prevé el Título Sexto, Capítulo Primero del ordenamiento citado.
+
+
+
+QUINTO.- Notifíquese personalmente a Axtel Sabdecv, Teléfonos de México Sabdecv y Teléfonos del Noroeste Sadecv, el contenido de la presente Resolución.

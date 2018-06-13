@@ -1,0 +1,385 @@
+(Octava Sección)	DIARIO OFICIAL	Viernes 23 de diciembre de 2016
+
+Viernes 23 de diciembre de 2016	DIARIO OFICIAL	(Octava Sección) 
+
+INSTITUTO FEDERAL DE TELECOMUNICACIONES
+
+ACUERDO mediante el cual el Pleno del Instituto Federal de Telecomunicaciones aprueba y emite los Lineamientos generales de accesibilidad a servicios de telecomunicaciones para los usuarios con discapacidad.
+
+Al margen un logotipo, que dice: Instituto Federal de Telecomunicaciones.
+
+ACUERDO MEDIANTE EL CUAL EL PLENO DEL INSTITUTO FEDERAL DE TELECOMUNICACIONES APRUEBA Y EMITE LOS LINEAMIENTOS GENERALES DE ACCESIBILIDAD A SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD.
+
+ANTECEDENTES
+
+1.- El 14 de julio de 2014, se publicó en el Diario Oficial de la Federación (el “DOF”) el “DECRETO por el que se expiden la Ley Federal de Telecomunicaciones y Radiodifusión, y la Ley del Sistema Público de Radiodifusión del Estado Mexicano; y se reforman, adicionan y derogan diversas disposiciones en materia de telecomunicaciones y radiodifusión”, mismo que entró en vigor el 13 de agosto de 2014.
+
+2.- El 4 de septiembre de 2014, se publicó en el DOF el “ESTATUTO Orgánico del Instituto Federal de Telecomunicaciones”, mismo que entró en vigor el 26 de septiembre de 2014.
+
+3.- En concordancia con lo dispuesto en el artículo 51, de la Ley Federal de Telecomunicaciones y Radiodifusión (la “LFTyR”), mediante el Acuerdo P/IFT/120815/306, aprobado en la XVI Sesión Ordinaria celebrada el 12 de agosto de 2015, el Pleno determinó someter a Consulta Pública, por un plazo de 30 (treinta) días hábiles contados a partir del día hábil siguiente al de su publicación en el portal de Internet del Instituto, el Anteproyecto de “LINEAMIENTOS GENERALES DE ACCESIBILIDAD A LOS SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD” (el “Anteproyecto de Lineamientos”).
+
+4.- La Consulta Pública se realizó del día 14 de agosto al 25 de septiembre del 2015, en el portal electrónico del Instituto Federal de Telecomunicaciones (el “Instituto”), a fin de recibir comentarios, opiniones y propuestas sobre el Anteproyecto de Lineamientos, mediante correo electrónico o mediante escrito presentado en la Oficialía de Partes Común de este órgano constitucional autónomo.
+
+En virtud de los antecedentes señalados y
+
+CONSIDERANDO
+
+PRIMERO.- COMPETENCIA DEL INSTITUTO. De conformidad con lo establecido por el párrafo décimo quinto del artículo 28 de la Constitución Política de los Estados Unidos Mexicanos (la “Constitución”), el Instituto es un órgano autónomo, con personalidad jurídica y patrimonio propio, que tiene por objeto el desarrollo eficiente de la radiodifusión y las telecomunicaciones, conforme a lo dispuesto en la Constitución y en los términos que fijen las leyes; y para tal efecto, tiene a su cargo la regulación, promoción y supervisión del uso, aprovechamiento y explotación del espectro radioeléctrico, las redes y la prestación de los servicios de radiodifusión y telecomunicaciones, así como del acceso a infraestructura activa, pasiva y otros insumos esenciales, garantizando lo establecido en los artículos 6o. y 7o. de la Constitución.
+
+Asimismo, el vigésimo párrafo, fracción IV, del artículo 28 de la Constitución señala que el Instituto podrá emitir disposiciones administrativas de carácter general exclusivamente para el cumplimiento de su función regulatoria en el sector de su competencia. En ese sentido, el artículo 15, fracción I, de la LFTyR señala que el Instituto tiene la atribución de expedir disposiciones administrativas de carácter general, planes técnicos fundamentales, lineamientos, modelos de costos, procedimientos de evaluación de la conformidad, procedimientos de homologación y certificación y ordenamientos técnicos en materia de telecomunicaciones y radiodifusión; así como demás disposiciones para el cumplimiento de lo dispuesto en la LFTyR.
+
+SEGUNDO. JUSTIFICACIÓN DE SU EMISIÓN. Resulta imperante resaltar que el artículo 6o., tercer párrafo, y apartado B, fracción VI, de la Constitución establece que corresponderá al Estado garantizar el derecho humano de acceso a las tecnologías de la información y comunicación, así como a los servicios de radiodifusión y telecomunicaciones, incluido el de banda ancha e Internet; y para tales efectos, la ley establecerá los derechos de los usuarios de telecomunicaciones, de las audiencias, así como los mecanismos para su protección.
+
+En concordancia con lo anterior, el artículo 2 de la LFTyR establece que las telecomunicaciones y la radiodifusión son servicios públicos de interés general, y que en la prestación de dichos servicios, estará prohibida toda discriminación motivada por origen étnico o nacional, el género, la edad, las discapacidades, la condición social, las condiciones de salud, la religión, las opiniones, las preferencias sexuales, el estado civil o cualquier otra que atente contra la dignidad humana y tenga por objeto anular o menoscabar los derechos y libertades de las personas.
+
+En ese contexto, el artículo 199 de la LFTyR establece que el Ejecutivo Federal y el Instituto, en sus respectivos ámbitos de competencia, promoverán que los usuarios con discapacidad, tengan acceso a los servicios de telecomunicaciones, en igualdad de condiciones con los demás usuarios. Para tal efecto, el artículo 200 de la LFTyR, establece de manera puntual los derechos de los usuarios con discapacidad.
+
+Asimismo, los artículos 202 y 203 de la LFTyR establecen que el Ejecutivo Federal de conformidad con la Estrategia Digital Nacional y el Instituto, en el ámbito de sus respectivas competencias, promoverán el acceso a las personas con discapacidad a los nuevos sistemas y tecnologías de la información y las comunicaciones, incluido Internet, y de conformidad con los lineamientos que al efecto se emitan, mismos que deberán atender a la normatividad.
+
+De ahí que la emisión de los presentes lineamientos cobre relevancia, considerando el mandato de ley y los alcances de los mismos, toda vez que ayudarán a erradicar posibles actos de discriminación que se puedan actualizar en el acceso o durante la prestación de los servicios de telecomunicaciones, y a su vez, promoverán el acceso de los usuarios con discapacidad a los servicios de telecomunicaciones. Lo anterior, garantizando la protección del derecho de acceso a las tecnologías de la información y comunicación consagrado en el artículo 6o. de la Constitución, y garantizando que los servicios de telecomunicaciones, como servicios públicos de interés general, se brinden con las características establecidas por la misma.
+
+TERCERO.- CONTEXTO INTERNACIONAL. De acuerdo con la “Clasificación Internacional del Funcionamiento de la Discapacidad y de la Salud” presentada en 2001 por la Organización Mundial de la Salud, las personas con discapacidad “son aquellas que tienen una o más deficiencias físicas, mentales, intelectuales o sensoriales y que al interactuar con distintos ambientes del entorno social pueden impedir su participación plena y efectiva en igualdad de condiciones a las demás.”
+
+En tanto, dicha Organización Mundial estima que el 15% de la población mundial vive con una discapacidad, lo que representa alrededor de mil millones de personas en todo el mundo, razón por la cual la Unión Internacional de Telecomunicaciones (“UIT”) considera que las tecnologías de información y comunicación (“TIC”), como los teléfonos móviles, satélites o Internet, representan una infraestructura única que permite ampliar el acceso a los servicios públicos esenciales y promover la inclusión digital.
+
+Ahora bien, resulta indispensable señalar lo dispuesto por la Convención de las Naciones Unidas sobre los Derechos de las Personas con Discapacidad, firmada el 13 de diciembre de 2006 y exigible para los Estados Miembro, incluido México, desde su entrada en vigor el 3 de mayo de 2008, la cual señala en su artículo 4 que los Estados Partes se comprometen a promover la disponibilidad y el uso de nuevas tecnologías, incluidas las tecnologías de la información y las comunicaciones, así como proporcionar información que sea accesible para las personas con discapacidad sobre dispositivos técnicos y tecnologías de apoyo, incluidas nuevas tecnologías, así como otras formas de asistencia, servicios e instalaciones de apoyo.
+
+Asimismo, señala en el artículo 5, numeral 3, que “los Estados Partes adoptarán todas las medidas pertinentes para asegurar la realización de ajustes razonables”, entendiendo estos ajustes como las modificaciones y adaptaciones necesarias y adecuadas que no impongan una carga desproporcionada o indebida, para garantizar a las personas con discapacidad el goce o ejercicio, en igualdad de condiciones con las demás, de todos los derechos humanos y libertades fundamentales.
+
+Por último, el artículo 9, numeral dos, incisos a), b), f) y g), señalan que los Estados Partes adoptarán las medidas pertinentes para desarrollar, promulgar y supervisar la aplicación de normas mínimas y directrices sobre la accesibilidad de las instalaciones y los servicios abiertos al público o de uso público; asegurar que las entidades privadas que proporcionan instalaciones y servicios abiertos al público o de uso público tengan en cuenta todos los aspectos de su accesibilidad para las personas con discapacidad; promover otras formas adecuadas de asistencia y apoyo a las personas con discapacidad para asegurar su acceso a la información y promover el acceso de las personas con discapacidad a los nuevos sistemas y tecnologías de la información y las comunicaciones, incluida Internet.
+
+De igual forma, la Resolución 175 (Rev. Busán, 2014), de la Conferencia de Plenipotenciarios de la UIT titulada: “Accesibilidad de las telecomunicaciones / tecnologías de información y comunicación para las personas con discapacidad y las personas con necesidades especiales”, la cual le da seguimiento a la convención antes mencionada, encomienda a este organismo internacional la promoción de la accesibilidad de las TIC y el acceso a las mismas para las personas con discapacidad. En este tenor, en la Conferencia de Plenipotenciarios de 2014, se adoptó la Agenda Conectar 2020, que ofrece un marco global para el desarrollo de las TIC, con cuatro metas estratégicas que los miembros de la UIT deben haber alcanzado en 2020, siendo uno de sus objetivos la instauración de políticas habilitadoras que garanticen unas telecomunicaciones y TIC accesibles para las personas con discapacidad en todos los Estados Miembros de este organismo, siendo México uno de ellos.
+
+De lo anterior, se desprende que corresponde a México, como Estado Miembro de la Organización de las Naciones Unidas, instaurar las políticas necesarias que promuevan el acceso de las personas con discapacidad a los nuevos sistemas y tecnologías de la información y las comunicaciones, incluida Internet, y garanticen servicios de telecomunicaciones y TIC accesibles para las personas con discapacidad.
+
+Por otro lado, se señala que a nivel internacional, son numerosos los países que cuentan con instrumentos jurídicos que contribuyen a garantizar el acceso a las personas con discapacidad a los servicios de telecomunicaciones y a las TIC, tal y como se ilustra a continuación:
+
+Australia. A través de la Telecommunications Act 1997, se establecen las características y los equipos que deben estar disponibles para ser usados con servicios de telefonía estándar, en tanto que la Telecommunication Disability Standard (Requirements for Customer Equipment for use with the Standard Telephone Service – Features for special needs of persons with disabilities – AS/ACIF S040) 2015, establece requisitos relativos a los equipos especificando el diseño de características para satisfacer las necesidades de las personas con discapacidad.
+
+Sudáfrica. En la Sección 2 (h) de la Telecommunications Act, busca asegurar la atención de las necesidades de las personas con discapacidad al momento de proveerles de servicios de telecomunicaciones, dando seguimiento a esta ley, la Sección 70 de la Electronic Communications Act, mandata que la autoridad reguladora está obligada a diseñar un "Código para personas con discapacidad" que estará vigente para el otorgamiento de todo tipo de licencias, el cual establece lineamientos para los concesionarios cuando los destinatarios finales de sus servicios son personas con discapacidad.
+
+Reino Unido. Las General Conditions of Entitlement, que derivan de la Telecommunications Regulation, exige a los proveedores de servicios de comunicación, el acceso a la retransmisión de texto y búsqueda en directorios, conexiones de avanzada para personas ciegas, reparación prioritaria de servicios a precios accesibles para personas con discapacidad, servicio seguro para evitar desconexiones, formatos alternativos de facturación, entre otros. Además la Disability Discrimination Act (DDA) 1995, establece medidas que aseguran que las personas con discapacidad podrán acceder a diversos servicios con la misma facilidad que cualquier otra persona. Asimismo, la Mobile Industry Good Practice Guide for Service Delivery for Disabled and Elderly Customer tiene como finalidad asesorar y asistir a la industria móvil, en cómo hacer que sus productos y servicios sean más accesibles para los consumidores con discapacidad y de edad avanzada, así como hacer ajustes razonables, tales como cambiar políticas existentes, procedimientos, prácticas, entre otros.
+
+Estados Unidos de América. A través de las secciones 251 y 255 de la Communications Act, obliga a los fabricantes de equipos de telecomunicaciones en asegurarse que sus productos y servicios sean accesibles y útiles para las personas con discapacidad (vigente para teléfonos fijos, celulares, localizadores, servicios de llamada en espera y servicios de operadores). Cuando el servicio no está disponible "de primera mano", se exige entonces que los productos y servicios sean compatibles con equipos auxiliares. También en la Hearing Aid Compatibility Act, dispone que los fabricantes o importadores de teléfonos en el país tienen que considerar que los aparatos deben ser compatibles con auxiliares auditivos. Asimismo, en la Uniform Federal Accessibility Standards (UFAS, por sus siglas en inglés), se establecen las características que deben de tener los teléfonos públicos a propósito de dicha materia.
+
+En América Latina, se advierte que existen países que también cuentan con legislación en materia de personas con discapacidad o bien, desarrollan disposiciones o programas para lograr un acceso efectivo de los usuarios con discapacidad a los servicios de telecomunicaciones y a las TIC, tales como:
+
+Colombia. La Ley 1618 de 2013, establece las disposiciones generales de las personas con discapacidad y encomienda al Ministerio de Tecnologías de la Información y las Comunicaciones a diseñar un proyecto que permita masificar la utilización de software libre en los programas para personas con discapacidad, además de brindar orientación para la accesibilidad a la información en la Administración Pública, así como a expedir el Decreto Reglamentario en el que se fijarán los estándares de accesibilidad a todos los sitios web y a los medios y sistemas de información de los órganos, organismos y entidades estatales de todo orden. En continuidad a lo anterior, se emitió la Norma Técnica ICONTEC 5854, "Accesibilidad a páginas web", impulsado por el Plan Vive Digital, con el objeto de establecer los requisitos de accesibilidad que se deben implementar en las páginas web en los niveles de conformidad A, AA y AAA, bajo los principios de ser perceptible, operable, comprensible y robusto.
+
+Uruguay. Además de contar con la Ley N° 18.651 de Protección Integral de Personas con Discapacidad, que contempla la accesibilidad informática incorporando los avances tecnológicos existentes, se han elaborado programas específicos para personas con discapacidad desarrollados por entes gubernamentales tales como la Agencia para el Desarrollo del Gobierno de Gestión Electrónica y la Sociedad de la Información y del Conocimiento que establecen principios en materia de accesibilidad a las páginas web de los sitios del gobierno, así como un informe que muestra un mapeo del grado de accesibilidad de dichos portales.
+
+Venezuela. La Ley para las Personas con Discapacidad, considera el derecho de accesibilidad en los servicios de telecomunicaciones de forma muy general, al disponer como un derecho que los equipos de telecomunicaciones cuenten con adaptaciones, así como a facilitar la accesibilidad de forma arquitectónica y de procedimientos por los entes públicos y privados. En tanto, en la Gaceta Oficial de la República Bolivariana de Venezuela, se emiten una serie de resoluciones bajo la materia de las telecomunicaciones, entre las cuales, se establece que los portales de los entes públicos, deberán contar con elementos de accesibilidad bajo, W3C (Word Wide Web Consortium). Bajo ésta misma tesitura, se cuenta con la Ley de Infogobierno, la cual dispone que se deben tomar en cuenta, aquellas condiciones de accesibilidad y usabilidad en el diseño y desarrollo de los sistemas, programas, equipos y servicios basados en tecnologías de información para personas con discapacidad.
+
+De lo anterior, se puede observar que los países con mayor regulación en el tema de accesibilidad en telecomunicaciones son los Estados Unidos de América, Venezuela y Colombia; por otra parte, Uruguay, si bien no cuenta con un marco jurídico ad hoc, se han concentrado en desarrollar y ejecutar programas para permitir la integración efectiva de los usuarios con discapacidad a los servicios de telecomunicaciones y de las TIC.
+
+Por otra parte a nivel internacional, se cuenta con un estándar de accesibilidad web desarrollado por la World Wide Web Consortium (W3C) denominado WCAG, el cual ha sido adoptado por diferentes países tales como: Dinamarca, España, Grecia, entre otros. El estándar WCAG se encuentra conformado por 3 niveles de accesibilidad A, AA, y AAA. Asimismo, algunos operadores y fabricantes de equipos terminales son miembros de la W3C.
+
+En tanto, la G3ict (Iniciativa Global para TIC incluyente) considera pertinente adoptar el nivel AA, ya que es un nivel intermedio y que no implica un gasto desproporcionado para su implementación y mantenimiento. Cabe mencionar que G3ict es un ente creado por la Alianza Global para el Desarrollo de las Tecnologías de la Información y Comunicación (GAID, por sus siglas en inglés), que busca facilitar y apoyar la aplicación de las disposiciones de la Convención sobre los Derechos de las Personas con Discapacidad para la accesibilidad a las TIC y a las tecnologías de asistencia.
+
+CUARTO. SITUACIÓN ACTUAL EN MÉXICO. En nuestro país, cifras del Instituto Nacional de Estadística y Geografía (INEGI), obtenidas de la Encuesta Nacional de la Dinámica Demográfica 2014 (ENADID), en México al año de 2014, las personas que padecen algún tipo de discapacidad o limitación sumaron 7 millones 184 mil 054, lo que representó el 6% de la población total.
+
+Actualmente, por lo que hace al marco jurídico en materia de accesibilidad de México, se cuenta con la Ley General para la Inclusión de las Personas con Discapacidad, publicada en el DOF el 30 de mayo de 2011, cuyo objeto es reglamentar en lo conducente, al artículo 1o. de la Constitución, por medio del establecimiento de las condiciones en las que el Estado deberá promover, proteger y asegurar el pleno ejercicio de los derechos humanos y libertades fundamentales de las personas con discapacidad, asegurando su plena inclusión a la sociedad en un marco de respeto, igualdad y equiparación de oportunidades.
+
+Para cumplir con su objetivo, dicha Ley dispone en el artículo 32, que las personas con discapacidad tienen derecho a la libertad de expresión y opinión, incluida la libertad para recabar, recibir y facilitar información mediante cualquier forma de comunicación que les facilite una participación e integración en igualdad de condiciones; para tal efecto, dicho artículo señala en la fracción II, que las autoridades competentes establecerán las medidas para promover la utilización de la Lengua de Señas Mexicana o el Sistema Braille, y otros modos, medios y formatos de comunicación, así como el acceso a los nuevos sistemas y tecnologías de información y las comunicaciones, incluyendo Internet.
+
+Asimismo, establece en sus artículos 16 y 17 que las personas con discapacidad tienen derecho a la accesibilidad universal, por lo que se deberán emitir normas, lineamientos y reglamentos que garanticen la accesibilidad obligatoria y progresiva en instalaciones públicas o privadas, que les permita el libre desplazamiento en condiciones dignas y seguras, señalando que las dependencias y entidades competentes de la Administración Pública Federal, Estatal y Municipal, es decir, de los tres órdenes de gobierno, serán responsables de emitir y vigilar disposiciones en materia de accesibilidad.
+
+De conformidad con lo anterior, el artículo 15 Bis de la Ley Federal para Prevenir y Eliminar la Discriminación, publicada en el DOF el 11 de junio de 2003, señala que cada uno de los poderes públicos federales y aquellas instituciones que estén bajo su regulación o competencia, están obligados a realizar las medidas de nivelación, las medidas de inclusión y las acciones afirmativas necesarias para garantizar a toda persona la igualdad real de oportunidades y el derecho a la no discriminación.
+
+Ahora bien, por lo que respecta al sector de las telecomunicaciones y radiodifusión, la LFTyR establece en su artículo 1 que dicho ordenamiento tiene por objeto regular, entre otros, la prestación de los servicios públicos de interés general de telecomunicaciones y radiodifusión, los derechos de los usuarios y las audiencias, para que contribuyan a los fines y al ejercicio de los derechos establecidos, entre otros, en el artículo 6o., tercer párrafo de la Constitución, relativo al derecho humano de acceso a las tecnologías de la información y comunicación.
+
+Asimismo, el segundo párrafo del artículo 2 de la LFTyR, establece que en la prestación de los servicios de telecomunicaciones y radiodifusión estará prohibida toda discriminación motivada, entre otras, por las discapacidades de las personas. De ahí que en dicha ley se establezca dentro del Título Noveno, un capítulo específico de los derechos de los usuarios con discapacidad.
+
+Considerando este contexto y atendiendo el mandato de la LFTyR, es indispensable emitir lineamientos que permitan implementar los mecanismos necesarios para que las personas con discapacidad puedan, a través del uso de los servicios de telecomunicaciones y sin la existencia de barreras de comunicación, mejorar sus condiciones de vida.
+
+QUINTO.- NECESIDADES DE LAS PERSONAS CON DISCAPACIDAD. Una vez analizado lo expuesto en considerandos anteriores, resulta de igual forma importante analizar las necesidades propias de las personas con discapacidad que se buscan atender con la emisión de los presentes lineamientos.
+
+Para ello, debemos señalar que el objetivo principal de estas disposiciones es el de contribuir al proceso de incorporación de las personas con discapacidad a su entorno, es decir, minimizar las barreras que les impiden comunicarse con los demás. Lo anterior, gracias a la utilización de las telecomunicaciones y las TIC, que como ha quedado señalado, representan una infraestructura única que permite ampliar el acceso a los servicios públicos esenciales y promover la inclusión digital.
+
+Ahora bien, para cumplir con dicho objetivo, resulta necesario reconocer las diferencias individuales y las nuevas formas de comunicación, capaces de integrar a las personas con discapacidad en todos los ámbitos de la vida. Asimismo, identificar los mecanismos que atienden las necesidades propias de cada tipo de discapacidad, los cuales deben dirigirse tanto a las características de la persona como a su entorno, persiguiendo un doble objetivo: por una parte, un esfuerzo orientado a contribuir con el desarrollo de las capacidades y habilidades de las personas con discapacidad y por otra, uno orientado a modificar el espacio físico, las barreras existentes y las actitudes, conocimientos y habilidades de todos los miembros de la sociedad, con el fin de suprimir los obstáculos físicos y las barreras de comunicación.
+
+En ese sentido, las disposiciones reflejadas en los presentes Lineamientos fueron diseñadas atendiendo a las necesidades propias de cada discapacidad, por ejemplo, considerando las limitantes que una persona con discapacidad visual podría tener al acudir a un establecimiento de atención a clientes, al revisar la página electrónica de un operador de servicios de telecomunicaciones, al revisar la factura del servicio que tiene contratado o al utilizar algún dispositivo móvil, fijo o de telefonía pública.
+
+Asimismo, se emiten, entendiendo y valorando las propias limitantes que la LFTyR señala en cuanto a la no emisión de disposiciones con cargas desproporcionadas hacia los Concesionarios y Autorizados de servicios de telecomunicaciones, es decir, contemplando alternativas viables que pudieran atender las necesidades de este sector de la población, sin dejar de observar las cargas regulatorias que dichas alternativas impondrían al sector telecomunicaciones.
+
+Por último, resulta importante señalar que para la elaboración de los presentes lineamientos, se realizaron acercamientos con diversos grupos, asociaciones e instituciones de personas con discapacidad que enriquecieron el proyecto con sus opiniones, comentarios y necesidades particulares.
+
+SEXTO. CONSULTA PÚBLICA. El artículo 51 de la LFTyR señala que para la emisión y modificación de reglas, lineamientos o disposiciones administrativas de carácter general, así como en cualquier caso que determine el Pleno, el Instituto deberá realizar consultas públicas bajo los principios de transparencia y participación ciudadana. En atención a lo cual, y como quedó señalado en el Antecedente sexto del presente Acuerdo, el Instituto sometió a consulta pública el Anteproyecto de Lineamientos, durante el periodo comprendido entre el día 14 de agosto al 25 de septiembre del 2015, registrándose 20 participaciones o escritos con comentarios relativos a diversos temas, realizados por 17 personas morales y 3 personas físicas.
+
+Así las cosas, resulta conveniente señalar que el Instituto consideró aquellas sugerencias, recomendaciones o propuestas que se estimaron procedentes en el texto de los “LINEAMIENTOS GENERALES DE ACCESIBILIDAD A SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD” (los “Lineamientos de Accesibilidad”), a las que se refiere el presente Acuerdo, al estimar que su incorporación deviene en una mejora que permite: i) garantizar la protección efectiva de los derechos de los usuarios con discapacidad contemplados en la LFTyR; ii) dar certeza jurídica a los operadores de servicios de telecomunicaciones respecto a los mecanismos y obligaciones que deben implementarse a fin de garantizar la protección de tales derechos, y iii) promover que los usuarios con discapacidad tengan acceso a los servicios de telecomunicaciones en igualdad de condiciones con los demás usuarios.
+
+SÉPTIMO. ANÁLISIS DE IMPACTO REGULATORIO. El segundo párrafo del artículo 51 de la LFTyR establece que previo a la emisión de reglas, lineamientos o disposiciones administrativas de carácter general, el Instituto deberá realizar y hacer público un análisis de impacto regulatorio o, en su caso, solicitar el apoyo de la Comisión Federal de Mejora Regulatoria.
+
+Al respecto, la Coordinación General de Política del Usuario del Instituto realizó el Análisis de Impacto Regulatorio (“AIR”) correspondiente, mismo que fue sometido formalmente a consideración de la Coordinación General de Mejora Regulatoria (la “CGMR”) del propio Instituto a fin de que emitiera opinión no vinculante.
+
+Como consecuencia de lo anterior, mediante oficio No. IFT/211/CGMR/135/2016 recibido en la Coordinación General de Política del Usuario el día 17 de noviembre de 2016, la CGMR emitió la opinión no vinculante respecto del Anteproyecto de Lineamientos.
+
+Dicha opinión no vinculante, señala que el AIR transparenta y detalla adecuadamente los alcances, medidas regulatorias e impactos que se esperan observar a la entrada en vigor del Anteproyecto.
+
+Por otro lado, se señala que el AIR se encuentra publicado en la página de Internet del Instituto, en la parte relativa a consultas públicas, a efecto de darle debida publicidad.
+
+Dicho Análisis de Impacto Regulatorio expone entre otros aspectos, los objetivos que se pretenden alcanzar con la publicación de los Lineamientos de Accesibilidad, independiente de cumplir con el mandato legal previsto en la LFTyR, que son:
+
+a)	Establecer los mecanismos necesarios que garanticen la protección efectiva de los derechos de los usuarios con discapacidad contemplados en la Ley Federal de Telecomunicaciones y Radiodifusión, y
+
+b)	Establecer los mecanismos necesarios y las obligaciones a cargo de los concesionarios y autorizados de servicios de telecomunicaciones, que promuevan que los usuarios con discapacidad tengan acceso a los servicios de telecomunicaciones en igualdad de condiciones con los demás usuarios.
+
+En virtud de lo anterior, con fundamento en los artículos 6o. y 28, párrafos décimo quinto, décimo sexto y vigésimo, fracción IV, de la Constitución Política de los Estados Unidos Mexicanos; 7, 15, fracciones I y XXXI, 17, fracción I, 174 fracción II, 199, 200, 201, 202 y 203 de la Ley Federal de Telecomunicaciones y Radiodifusión, y 1, 4, fracción I y 19, fracción VI del Estatuto Orgánico del Instituto Federal de Telecomunicaciones, el Pleno del Instituto expide el siguiente:
+
+ACUERDO
+
+ÚNICO.- Se expiden los “LINEAMIENTOS GENERALES DE ACCESIBILIDAD A SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD”.
+
+El Comisionado Presidente, Gabriel Oswaldo Contreras Saldívar.- Rúbrica.- Los Comisionados: Ernesto Estrada González, María Elena Estavillo Flores, Adolfo Cuevas Teja, Adriana Sofía Labardini Inzunza, Mario Germán Fromow Rangel, Javier Juárez Mojica.- Rúbricas.
+
+El presente Acuerdo fue aprobado por el Pleno del Instituto Federal de Telecomunicaciones en su XX Sesión Extraordinaria celebrada el 24 de noviembre de 2016, en lo general por unanimidad de votos de los Comisionados Gabriel Oswaldo Contreras Saldívar, Ernesto Estrada González, Adriana Sofía Labardini Inzunza, María Elena Estavillo Flores, Mario Germán Fromow Rangel, Adolfo Cuevas Teja y Javier Juárez Mojica
+
+En lo particular, la Comisionada Adriana Sofía Labardini Inzunza manifestó voto en contra del artículo 14 y del artículo Transitorio Tercero de los Lineamientos en lo que respecta a la obligación de implementación de 6% de Casetas Públicas.
+
+Asimismo, el Comisionado Mario Germán Fromow Rangel manifestó voto en contra del párrafo tercero del artículo 14 de los Lineamientos.
+
+Lo anterior, con fundamento en los párrafos vigésimo, fracciones I y III; y vigésimo primero, del artículo 28 de la Constitución Política de los Estados Unidos Mexicanos; artículos 7, 16 y 45 de la Ley Federal de Telecomunicaciones y Radiodifusión; así como en los artículos 1, 7, 8 y 12 del Estatuto Orgánico del Instituto Federal de Telecomunicaciones, mediante Acuerdo P/IFT/EXT/241116/36.
+
+LINEAMIENTOS GENERALES DE ACCESIBILIDAD A SERVICIOS DE TELECOMUNICACIONES PARA LOS USUARIOS CON DISCAPACIDAD
+
+CAPÍTULO PRIMERO
+
+DISPOSICIONES GENERALES
+
+Artículo 1. Los presentes Lineamientos tienen por objeto promover, en el ámbito de competencia del Instituto Federal de Telecomunicaciones, que los Usuarios con Discapacidad tengan acceso a los Servicios Públicos de Telecomunicaciones, en igualdad de condiciones con los demás usuarios.
+
+Los Lineamientos son de observancia obligatoria para los Concesionarios y Autorizados de Servicios Públicos de Telecomunicaciones.
+
+Artículo 2. Sin perjuicio de las definiciones previstas en el artículo 3 de la Ley Federal de Telecomunicaciones y Radiodifusión, para efectos de los presentes Lineamientos deberá estarse a las siguientes definiciones:
+
+I.	Accesibilidad: Medidas pertinentes para asegurar el acceso de las personas con discapacidad, en igualdad de condiciones con las demás, al entorno físico, la información y las comunicaciones, incluidos los sistemas y las tecnologías de la información y las comunicaciones, y a otras instalaciones abiertas al público o de uso público;
+
+II.	Autorizado: Persona física o moral que cuenta con autorización para comercializar a usuarios finales Servicios Públicos de Telecomunicaciones, mediante el uso de capacidad de una o varias redes públicas de telecomunicaciones sin tener el carácter de Concesionario en los términos de la Ley;
+
+III.	Caseta Pública: Equipo terminal de telecomunicaciones conectado en forma alámbrica o inalámbrica a una red pública de telecomunicaciones, para prestar el servicio de telefonía pública, que incorpora cualquier mecanismo de cobro o tasación, y que permite realizar o recibir llamadas telefónicas;
+
+IV.	Centro(s) de Atención: Inmueble o instalaciones donde el Concesionario o Autorizado brinda atención a los usuarios finales;
+
+V.	Discriminación: Cualquier distinción, exclusión o restricción por motivos de discapacidad que tenga el propósito o el efecto de obstaculizar, menoscabar o dejar sin efecto el reconocimiento, goce o ejercicio, en igualdad de condiciones, del derecho a la información y las comunicaciones, incluidos los sistemas y las tecnologías de la información y las comunicaciones;
+
+VI.	Diseño Universal: El diseño de productos, entornos, programas y servicios que puedan utilizar todas las personas, en la mayor medida posible, sin necesidad de adaptación ni diseño especializado. El Diseño Universal no excluirá las ayudas técnicas para grupos particulares de Personas con Discapacidad cuando se necesiten;
+
+VII.	Instituto: Instituto Federal de Telecomunicaciones;
+
+VIII.	Ley: Ley Federal de Telecomunicaciones y Radiodifusión;
+
+IX.	Lineamientos: Los presentes Lineamientos Generales de Accesibilidad a los Servicios Públicos de Telecomunicaciones para Usuarios con Discapacidad.
+
+X.	Mobile Manufacturers Forum: Asociación internacional de fabricantes de equipos de telecomunicaciones con tecnología móvil, que realiza proyectos de investigación y cooperación sobre estándares, regulación y comunicación, relativa a la seguridad de la tecnología inalámbrica, accesibilidad y cuestiones ambientales;
+
+XI.	Nivel de Conformidad AA: Uno de los niveles de accesibilidad existentes, definidos por la W3C, dentro del estándar WCAG, que indica el rango de accesibilidad de páginas o portales de Internet;
+
+XII.	Pautas de Accesibilidad de Contenido de Internet (WCAG): Estándar técnico utilizado a nivel mundial y emitido por la W3C que cubre una amplia gama de recomendaciones para hacer el contenido de Internet más accesible a personas con discapacidad;
+
+XIII.	Personas con Discapacidad: Toda persona que por razón congénita o adquirida presenta una o más deficiencias de carácter físico, mental, intelectual o sensorial, ya sea permanente o temporal y que al interactuar con las barreras que le impone el entorno social, pueda impedir o dificultar su inclusión plena y efectiva, en igualdad de condiciones con los demás;
+
+XIV.	PROFECO: Procuraduría Federal del Consumidor;
+
+XV.	Ruta Accesible: La que permite una circulación y movilidad continua y sin obstáculos, con la combinación de elementos construidos que garantiza a cualquier persona entrar, desplazarse, salir, orientarse y comunicarse con el uso seguro, autónomo y cómodo al acceder y en el interior del Centro de Atención;
+
+XVI.	Servicios Públicos de Telecomunicaciones: Los señalados con tal carácter en el artículo 3, fracción LXV de la Ley;
+
+XVII.	Sistemas de Atención: Mecanismos de comunicación implementados por los concesionarios y autorizados que les permiten atender las solicitudes, quejas, reclamaciones, dudas, trámites, etc., de sus usuarios finales, pudiendo ser éstos, los Centros de Atención, los números de atención telefónica y las herramientas de comunicación a través de las páginas o portales de Internet (chats), entre otros;
+
+XVIII.	Tecnologías de Asistencia: Cualquier artículo, equipo e incluso, cualquier sistema adquirido comercialmente o adaptado a una persona, el cual se usa para mejorar y/o incrementar las capacidades funcionales de individuos con discapacidades, por ejemplo, lectores de pantalla, sobreteclados, pantallas táctiles, ratón bucal, entre otros;
+
+XIX.	Usuarios con Discapacidad: Personas con Discapacidad que utilizan Servicios Públicos de Telecomunicaciones, y
+
+XX.	W3C (World Wide Web Consortium): Comunidad internacional que desarrolla estándares y protocolos que aseguran y promueven el desarrollo y crecimiento de la tecnología web en todo el mundo.
+
+Los términos antes señalados pueden ser utilizados indistintamente en singular o plural.
+
+CAPÍTULO SEGUNDO
+
+ACCESO EN IGUALDAD DE CONDICIONES
+
+Artículo 3. En la prestación de los Servicios Públicos de Telecomunicaciones, los Concesionarios y Autorizados brindarán atención y asesoría a los Usuarios con Discapacidad sin Discriminación alguna y en igualdad de condiciones con los demás usuarios, respetando, entre otros, los derechos establecidos en el artículo 200 de la Ley.
+
+Artículo 4. El Instituto podrá establecer mecanismos de comunicación, a través de los convenios de colaboración que celebre con instituciones públicas especializadas en la materia, que tengan por objeto, entre otras cosas, conocer las quejas o reclamaciones que se presenten en contra de los Concesionarios y Autorizados por presuntos actos de Discriminación hacia Usuarios con Discapacidad en la contratación, provisión y prestación de Servicios Públicos de Telecomunicaciones, a fin de que se actúe conforme a las leyes y reglamentos aplicables en la materia y en atención a sus respectivas atribuciones.
+
+CAPÍTULO TERCERO
+
+FORMATOS CON FUNCIONALIDADES DE ACCESIBILIDAD
+
+Artículo 5. A fin de que los Usuarios con Discapacidad se alleguen de la información necesaria para contratar y conocer las condiciones comerciales que los Concesionarios y Autorizados ofrecen en materia de Servicios Públicos de Telecomunicaciones, éstos deberán publicar en sus portales de Internet y proporcionar mediante correo electrónico a los usuarios que así lo soliciten, de conformidad con las características establecidas en el artículo 7 de los presentes Lineamientos, los siguientes documentos:
+
+I.	Modelos de contratos de adhesión, registrados ante la PROFECO, y
+
+II.	Tarifas de los servicios que ofrecen, registradas ante el Instituto.
+
+Artículo 6. Además de los documentos listados en el artículo anterior, los Concesionarios y Autorizados deberán proporcionar a los Usuarios con Discapacidad que así lo soliciten, a través de los medios electrónicos que determinen los Concesionarios y Autorizados, los estados de cuenta que se generen por la prestación de los Servicios Públicos de Telecomunicaciones que tienen contratados.
+
+Dichos estados de cuenta deben contener las funcionalidades de Accesibilidad establecidas en el artículo 7.
+
+Artículo 7. Las funcionalidades de Accesibilidad mínimas que deben contener los documentos referidos son:
+
+I.	Caracteres en texto no en imagen;
+
+II.	Texto susceptible de búsquedas;
+
+III.	Orden de lectura y etiquetas de estructura de documento;
+
+IV.	Campos de formulario con texto descriptivo;
+
+V.	Ayudas para la navegación a través del documento;
+
+VI.	Especificación del idioma del documento;
+
+VII.	Elementos gráficos etiquetados con información descriptiva;
+
+VIII.	Funcionalidades de seguridad del documento que no interfieran con la capacidad del lector de pantalla para convertir el texto en pantalla a voz;
+
+IX.	Contraste de color entre el texto y el fondo en el que se muestra, y
+
+X.	Posibilidad de ampliar el tamaño de letra del texto.
+
+Aunado a ello, los Concesionarios y Autorizados podrán elaborar videos y/o audios con el contenido de dichos documentos que permitan su consulta, mismos que podrán estar disponibles en sus portales de Internet y en sus Centros de Atención.
+
+Artículo 8. Además de la disponibilidad en medios electrónicos de los documentos señalados en los artículos 5 y 6, los Concesionarios y Autorizados deberán contar con dichos documentos con funcionalidades de Accesibilidad, en sus Centros de Atención y ponerlos a disposición de los Usuarios con Discapacidad que así lo requieran, a través de dispositivos y Tecnologías de Asistencia que permitan su consulta.
+
+Artículo 9. Los Concesionarios y Autorizados deberán ofrecer alternativas a las Personas con Discapacidad que lo requieran, a fin de que estén en posibilidad de suscribir contratos, inconformidades u otros documentos necesarios para el uso efectivo de los Servicios Públicos de Telecomunicaciones, sin necesidad de recabar la firma autógrafa.
+
+A efecto de dar cumplimiento a lo anterior, y de manera enunciativa mas no limitativa, los Concesionarios y Autorizados podrían solicitar a los Usuarios con Discapacidad que así lo requieran, el uso de la huella digital o bien, la posibilidad de asistirse de un tercero debidamente acreditado, para la firma de los documentos señalados en el párrafo anterior.
+
+Artículo 10. El Instituto brindará la asesoría a los Usuarios con Discapacidad que la soliciten, a través de la Coordinación General de Política del Usuario, respecto al acceso y obtención de los documentos seсalados en los artículos 5 y 6. Dicha asesoría será brindada en días y horas hábiles, a través de los medios de atención ciudadana con los que cuenta el Instituto.
+
+CAPÍTULO CUARTO
+
+EQUIPOS TERMINALES
+
+Artículo 11. Los Concesionarios y Autorizados que presten el servicio de telefonía fija, deberán contar con un catálogo de equipos terminales que contengan funcionalidades de Accesibilidad para Personas con Discapacidad motriz, visual y auditiva. Lo anterior, con la finalidad de que dichos equipos terminales sean proporcionados a los Usuarios con Discapacidad que los soliciten a través de los Sistemas de Atención al público que tengan habilitados, dentro de los 15 (quince) días hábiles siguientes a su solicitud.
+
+Artículo 12. Los Concesionarios y Autorizados que presten el servicio de telefonía móvil, deberán contar con un catálogo que distinga los equipos terminales que comercializan y que cuentan con funcionalidades de Accesibilidad para Personas con Discapacidad motriz, visual y auditiva, distinguiéndolos del resto, con la finalidad de que los Usuarios con Discapacidad los identifiquen y puedan adquirirlos.
+
+Los Concesionarios y Autorizados podrán utilizar la información de los equipos terminales con funcionalidades de Accesibilidad que existen en el mercado nacional, que el Instituto pondrá a disposición de los Usuarios con Discapacidad a través de su portal de Internet.
+
+Artículo 13. Los Concesionarios y Autorizados publicarán y actualizarán permanentemente, a través de sus portales de Internet, el catálogo de equipos terminales a que hacen referencia los artículos anteriores y proporcionarán la información contenida en ellos, a través de sus Sistemas de Atención al público. Dichos catálogos, deberán incluir las características básicas de los equipos terminales, su disponibilidad, así como su precio.
+
+Artículo 14. Sin perjuicio de la normatividad federal, estatal y municipal aplicable en la materia, los Concesionarios y Autorizados que presten el servicio de telefonía pública, deberán contar con al menos el 6% del total de sus Casetas Públicas instaladas, con elementos de Accesibilidad.
+
+De ese 6%, cada Concesionario y Autorizado deberá implementar al menos una Caseta Pública con elementos de Accesibilidad en cada localidad en donde se tengan instaladas Casetas Públicas, tomando en consideración los sitios públicos, tales como hospitales, terminales de autobuses, aeropuertos, centros deportivos y de espectáculos, centros comerciales, paradas de transporte público, parques y plazas públicos, en centros urbanos y rurales, cercanos a albergues o zonas de emergencia y evacuación, entre otros.
+
+Cuando el número de localidades donde se tengan instaladas Casetas Públicas sea mayor al número de Casetas Públicas con elementos de Accesibilidad a implementar de acuerdo al 6% establecido, los Concesionarios y Autorizados no podrán computar más de dos casetas en una misma localidad.
+
+Los elementos de Accesibilidad mínimos que deben contener dicho porcentaje de Casetas Públicas son las siguientes:
+
+I.	Área de accionamiento a una altura entre 80 cm y 120 cm;
+
+II.	Área de aproximación frontal de mínimo 90 cm de ancho por 120 cm de profundidad, y;
+
+III.	Teclado con señal de referencia en alto relieve en la tecla número 5.
+
+Artículo 15. A efecto de verificar el cumplimiento de lo previsto en el artículo anterior, el Instituto podrá requerir información sobre las Casetas Públicas con las que cuenta así como el número total de las que presentan los elementos de Accesibilidad establecidos en el artículo 14 de los Lineamientos y su ubicación geográfica.
+
+Artículo 16. Los Concesionarios y Autorizados no podrán eliminar las funcionalidades de Accesibilidad con las que cuentan desde su producción, los equipos terminales que comercializan.
+
+CAPÍTULO QUINTO
+
+CENTROS DE ATENCIÓN
+
+Artículo 17. Los Concesionarios y Autorizados deberán contar con Centros de Atención con los elementos de Accesibilidad que permitan que las Personas con Discapacidad puedan recibir atención en condiciones de igualdad y equidad.
+
+Artículo 18. Sin perjuicio de la normatividad federal, estatal y municipal aplicable en la materia, los Centros de Atención de los Concesionarios y Autorizados deberán contar con los siguientes elementos de Accesibilidad, cuando la naturaleza y características del inmueble lo permitan:
+
+I.	Una Ruta Accesible;
+
+II.	Un área de atención accesible, con un tamaño de aproximación y uso que permita la atención de Personas con Discapacidad;
+
+III.	Señalización accesible;
+
+IV.	Permitir el acceso a Usuarios con Discapacidad acompañados por animales de servicio, y
+
+V.	Áreas de espera con asientos prioritarios para Personas con Discapacidad y un espacio reservado para personas en silla de ruedas, en caso de contar con ellas.
+
+Artículo 19. Los Concesionarios y Autorizados deberán publicar en su portal de Internet la totalidad de Centros de Atención con los que cuentan, así como su ubicación, indicando los elementos de Accesibilidad con los que disponen.
+
+Respecto de los Centros de Atención en los que no puedan ser implementados los elementos de Accesibilidad establecidos en el artículo 18 de los Lineamientos, por suponer una carga desproporcionada o indebida, los Concesionarios y Autorizados deberán justificar plenamente ante el Instituto tal situación.
+
+CAPÍTULO SEXTO
+
+PERSONAL CAPACITADO PARA ATENDER A USUARIOS CON DISCAPACIDAD
+
+Artículo 20. Los Concesionarios y Autorizados deberán contar con personal para recibir y atender las quejas presentadas por los Usuarios con Discapacidad, así como para proporcionar la información relacionada con las funcionalidades de Accesibilidad de los equipos terminales que comercializan y la información necesaria para adquirirlos, los planes y paquetes comerciales que se ajustan a las necesidades propias de cada tipo de Discapacidad y la ubicación de los Centros de Atención que cuentan con adaptaciones accesibles, en todos los sistemas de atención al público que tengan habilitados.
+
+Artículo 21. La atención que proporcione el personal de los Concesionarios y Autorizados a los Usuarios con Discapacidad, en todos los sistemas de atención al público que tengan habilitados, deberá ser oportuna, eficiente y respetuosa.
+
+Artículo 22. Para ejecutar lo establecido en los artículos anteriores, los Concesionarios y Autorizados deberán implementar las acciones necesarias que les permitan contar con personal de atención al público capacitado en todos los sistemas de atención que tengan habilitados.
+
+Artículo 23. El personal de atención al público de los Concesionarios y Autorizados deberá conocer, al menos, de las siguientes temáticas:
+
+I.	Derechos de los Usuarios con Discapacidad establecidos en la Ley;
+
+II.	Conceptos de Discapacidad, Discriminación, Accesibilidad y Diseño Universal;
+
+III.	Recomendaciones de atención por tipo de Discapacidad, a través de la comunicación y ayuda física, e
+
+IV.	Información sobre los equipos terminales con funcionalidades de accesibilidad que comercializan.
+
+CAPÍTULO SÉPTIMO
+
+PORTALES DE INTERNET Y NÚMEROS DE ATENCIÓN AL PÚBLICO
+
+Artículo 24. Las páginas o portales de Internet de los Concesionarios y Autorizados de Servicios Públicos de Telecomunicaciones deberán:
+
+I.	Contar con los elementos de Accesibilidad establecidos en los estándares internacionales más actualizados de la W3C, específicamente las Pautas de Accesibilidad de Contenido de Internet (WCAG), a efecto de cumplir con el Nivel de Conformidad AA;
+
+II.	Contener la información señalada en el artículo 5 de los presentes Lineamientos de manera visible en la página principal del portal de Internet, y
+
+III.	Contener la totalidad de la información establecida en los presentes Lineamientos.
+
+Artículo 25. En relación con la fracción I del artículo anterior, los Concesionarios y Autorizados deberán atender a las modificaciones y actualizaciones que se realicen en las Pautas de Accesibilidad de Contenido de Internet (WCAG), las cuales estarán disponibles de manera permanente en el portal de internet del Instituto para su consulta por parte de los Concesionarios y Autorizados.
+
+En caso de que dichas Pautas presenten modificaciones y/o actualizaciones, los Concesionarios y Autorizados deberán implementarlas en un plazo no mayor a 3 (tres) meses, contados a partir de su publicación.
+
+El Instituto realizará las acciones de verificación necesarias a fin de cerciorarse que las páginas o portales de Internet de los Concesionarios y Autorizados, mantengan los elementos de Accesibilidad señalados en dichas pautas.
+
+Artículo 26. Los Concesionarios y Autorizados deberán proporcionar, mediante el número telefónico gratuito de atención al cliente con el que cuenten, toda la información que les permita aclarar las dudas y/o preguntas que se formulen respecto a las funcionalidades de Accesibilidad de los equipos terminales que comercializan, así como la información necesaria para adquirirlos, los planes y paquetes comerciales que podrían ajustarse a las necesidades propias de cada tipo de Discapacidad y la ubicación de los Centros de Atención que cuentan con adaptaciones accesibles.
+
+Artículo 27. Los Concesionarios y Autorizados deberán diseñar mecanismos que permitan que los Usuarios con Discapacidad, puedan realizar trámites tales como, contratación, cambios de domicilio, titularidad y/o modalidad, cancelaciones, aclaraciones, y todos aquellos que se deban realizar de manera presencial, de forma remota, es decir, vía telefónica o a través de medios electrónicos, o bien, la posibilidad de asistirse de un tercero debidamente acreditado para realizarlos.
+
+CAPÍTULO OCTAVO
+
+ACCESO A LOS NUEVOS SISTEMAS Y TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN
+
+Artículo 28. El Instituto fomentará, en el ámbito de su competencia y a través de la difusión y promoción, el acceso y uso de los Servicios Públicos de Telecomunicaciones, así como de los nuevos sistemas y tecnologías de la información y comunicación, incluido Internet, para Personas con Discapacidad, en términos de los artículos 199 y 202 de la Ley.
+
+Artículo 29. Para efectos del artículo anterior, el Instituto:
+
+I.	Realizará campañas de difusión que permitan informar a las Personas con Discapacidad las ventajas de la utilización de las tecnologías de información y comunicación en su vida diaria, así como los equipos terminales disponibles en el país a los que pueden tener acceso;
+
+II.	Colaborará en la implementación y desarrollo de programas y proyectos con la Administración Pública Federal, Gobiernos Estatales y Municipales, Asociaciones Civiles e iniciativa privada, que fomenten y den acceso a Personas con Discapacidad a los Servicios Públicos de Telecomunicaciones;
+
+III.	Elaborará folletos, trípticos, guías de uso y tutoriales accesibles, que muestren las funcionalidades de Accesibilidad de los principales equipos terminales que se comercializan en el país, a fin de que se hagan del conocimiento de las Personas con Discapacidad; y,
+
+IV.	Organizará eventos, foros y talleres con asociaciones y grupos de Personas con Discapacidad que permitan compartir necesidades, experiencias y avances en la utilización de las tecnologías de la información y comunicación en su vida diaria, así como los equipos terminales disponibles en el país a los que pueden tener acceso.
+
+Artículo 30. Los Concesionarios y Autorizados podrán promover el acceso de las Personas con Discapacidad a los Servicios Públicos de Telecomunicaciones, a través de las medidas adicionales que consideren implementar, con independencia del cumplimiento de las medidas establecidas en los presentes Lineamientos.
+
+CAPÍTULO NOVENO
+
+CUMPLIMIENTO
+
+Artículo 31. El Instituto realizará verificaciones, de acuerdo a lo establecido en la Ley y en la Ley Federal de Procedimiento Administrativo, en los portales de Internet y en los Centros de Atención de los Concesionarios y Autorizados, a efecto de asegurar el cumplimento de las obligaciones contenidas en los presentes Lineamientos.
+
+Artículo 32. El incumplimiento a lo dispuesto en los presentes Lineamientos será sancionado por el Instituto en términos de lo establecido en la Ley, sin perjuicio de la competencia que tengan otras autoridades.
+
+Artículo 33. El Instituto integrará y publicará en el Portal del Instituto, a través de la Coordinación General de Política del Usuario, informes que den cuenta de los avances de los Concesionarios y Autorizados en materia de Accesibilidad a los Servicios Públicos de Telecomunicaciones que generen la aplicabilidad de los presentes Lineamientos.
+
+TRANSITORIOS
+
+PRIMERO.- Los presentes Lineamientos entrarán en vigor a los 30 días naturales siguientes a su publicación en el Diario Oficial de la Federación, sin perjuicio de lo dispuesto en los transitorios siguientes.
+
+SEGUNDO.- Los Concesionarios y Autorizados deberán implementar las medidas previstas en los artículos 5, 6, 8, 9, 11, 12, 13, 20, 24, 26 y 27, en un plazo de 120 días hábiles contados a partir de la entrada en vigor de los presentes lineamientos.
+
+TERCERO.- Los Concesionarios y Autorizados contarán con un plazo de 3 años a partir de la entrada en vigor de los presentes Lineamientos, a efecto de que del total de sus Casetas Públicas, el 6% cuenten con elementos de Accesibilidad, de conformidad con lo establecido en el artículo 14 de los Lineamientos.
+
+La medida de distribución establecida en el segundo párrafo del artículo 14 no será aplicable para aquellos Concesionarios y Autorizados que a la entrada en vigor de los presentes Lineamientos, cuenten con el 6% de Casetas Públicas con elementos de Accesibilidad. Lo anterior, deberá acreditarse ante el Instituto en un plazo no mayor de 30 días hábiles contados a partir de la entrada en vigor de los presentes Lineamientos, mediante la presentación de un escrito que contenga la ubicación de todas y cada una de sus Casetas Públicas, indicando cuáles de ellas cuentan con los elementos de Accesibilidad señalados en el artículo 14.
+
+CUARTO.- Los Concesionarios y Autorizados contarán con un plazo de 3 años a partir de la entrada en vigor de los Lineamientos, a efecto de que sus Centros de Atención cuenten con los elementos de Accesibilidad a que se refiere el artículo 18 de los Lineamientos, sin perjuicio de la normatividad federal, estatal y municipal aplicable en la materia, y presenten ante el Instituto las justificaciones a que se refiere el artículo 19, segundo párrafo de los mismos.
+
+_________________________________

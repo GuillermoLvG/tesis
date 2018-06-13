@@ -1,0 +1,23 @@
+diff --git a/lib/models/document.rb b/lib/models/document.rb
+index 868a7ae..4358853 100644
+--- a/lib/models/document.rb
++++ b/lib/models/document.rb
+@@ -13,7 +13,7 @@ module Models
+     def process!
+       paragraphs.each_with_index do |paragraph, index|
+         Models::Entity.parse(paragraph).each do |entity_name|
+-          alias_name = paragraph.scan(Regexp.new("#{entity_name} \\(([^\\)]+)\\)")).map(&:first).first
++          alias_name = paragraph.scan(Regexp.new("#{Regexp.quote(entity_name)} \\(([^\\)]+)\\)")).map(&:first).first
+ 
+           if alias_name
+             entity = Models::Entity.find_or_create_by(name: entity_name)
+@@ -47,7 +47,8 @@ module Models
+           }).where('occurrences.word > ?', word).pluck(:name)
+           next unless laws.any?
+ 
+-          regexp = Regexp.new("#{article_string}(del|de la) (#{laws.join('|')})")
++          laws_regexp = laws.map { |law| Regexp.quote(law) }.join('|')
++          regexp = Regexp.new("#{article_string}(del|de la) (#{laws_regexp})")
+           law_name = paragraph.scan(regexp).map(&:last).first
+           law = Models::Law.find_by(name: law_name)
+           if law

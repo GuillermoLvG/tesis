@@ -1,0 +1,500 @@
+id	document_id	entity_id	alias
+500	70	1421	la “Secretaría”
+501	70	1428	el “Instituto”
+502	70	1426	la “Constitución”
+503	70	1430	la “Ley”
+504	70	1450	la “Ley de Competencia”
+505	71	1421	la “Secretaría”
+506	71	1428	el “Instituto”
+507	71	1499	la “Solicitud Transición”
+508	71	1499	la “Solicitud Transición”
+509	71	1426	la “Constitución”
+510	71	1430	la “Ley”
+511	73	1421	la “Secretaría”
+512	73	1428	el “Instituto”
+513	73	1499	la “Solicitud Transición”
+514	73	1499	la “Solicitud Transición”
+515	73	1426	la “Constitución”
+516	73	1430	la “Ley”
+517	74	1583	en los sucesivo, la “LFRTV”
+518	74	1421	en lo sucesivo, la “SCT”
+519	74	1595	en la sucesivo, la “Solicitud”
+520	74	1425	en lo sucesivo, el “DOF”
+521	74	1428	en lo sucesivo, el “Instituto”
+522	74	1502	en lo sucesivo, la “UC”
+523	74	1598	en lo sucesivo, la “UCS”
+524	74	1502	en lo sucesivo, la “UC”
+525	74	1444	en lo sucesivo, la “UCE”
+526	74	1600	en lo sucesivo, la “UCE”
+527	74	1601	en lo sucesivo, la “UER”
+528	74	1603	en lo sucesivo, la “UER”
+529	74	1536	en lo sucesivo, la “SHCP“
+530	74	1607	en lo sucesivo, la “SHCP“
+531	74	1426	en lo sucesivo, la “Constitución”
+532	74	1430	en lo sucesivo, la “Ley”
+533	74	1647	canal 5
+534	74	1647	canal 5
+535	75	1425	DOF
+536	75	1428	Instituto
+537	75	1667	Lineamientos
+538	75	1430	Ley
+539	75	1671	UMCA
+540	75	1672	CGMR
+541	75	1426	Constitución
+542	76	1428	el “Instituto”
+543	76	1708	la “Solicitud de Concesión”
+544	76	1421	la “Secretaría”
+545	76	1426	la “Constitución”
+546	76	1430	la “Ley”
+547	77	1421	la “Secretaría”
+548	77	1594	la “Comisión”
+549	77	1428	el “Instituto”
+550	77	1499	la “Solicitud de Transición”
+551	77	1499	la “Solicitud de Transición”
+552	77	1426	la “Constitución”
+553	77	1430	la “Ley”
+554	78	1421	en lo sucesivo, la "Secretaría"
+555	78	1756	en lo sucesivo, la "Concesión de Telnor"
+556	78	1594	en lo sucesivo, la "Comisión"
+557	78	1508	en lo sucesivo, la "LFT”
+558	78	1777	en lo sucesivo, las "Respuestas de Telmex y Telnor"
+559	78	1789	en lo sucesivo, las "RdSL"
+560	78	1798	en lo sucesivo, "ASL"
+561	78	1798	'ASL '
+562	78	1799	cero punto ochenta centavos de dólar americano
+563	78	1799	Cero punto cincuenta y cinco centavos de dólar americano
+564	78	1799	uno punto cero cinco centavos de dólar americano
+565	78	1799	uno punto treinta centavos de dólar americano
+566	78	1802	Cero punto dieciocho centavos de dólar americano
+567	78	1802	cero punto cuarenta y tres centavos de dólar americano
+568	78	1827	en lo sucesivo, el "CFPC"
+569	78	1861	en lo sucesivo, las "RSLD"
+570	78	1799	cero punto ochenta centavos dólar americano
+571	78	1799	uno punto cero cinco centavos dólar americano
+572	78	1799	cero punto cincuenta y cinco centavos dólar americano
+573	78	1799	uno punto treinta centavos dólar americano
+574	78	1799	cero punto veinticinco centavos de dólar americano
+575	78	1799	cero punto veinticinco centavos de dólar americano
+576	78	1799	cero punto ochenta centavos de dólar americano
+577	78	1799	cero punto ochenta centavos de dólar americano
+578	78	1799	uno punto cero cinco centavos de dólar americano
+579	78	1799	uno punto veintiséis centavos de dólar americano
+580	78	1799	cero punto dieciocho centavos de dólar americano
+581	78	1799	cero punto cuarenta y tres centavos de dólar americano
+582	78	1799	cero punto dieciocho centavos de dólar americano
+583	78	1799	cero punto cuarenta y tres centavos de dólar americano
+584	78	1799	cero punto dieciocho centavos de dólar americano
+585	78	1799	cero punto ochenta centavos de dólar americano
+586	78	1799	cero punto ochenta centavos de dólar americano
+587	78	1799	uno punto cero cinco centavos de dólar americano
+588	78	1799	uno punto veintiséis centavos de dólar americano
+589	78	1799	cero punto dieciocho centavos de dólar americano
+590	78	1799	cero punto cuarenta y tres centavos de dólar americano
+591	79	1421	la “Secretaría”
+592	79	1594	la “Comisión”
+593	79	1595	la “Solicitud de Prórroga”
+594	79	1428	el “Instituto”
+595	79	1426	la “Constitución”
+596	79	1430	la “Ley”
+597	79	1508	la “LFT”
+598	80	1425	DOF
+599	80	1428	Instituto
+600	80	1452	LFD
+601	81	1428	el “Instituto”
+602	81	1421	la “Secretaría”
+603	81	1426	la “Constitución”
+604	81	1430	la “Ley”
+605	82	2025	en lo sucesivo el “Gobierno de Guanajuato”
+606	82	2028	en lo sucesivo el “Gobierno de Guanajuato”
+607	82	2029	en lo sucesivo el “Permiso”
+608	82	1425	en lo sucesivo el “DOF”
+609	82	1428	en lo sucesivo el “Instituto”
+610	82	2026	en lo sucesivo la “Solicitud de Multiprogramación”
+611	82	2026	en lo sucesivo la “Solicitud de Multiprogramación”
+612	82	1449	en lo sucesivo la “UCS”
+613	82	2040	en lo sucesivo la “UMCA”
+614	82	2042	en lo sucesivo la “UCE”
+615	82	1615	en lo sucesivo la “DGCR”
+616	82	1615	en lo sucesivo la “DGCR”
+617	82	2048	en lo sucesivo la “Constitución”
+618	82	1430	en lo sucesivo la “Ley”
+619	82	2064	Lineamientos
+620	83	2075	"LGTAIP”
+621	83	1428	Instituto
+622	83	2082	Operación
+623	83	2085	UCE
+624	83	2086	Acuerdo de Recepción
+625	83	1445	DGCC
+626	83	2099	según dicho término se define en la Resolución
+627	83	2099	según dicho término se define en la Resolución
+628	83	2111	cuya integración se refleja en el Cuadro 20 de la Resolución
+629	84	1428	en lo sucesivo, “Instituto”
+630	85	1421	la “Secretaría”
+631	85	1428	el “Instituto”
+632	85	1499	la “Solicitud Transición”
+633	85	1499	la “Solicitud Transición”
+634	85	1426	la “Constitución”
+635	85	1430	la “Ley”
+636	86	1428	Instituto
+637	86	1450	LFCE 2014
+638	87	1421	la “Secretaría”
+639	87	1428	el “Instituto”
+640	87	1595	la “Solicitud de Prórroga”
+641	87	1426	la “Constitución”
+642	87	1430	la “Ley”
+643	87	1508	la “LFT”
+644	88	1508	en adelante “LFT”
+645	88	1583	en los sucesivo, la “LFRTV, la Comisión Federal de Telecomunicaciones (en lo sucesivo, la “COFETEL”
+646	88	1594	en lo sucesivo, la “COFETEL”
+647	88	2149	en lo sucesivo el “Concesionario”
+648	88	1595	en la sucesivo, la “Solicitud”
+649	88	1425	en lo sucesivo, el “DOF”
+650	88	1428	en lo sucesivo, el “Instituto”
+651	88	1502	en lo sucesivo, la “UC”
+652	88	1449	en lo sucesivo, la “UCS”
+653	88	1502	en lo sucesivo, la “UC”
+654	88	1444	en lo sucesivo, la “UCE”
+655	88	1600	en lo sucesivo, la “UCE”
+656	88	1601	en lo sucesivo, la “UER”
+657	88	1603	en lo sucesivo, la “UER”
+658	88	1536	en lo sucesivo, la “SHCP”
+659	88	1607	en lo sucesivo, la “SHCP”
+660	88	1426	en lo sucesivo, la “Constitución”
+661	88	1430	en lo sucesivo, la “Ley”
+662	88	2184	en lo sucesivo SCJN
+663	88	1647	canal 7
+664	88	1647	canal 7
+665	88	1647	canal 7
+666	89	1425	en lo sucesivo, el “DOF”
+667	89	1428	en lo sucesivo, el "Instituto"
+668	89	2203	en lo sucesivo, el "Estatuto Orgánico"
+669	89	1433	en lo sucesivo, el "Estatuto Orgánico"
+670	89	1430	en lo sucesivo, “LFTR”
+671	89	1426	en lo sucesivo, la “Constitución”
+672	90	1421	la “Secretaría”
+673	90	1428	el “Instituto”
+674	90	1595	la “Solicitud de Prórroga”
+675	90	2239	la “Ley”
+676	90	1426	la “Constitución”
+677	91	2248	en lo sucesivo, el “Segundo Tribunal Colegiado”
+678	91	2248	en lo sucesivo, el “Segundo Tribunal Colegiado”
+679	91	1425	en lo sucesivo DOF
+680	91	2256	en lo sucesivo, la ”Solicitud”
+681	91	1594	en lo sucesivo “COFETEL”
+682	91	1428	en lo sucesivo, el “Instituto”
+683	91	1426	en lo sucesivo la “Constitución”
+684	91	1430	en lo sucesivo la “Ley”
+685	91	1583	abrogada
+686	92	1421	la “Secretaría”
+687	92	1428	el “Instituto”
+688	92	2301	la “Solicitud de Cesión de Derechos”
+689	92	1426	la “Constitución”
+690	92	1430	la “Ley”
+691	93	1421	la “Secretaría”
+692	93	1428	el “Instituto”
+693	93	1594	la “Comisión”
+694	93	1595	la “Solicitud de Prórroga”
+695	93	1426	la “Constitución”
+696	93	1430	la “Ley”
+697	94	1421	la “Secretaría”
+698	94	2349	Chávez
+699	94	1428	el “Instituto”
+700	94	2353	la “Solicitud de Cesión Parcial de Derechos”
+701	94	1426	la “Constitución”
+702	94	1430	la “Ley”
+703	95	1421	la “Secretaría”
+704	95	1428	el “Instituto”
+705	95	1499	la “Solicitud de Transición”
+706	95	1499	la “Solicitud de Transición”
+707	95	1426	la “Constitución”
+708	95	1430	la “Ley”
+709	96	1428	el “Instituto”
+710	96	1421	la “Secretaría”
+711	96	1426	la “Constitución”
+712	96	1430	la “Ley”
+713	97	1428	el “Instituto”
+714	97	1421	la “Secretaría”
+715	97	1426	la “Constitución”
+716	97	1430	la “Ley”
+717	97	2379	RPC
+718	98	1428	el “Instituto”
+719	98	1421	la “Secretaría”
+720	98	1426	la “Constitución”
+721	98	1430	la “Ley”
+722	98	1430	la “Ley”
+723	98	1430	la “Ley”
+724	99	1540	el “Instituto”
+725	99	2392	la “Resolución”
+726	100	2407	en los sucesivo, el “Instituto”
+727	100	1425	en lo sucesivo, “DOF”
+728	100	1472	en lo sucesivo, la “LFPA”
+729	100	1426	en lo sucesivo, la “Constitución”
+730	101	1428	el “Instituto”
+731	101	2392	la “Solicitud de Concesión”
+732	101	1421	la “Secretaría”
+733	101	1426	la “Constitución”
+734	101	1430	la “Ley”
+735	101	1430	la “Ley”
+736	101	1430	la “Ley”
+737	102	1428	el “Instituto”
+738	102	2470	la “Solicitud de Concesión”
+739	102	2474	la “Solicitud de Concesión”
+740	102	1421	la “Secretaría”
+741	102	1426	la “Constitución”
+742	102	1430	la “Ley”
+743	102	1430	la “Ley”
+744	103	1425	el “DOF”
+745	103	1430	la “LFTyR”
+746	103	1428	el “Instituto”
+747	103	1426	la “Constitución”
+748	103	2491	“UIT”
+749	103	2501	Requirements for Customer Equipment for use with the Standard Telephone Service – Features for special needs of persons with disabilities – AS/ACIF S040
+750	103	2508	DDA
+751	103	2513	UFAS, por sus siglas en inglés
+752	103	2531	W3C
+753	103	2535	GAID, por sus siglas en inglés
+754	103	2537	INEGI
+755	103	2548	“AIR”
+756	103	1672	la “CGMR”
+757	103	2568	WCAG
+758	103	2569	WCAG
+759	103	2569	chats
+760	103	2568	WCAG
+761	103	2568	WCAG
+762	104	1421	la “Secretaría”
+763	104	1428	el “Instituto”
+764	104	1595	la “Solicitud de Prórroga”
+765	104	1426	la “Constitución”
+766	104	1430	la “Ley”
+767	104	1508	la “LFT”
+768	105	1425	en lo sucesivo, el “DOF”
+769	105	1428	en lo sucesivo, el "Instituto"
+770	105	2203	en lo sucesivo, el "Estatuto Orgánico"
+771	105	1433	en lo sucesivo, el "Estatuto Orgánico"
+772	105	1430	en lo sucesivo, “LFTR”
+773	105	1426	en lo sucesivo, la “Constitución”
+774	106	1421	la “Secretaría”
+775	106	1428	el “Instituto”
+776	106	1595	la “Solicitud de Prórroga”
+777	106	1426	la “Constitución”
+778	106	1430	la “Ley”
+779	106	1508	la “LFT”
+780	107	1421	la “Secretaría”
+781	107	1594	la “Comisión”
+782	107	1428	el “Instituto”
+783	107	1595	la “Solicitud de Prórroga”
+784	107	1426	la “Constitución”
+785	107	1430	la “Ley”
+786	107	1508	la “LFT”
+787	108	1428	el “Instituto”
+788	108	2631	Ángel Albino Corzo
+789	108	1421	la “Secretaría”
+790	108	1426	la “Constitución”
+791	108	1430	la “Ley”
+792	108	1430	la “Ley”
+793	108	2631	Ángel Albino Corzo
+794	108	2379	RPC
+795	109	1428	el “Instituto”
+796	109	1426	la “Constitución”
+797	109	1430	la “Ley”
+798	109	1508	la “LFT”
+799	110	1421	la “Secretaría”
+800	110	1428	el “Instituto”
+801	110	1499	la “Solicitud Transición”
+802	110	1499	la “Solicitud Transición”
+803	110	1426	la “Constitución”
+804	110	1430	la “Ley”
+805	111	1428	el “Instituto”
+806	111	1421	la “Secretaría”
+807	111	1426	la “Constitución”
+808	111	1430	la “Ley”
+809	112	1428	el “Instituto”
+810	112	2669	la “Solicitud de Concesión”
+811	112	1421	la “Secretaría”
+812	112	1426	la “Constitución”
+813	112	1430	la “Ley”
+814	113	1508	en adelante “LFT”
+815	113	1583	en los sucesivo, la “LFRTV, la Comisión Federal de Telecomunicaciones (en lo sucesivo, la “COFETEL”
+816	113	1594	en lo sucesivo, la “COFETEL”
+817	113	2149	en lo sucesivo el “Concesionario”
+818	113	1595	en la sucesivo, la “Solicitud”
+819	113	1425	en lo sucesivo, el “DOF”
+820	113	1428	en lo sucesivo, el “Instituto”
+821	113	1502	en lo sucesivo, la “UC”
+822	113	1449	en lo sucesivo, la “UCS”
+823	113	1502	en lo sucesivo, la “UC”
+824	113	1444	en lo sucesivo, la “UCE”
+825	113	1600	en lo sucesivo, la “UCE”
+826	113	1601	en lo sucesivo, la “UER”
+827	113	1603	en lo sucesivo, la “UER”
+828	113	1536	en lo sucesivo, la “SHCP”
+829	113	1607	en lo sucesivo, la “SHCP”
+830	113	1426	en lo sucesivo, la “Constitución”
+831	113	1430	en lo sucesivo, la “Ley”
+832	113	2184	en lo sucesivo SCJN
+833	113	1647	canal 7
+834	113	1647	canal 7
+835	113	1647	canal 7
+836	114	1421	la “Secretaría”
+837	114	1594	la “Comisión”
+838	114	1595	la “Solicitud de Prórroga”
+839	114	1428	el “Instituto”
+840	114	1426	la “Constitución”
+841	114	1430	la “Ley”
+842	114	1508	la “LFT”
+843	115	1425	en lo sucesivo, el “DOF”
+844	115	1428	en lo sucesivo, el "Instituto"
+845	115	2203	en lo sucesivo, el "Estatuto Orgánico"
+846	115	1433	en lo sucesivo, el "Estatuto Orgánico"
+847	115	1430	en lo sucesivo, “LFTR”
+848	115	1426	en lo sucesivo, la “Constitución”
+849	116	1421	la “Secretaría”
+850	116	2686	El Camalote
+851	116	1428	el “Instituto”
+852	116	1595	la “Solicitud de Prórroga”
+853	116	1426	la “Constitución”
+854	116	1430	la “Ley”
+855	116	1508	la “LFT”
+856	117	1421	la “Secretaría”
+857	117	1428	el “Instituto”
+858	117	1595	la “Solicitud de Prórroga”
+859	117	1426	la “Constitución”
+860	117	1430	la “Ley”
+861	117	1508	la “LFT”
+862	118	1421	la “Secretaría”
+863	118	1428	el “Instituto”
+864	118	1426	la “Constitución”
+865	118	1430	la “Ley”
+866	119	1421	la “Secretaría”
+867	119	2712	Los Amador
+868	119	1428	el “Instituto”
+869	119	1426	la “Constitución”
+870	119	1430	la “Ley”
+871	119	2712	Los Amador
+872	120	1428	el “Instituto”
+873	120	2722	Barrio Santo Tomás
+874	120	1421	la “Secretaría”
+875	120	1426	la “Constitución”
+876	120	1430	la “Ley”
+877	120	1508	la “LFT”
+878	120	1508	la “LFT”
+879	120	2722	Barrio Santo Tomás
+880	121	1421	la “Secretaría”
+881	121	1595	la “Solicitud de Prórroga”
+882	121	1594	la “Comisión”
+883	121	1428	el “Instituto”
+884	121	1426	la “Constitución”
+885	121	1430	la “Ley”
+886	121	1508	la “LFT”
+887	122	1425	en lo sucesivo, el “DOF”
+888	122	1428	en lo sucesivo, el "Instituto"
+889	122	2203	en lo sucesivo, el "Estatuto Orgánico"
+890	122	1433	en lo sucesivo, el "Estatuto Orgánico"
+891	122	1430	en lo sucesivo, “LFTR”
+892	122	1426	en lo sucesivo, la “Constitución”
+893	123	1425	en lo sucesivo, el “DOF”
+894	123	1428	en lo sucesivo, el "Instituto"
+895	123	2203	en lo sucesivo, el "Estatuto Orgánico"
+896	123	1433	en lo sucesivo, el "Estatuto Orgánico"
+897	123	1430	en lo sucesivo, “LFTR”
+898	123	1426	en lo sucesivo, la “Constitución”
+899	124	1421	la “Secretaría”
+900	124	1428	el “Instituto”
+901	124	1595	la “Solicitud de Prórroga”
+902	124	1426	la “Constitución”
+903	124	1430	la “Ley”
+904	124	1508	la “LFT”
+905	125	1421	la “Secretaría”
+906	125	1428	el “Instituto”
+907	125	2743	el “Instituto”
+908	125	1499	la “Solicitud de Transición”
+909	125	1499	la “Solicitud de Transición”
+910	125	1426	la “Constitución”
+911	125	1430	la “Ley”
+912	126	1421	la “Secretaría”
+913	126	1428	el “Instituto”
+914	126	1595	la “Solicitud de Prórroga”
+915	126	1426	la “Constitución”
+916	126	1430	la “Ley”
+917	126	1508	la “LFT”
+918	127	1428	el “Instituto”
+919	127	1421	la “Secretaría”
+920	127	1426	la “Constitución”
+921	127	1430	la “Ley”
+922	128	1421	la “Secretaría”
+923	128	1428	el “Instituto”
+924	128	1595	la “Solicitud de Prórroga”
+925	128	1426	la “Constitución”
+926	128	1430	la “Ley”
+927	128	1508	la “LFT”
+928	129	1421	la “Secretaría”
+929	129	1428	el “Instituto”
+930	129	1595	la “Solicitud de Prórroga”
+931	129	1426	la “Constitución”
+932	129	1430	la “Ley”
+933	129	1508	la “LFT”
+934	130	1425	en lo sucesivo, el “DOF”
+935	130	1428	en lo sucesivo, el "Instituto"
+936	130	2203	en lo sucesivo, el "Estatuto Orgánico"
+937	130	1433	en lo sucesivo, el "Estatuto Orgánico"
+938	130	1430	en lo sucesivo, “LFTR”
+939	130	1426	en lo sucesivo, la “Constitución”
+940	131	1428	el “Instituto”
+941	131	2470	la “Solicitud de Concesión”
+942	131	2474	la “Solicitud de Concesión”
+943	131	1421	la “Secretaría”
+944	131	1426	la “Constitución”
+945	131	1430	la “Ley”
+946	131	1430	la “Ley”
+947	132	1421	la “Secretaría”
+948	132	1428	el “Instituto”
+949	132	1595	la “Solicitud de Prórroga”
+950	132	1426	la “Constitución”
+951	132	1430	la “Ley”
+952	132	1508	la “LFT”
+953	133	1421	la “Secretaría”
+954	133	1428	el “Instituto”
+955	133	1595	la “Solicitud de Prórroga”
+956	133	1426	la “Constitución”
+957	133	1430	la “Ley”
+958	133	1508	la “LFT”
+959	134	1428	el “Instituto”
+960	134	1421	la “Secretaría”
+961	134	1426	la “Constitución”
+962	134	1430	la “Ley”
+963	135	1428	el “Instituto”
+964	135	2669	la “Solicitud de Concesión”
+965	135	1421	la “Secretaría”
+966	135	1426	la “Constitución”
+967	135	1430	la “Ley”
+968	135	1430	la “Ley”
+969	136	1425	en lo sucesivo, el “DOF”
+970	136	1426	en lo sucesivo, la “Constitución”
+971	136	1428	en lo sucesivo, el “Instituto”
+972	136	1426	en lo sucesivo, la “Constitución”
+973	136	1430	en lo sucesivo, la “LFTR”
+974	136	1430	en lo sucesivo, la “LFTR”
+975	137	1583	en los sucesivo, la “LFRTV”
+976	137	1421	en lo sucesivo, la “SCT”
+977	137	2832	en lo sucesivo el “Concesionario”
+978	137	1595	en la sucesivo, la “Solicitud”
+979	137	1425	en lo sucesivo, el “DOF”
+980	137	1428	en lo sucesivo, el “Instituto”
+981	137	1502	en lo sucesivo, la “UC”
+982	137	1449	en lo sucesivo, la “UCS”
+983	137	1502	en lo sucesivo, la “UC”
+984	137	1444	en lo sucesivo, la “UCE”
+985	137	1600	en lo sucesivo, la “UCE”
+986	137	1601	en lo sucesivo, la “UER”
+987	137	1603	en lo sucesivo, la “UER”
+988	137	1536	en lo sucesivo, la “SHCP”
+989	137	1607	en lo sucesivo, la “SHCP”
+990	137	1426	en lo sucesivo, la “Constitución”
+991	137	1430	en lo sucesivo, la “Ley”
+992	137	2184	en lo sucesivo SCJN
+993	137	1508	en lo sucesivo la “LFT”
+994	138	1428	el “Instituto”
+995	138	2471	la “Solicitud de Concesión”
+996	138	1421	la “Secretaría”
+997	138	1426	la “Constitución”
+998	138	1430	la ”Ley”
