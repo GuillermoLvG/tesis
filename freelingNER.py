@@ -36,9 +36,15 @@ with open ("salidaFreeling.txt","r") as entrada:
     for line in lineasTexto:
         partes = line.split()
         if len(partes) == 4:
-            if re.search("NP00.*?",partes[2]):
-                listaEntidades.append(partes[0])
+            if partes[2] == "NP00SP0":
+                listaEntidades.append([partes[0],"Persona"])
+            if partes[2] == "NP00G00":
+                listaEntidades.append([partes[0],"Lugar"])
+            if partes[2] == "NP00O00":
+                listaEntidades.append([partes[0],"Organización"])
+            if partes[2] == "NP00V00":
+                listaEntidades.append([partes[0],"Otro"])
 
-listaEntidades = set(listaEntidades)
+listaEntidades = [list(item) for item in set(tuple(row) for row in listaEntidades)]
 for entidad in listaEntidades:
-    db.collection.insert({"Nombre":entidad})
+    db.collection.insert({"Nombre":entidad[0].replace("_"," "),"Clase":entidad[1]})

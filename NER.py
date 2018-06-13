@@ -18,7 +18,7 @@ client = MongoClient('localhost', 27017)
 client.drop_database('NERLegales')
 db = client.NERLegales
 collection = db.Entidades
-path_docx = "DOCX"
+path_docx = "Evaluacion/CorpusEval/Archivo"
 
 def limpiarCadena(string):
 	'''
@@ -223,7 +223,7 @@ def buscarEntidades(texto,fname):
 	'''
 	resultados = []
 	#Expresión 1
-	expresion = r"\b(((CC.|C.|Mtro.|Mtra.|Sra.|Sr.|Lic.|Dr.|Dra.|Pdte.) )?([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del|a) )*([A-Z][a-záéíóú]+ ?)+)*((, )?| )?(S.A. de C.V.|S. de R.L. de C.V.)?)"
+	expresion = r"\b(((CC.|C.|Mtro.|Mtra.|Sra.|Sr.|Lic.|Dr.|Dra.|Pdte.) )?([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del|a) )*([A-Z][a-záéíóú]+ ?)+)*((, )?| )?(S.A. de C.V.|S. de R.L. de C.V.|S.A.B. de C.V.|S.A.)?)"
 	regex = re.compile(expresion)
 	matches = regex.finditer(texto)
 	for match in matches:
@@ -240,7 +240,7 @@ def buscarEntidades(texto,fname):
 				resultado = {"Nombre": candidato, "Clase": categoria, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 				resultados.append(resultado)
 	#Expresión 2
-	expresion = r"((o|O)ficio|(e|E)xpediente|(a|A)cuerdo) ([A-Z]|[0-9]|,|\.|;|:|\\)*(/|-)([A-Z]|[0-9]|;|:|\\|/|-)*"
+	expresion = r"((o|O)ficio|(e|E)xpediente|(a|A)cuerdo|(O|o)pinión) ([A-Z]|[0-9]|,|\.|;|:|\\)*(/|-)([A-Z]|[0-9]|;|:|\\|/|-)*"
 	regex = re.compile(expresion)
 	matches = regex.finditer(texto)
 	for match in matches:
@@ -354,7 +354,7 @@ def resolverSiglas(candidato,parrafo,siglasOriginales):
 	for match in regex.finditer(parrafo):
 		if len(match.group(0).split()) > 3:
 			print("Posible entidad: " + match.group(0))
-			instancia = ReglasNER(match.group(0))
+			instancia = match.group(0)
 	if instancia:
 		print("Se determinó a " + instancia + " como entidad")
 		entidad.append(limpiarCadena(instancia))
@@ -529,12 +529,10 @@ def ReglasNER(candidato,fname):
 	Entra un candidato, aplica una serie de reglas, y decide si es una entidad o no. Si devuelve algo, entonces es entidad. Si devuelve vacío
 	entonces no es.
 
-	1.- Si el candidato está en la lista de municipios
 	1.- Si sólo tiene una palabra, no es entidad
 	2.- Si empieza con artículo, no es entidad
 	3.- Si la entidad es un alias que ya encontramos anteriormente, no es entidad
 	'''
-	# AGREGAR REGLA. DE MUNICIPIOS
 	#Regla 1
 	palabrasCandidato = candidato.split()
 	if len(palabrasCandidato) == 1:
@@ -568,13 +566,21 @@ def clasificador(entidad):
 			return "Persona"
 		if palabra.lower() in ["ley","artículo","párrafo","sección"]:
 			return "Ley"
-		if palabra.lower() in ["banco","instituto","organización","s.a.","c.v.","dirección","administración","administradora","censo","comisión","competencia","consejo","consorcio","coordinación","departamento","disposicion","ejecutivo","ejecutoria","gobierno","grupo","junta","juzgado","oficialía","organismo","pleno","sala","secretaría","sistema","subsecretaría","tribunal","tribunales","unidad","unidades","universidad",]:
+		if palabra.lower() in ["banco","instituto","organización","s.a.","c.v.","dirección","administración","administradora","censo","comisión","competencia","consejo","consorcio","coordinación","departamento","disposición","ejecutivo","ejecutoría","gobierno","grupo","junta","juzgado","oficialía","organismo","pleno","sala","secretaría","sistema","subsecretaría","tribunal","tribunales","unidad","unidades","universidad",]:
 			return "Organización"
-		if palabra.lower() in ["acuerdo","expediente","constitución","acta","resolución","oficio","anexo","documento","concesión","constancia","contrato","código","decreto","derechos","diario","escrito","escritura","estatuto","formato","lineamiento","lineamientos","lista","manual","otorgamiento","presupuesto","prórroga","publicación","registro","reglamento","reglas","requerimiento","resolutivo","solicitud","solicitudes"]:
+		if palabra.lower() in ["acuerdo","expediente","constitución","acta","resolución","oficio","anexo","documento","concesión","constancia","contrato","código","decreto","derechos","diario","escrito","escritura","estatuto","formato","lineamiento","lineamientos","lista","manual","otorgamiento","presupuesto","prórroga","publicación","registro","reglamento","reglas","requerimiento","resolutivo","solicitud","solicitudes","opinión"]:
 			return "Documento"
 		if palabra.lower() in ["municio","estado","colonia","calle","delegación","oficina"]:
 			return "Lugar"
 	return "Otro"
+def filtroAlias(candidatoAlias):
+	if " " not in candidatoAlias and len(candidatoAlias) == 1:
+		return False
+	if candidatoAlias == "...":
+		return False
+	if "en los sucesivo" in candidatoAlias:
+		return False
+	return True
 def aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia):
 	'''
 	Aplica las reglas de forma secuencial.
@@ -619,13 +625,14 @@ def aplicarReglasAlias(candidato,parrafo,fname,indiceOcurrencia):
 		resultadoEntidad = entidad
 		categoria = clasificador(resultadoEntidad[0])
 	if resultadoEntidad:
-		print (Regla)
-		print ("Entidad: " + resultadoEntidad[0] + "")
-		print ("Alias: " + resultadoEntidad[1] + "\n")
-		with open('tablas/resultado.csv','a+') as salida:
-			salida.write(resultadoEntidad[1].strip() + "," + resultadoEntidad[0].strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + "," + Regla + "," + fname + "\n")
-		resultado = {"Nombre": resultadoEntidad[0], "Clase": categoria, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": resultadoEntidad[1], "Regla": Regla} }
-		return resultado
+		if filtroAlias(resultadoEntidad[1]):
+			print (Regla)
+			print ("Entidad: " + resultadoEntidad[0] + "")
+			print ("Alias: " + resultadoEntidad[1] + "\n")
+			with open('tablas/resultado.csv','a+') as salida:
+				salida.write(resultadoEntidad[1].strip() + "," + resultadoEntidad[0].strip() + "," + candidato.replace(",","").strip() + "," + parrafo.replace(",","").strip() + "," + Regla + "," + fname + "\n")
+				resultado = {"Nombre": resultadoEntidad[0], "Clase": categoria, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": resultadoEntidad[1], "Regla": Regla} }
+				return resultado
 	return resultado
 def insertarEnBD(resultado):
 	'''
@@ -692,5 +699,4 @@ def MainNER():
 		resultados = buscarEntidades(textoPlano,fname)
 		if resultados:
 			for resultado in resultados:
-
 				insertarEnBD(resultado)
