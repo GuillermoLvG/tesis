@@ -50,6 +50,23 @@ def limpiarCadenaNER(string):
 	'''
 	string = string.strip()
 	string = string.replace(",","")
+	string = string.replace("CC. ","")
+	string = string.replace("C. ","")
+	string = string.replace("CC. ","")
+	string = string.replace("Mtro. ","")
+	string = string.replace("Mtra. ","")
+	string = string.replace("Sra. ","")
+	string = string.replace("Sr. ","")
+	string = string.replace("Lic. ","")
+	string = string.replace("Dr. ","")
+	string = string.replace("Dra. ","")
+	string = string.replace("Pdte. ","")
+	string = string.replace("Ingeniero ","")
+	string = string.replace("Comisionado ","")
+	string = string.replace("Comisionados ","")
+	string = string.replace("Comisionada ","")
+	string = string.replace("(","")
+	string = string.replace(")","")
 	return string
 def obtenerContexto(indiceInicial, textoPlano):
 	'''
@@ -199,14 +216,35 @@ def buscarArticulo(articulo,candidato,parrafo):
 def buscarConjuncion(candidato):
 	'''
 	recibe un candidato, busca una conjunción, y devuelve lista de N candidatos.
-	La lista son las entidades juntas, y separadas.
+	La lista son las entidades separadas.
 	'''
-	palabrasCandidato = candidato.split()
-	for palabra in palabrasCandidato:
-		if palabra in ["y"]:
-			candidatoConjuncion = candidato.split(" y ")
-			candidatoConjuncion.append(candidato)
+	print("Entren con "+ candidato)
+	if len(candidato.split()) < 15:
+		if " y la " in candidato:
+			candidatoConjuncion = candidato.split(" y la ")
+			if len(candidatoConjuncion[1].split()) < 3 :
+				return candidato
+			print ("Hubo conjunción <y la> en " + candidato)
 			return candidatoConjuncion
+		if " y el " in candidato:
+			candidatoConjuncion = candidato.split(" y el ")
+			if len(candidatoConjuncion[1].split()) < 3:
+				return candidato
+			print ("Hubo conjunción <y el> en " + candidato)
+			return candidatoConjuncion
+		if " de la " in candidato:
+			candidatoConjuncion = candidato.split(" de la ")
+			if len(candidatoConjuncion[1].split()) < 3:
+				return candidato
+			print ("Hubo conjunción <de la> en " + candidato)
+			return candidatoConjuncion
+		if " y " in candidato:
+			candidatoConjuncion = candidato.split(" y ")
+			if len(candidatoConjuncion[1].split()) < 3 and len(candidatoConjuncion[0].split()) > 2:
+				return candidato
+			print ("Hubo conjunción <y> en " + candidato)
+			return candidatoConjuncion
+	print ("No hubo conjunción en " + candidato)
 	return candidato
 def buscarEntidades(texto,fname):
 	'''
@@ -232,7 +270,7 @@ def buscarEntidades(texto,fname):
 			candidatos = [candidatos]
 		for candidato in candidatos:
 			print ("Candidato: " + candidato)
-			candidato = ReglasNER(candidato,fname)
+			candidato = ReglasNER(candidato,fname,texto)
 			if candidato:
 				indiceOcurrencia = match.start()
 				Regla = "Expresión Regular"
@@ -240,42 +278,56 @@ def buscarEntidades(texto,fname):
 				resultado = {"Nombre": candidato, "Clase": categoria, "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 				resultados.append(resultado)
 	#Expresión 2
-	expresion = r"((o|O)ficio|(e|E)xpediente|(a|A)cuerdo|(O|o)pinión) ([A-Z]|[0-9]|,|\.|;|:|\\)*(/|-)([A-Z]|[0-9]|;|:|\\|/|-)*"
+	expresion = r"((o|O)ficio|(e|E)xpediente|(a|A)cuerdo|(O|o)pinión) (.*?número )?([A-Z]|[0-9]|,|\.|;|:|\\)*(/|-)([A-Z]|[0-9]|;|:|\\|/|-)*"
 	regex = re.compile(expresion)
 	matches = regex.finditer(texto)
 	for match in matches:
 		entidad = match.group()
 		indiceOcurrencia = match.start()
-		Regla = "Expresión Regular Oficio"
-		print("Oficio, Expediente o Acuerdo: ")
-		print(entidad)
+		Regla = "Expresión Regular Documento"
+		print("Oficio, Expediente, Acuerdo, Opinión: " + entidad)
 		resultado = {"Nombre": entidad,  "Clase": "Documento", "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
 		resultados.append(resultado)
 	#Expresión 3
-	with open("Diccionarios/listaMunicipios.txt") as municipios:
+	expresion = r"([0-9]*,? )*((A|a)rtículos?|(F|f)racci(ó|o)n(es)?|(I|i)ncisos?|(P|p)árrafos?)( ?\S){0,100}? (del |de la )(abrogada )?([A-Z][a-záéíóú]+ ?)+(((la|el|los|las|un|una|uno|unas|unos|y|con|de|del|a) )*([A-Z][a-záéíóú]+ ?)+)*"
+	regex = re.compile(expresion)
+	matches = regex.finditer(texto)
+	for match in matches:
+		entidad = limpiarCadenaNER(match.group())
+		indiceOcurrencia = match.start()
+		Regla = "Expresión Regular Ley"
+		print("Ley: " + entidad)
+		resultado = {"Nombre": entidad,  "Clase": "Ley", "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
+		resultados.append(resultado)
+	return resultados
+def diccionarioMunicipios(texto,fname):
+	with open("Diccionarios/listaMunicipiosEstados.txt") as municipios:
 		listaMunicipios = municipios.readlines()
 	for municipio in listaMunicipios:
 		municipio = municipio.strip()
 		indiceOcurrencia = texto.find(municipio)
+		print(municipio)
+		regex = re.compile(r"((E|e)stado|(M|m)unicipio)( de )?"+municipio+r".*?")
 		if indiceOcurrencia != -1:
-			entidad = municipio
-			indiceOcurrencia = match.start()
-			Regla = "Diccionario Municipios"
-			print("Municipio: ")
-			print(entidad)
-			resultado = {"Nombre": entidad, "Clase": "Lugar", "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
-			resultados.append(resultado)
-	return resultados
+			print (municipio)
+			if collection.find({"Archivos.Nombre":fname.replace(".docx",""), "Nombre":{'$regex':regex}}).count() != 0:
+				print ("Está en entidades")
+			else:
+				print("No está en entidades")
+				entidad = municipio
+				Regla = "Diccionario Municipios"
+				print("Municipio: " + entidad)
+				resultado = {"Nombre": entidad, "Clase": "Lugar", "Archivos": {"Nombre":fname.replace(".docx",""), "indiceOcurrencia": indiceOcurrencia, "Alias": "", "Regla": Regla } }
+				insertarEnBD(resultado)
 def buscarAliasEnBD(candidato,fname):
 	'''
-	Busca los alias en un archivo, y devuelve una lista con dichos alias.
+	Busca los alias en un archivo, y devuelve True si se encontró, y False si no.
 	'''
-	listaAlias = []
-	aliasCursor = collection.find({"Archivos.Nombre":fname.replace(".docx","")},{"Archivos":{"$elemMatch": {"Nombre":fname.replace(".docx","")}},"Archivos.Alias":1,"_id":0})
-	for element in aliasCursor:
-		for key, value in element.items():
-			listaAlias.append(value[0]["Alias"])
-	return listaAlias
+	buscarAlias = collection.find({"Archivos.Nombre":fname.replace(".docx",""), "Archivos.Alias":candidato})
+	for element in buscarAlias:
+		if element["Archivos"]["Alias"]:
+			return True
+	return False
 def inicioDePalabra(parrafo,indice):
 	'''
 	recibe un índice y un párrafo.
@@ -524,19 +576,18 @@ def regla4(candidato):
 	candidato = limpiarCadena(candidato)
 	entidad = buscarEnDiccionario(candidato)
 	return entidad
-def ReglasNER(candidato,fname):
+def ReglasNER(candidato,fname,texto):
 	'''
 	Entra un candidato, aplica una serie de reglas, y decide si es una entidad o no. Si devuelve algo, entonces es entidad. Si devuelve vacío
 	entonces no es.
-
 	1.- Si sólo tiene una palabra, no es entidad
 	2.- Si empieza con artículo, no es entidad
 	3.- Si la entidad es un alias que ya encontramos anteriormente, no es entidad
 	'''
 	#Regla 1
 	palabrasCandidato = candidato.split()
-	if len(palabrasCandidato) == 1:
-		print("Sólo tiene una palabra")
+	if len(palabrasCandidato) < 3:
+		print("Tiene menos de tres palabras")
 		print("No es entidad \n")
 		return ""
 	#Regla 2
@@ -545,13 +596,10 @@ def ReglasNER(candidato,fname):
 		print("No es entidad \n")
 		return ""
 	#Regla 3
-	aliasCursor = collection.find({"Archivos.Nombre":fname.replace(".docx","")})
-	listaAlias = buscarAliasEnBD(candidato,fname)
-	for element in listaAlias:
-		if candidato.lower() == element.lower():
-			print("Es un alias dentro del archivo")
-			print("No es entidad \n")
-			return ""
+	if buscarAliasEnBD(candidato,fname):
+		print("Es un alias")
+		print("No es entidad\n")
+		return ""
 	print("Si es entidad")
 	print("Entidad: " + candidato + "\n")
 	return candidato
@@ -700,3 +748,4 @@ def MainNER():
 		if resultados:
 			for resultado in resultados:
 				insertarEnBD(resultado)
+		diccionarioMunicipios(textoPlano,fname)
